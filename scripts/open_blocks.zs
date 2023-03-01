@@ -2,7 +2,7 @@
 recipes.remove(<openblocks:block_breaker>);
 recipes.addShaped("Block Breaker", <openblocks:block_breaker>,
  [[<ore:plateWroughtIron>,   <ore:plateIron>,            <ore:plateIron>],
-  [<gregtech:meta_tool:1>.withTag({"GT.ToolStats": {Material: "iron"}}).noReturn(), <minecraft:redstone_block>, <ore:plateIron>],
+  [<ore:toolHeadBuzzSawIron>, <minecraft:redstone_block>, <ore:plateIron>],
   [<ore:plateWroughtIron>,   <ore:plateIron>,            <ore:plateIron>]]);
 
 // Remove tank.

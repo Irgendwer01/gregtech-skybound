@@ -10,7 +10,7 @@
     "output": "minecraft:netherrack:0"
   },
   {
-    "fluidName": "lava",
+    "fluidName": "deuterium",
     "input": "ore:dustGlowstone",
     "output": "minecraft:end_stone:0"
   },

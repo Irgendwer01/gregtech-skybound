@@ -1,30 +1,30 @@
 {
-  "ore:gravel": {
-    "fluid": "lava",
-    "amount": 200
-  },
-  "ore:netherrack": {
-    "fluid": "lava",
-    "amount": 1000
-  },
   "ore:cobblestone": {
     "fluid": "lava",
     "amount": 250
   },
-  "exnihilocreatio:block_dust:0": {
-    "fluid": "lava",
-    "amount": 50
+  "ore:stoneGranite": {
+	"fluid": "lava",
+	"amount": 500
   },
-  "ore:obsidian": {
-    "fluid": "lava",
-    "amount": 1000
+  "ore:stoneDiorite": {
+	"fluid": "lava",
+	"amount": 250
   },
-  "ore:stone": {
-    "fluid": "lava",
-    "amount": 250
+  "ore:stoneAndesite": {
+	"fluid": "lava",
+	"amount": 250
   },
-  "ore:sand": {
-    "fluid": "lava",
-    "amount": 100
+  "ore:stoneBasalt": {
+	"fluid": "lava",
+    "amount": 500                             
+  },
+  "ore:stoneGraniteBlack": {
+	"fluid": "lava",
+	"amount": 500
+  },
+  "ore:stoneGraniteRed": {
+	"fluid": "lava",
+	"amount": 500
   }
 }

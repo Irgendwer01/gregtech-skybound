@@ -21,7 +21,7 @@ mixer.recipeBuilder()
 // End stone.
 mixer.recipeBuilder()
     .inputs(<minecraft:glowstone_dust>*1)
-    .fluidInputs(<liquid:lava>*1000)
+    .fluidInputs(<liquid:deuterium>*1000)
     .outputs(<minecraft:end_stone>*1)
     .duration(20)
     .EUt(7)
