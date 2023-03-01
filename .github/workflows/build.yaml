@@ -27,8 +27,9 @@ jobs:
         java-version: '8'
     - run: java -version
     - name: Run Build
-      run: |
-        python build/main.py
+      run: python build/main.py
+      env:
+        CFAPIKEY: ${{ secrets.CFAPIKEY }}
     - name: Automatic Releases
       uses: marvinpinto/action-automatic-releases@v1.1.1
       with:
@@ -39,3 +40,4 @@ jobs:
 
           files: |
             buildOut/client.zip
+            buildOut/server.zip
