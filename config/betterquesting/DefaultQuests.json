@@ -2,7 +2,28 @@
   "build:8": "4.1.0",
   "format:8": "2.0.0",
   "questDatabase:9": {},
-  "questLines:9": {},
+  "questLines:9": {
+    "0:10": {
+      "lineID:3": 0,
+      "order:3": 0,
+      "properties:10": {
+        "betterquesting:10": {
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "",
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "minecraft:book"
+          },
+          "name:8": "Beginning",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "quests:9": {}
+    }
+  },
   "questSettings:10": {
     "betterquesting:10": {
       "editmode:1": 1,

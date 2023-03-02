@@ -14,7 +14,7 @@ assembler.recipeBuilder()
 recipes.remove(<appliedenergistics2:wireless_terminal>);
 assembler.recipeBuilder()
     .inputs(<appliedenergistics2:material:41>)
-    .inputs(<metaitem:terminal>)
+    .inputs(<appliedenergistics2:part:380>)
     .inputs(<ore:plateStainlessSteel>*4)
     .inputs(<metaitem:energy_crystal>)
     .fluidInputs(<liquid:plastic>*144)
@@ -22,8 +22,47 @@ assembler.recipeBuilder()
     .duration(20)
     .EUt(500)
     .buildAndRegister();
-
-// Wireless booster
+	
+// Wireless Crafting Terminal
+recipes.remove(<appliedenergistics2:wireless_crafting_terminal>);
+assembler.recipeBuilder()
+    .inputs(<appliedenergistics2:material:41>)
+    .inputs(<appliedenergistics2:part:360>)
+    .inputs(<ore:plateStainlessSteel>*4)
+    .inputs(<metaitem:energy_crystal>)
+    .fluidInputs(<liquid:plastic>*144)
+    .outputs(<appliedenergistics2:wireless_crafting_terminal>)
+    .duration(20)
+    .EUt(500)
+    .buildAndRegister();
+	
+// Wireless Fluid Terminal
+recipes.remove(<appliedenergistics2:wireless_fluid_terminal>);
+assembler.recipeBuilder()
+    .inputs(<appliedenergistics2:material:41>)
+    .inputs(<appliedenergistics2:part:520>)
+    .inputs(<ore:plateStainlessSteel>*4)
+    .inputs(<metaitem:energy_crystal>)
+    .fluidInputs(<liquid:plastic>*144)
+    .outputs(<appliedenergistics2:wireless_fluid_terminal>)
+    .duration(20)
+    .EUt(500)
+    .buildAndRegister();
+	
+// Wireless Pattern Terminal
+recipes.remove(<appliedenergistics2:wireless_pattern_terminal>);
+assembler.recipeBuilder()
+    .inputs(<appliedenergistics2:material:41>)
+    .inputs(<appliedenergistics2:part:340>)
+    .inputs(<ore:plateStainlessSteel>*4)
+    .inputs(<metaitem:energy_crystal>)
+    .fluidInputs(<liquid:plastic>*144)
+    .outputs(<appliedenergistics2:wireless_pattern_terminal>)
+    .duration(20)
+    .EUt(500)
+    .buildAndRegister();
+	
+// Wireless booster                                                                                       [
 recipes.remove(<appliedenergistics2:material:42>);
 assembler.recipeBuilder()
     .inputs(<metaitem:emitter.hv>)
@@ -36,6 +75,11 @@ assembler.recipeBuilder()
     .EUt(500)
     .buildAndRegister();
 
+//Quantum Link Card
+recipes.addShapeless(<appliedenergistics2:material:59>, [<appliedenergistics2:material:28>, <appliedenergistics2:material:48>]);
+
+//Magnet Card
+recipes.addShapeless(<appliedenergistics2:material:60>, [<appliedenergistics2:material:28>, <ore:stickNeodymiumMagnetic>, <ore:stickNeodymiumMagnetic>]);
 
 //advanced card
 recipes.remove(<appliedenergistics2:material:28>);

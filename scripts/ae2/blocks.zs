@@ -102,36 +102,12 @@ recipes.addShaped("dense_energy_cell", <appliedenergistics2:dense_energy_cell>,
   [<appliedenergistics2:energy_cell>,<metaitem:hull.hv>,<appliedenergistics2:energy_cell>],
   [<appliedenergistics2:energy_cell>,<appliedenergistics2:energy_cell>,<appliedenergistics2:energy_cell>]]);
 
-//Add Creative energy cell recipe
-assembly_line.recipeBuilder()
-    .inputs(<ore:circuitUhv>*10)
-    .inputs(<gregtech:meta_item_1:606>*64)
-    .inputs(<gregtech:meta_item_1:606>*64)
-    .inputs(<gregtech:meta_item_1:606>*64)
-    .inputs(<gregtech:meta_item_1:606>*64)
-    .inputs(<gregtech:meta_wire_fine:431>*64)
-    .inputs(<gregtech:meta_wire_fine:431>*64)
-    .inputs(<gregtech:meta_wire_fine:431>*64)
-    .inputs(<gregtech:meta_wire_fine:431>*64)
-    .inputs(<gregtech:meta_wire_fine:431>*64)
-    .inputs(<gregtech:meta_wire_fine:431>*64)
-    .inputs(<ore:circuitUv>*20)
-    .inputs(<ore:circuitZpm>*60)
-    .inputs(<gregtech:meta_item_1:209>*5)
-    .fluidInputs(<liquid:neutronium>*576)
-    .fluidInputs(<liquid:stainless_steel>*1152)
-    .outputs(<appliedenergistics2:creative_energy_cell>)
-    .duration(35000)
-    .EUt(2097152)
-    .buildAndRegister();
-
-
 // Matter condenser.
 recipes.remove(<appliedenergistics2:condenser>);
 recipes.addShaped("condenser", <appliedenergistics2:condenser>,
- [[<ore:plateStainlessSteel>,<appliedenergistics2:fluix_block>,<ore:plateStainlessSteel>],
-  [<appliedenergistics2:fluix_block>,<metaitem:implosion_compressor>,<appliedenergistics2:fluix_block>],
-  [<ore:plateStainlessSteel>,<appliedenergistics2:fluix_block>,<ore:plateStainlessSteel>]]);
+ [[<ore:circuitHv>,<ore:cableGtSingleGold>,<ore:circuitHv>],
+  [<metaitem:electric.piston.ev>,<metaitem:hull.hv>,<metaitem:electric.piston.ev>],
+  [<metaitem:electric.motor.ev>,<ore:cableGtSingleGold>,<metaitem:electric.motor.ev>]]);
 
 // ME IO port.
 recipes.remove(<appliedenergistics2:io_port>);
