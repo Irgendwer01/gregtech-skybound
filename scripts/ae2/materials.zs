@@ -43,15 +43,6 @@ mixer.recipeBuilder()
     .EUt(30)
     .buildAndRegister();
 
-mixer.recipeBuilder()
-    .inputs(<appliedenergistics2:material:1>)
-    .inputs(<ore:gemNetherQuartz>)
-    .inputs(<ore:dustRedstone>)
-    .fluidInputs(<liquid:distilled_water>*100)
-    .outputs(<appliedenergistics2:material:7>*2)
-    .duration(40)
-    .EUt(30)
-    .buildAndRegister();
 
 // Add Fluix dust recipe.
 macerator.recipeBuilder()
