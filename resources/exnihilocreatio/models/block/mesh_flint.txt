@@ -1,0 +1,6 @@
+{
+  "parent": "exnihilocreatio:block/mesh_base",
+  "textures": {
+    "texture": "minecraft:blocks/wool_colored_orange"
+  }
+}
