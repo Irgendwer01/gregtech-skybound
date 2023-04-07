@@ -179,7 +179,7 @@
     },
     {
       "drop": "gregtech:meta_ore_chunk:112",
-      "chance": 0.24225,
+      "chance": 0.869,
       "meshLevel": 1
     },
     {
@@ -782,7 +782,7 @@
     },
     {
       "drop": "gregtech:meta_ore_chunk:112",
-      "chance": 0.24225,
+      "chance": 0.869,
       "meshLevel": 1
     },
     {
