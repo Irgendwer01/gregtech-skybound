@@ -3,11 +3,11 @@
   "defaults": {
     "model": "exnihilocreatio:block_crucible_big",
     "textures": {
-      "particle": "minecraft:blocks/bricks",
-      "top": "minecraft:blocks/bricks",
-      "bottom": "minecraft:blocks/bricks",
-      "side": "minecraft:blocks/bricks",
-      "inside": "minecraft:blocks/bricks"
+      "particle": "minecraft:blocks/brick",
+      "top": "minecraft:blocks/brick",
+      "bottom": "minecraft:blocks/brick",
+      "side": "minecraft:blocks/brick",
+      "inside": "minecraft:blocks/brick"
     }
   },
   "variants": {
