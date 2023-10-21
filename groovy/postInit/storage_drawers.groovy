@@ -18,7 +18,7 @@ crafting.addShaped('drawer_controller', item('storagedrawers:controller'), [
   [metaitem('plateSteel'), ore('circuitLv'), metaitem('plateSteel')]])
   
 crafting.addShaped('controller_slave', item('storagedrawers:controllerslave'), [
-  [metaitem('robot.arm.ulv'), metaitem('plateWroughtIron'), metaitem('robot.arm.ulv')],
+  [metaitem('ulv_covers:robot.arm.ulv'), metaitem('plateWroughtIron'), metaitem('ulv_covers:robot.arm.ulv')],
   [metaitem('plateWroughtIron'), item('gregtech:machine_casing', 0), metaitem('plateWroughtIron')],
   [metaitem('plateWroughtIron'), ore('circuitUlv'), metaitem('plateWroughtIron')]])
   

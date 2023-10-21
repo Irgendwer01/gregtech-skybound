@@ -41,23 +41,24 @@ ore('elevator_rotating').add(item('openblocks:elevator_rotating', 13))
 ore('elevator_rotating').add(item('openblocks:elevator_rotating', 14))
 ore('elevator_rotating').add(item('openblocks:elevator_rotating', 15))
 
-ArrayList<ItemStack> t = new ArrayList()
-t.add(item('minecraft:dye', 15))
-t.add(item('minecraft:dye', 14))
-t.add(item('minecraft:dye', 13))
-t.add(item('minecraft:dye', 12))
-t.add(item('minecraft:dye', 11))
-t.add(item('minecraft:dye', 10))
-t.add(item('minecraft:dye', 9))
-t.add(item('minecraft:dye', 8))
-t.add(item('minecraft:dye', 7))
-t.add(item('minecraft:dye', 6))
-t.add(item('minecraft:dye', 5))
-t.add(item('minecraft:dye', 4))
-t.add(item('minecraft:dye', 3))
-t.add(item('minecraft:dye', 2))
-t.add(item('minecraft:dye', 1))
-t.add(item('minecraft:dye'))
+def dyes = [
+  item('minecraft:dye', 15),
+  item('minecraft:dye', 14),
+  item('minecraft:dye', 13),
+  item('minecraft:dye', 12),
+  item('minecraft:dye', 11),
+  item('minecraft:dye', 10),
+  item('minecraft:dye', 9),
+  item('minecraft:dye', 8),
+  item('minecraft:dye', 7),
+  item('minecraft:dye', 6),
+  item('minecraft:dye', 5),
+  item('minecraft:dye', 4),
+  item('minecraft:dye', 3),
+  item('minecraft:dye', 2),
+  item('minecraft:dye', 1),
+  item('minecraft:dye')
+]
 
 for (def elevator : ore('elevator')) {
 	crafting.removeByOutput(elevator)
@@ -80,8 +81,8 @@ crafting.addShaped('openblocks_elevator', item('openblocks:elevator'), [
  [metaitem('springSteel'), metaitem('gearSmallSteel'), metaitem('springSteel')],
  [metaitem('plateSteel'), metaitem('plateSteel'), metaitem('plateSteel')]])
  
-for (int i = 0 ; i < t.size ; i++) {
-	crafting.addShapeless(ore('elevator')[i], [t.get(i), ore('elevator')])
-	crafting.addShapeless(ore('elevator_rotating')[i], [t.get(i), ore('elevator_rotating')])
+for (int i = 0 ; i < 15; i++) {
+	crafting.addShapeless(ore('elevator')[i], [dyes[i], ore('elevator')])
+	crafting.addShapeless(ore('elevator_rotating')[i], [dyes[i], ore('elevator_rotating')])
 	crafting.addShapeless(ore('elevator_rotating')[i], [metaitem('electric.piston.lv'), ore('elevator')[i]])
 }
