@@ -1,1138 +1,4 @@
 {
-  "exnihilocreatio:block_endstone_crushed:0": [
-    {
-      "drop": "gregtech:meta_ore_ender_chunk:10",
-      "chance": 0.0405,
-      "meshLevel": 2
-    },
-    {
-      "drop": "gregtech:meta_ore_ender_chunk:278",
-      "chance": 0.0243,
-      "meshLevel": 2
-    },
-    {
-      "drop": "gregtech:meta_ore_ender_chunk:109",
-      "chance": 0.0162,
-      "meshLevel": 2
-    },
-    {
-      "drop": "gregtech:meta_ore_ender_chunk:282",
-      "chance": 0.0192,
-      "meshLevel": 3
-    },
-    {
-      "drop": "gregtech:meta_ore_ender_chunk:321",
-      "chance": 0.0192,
-      "meshLevel": 3
-    },
-    {
-      "drop": "gregtech:meta_ore_ender_chunk:307",
-      "chance": 0.0192,
-      "meshLevel": 3
-    },
-    {
-      "drop": "gregtech:meta_ore_ender_chunk:318",
-      "chance": 0.0064,
-      "meshLevel": 3
-    },
-    {
-      "drop": "gregtech:meta_ore_ender_chunk:336",
-      "chance": 0.0256,
-      "meshLevel": 3
-    },
-    {
-      "drop": "gregtech:meta_ore_ender_chunk:293",
-      "chance": 0.0256,
-      "meshLevel": 3
-    },
-    {
-      "drop": "gregtech:meta_ore_ender_chunk:305",
-      "chance": 0.0128,
-      "meshLevel": 3
-    },
-    {
-      "drop": "gregtech:meta_ore_ender_chunk:280",
-      "chance": 0.0189,
-      "meshLevel": 3
-    },
-    {
-      "drop": "gregtech:meta_ore_ender_chunk:69",
-      "chance": 0.0189,
-      "meshLevel": 3
-    },
-    {
-      "drop": "gregtech:meta_ore_ender_chunk:272",
-      "chance": 0.0189,
-      "meshLevel": 3
-    },
-    {
-      "drop": "gregtech:meta_ore_ender_chunk:380",
-      "chance": 0.0063,
-      "meshLevel": 3
-    },
-    {
-      "drop": "gregtech:meta_ore_ender_chunk:2026",
-      "chance": 0.0192,
-      "meshLevel": 3
-    },
-    {
-      "drop": "gregtech:meta_ore_ender_chunk:291",
-      "chance": 0.0192,
-      "meshLevel": 3
-    },
-    {
-      "drop": "gregtech:meta_ore_ender_chunk:2004",
-      "chance": 0.0192,
-      "meshLevel": 3
-    },
-    {
-      "drop": "gregtech:meta_ore_ender_chunk:267",
-      "chance": 0.064,
-      "meshLevel": 3
-    },
-    {
-      "drop": "gregtech:meta_ore_ender_chunk:273",
-      "chance": 0.0288,
-      "meshLevel": 3
-    },
-    {
-      "drop": "gregtech:meta_ore_ender_chunk:77",
-      "chance": 0.0224,
-      "meshLevel": 3
-    },
-    {
-      "drop": "gregtech:meta_ore_ender_chunk:315",
-      "chance": 0.0384,
-      "meshLevel": 3
-    },
-    {
-      "drop": "gregtech:meta_ore_ender_chunk:330",
-      "chance": 0.0128,
-      "meshLevel": 3
-    },
-    {
-      "drop": "gregtech:meta_ore_ender_chunk:56",
-      "chance": 0.0128,
-      "meshLevel": 3
-    },
-    {
-      "drop": "gregtech:meta_ore_ender_chunk:124",
-      "chance": 0.36,
-      "meshLevel": 4
-    },
-    {
-      "drop": "gregtech:meta_ore_ender_chunk:289",
-      "chance": 0.0216,
-      "meshLevel": 4
-    },
-    {
-      "drop": "gregtech:meta_ore_ender_chunk:316",
-      "chance": 0.0144,
-      "meshLevel": 4
-    },
-    {
-      "drop": "gregtech:meta_ore_ender_chunk:2007",
-      "chance": 0.0252,
-      "meshLevel": 4
-    },
-    {
-      "drop": "gregtech:meta_ore_ender_chunk:262",
-      "chance": 0.0108,
-      "meshLevel": 4
-    }
-  ],
-  "ore:gravel": [
-    {
-      "drop": "gregtech:meta_ore_chunk:271",
-      "chance": 0.192,
-      "meshLevel": 1
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:2031",
-      "chance": 0.0507,
-      "meshLevel": 1
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:271",
-      "chance": 0.095,
-      "meshLevel": 1
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:312",
-      "chance": 0.0952,
-      "meshLevel": 1
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:309",
-      "chance": 0.0833,
-      "meshLevel": 1
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:382",
-      "chance": 0.0357,
-      "meshLevel": 1
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:381",
-      "chance": 0.0238,
-      "meshLevel": 1
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:112",
-      "chance": 0.869,
-      "meshLevel": 1
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:263",
-      "chance": 0.08075,
-      "meshLevel": 1
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:2518",
-      "chance": 0.0546,
-      "meshLevel": 1
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:2513",
-      "chance": 0.0546,
-      "meshLevel": 1
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:2027",
-      "chance": 0.0364,
-      "meshLevel": 1
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:2032",
-      "chance": 0.0364,
-      "meshLevel": 1
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:279",
-      "chance": 0.104,
-      "meshLevel": 2
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:55",
-      "chance": 0.052,
-      "meshLevel": 2
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:100",
-      "chance": 0.052,
-      "meshLevel": 2
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:2033",
-      "chance": 0.0507,
-      "meshLevel": 2
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:2027",
-      "chance": 0.0338,
-      "meshLevel": 2
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:384",
-      "chance": 0.0338,
-      "meshLevel": 2
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:1597",
-      "chance": 0.225,
-      "meshLevel": 2
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:264",
-      "chance": 0.0432,
-      "meshLevel": 2
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:2515",
-      "chance": 0.0432,
-      "meshLevel": 2
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:253",
-      "chance": 0.0432,
-      "meshLevel": 2
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:2509",
-      "chance": 0.0144,
-      "meshLevel": 2
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:80",
-      "chance": 0.07605,
-      "meshLevel": 3
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:77",
-      "chance": 0.05915,
-      "meshLevel": 3
-    }
-  ],
-  "exnihilocreatio:block_netherrack_crushed:0": [
-    {
-      "drop": "gregtech:meta_ore_nether_chunk:265",
-      "chance": 0.0432,
-      "meshLevel": 2
-    },
-    {
-      "drop": "gregtech:meta_ore_nether_chunk:51",
-      "chance": 0.0432,
-      "meshLevel": 2
-    },
-    {
-      "drop": "gregtech:meta_ore_nether_chunk:306",
-      "chance": 0.0432,
-      "meshLevel": 2
-    },
-    {
-      "drop": "gregtech:meta_ore_nether_chunk:25",
-      "chance": 0.0144,
-      "meshLevel": 2
-    },
-    {
-      "drop": "gregtech:meta_ore_nether_chunk:261",
-      "chance": 0.0324,
-      "meshLevel": 2
-    },
-    {
-      "drop": "gregtech:meta_ore_nether_chunk:337",
-      "chance": 0.0324,
-      "meshLevel": 2
-    },
-    {
-      "drop": "gregtech:meta_ore_nether_chunk:255",
-      "chance": 0.0324,
-      "meshLevel": 2
-    },
-    {
-      "drop": "gregtech:meta_ore_nether_chunk:385",
-      "chance": 0.0108,
-      "meshLevel": 2
-    },
-    {
-      "drop": "gregtech:meta_ore_nether_chunk:292",
-      "chance": 0.1428,
-      "meshLevel": 2
-    },
-    {
-      "drop": "gregtech:meta_ore_nether_chunk:51",
-      "chance": 0.0357,
-      "meshLevel": 2
-    },
-    {
-      "drop": "gregtech:meta_ore_nether_chunk:2022",
-      "chance": 0.0357,
-      "meshLevel": 2
-    },
-    {
-      "drop": "gregtech:meta_ore_nether_chunk:41",
-      "chance": 0.0238,
-      "meshLevel": 2
-    },
-    {
-      "drop": "gregtech:meta_ore_nether_chunk:339",
-      "chance": 0.324,
-      "meshLevel": 2
-    },
-    {
-      "drop": "gregtech:meta_ore_nether_chunk:103",
-      "chance": 0.1632,
-      "meshLevel": 2
-    },
-    {
-      "drop": "gregtech:meta_ore_nether_chunk:306",
-      "chance": 0.0544,
-      "meshLevel": 2
-    },
-    {
-      "drop": "gregtech:meta_ore_nether_chunk:322",
-      "chance": 0.0544,
-      "meshLevel": 2
-    },
-    {
-      "drop": "gregtech:meta_ore_nether_chunk:327",
-      "chance": 0.0936,
-      "meshLevel": 2
-    },
-    {
-      "drop": "gregtech:meta_ore_nether_chunk:25",
-      "chance": 0.0312,
-      "meshLevel": 2
-    },
-    {
-      "drop": "gregtech:meta_ore_nether_chunk:325",
-      "chance": 0.0312,
-      "meshLevel": 2
-    },
-    {
-      "drop": "gregtech:meta_ore_nether_chunk:280",
-      "chance": 0.0189,
-      "meshLevel": 4
-    },
-    {
-      "drop": "gregtech:meta_ore_nether_chunk:69",
-      "chance": 0.0189,
-      "meshLevel": 4
-    },
-    {
-      "drop": "gregtech:meta_ore_nether_chunk:272",
-      "chance": 0.0189,
-      "meshLevel": 4
-    },
-    {
-      "drop": "gregtech:meta_ore_nether_chunk:380",
-      "chance": 0.0063,
-      "meshLevel": 4
-    },
-    {
-      "drop": "gregtech:meta_ore_nether_chunk:2064",
-      "chance": 0.0864,
-      "meshLevel": 4
-    },
-    {
-      "drop": "gregtech:meta_ore_nether_chunk:311",
-      "chance": 0.0288,
-      "meshLevel": 4
-    },
-    {
-      "drop": "gregtech:meta_ore_nether_chunk:268",
-      "chance": 0.0288,
-      "meshLevel": 4
-    },
-    {
-      "drop": "gregtech:meta_ore_nether_chunk:267",
-      "chance": 0.0072,
-      "meshLevel": 4
-    },
-    {
-      "drop": "gregtech:meta_ore_nether_chunk:329",
-      "chance": 0.0294,
-      "meshLevel": 4
-    },
-    {
-      "drop": "gregtech:meta_ore_nether_chunk:257",
-      "chance": 0.0196,
-      "meshLevel": 4
-    }
-  ],
-  "ore:dirt": [
-    {
-      "drop": "gregification:gtpebble:0",
-      "chance": 0.2,
-      "meshLevel": 1
-    },
-    {
-      "drop": "gregification:gtpebble:1",
-      "chance": 0.2,
-      "meshLevel": 1
-    },
-    {
-      "drop": "gregification:gtpebble:2",
-      "chance": 0.2,
-      "meshLevel": 1
-    },
-    {
-      "drop": "gregification:gtpebble:3",
-      "chance": 0.2,
-      "meshLevel": 1
-    },
-    {
-      "drop": "gregtech:rubber_sapling",
-      "chance": 0.05,
-      "meshLevel": 1
-    },
-    {
-      "drop": "exnihilocreatio:item_pebble:0",
-      "chance": 1.0,
-      "meshLevel": 1
-    },
-    {
-      "drop": "exnihilocreatio:item_pebble:0",
-      "chance": 1.0,
-      "meshLevel": 1
-    },
-    {
-      "drop": "exnihilocreatio:item_pebble:0",
-      "chance": 0.5,
-      "meshLevel": 1
-    },
-    {
-      "drop": "exnihilocreatio:item_pebble:0",
-      "chance": 0.5,
-      "meshLevel": 1
-    },
-    {
-      "drop": "exnihilocreatio:item_pebble:0",
-      "chance": 0.1,
-      "meshLevel": 1
-    },
-    {
-      "drop": "exnihilocreatio:item_pebble:0",
-      "chance": 0.1,
-      "meshLevel": 1
-    },
-    {
-      "drop": "exnihilocreatio:item_pebble:1",
-      "chance": 0.5,
-      "meshLevel": 1
-    },
-    {
-      "drop": "exnihilocreatio:item_pebble:1",
-      "chance": 0.1,
-      "meshLevel": 1
-    },
-    {
-      "drop": "exnihilocreatio:item_pebble:2",
-      "chance": 0.5,
-      "meshLevel": 1
-    },
-    {
-      "drop": "exnihilocreatio:item_pebble:2",
-      "chance": 0.1,
-      "meshLevel": 1
-    },
-    {
-      "drop": "exnihilocreatio:item_pebble:3",
-      "chance": 0.5,
-      "meshLevel": 1
-    },
-    {
-      "drop": "exnihilocreatio:item_pebble:3",
-      "chance": 0.1,
-      "meshLevel": 1
-    },
-    {
-      "drop": "minecraft:wheat_seeds:-1",
-      "chance": 0.7,
-      "meshLevel": 1
-    },
-    {
-      "drop": "minecraft:melon_seeds:-1",
-      "chance": 0.35,
-      "meshLevel": 1
-    },
-    {
-      "drop": "minecraft:pumpkin_seeds:-1",
-      "chance": 0.35,
-      "meshLevel": 1
-    },
-    {
-      "drop": "exnihilocreatio:item_material:3",
-      "chance": 0.05,
-      "meshLevel": 1
-    },
-    {
-      "drop": "exnihilocreatio:item_material:4",
-      "chance": 0.05,
-      "meshLevel": 1
-    },
-    {
-      "drop": "exnihilocreatio:item_seed_oak:-1",
-      "chance": 0.05,
-      "meshLevel": 1
-    },
-    {
-      "drop": "exnihilocreatio:item_seed_spruce:-1",
-      "chance": 0.05,
-      "meshLevel": 1
-    },
-    {
-      "drop": "exnihilocreatio:item_seed_birch:-1",
-      "chance": 0.05,
-      "meshLevel": 1
-    },
-    {
-      "drop": "exnihilocreatio:item_seed_jungle:-1",
-      "chance": 0.05,
-      "meshLevel": 1
-    },
-    {
-      "drop": "exnihilocreatio:item_seed_acacia:-1",
-      "chance": 0.05,
-      "meshLevel": 1
-    },
-    {
-      "drop": "exnihilocreatio:item_seed_darkoak:-1",
-      "chance": 0.05,
-      "meshLevel": 1
-    },
-    {
-      "drop": "exnihilocreatio:item_seed_cactus:-1",
-      "chance": 0.05,
-      "meshLevel": 1
-    },
-    {
-      "drop": "exnihilocreatio:item_seed_sugarcane:-1",
-      "chance": 0.05,
-      "meshLevel": 1
-    },
-    {
-      "drop": "exnihilocreatio:item_seed_carrot:-1",
-      "chance": 0.05,
-      "meshLevel": 1
-    },
-    {
-      "drop": "exnihilocreatio:item_seed_potato:-1",
-      "chance": 0.05,
-      "meshLevel": 1
-    }
-  ],
-  "ore:sand": [
-    {
-      "drop": "gregtech:meta_ore_sandy_chunk:25",
-      "chance": 0.0612,
-      "meshLevel": 2
-    },
-    {
-      "drop": "gregtech:meta_ore_sandy_chunk:2064",
-      "chance": 0.1938,
-      "meshLevel": 2
-    },
-    {
-      "drop": "gregtech:meta_ore_sandy_chunk:268",
-      "chance": 0.0646,
-      "meshLevel": 2
-    },
-    {
-      "drop": "gregtech:meta_ore_sandy_chunk:267",
-      "chance": 0.01615,
-      "meshLevel": 2
-    },
-    {
-      "drop": "gregtech:meta_ore_sandy_chunk:250",
-      "chance": 0.0816,
-      "meshLevel": 2
-    },
-    {
-      "drop": "gregtech:meta_ore_sandy_chunk:308",
-      "chance": 0.0816,
-      "meshLevel": 2
-    },
-    {
-      "drop": "gregtech:meta_ore_sandy_chunk:314",
-      "chance": 0.0816,
-      "meshLevel": 2
-    },
-    {
-      "drop": "gregtech:meta_ore_sandy_chunk:281",
-      "chance": 0.0272,
-      "meshLevel": 2
-    },
-    {
-      "drop": "gregtech:meta_ore_sandy_chunk:265",
-      "chance": 0.0969,
-      "meshLevel": 3
-    },
-    {
-      "drop": "gregtech:meta_ore_sandy_chunk:51",
-      "chance": 0.0969,
-      "meshLevel": 3
-    },
-    {
-      "drop": "gregtech:meta_ore_sandy_chunk:306",
-      "chance": 0.0969,
-      "meshLevel": 3
-    },
-    {
-      "drop": "gregtech:meta_ore_sandy_chunk:25",
-      "chance": 0.0323,
-      "meshLevel": 3
-    },
-    {
-      "drop": "gregtech:meta_ore_sandy_chunk:261",
-      "chance": 0.0507,
-      "meshLevel": 3
-    },
-    {
-      "drop": "gregtech:meta_ore_sandy_chunk:337",
-      "chance": 0.0507,
-      "meshLevel": 3
-    },
-    {
-      "drop": "gregtech:meta_ore_sandy_chunk:255",
-      "chance": 0.0507,
-      "meshLevel": 3
-    },
-    {
-      "drop": "gregtech:meta_ore_sandy_chunk:385",
-      "chance": 0.0169,
-      "meshLevel": 3
-    },
-    {
-      "drop": "gregtech:meta_ore_sandy_chunk:280",
-      "chance": 0.0546,
-      "meshLevel": 3
-    },
-    {
-      "drop": "gregtech:meta_ore_sandy_chunk:69",
-      "chance": 0.0546,
-      "meshLevel": 3
-    },
-    {
-      "drop": "gregtech:meta_ore_sandy_chunk:272",
-      "chance": 0.0546,
-      "meshLevel": 3
-    },
-    {
-      "drop": "gregtech:meta_ore_sandy_chunk:380",
-      "chance": 0.0182,
-      "meshLevel": 3
-    },
-    {
-      "drop": "gregtech:meta_ore_sandy_chunk:2026",
-      "chance": 0.0507,
-      "meshLevel": 3
-    },
-    {
-      "drop": "gregtech:meta_ore_sandy_chunk:291",
-      "chance": 0.0507,
-      "meshLevel": 3
-    },
-    {
-      "drop": "gregtech:meta_ore_sandy_chunk:2004",
-      "chance": 0.0507,
-      "meshLevel": 3
-    },
-    {
-      "drop": "gregtech:meta_ore_sandy_chunk:10",
-      "chance": 0.0845,
-      "meshLevel": 4
-    },
-    {
-      "drop": "gregtech:meta_ore_sandy_chunk:278",
-      "chance": 0.0507,
-      "meshLevel": 4
-    },
-    {
-      "drop": "gregtech:meta_ore_sandy_chunk:109",
-      "chance": 0.0338,
-      "meshLevel": 4
-    },
-    {
-      "drop": "gregtech:meta_ore_sandy_chunk:282",
-      "chance": 0.0507,
-      "meshLevel": 4
-    },
-    {
-      "drop": "gregtech:meta_ore_sandy_chunk:321",
-      "chance": 0.0507,
-      "meshLevel": 4
-    },
-    {
-      "drop": "gregtech:meta_ore_sandy_chunk:307",
-      "chance": 0.0507,
-      "meshLevel": 4
-    },
-    {
-      "drop": "gregtech:meta_ore_sandy_chunk:318",
-      "chance": 0.0169,
-      "meshLevel": 4
-    }
-  ],
-  "ore:crushedDiorite": [
-    {
-      "drop": "gregtech:meta_ore_chunk:286",
-      "chance": 0.153,
-      "meshLevel": 1
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:2",
-      "chance": 0.0765,
-      "meshLevel": 1
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:284",
-      "chance": 0.0255,
-      "meshLevel": 1
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:265",
-      "chance": 0.0585,
-      "meshLevel": 1
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:263",
-      "chance": 0.0585,
-      "meshLevel": 1
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:388",
-      "chance": 0.0195,
-      "meshLevel": 1
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:340",
-      "chance": 0.09945,
-      "meshLevel": 1
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:387",
-      "chance": 0.05525,
-      "meshLevel": 1
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:214",
-      "chance": 0.0663,
-      "meshLevel": 1
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:112",
-      "chance": 0.869,
-      "meshLevel": 1
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:263",
-      "chance": 0.08075,
-      "meshLevel": 1
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:347",
-      "chance": 0.0969,
-      "meshLevel": 2
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:348",
-      "chance": 0.0969,
-      "meshLevel": 2
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:25",
-      "chance": 0.0323,
-      "meshLevel": 2
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:279",
-      "chance": 0.104,
-      "meshLevel": 2
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:55",
-      "chance": 0.052,
-      "meshLevel": 2
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:100",
-      "chance": 0.052,
-      "meshLevel": 2
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:289",
-      "chance": 0.0585,
-      "meshLevel": 2
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:316",
-      "chance": 0.039,
-      "meshLevel": 2
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:2007",
-      "chance": 0.06825,
-      "meshLevel": 2
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:262",
-      "chance": 0.02925,
-      "meshLevel": 2
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:261",
-      "chance": 0.0507,
-      "meshLevel": 3
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:337",
-      "chance": 0.0507,
-      "meshLevel": 3
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:255",
-      "chance": 0.0507,
-      "meshLevel": 3
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:385",
-      "chance": 0.0169,
-      "meshLevel": 3
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:2028",
-      "chance": 0.0845,
-      "meshLevel": 3
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:332",
-      "chance": 0.0676,
-      "meshLevel": 3
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:394",
-      "chance": 0.0546,
-      "meshLevel": 3
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:386",
-      "chance": 0.0546,
-      "meshLevel": 3
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:263",
-      "chance": 0.0364,
-      "meshLevel": 3
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:2024",
-      "chance": 0.0364,
-      "meshLevel": 3
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:341",
-      "chance": 0.1014,
-      "meshLevel": 4
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:276",
-      "chance": 0.0338,
-      "meshLevel": 4
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:271",
-      "chance": 0.0338,
-      "meshLevel": 4
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:393",
-      "chance": 0.056,
-      "meshLevel": 4
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:392",
-      "chance": 0.056,
-      "meshLevel": 4
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:380",
-      "chance": 0.056,
-      "meshLevel": 4
-    }
-  ],
-  "ore:crushedAndesite": [
-    {
-      "drop": "gregtech:meta_ore_chunk:2064",
-      "chance": 0.1938,
-      "meshLevel": 2
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:311",
-      "chance": 0.0646,
-      "meshLevel": 2
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:268",
-      "chance": 0.0646,
-      "meshLevel": 2
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:267",
-      "chance": 0.01615,
-      "meshLevel": 2
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:250",
-      "chance": 0.0816,
-      "meshLevel": 2
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:308",
-      "chance": 0.0816,
-      "meshLevel": 2
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:314",
-      "chance": 0.0816,
-      "meshLevel": 2
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:281",
-      "chance": 0.0272,
-      "meshLevel": 2
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:329",
-      "chance": 0.06,
-      "meshLevel": 2
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:257",
-      "chance": 0.04,
-      "meshLevel": 2
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:265",
-      "chance": 0.0969,
-      "meshLevel": 3
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:51",
-      "chance": 0.0969,
-      "meshLevel": 3
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:306",
-      "chance": 0.0969,
-      "meshLevel": 3
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:25",
-      "chance": 0.0323,
-      "meshLevel": 3
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:261",
-      "chance": 0.0507,
-      "meshLevel": 3
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:337",
-      "chance": 0.0507,
-      "meshLevel": 3
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:255",
-      "chance": 0.0507,
-      "meshLevel": 3
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:385",
-      "chance": 0.0169,
-      "meshLevel": 3
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:379",
-      "chance": 0.1014,
-      "meshLevel": 3
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:2029",
-      "chance": 0.0338,
-      "meshLevel": 3
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:66",
-      "chance": 0.0338,
-      "meshLevel": 3
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:280",
-      "chance": 0.0546,
-      "meshLevel": 3
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:69",
-      "chance": 0.0546,
-      "meshLevel": 3
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:272",
-      "chance": 0.0546,
-      "meshLevel": 3
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:380",
-      "chance": 0.0182,
-      "meshLevel": 3
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:2026",
-      "chance": 0.0507,
-      "meshLevel": 3
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:291",
-      "chance": 0.0507,
-      "meshLevel": 3
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:2004",
-      "chance": 0.0507,
-      "meshLevel": 3
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:2028",
-      "chance": 0.0845,
-      "meshLevel": 3
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:332",
-      "chance": 0.0676,
-      "meshLevel": 3
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:10",
-      "chance": 0.0845,
-      "meshLevel": 4
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:278",
-      "chance": 0.0507,
-      "meshLevel": 4
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:109",
-      "chance": 0.0338,
-      "meshLevel": 4
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:341",
-      "chance": 0.1014,
-      "meshLevel": 4
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:276",
-      "chance": 0.0338,
-      "meshLevel": 4
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:271",
-      "chance": 0.0338,
-      "meshLevel": 4
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:393",
-      "chance": 0.056,
-      "meshLevel": 4
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:392",
-      "chance": 0.056,
-      "meshLevel": 4
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:380",
-      "chance": 0.056,
-      "meshLevel": 4
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:315",
-      "chance": 0.1014,
-      "meshLevel": 4
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:330",
-      "chance": 0.0338,
-      "meshLevel": 4
-    },
-    {
-      "drop": "gregtech:meta_ore_chunk:56",
-      "chance": 0.0338,
-      "meshLevel": 4
-    }
-  ],
   "ore:crushedGranite": [
     {
       "drop": "gregtech:meta_ore_chunk:2010",
@@ -1440,20 +306,1147 @@
       "meshLevel": 4
     }
   ],
-  "ore:dust": [
+  "ore:dirt": [
     {
-      "drop": "minecraft:dye:15",
+      "drop": "gregtech:rubber_sapling:0",
       "chance": 0.1,
       "meshLevel": 1
     },
     {
-      "drop": "minecraft:glowstone_dust:-1",
-      "chance": 0.025,
+      "drop": "exnihilocreatio:item_pebble:0",
+      "chance": 1.0,
+      "meshLevel": 1
+    },
+    {
+      "drop": "exnihilocreatio:item_pebble:0",
+      "chance": 1.0,
+      "meshLevel": 1
+    },
+    {
+      "drop": "exnihilocreatio:item_pebble:0",
+      "chance": 0.5,
+      "meshLevel": 1
+    },
+    {
+      "drop": "exnihilocreatio:item_pebble:0",
+      "chance": 0.5,
+      "meshLevel": 1
+    },
+    {
+      "drop": "exnihilocreatio:item_pebble:0",
+      "chance": 0.1,
+      "meshLevel": 1
+    },
+    {
+      "drop": "exnihilocreatio:item_pebble:0",
+      "chance": 0.1,
+      "meshLevel": 1
+    },
+    {
+      "drop": "exnihilocreatio:item_pebble:1",
+      "chance": 0.5,
+      "meshLevel": 1
+    },
+    {
+      "drop": "exnihilocreatio:item_pebble:1",
+      "chance": 0.1,
+      "meshLevel": 1
+    },
+    {
+      "drop": "exnihilocreatio:item_pebble:2",
+      "chance": 0.5,
+      "meshLevel": 1
+    },
+    {
+      "drop": "exnihilocreatio:item_pebble:2",
+      "chance": 0.1,
+      "meshLevel": 1
+    },
+    {
+      "drop": "exnihilocreatio:item_pebble:3",
+      "chance": 0.5,
+      "meshLevel": 1
+    },
+    {
+      "drop": "exnihilocreatio:item_pebble:3",
+      "chance": 0.1,
+      "meshLevel": 1
+    },
+    {
+      "drop": "minecraft:wheat_seeds:-1",
+      "chance": 0.7,
+      "meshLevel": 1
+    },
+    {
+      "drop": "minecraft:melon_seeds:-1",
+      "chance": 0.35,
+      "meshLevel": 1
+    },
+    {
+      "drop": "minecraft:pumpkin_seeds:-1",
+      "chance": 0.35,
+      "meshLevel": 1
+    },
+    {
+      "drop": "exnihilocreatio:item_material:3",
+      "chance": 0.05,
+      "meshLevel": 1
+    },
+    {
+      "drop": "exnihilocreatio:item_material:4",
+      "chance": 0.05,
+      "meshLevel": 1
+    },
+    {
+      "drop": "gregification:gtpebble:0",
+      "chance": 0.5,
+      "meshLevel": 1
+    },
+    {
+      "drop": "gregification:gtpebble:1",
+      "chance": 0.5,
+      "meshLevel": 1
+    },
+    {
+      "drop": "gregification:gtpebble:2",
+      "chance": 0.5,
+      "meshLevel": 1
+    },
+    {
+      "drop": "gregification:gtpebble:3",
+      "chance": 0.5,
+      "meshLevel": 1
+    },
+    {
+      "drop": "exnihilocreatio:item_seed_oak:-1",
+      "chance": 0.05,
+      "meshLevel": 1
+    },
+    {
+      "drop": "exnihilocreatio:item_seed_spruce:-1",
+      "chance": 0.05,
+      "meshLevel": 1
+    },
+    {
+      "drop": "exnihilocreatio:item_seed_birch:-1",
+      "chance": 0.05,
+      "meshLevel": 1
+    },
+    {
+      "drop": "exnihilocreatio:item_seed_jungle:-1",
+      "chance": 0.05,
+      "meshLevel": 1
+    },
+    {
+      "drop": "exnihilocreatio:item_seed_acacia:-1",
+      "chance": 0.05,
+      "meshLevel": 1
+    },
+    {
+      "drop": "exnihilocreatio:item_seed_darkoak:-1",
+      "chance": 0.05,
+      "meshLevel": 1
+    },
+    {
+      "drop": "exnihilocreatio:item_seed_cactus:-1",
+      "chance": 0.05,
+      "meshLevel": 1
+    },
+    {
+      "drop": "exnihilocreatio:item_seed_sugarcane:-1",
+      "chance": 0.05,
+      "meshLevel": 1
+    },
+    {
+      "drop": "exnihilocreatio:item_seed_carrot:-1",
+      "chance": 0.05,
+      "meshLevel": 1
+    },
+    {
+      "drop": "exnihilocreatio:item_seed_potato:-1",
+      "chance": 0.05,
+      "meshLevel": 1
+    },
+    {
+      "drop": "exnihilocreatio:item_seed_rubber:-1",
+      "chance": 0.05,
+      "meshLevel": 1
+    }
+  ],
+  "exnihilocreatio:block_netherrack_crushed:0": [
+    {
+      "drop": "gregtech:meta_ore_nether_chunk:265",
+      "chance": 0.0432,
+      "meshLevel": 2
+    },
+    {
+      "drop": "gregtech:meta_ore_nether_chunk:51",
+      "chance": 0.0432,
+      "meshLevel": 2
+    },
+    {
+      "drop": "gregtech:meta_ore_nether_chunk:306",
+      "chance": 0.0432,
+      "meshLevel": 2
+    },
+    {
+      "drop": "gregtech:meta_ore_nether_chunk:25",
+      "chance": 0.0144,
+      "meshLevel": 2
+    },
+    {
+      "drop": "gregtech:meta_ore_nether_chunk:261",
+      "chance": 0.0324,
+      "meshLevel": 2
+    },
+    {
+      "drop": "gregtech:meta_ore_nether_chunk:337",
+      "chance": 0.0324,
+      "meshLevel": 2
+    },
+    {
+      "drop": "gregtech:meta_ore_nether_chunk:255",
+      "chance": 0.0324,
+      "meshLevel": 2
+    },
+    {
+      "drop": "gregtech:meta_ore_nether_chunk:385",
+      "chance": 0.0108,
+      "meshLevel": 2
+    },
+    {
+      "drop": "gregtech:meta_ore_nether_chunk:292",
+      "chance": 0.1428,
+      "meshLevel": 2
+    },
+    {
+      "drop": "gregtech:meta_ore_nether_chunk:51",
+      "chance": 0.0357,
+      "meshLevel": 2
+    },
+    {
+      "drop": "gregtech:meta_ore_nether_chunk:2022",
+      "chance": 0.0357,
+      "meshLevel": 2
+    },
+    {
+      "drop": "gregtech:meta_ore_nether_chunk:41",
+      "chance": 0.0238,
+      "meshLevel": 2
+    },
+    {
+      "drop": "gregtech:meta_ore_nether_chunk:339",
+      "chance": 0.324,
+      "meshLevel": 2
+    },
+    {
+      "drop": "gregtech:meta_ore_nether_chunk:103",
+      "chance": 0.1632,
+      "meshLevel": 2
+    },
+    {
+      "drop": "gregtech:meta_ore_nether_chunk:306",
+      "chance": 0.0544,
+      "meshLevel": 2
+    },
+    {
+      "drop": "gregtech:meta_ore_nether_chunk:322",
+      "chance": 0.0544,
+      "meshLevel": 2
+    },
+    {
+      "drop": "gregtech:meta_ore_nether_chunk:327",
+      "chance": 0.0936,
+      "meshLevel": 2
+    },
+    {
+      "drop": "gregtech:meta_ore_nether_chunk:25",
+      "chance": 0.0312,
+      "meshLevel": 2
+    },
+    {
+      "drop": "gregtech:meta_ore_nether_chunk:325",
+      "chance": 0.0312,
+      "meshLevel": 2
+    },
+    {
+      "drop": "gregtech:meta_ore_nether_chunk:280",
+      "chance": 0.0189,
+      "meshLevel": 4
+    },
+    {
+      "drop": "gregtech:meta_ore_nether_chunk:69",
+      "chance": 0.0189,
+      "meshLevel": 4
+    },
+    {
+      "drop": "gregtech:meta_ore_nether_chunk:272",
+      "chance": 0.0189,
+      "meshLevel": 4
+    },
+    {
+      "drop": "gregtech:meta_ore_nether_chunk:380",
+      "chance": 0.0063,
+      "meshLevel": 4
+    },
+    {
+      "drop": "gregtech:meta_ore_nether_chunk:2064",
+      "chance": 0.0864,
+      "meshLevel": 4
+    },
+    {
+      "drop": "gregtech:meta_ore_nether_chunk:311",
+      "chance": 0.0288,
+      "meshLevel": 4
+    },
+    {
+      "drop": "gregtech:meta_ore_nether_chunk:268",
+      "chance": 0.0288,
+      "meshLevel": 4
+    },
+    {
+      "drop": "gregtech:meta_ore_nether_chunk:267",
+      "chance": 0.0072,
+      "meshLevel": 4
+    },
+    {
+      "drop": "gregtech:meta_ore_nether_chunk:2507",
+      "chance": 0.0072,
+      "meshLevel": 4
+    },
+    {
+      "drop": "gregtech:meta_ore_nether_chunk:329",
+      "chance": 0.0294,
+      "meshLevel": 4
+    },
+    {
+      "drop": "gregtech:meta_ore_nether_chunk:257",
+      "chance": 0.0196,
+      "meshLevel": 4
+    }
+  ],
+  "ore:sand": [
+    {
+      "drop": "gregtech:meta_ore_sandy_chunk:25",
+      "chance": 0.0612,
+      "meshLevel": 2
+    },
+    {
+      "drop": "gregtech:meta_ore_sandy_chunk:2064",
+      "chance": 0.1938,
+      "meshLevel": 2
+    },
+    {
+      "drop": "gregtech:meta_ore_sandy_chunk:268",
+      "chance": 0.0646,
+      "meshLevel": 2
+    },
+    {
+      "drop": "gregtech:meta_ore_sandy_chunk:267",
+      "chance": 0.01615,
+      "meshLevel": 2
+    },
+    {
+      "drop": "gregtech:meta_ore_sandy_chunk:250",
+      "chance": 0.0816,
+      "meshLevel": 2
+    },
+    {
+      "drop": "gregtech:meta_ore_sandy_chunk:308",
+      "chance": 0.0816,
+      "meshLevel": 2
+    },
+    {
+      "drop": "gregtech:meta_ore_sandy_chunk:314",
+      "chance": 0.0816,
+      "meshLevel": 2
+    },
+    {
+      "drop": "gregtech:meta_ore_sandy_chunk:281",
+      "chance": 0.0272,
+      "meshLevel": 2
+    },
+    {
+      "drop": "gregtech:meta_ore_sandy_chunk:265",
+      "chance": 0.0969,
       "meshLevel": 3
     },
     {
-      "drop": "minecraft:blaze_powder:-1",
-      "chance": 0.037,
+      "drop": "gregtech:meta_ore_sandy_chunk:51",
+      "chance": 0.0969,
+      "meshLevel": 3
+    },
+    {
+      "drop": "gregtech:meta_ore_sandy_chunk:306",
+      "chance": 0.0969,
+      "meshLevel": 3
+    },
+    {
+      "drop": "gregtech:meta_ore_sandy_chunk:25",
+      "chance": 0.0323,
+      "meshLevel": 3
+    },
+    {
+      "drop": "gregtech:meta_ore_sandy_chunk:261",
+      "chance": 0.0507,
+      "meshLevel": 3
+    },
+    {
+      "drop": "gregtech:meta_ore_sandy_chunk:337",
+      "chance": 0.0507,
+      "meshLevel": 3
+    },
+    {
+      "drop": "gregtech:meta_ore_sandy_chunk:255",
+      "chance": 0.0507,
+      "meshLevel": 3
+    },
+    {
+      "drop": "gregtech:meta_ore_sandy_chunk:385",
+      "chance": 0.0169,
+      "meshLevel": 3
+    },
+    {
+      "drop": "gregtech:meta_ore_sandy_chunk:280",
+      "chance": 0.0546,
+      "meshLevel": 3
+    },
+    {
+      "drop": "gregtech:meta_ore_sandy_chunk:69",
+      "chance": 0.0546,
+      "meshLevel": 3
+    },
+    {
+      "drop": "gregtech:meta_ore_sandy_chunk:272",
+      "chance": 0.0546,
+      "meshLevel": 3
+    },
+    {
+      "drop": "gregtech:meta_ore_sandy_chunk:380",
+      "chance": 0.0182,
+      "meshLevel": 3
+    },
+    {
+      "drop": "gregtech:meta_ore_sandy_chunk:2026",
+      "chance": 0.0507,
+      "meshLevel": 3
+    },
+    {
+      "drop": "gregtech:meta_ore_sandy_chunk:291",
+      "chance": 0.0507,
+      "meshLevel": 3
+    },
+    {
+      "drop": "gregtech:meta_ore_sandy_chunk:2004",
+      "chance": 0.0507,
+      "meshLevel": 3
+    },
+    {
+      "drop": "gregtech:meta_ore_sandy_chunk:10",
+      "chance": 0.0845,
+      "meshLevel": 4
+    },
+    {
+      "drop": "gregtech:meta_ore_sandy_chunk:278",
+      "chance": 0.0507,
+      "meshLevel": 4
+    },
+    {
+      "drop": "gregtech:meta_ore_sandy_chunk:109",
+      "chance": 0.0338,
+      "meshLevel": 4
+    },
+    {
+      "drop": "gregtech:meta_ore_sandy_chunk:282",
+      "chance": 0.0507,
+      "meshLevel": 4
+    },
+    {
+      "drop": "gregtech:meta_ore_sandy_chunk:321",
+      "chance": 0.0507,
+      "meshLevel": 4
+    },
+    {
+      "drop": "gregtech:meta_ore_sandy_chunk:307",
+      "chance": 0.0507,
+      "meshLevel": 4
+    },
+    {
+      "drop": "gregtech:meta_ore_sandy_chunk:318",
+      "chance": 0.0169,
+      "meshLevel": 4
+    }
+  ],
+  "ore:crushedDiorite": [
+    {
+      "drop": "gregtech:meta_ore_chunk:286",
+      "chance": 0.153,
+      "meshLevel": 1
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:2",
+      "chance": 0.0765,
+      "meshLevel": 1
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:284",
+      "chance": 0.0255,
+      "meshLevel": 1
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:265",
+      "chance": 0.0585,
+      "meshLevel": 1
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:263",
+      "chance": 0.0585,
+      "meshLevel": 1
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:388",
+      "chance": 0.0195,
+      "meshLevel": 1
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:340",
+      "chance": 0.09945,
+      "meshLevel": 1
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:387",
+      "chance": 0.05525,
+      "meshLevel": 1
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:214",
+      "chance": 0.0663,
+      "meshLevel": 1
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:112",
+      "chance": 0.129,
+      "meshLevel": 1
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:263",
+      "chance": 0.08075,
+      "meshLevel": 1
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:347",
+      "chance": 0.0969,
+      "meshLevel": 2
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:348",
+      "chance": 0.0969,
+      "meshLevel": 2
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:25",
+      "chance": 0.0323,
+      "meshLevel": 2
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:279",
+      "chance": 0.104,
+      "meshLevel": 2
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:55",
+      "chance": 0.052,
+      "meshLevel": 2
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:100",
+      "chance": 0.052,
+      "meshLevel": 2
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:289",
+      "chance": 0.0585,
+      "meshLevel": 2
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:316",
+      "chance": 0.039,
+      "meshLevel": 2
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:2007",
+      "chance": 0.06825,
+      "meshLevel": 2
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:262",
+      "chance": 0.02925,
+      "meshLevel": 2
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:261",
+      "chance": 0.0507,
+      "meshLevel": 3
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:337",
+      "chance": 0.0507,
+      "meshLevel": 3
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:255",
+      "chance": 0.0507,
+      "meshLevel": 3
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:385",
+      "chance": 0.0169,
+      "meshLevel": 3
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:2028",
+      "chance": 0.0845,
+      "meshLevel": 3
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:332",
+      "chance": 0.0676,
+      "meshLevel": 3
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:394",
+      "chance": 0.0546,
+      "meshLevel": 3
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:386",
+      "chance": 0.0546,
+      "meshLevel": 3
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:263",
+      "chance": 0.0364,
+      "meshLevel": 3
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:2024",
+      "chance": 0.0364,
+      "meshLevel": 3
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:341",
+      "chance": 0.1014,
+      "meshLevel": 4
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:276",
+      "chance": 0.0338,
+      "meshLevel": 4
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:271",
+      "chance": 0.0338,
+      "meshLevel": 4
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:393",
+      "chance": 0.056,
+      "meshLevel": 4
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:392",
+      "chance": 0.056,
+      "meshLevel": 4
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:380",
+      "chance": 0.056,
+      "meshLevel": 4
+    }
+  ],
+  "exnihilocreatio:block_endstone_crushed:0": [
+    {
+      "drop": "gregtech:meta_ore_ender_chunk:10",
+      "chance": 0.0405,
+      "meshLevel": 2
+    },
+    {
+      "drop": "gregtech:meta_ore_ender_chunk:278",
+      "chance": 0.0243,
+      "meshLevel": 2
+    },
+    {
+      "drop": "gregtech:meta_ore_ender_chunk:109",
+      "chance": 0.0162,
+      "meshLevel": 2
+    },
+    {
+      "drop": "gregtech:meta_ore_ender_chunk:282",
+      "chance": 0.0192,
+      "meshLevel": 3
+    },
+    {
+      "drop": "gregtech:meta_ore_ender_chunk:321",
+      "chance": 0.0192,
+      "meshLevel": 3
+    },
+    {
+      "drop": "gregtech:meta_ore_ender_chunk:307",
+      "chance": 0.0192,
+      "meshLevel": 3
+    },
+    {
+      "drop": "gregtech:meta_ore_ender_chunk:318",
+      "chance": 0.0064,
+      "meshLevel": 3
+    },
+    {
+      "drop": "gregtech:meta_ore_ender_chunk:336",
+      "chance": 0.0256,
+      "meshLevel": 3
+    },
+    {
+      "drop": "gregtech:meta_ore_ender_chunk:293",
+      "chance": 0.0256,
+      "meshLevel": 3
+    },
+    {
+      "drop": "gregtech:meta_ore_ender_chunk:305",
+      "chance": 0.0128,
+      "meshLevel": 3
+    },
+    {
+      "drop": "gregtech:meta_ore_ender_chunk:280",
+      "chance": 0.0189,
+      "meshLevel": 3
+    },
+    {
+      "drop": "gregtech:meta_ore_ender_chunk:69",
+      "chance": 0.0189,
+      "meshLevel": 3
+    },
+    {
+      "drop": "gregtech:meta_ore_ender_chunk:272",
+      "chance": 0.0189,
+      "meshLevel": 3
+    },
+    {
+      "drop": "gregtech:meta_ore_ender_chunk:380",
+      "chance": 0.0063,
+      "meshLevel": 3
+    },
+    {
+      "drop": "gregtech:meta_ore_ender_chunk:2026",
+      "chance": 0.0192,
+      "meshLevel": 3
+    },
+    {
+      "drop": "gregtech:meta_ore_ender_chunk:291",
+      "chance": 0.0192,
+      "meshLevel": 3
+    },
+    {
+      "drop": "gregtech:meta_ore_ender_chunk:2004",
+      "chance": 0.0192,
+      "meshLevel": 3
+    },
+    {
+      "drop": "gregtech:meta_ore_ender_chunk:267",
+      "chance": 0.064,
+      "meshLevel": 3
+    },
+    {
+      "drop": "gregtech:meta_ore_ender_chunk:273",
+      "chance": 0.0288,
+      "meshLevel": 3
+    },
+    {
+      "drop": "gregtech:meta_ore_ender_chunk:77",
+      "chance": 0.0224,
+      "meshLevel": 3
+    },
+    {
+      "drop": "gregtech:meta_ore_ender_chunk:315",
+      "chance": 0.0384,
+      "meshLevel": 3
+    },
+    {
+      "drop": "gregtech:meta_ore_ender_chunk:330",
+      "chance": 0.0128,
+      "meshLevel": 3
+    },
+    {
+      "drop": "gregtech:meta_ore_ender_chunk:56",
+      "chance": 0.0128,
+      "meshLevel": 3
+    },
+    {
+      "drop": "gregtech:meta_ore_ender_chunk:124",
+      "chance": 0.36,
+      "meshLevel": 4
+    },
+    {
+      "drop": "gregtech:meta_ore_ender_chunk:289",
+      "chance": 0.0216,
+      "meshLevel": 4
+    },
+    {
+      "drop": "gregtech:meta_ore_ender_chunk:316",
+      "chance": 0.0144,
+      "meshLevel": 4
+    },
+    {
+      "drop": "gregtech:meta_ore_ender_chunk:2007",
+      "chance": 0.0252,
+      "meshLevel": 4
+    },
+    {
+      "drop": "gregtech:meta_ore_ender_chunk:262",
+      "chance": 0.0108,
+      "meshLevel": 4
+    }
+  ],
+  "ore:crushedAndesite": [
+    {
+      "drop": "gregtech:meta_ore_chunk:2064",
+      "chance": 0.1938,
+      "meshLevel": 2
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:311",
+      "chance": 0.0646,
+      "meshLevel": 2
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:268",
+      "chance": 0.0646,
+      "meshLevel": 2
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:267",
+      "chance": 0.01615,
+      "meshLevel": 2
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:250",
+      "chance": 0.0816,
+      "meshLevel": 2
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:308",
+      "chance": 0.0816,
+      "meshLevel": 2
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:314",
+      "chance": 0.0816,
+      "meshLevel": 2
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:281",
+      "chance": 0.0272,
+      "meshLevel": 2
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:329",
+      "chance": 0.06,
+      "meshLevel": 2
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:257",
+      "chance": 0.04,
+      "meshLevel": 2
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:265",
+      "chance": 0.0969,
+      "meshLevel": 3
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:51",
+      "chance": 0.0969,
+      "meshLevel": 3
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:306",
+      "chance": 0.0969,
+      "meshLevel": 3
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:25",
+      "chance": 0.0323,
+      "meshLevel": 3
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:261",
+      "chance": 0.0507,
+      "meshLevel": 3
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:337",
+      "chance": 0.0507,
+      "meshLevel": 3
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:255",
+      "chance": 0.0507,
+      "meshLevel": 3
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:385",
+      "chance": 0.0169,
+      "meshLevel": 3
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:379",
+      "chance": 0.1014,
+      "meshLevel": 3
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:2029",
+      "chance": 0.0338,
+      "meshLevel": 3
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:66",
+      "chance": 0.0338,
+      "meshLevel": 3
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:280",
+      "chance": 0.0546,
+      "meshLevel": 3
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:69",
+      "chance": 0.0546,
+      "meshLevel": 3
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:272",
+      "chance": 0.0546,
+      "meshLevel": 3
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:380",
+      "chance": 0.0182,
+      "meshLevel": 3
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:2026",
+      "chance": 0.0507,
+      "meshLevel": 3
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:291",
+      "chance": 0.0507,
+      "meshLevel": 3
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:2004",
+      "chance": 0.0507,
+      "meshLevel": 3
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:2028",
+      "chance": 0.0845,
+      "meshLevel": 3
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:332",
+      "chance": 0.0676,
+      "meshLevel": 3
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:341",
+      "chance": 0.1014,
+      "meshLevel": 3
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:276",
+      "chance": 0.0338,
+      "meshLevel": 3
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:271",
+      "chance": 0.0338,
+      "meshLevel": 3
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:10",
+      "chance": 0.0845,
+      "meshLevel": 4
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:278",
+      "chance": 0.0507,
+      "meshLevel": 4
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:109",
+      "chance": 0.0338,
+      "meshLevel": 4
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:393",
+      "chance": 0.056,
+      "meshLevel": 4
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:392",
+      "chance": 0.056,
+      "meshLevel": 4
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:380",
+      "chance": 0.056,
+      "meshLevel": 4
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:315",
+      "chance": 0.1014,
+      "meshLevel": 4
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:330",
+      "chance": 0.0338,
+      "meshLevel": 4
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:56",
+      "chance": 0.0338,
+      "meshLevel": 4
+    }
+  ],
+  "ore:gravel": [
+    {
+      "drop": "gregtech:meta_ore_chunk:271",
+      "chance": 0.192,
+      "meshLevel": 1
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:2031",
+      "chance": 0.0507,
+      "meshLevel": 1
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:271",
+      "chance": 0.095,
+      "meshLevel": 1
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:312",
+      "chance": 0.0952,
+      "meshLevel": 1
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:309",
+      "chance": 0.0833,
+      "meshLevel": 1
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:382",
+      "chance": 0.0357,
+      "meshLevel": 1
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:381",
+      "chance": 0.0238,
+      "meshLevel": 1
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:112",
+      "chance": 0.129,
+      "meshLevel": 1
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:263",
+      "chance": 0.08075,
+      "meshLevel": 1
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:2518",
+      "chance": 0.0546,
+      "meshLevel": 1
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:2513",
+      "chance": 0.0546,
+      "meshLevel": 1
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:2027",
+      "chance": 0.0364,
+      "meshLevel": 1
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:2032",
+      "chance": 0.0364,
+      "meshLevel": 1
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:279",
+      "chance": 0.104,
+      "meshLevel": 2
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:55",
+      "chance": 0.052,
+      "meshLevel": 2
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:100",
+      "chance": 0.052,
+      "meshLevel": 2
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:2033",
+      "chance": 0.0507,
+      "meshLevel": 2
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:2027",
+      "chance": 0.0338,
+      "meshLevel": 2
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:384",
+      "chance": 0.0338,
+      "meshLevel": 2
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:1597",
+      "chance": 0.225,
+      "meshLevel": 2
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:264",
+      "chance": 0.0432,
+      "meshLevel": 2
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:2515",
+      "chance": 0.0432,
+      "meshLevel": 2
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:253",
+      "chance": 0.0432,
+      "meshLevel": 2
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:2509",
+      "chance": 0.0144,
+      "meshLevel": 2
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:80",
+      "chance": 0.07605,
+      "meshLevel": 3
+    },
+    {
+      "drop": "gregtech:meta_ore_chunk:77",
+      "chance": 0.05915,
       "meshLevel": 3
     }
   ]
