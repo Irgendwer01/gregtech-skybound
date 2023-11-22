@@ -9,7 +9,7 @@
       "gregtech:stone_smooth:1":1,
       "gregtech:stone_smooth:0":1
    },
-   "water":
+   "water":{
       "minecraft:dirt":1
    }
 
