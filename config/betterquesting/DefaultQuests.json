@@ -1163,14 +1163,14 @@
           "autoConsume:1": 0,
           "consume:1": 0,
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
           "partialMatch:1": 1,
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
               "Damage:2": 0,
-              "OreDict:8": "",
+              "OreDict:8": "craftingToolHardHammer",
               "id:8": "gregtech:hammer",
               "tag:10": {
                 "DisallowContainerItem:1": 0,
@@ -1190,7 +1190,7 @@
             "1:10": {
               "Count:3": 1,
               "Damage:2": 0,
-              "OreDict:8": "",
+              "OreDict:8": "craftingToolFile",
               "id:8": "gregtech:file",
               "tag:10": {
                 "DisallowContainerItem:1": 0,
@@ -1208,7 +1208,7 @@
             "2:10": {
               "Count:3": 1,
               "Damage:2": 0,
-              "OreDict:8": "",
+              "OreDict:8": "craftingToolScrewdriver",
               "id:8": "gregtech:screwdriver",
               "tag:10": {
                 "DisallowContainerItem:1": 0,
@@ -1226,7 +1226,7 @@
             "3:10": {
               "Count:3": 1,
               "Damage:2": 0,
-              "OreDict:8": "",
+              "OreDict:8": "craftingToolSaw",
               "id:8": "gregtech:saw",
               "tag:10": {
                 "DisallowContainerItem:1": 0,
@@ -1246,7 +1246,7 @@
             "4:10": {
               "Count:3": 1,
               "Damage:2": 0,
-              "OreDict:8": "",
+              "OreDict:8": "craftingToolWireCutter",
               "id:8": "gregtech:wire_cutter",
               "tag:10": {
                 "DisallowContainerItem:1": 0,
@@ -1266,7 +1266,7 @@
             "5:10": {
               "Count:3": 1,
               "Damage:2": 0,
-              "OreDict:8": "",
+              "OreDict:8": "craftingToolMortar",
               "id:8": "gregtech:mortar",
               "tag:10": {
                 "DisallowContainerItem:1": 0,
@@ -2062,7 +2062,7 @@
   },
   "questSettings:10": {
     "betterquesting:10": {
-      "editmode:1": 1,
+      "editmode:1": 0,
       "hardcore:1": 0,
       "home_anchor_x:5": 0.5,
       "home_anchor_y:5": 0.0,
