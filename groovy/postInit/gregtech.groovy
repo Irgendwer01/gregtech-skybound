@@ -4,9 +4,6 @@ mods.gregtech.rock_breaker.removeByInput(960, [item('gregtech:stone_smooth', 1)]
 mods.gregtech.rock_breaker.removeByInput(960, [item('gregtech:stone_smooth')], null)
 mods.gregtech.rock_breaker.removeByInput(240, [item('chisel:basalt')], null)
 mods.gregtech.rock_breaker.removeByInput(240, [item('chisel:marble')], null)
-// Oil * 80
-mods.gregtech.centrifuge.removeByInput(80, [item('minecraft:soul_sand')], null)
-
 
 
 
@@ -43,16 +40,4 @@ mods.gregtech.rock_breaker.recipeBuilder()
   .outputs(item('gregtech:stone_smooth', 1))
   .EUt(7)
   .duration(16)
-  .buildAndRegister()
-
-
-// Oil * 80
-mods.gregtech.centrifuge.recipeBuilder()
-  .inputs(item('minecraft:soul_sand'))
-  .fluidOutputs(fluid('oil') * 80)
-  .chancedOutput(item('minecraft:sand'), 9000, 130)
-  .chancedOutput(metaitem('dustTinyCoal'), 2000, 340)
-  .chancedOutput(metaitem('dustTinySaltpeter'), 8000, 480)
-  .duration(400)
-  .EUt(20)
   .buildAndRegister()

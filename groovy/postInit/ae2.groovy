@@ -61,6 +61,15 @@ crafting.removeByOutput(item('appliedenergistics2:fluid_interface'))
 ore('crystalFluix').add(metaitem('gemFluixQuartz'))
 ore('dustFluix').add(metaitem('dustFluixQuartz'))
 
+//Fluix Foil
+mods.gregtech.extruder.recipeBuilder()
+  .notConsumable(metaitem('shape.extruder.foil'))
+  .inputs(metaitem('dustFluixQuartz'))
+  .outputs(metaitem('foilFluixQuartz')*4)
+  .EUt(24)
+  .duration(5)
+  .buildAndRegister()
+
 //Quantum Ring
 mods.gregtech.assembler.recipeBuilder()
   .inputs(item('appliedenergistics2:quartz_glass')*2, ore('circuitIv')*8, item('appliedenergistics2:material', 22)*4, item('appliedenergistics2:material', 24)*4, item('appliedenergistics2:material', 47), item('appliedenergistics2:dense_energy_cell'), metaitem('wireless'))
