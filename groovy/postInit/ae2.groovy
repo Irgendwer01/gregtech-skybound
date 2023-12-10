@@ -525,3 +525,11 @@ mods.gregtech.assembler.recipeBuilder()
   .EUt(510)
   .duration(800)
   .buildAndRegister()
+
+//charged certus quartz
+mods.gregtech.polarizer.recipeBuilder()
+  .inputs(metaitem('gemCertusQuartz'))
+  .outputs(item('appliedenergistics2:material', 1))
+  .EUt(30)
+  .duration(100)
+  .buildAndRegister()
