@@ -55,6 +55,8 @@ crafting.removeByOutput(item('appliedenergistics2:quantum_ring'))
 crafting.removeByOutput(item('appliedenergistics2:molecular_assembler'))
 crafting.removeByOutput(item('appliedenergistics2:interface'))
 crafting.removeByOutput(item('appliedenergistics2:fluid_interface'))
+crafting.removeByOutput(item('appliedenergistics2:condenser'));
+
 
 
 //Add own Fluix to AE2 fluix oreDicts
@@ -114,6 +116,11 @@ crafting.addShaped('portable_cell', item('appliedenergistics2:portable_cell').wi
   [metaitem('circuit.vacuum_tube'), metaitem('crate.bronze'), metaitem('circuit.vacuum_tube')],
   [metaitem('screwWroughtIron'), ore('craftingToolScrewdriver'), metaitem('screwWroughtIron')]])
 
+// Matter condenser.
+crafting.addShaped("condenser", item('appliedenergistics2:condenser'),
+ [[ore('circuitHv'),ore('cableGtSingleGold'),ore('circuitHv')],
+  [metaitem('electric.piston.ev'), metaitem('hull.hv'), metaitem('electric.piston.ev')],
+  [metaitem('electric.motor.ev'), ore('cableGtSingleGold'), metaitem('electric.motor.ev')]]);
 
 //Skystone
 mods.gregtech.mixer.recipeBuilder()
