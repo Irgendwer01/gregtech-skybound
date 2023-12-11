@@ -12,6 +12,7 @@ mods.jei.yeet(item('appliedenergistics2:material', 33))
 mods.jei.yeet(item('appliedenergistics2:material', 34))
 mods.jei.yeet(item('appliedenergistics2:spatial_pylon'))
 mods.jei.yeet(item('appliedenergistics2:spatial_io_port'))
+mods.jei.yeet(item('appliedenergistics2:charger'))
 furnace.removeByInput(item('appliedenergistics2:material', 2))
 furnace.removeByInput(item('appliedenergistics2:material', 3))
 crafting.removeByOutput(item('appliedenergistics2:energy_acceptor'))
@@ -55,7 +56,7 @@ crafting.removeByOutput(item('appliedenergistics2:quantum_ring'))
 crafting.removeByOutput(item('appliedenergistics2:molecular_assembler'))
 crafting.removeByOutput(item('appliedenergistics2:interface'))
 crafting.removeByOutput(item('appliedenergistics2:fluid_interface'))
-crafting.removeByOutput(item('appliedenergistics2:condenser'));
+crafting.removeByOutput(item('appliedenergistics2:condenser'))
 
 
 
