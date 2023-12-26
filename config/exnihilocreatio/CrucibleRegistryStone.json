@@ -26,5 +26,21 @@
   "ore:stoneGraniteRed": {
 	"fluid": "lava",
 	"amount": 500
+  },
+  "gregtech:stone_cobble:3": {
+	"fluid": "lava",
+	"amount": 500
+  },
+  "gregtech:stone_cobble:0": {
+	"fluid": "lava",
+	"amount": 500
+  },
+  "gregtech:stone_cobble:1": {
+	"fluid": "lava",
+	"amount": 500
+  },
+  "gregtech:stone_cobble:2": {
+	"fluid": "lava",
+	"amount": 250
   }
 }
