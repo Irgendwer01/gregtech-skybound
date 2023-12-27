@@ -126,11 +126,11 @@
     },
     "diamond": {
       "meshlevel": 2,
-      "chance": 0.0033
+      "chance": 0.0133
     },
     "coal": {
       "meshlevel": 2,
-      "chance": 0.0033
+      "chance": 0.0133
     },
     "beryllium": {
       "meshlevel": 4,
@@ -299,7 +299,7 @@
       "chance": 0.1014
     },
     "diamond": {
-      "meshlevel": 4,
+      "meshlevel": 3,
       "chance": 0.0338
     },
     "coal": {
@@ -635,7 +635,7 @@
       "chance": 0.1014
     },
     "diamond": {
-      "meshlevel": 4,
+      "meshlevel": 3,
       "chance": 0.0338
     },
     "coal": {
@@ -861,10 +861,6 @@
     "stibnite": {
       "meshlevel": 2,
       "chance": 0.0312
-    },
-    "glowstone": {
-	"meshlevel": 2,
-	"chance": 0.0248
     },
     "garnierite": {
       "meshlevel": 4,

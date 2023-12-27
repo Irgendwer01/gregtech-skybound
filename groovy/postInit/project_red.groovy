@@ -52,7 +52,7 @@ crafting.addShaped('red_silicon_compound', item('projectred-core:resource_item',
 	[item('minecraft:redstone'),metaitem('wafer.silicon'),item('minecraft:redstone')],
 	[item('minecraft:redstone'),item('minecraft:redstone'),item('minecraft:redstone')]])
 	
-crafting.addShaped('red_silicon_compound', item('projectred-core:resource_item', 311), [
+crafting.addShaped('glowing_silicon_compound', item('projectred-core:resource_item', 311), [
 	[item('minecraft:glowstone_dust'),item('minecraft:glowstone_dust'),item('minecraft:glowstone_dust')],
 	[item('minecraft:glowstone_dust'),metaitem('wafer.silicon'),item('minecraft:glowstone_dust')],
 	[item('minecraft:glowstone_dust'),item('minecraft:glowstone_dust'),item('minecraft:glowstone_dust')]])

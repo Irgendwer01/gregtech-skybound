@@ -57,8 +57,14 @@ crafting.removeByOutput(item('appliedenergistics2:molecular_assembler'))
 crafting.removeByOutput(item('appliedenergistics2:interface'))
 crafting.removeByOutput(item('appliedenergistics2:fluid_interface'))
 crafting.removeByOutput(item('appliedenergistics2:condenser'))
-
-
+crafting.removeByOutput(item('appliedenergistics2:dense_energy_cell'))
+crafting.removeByOutput(item('appliedenergistics2:wireless_terminal'))
+crafting.removeByOutput(item('appliedenergistics2:wireless_crafting_terminal'))
+crafting.removeByOutput(item('appliedenergistics2:wireless_fluid_terminal'))
+crafting.removeByOutput(item('appliedenergistics2:wireless_pattern_terminal'))
+crafting.removeByOutput(item('ae2fc:wireless_fluid_pattern_terminal'))
+crafting.removeByOutput(item('appliedenergistics2:material', 25))
+crafting.removeByOutput(item('appliedenergistics2:material', 28))
 
 //Add own Fluix to AE2 fluix oreDicts
 ore('crystalFluix').add(metaitem('gemFluixQuartz'))
@@ -461,7 +467,7 @@ mods.gregtech.assembler.recipeBuilder()
 crafting.addShapeless('quantum_link_card', item('appliedenergistics2:material', 59), [item('appliedenergistics2:material', 28), item('appliedenergistics2:material', 47)])
 
 //Magnet Card
-crafting.addShapeless('quantum_link_card', item('appliedenergistics2:material', 60), [item('appliedenergistics2:material', 28), metaitem('stickIronMagnetic'), metaitem('stickIronMagnetic')])
+crafting.addShapeless('magnet_card', item('appliedenergistics2:material', 60), [item('appliedenergistics2:material', 28), metaitem('stickIronMagnetic'), metaitem('stickIronMagnetic')])
 
 //Autocrafting
 mods.gregtech.assembler.recipeBuilder()
@@ -540,4 +546,54 @@ mods.gregtech.polarizer.recipeBuilder()
   .outputs(item('appliedenergistics2:material', 1))
   .EUt(30)
   .duration(100)
+  .buildAndRegister()
+
+mods.gregtech.assembler.recipeBuilder()
+  .inputs(item('appliedenergistics2:energy_cell')*8)
+  .outputs(item('appliedenergistics2:dense_energy_cell'))
+  .EUt(510)
+  .duration(200)
+  .buildAndRegister()
+
+//Wireless Terminals
+crafting.addShaped('wireless_terminal', item('appliedenergistics2:wireless_terminal'), [
+  [ore('circuitEv'), metaitem('wireless'), ore('circuitEv')],
+  [item('appliedenergistics2:material', 24), item('appliedenergistics2:part', 380), item('appliedenergistics2:material', 22)],
+  [metaitem('plateFluixQuartz'), item('appliedenergistics2:dense_energy_cell'), metaitem('plateFluixQuartz')]])
+
+crafting.addShaped('wireless_pattern_terminal', item('appliedenergistics2:wireless_pattern_terminal'), [
+  [ore('circuitEv'), metaitem('wireless'), ore('circuitEv')],
+  [item('appliedenergistics2:material', 24), item('appliedenergistics2:part', 340), item('appliedenergistics2:material', 22)],
+  [metaitem('plateFluixQuartz'), item('appliedenergistics2:dense_energy_cell'), metaitem('plateFluixQuartz')]])
+
+crafting.addShaped('wireless_crafting_terminal', item('appliedenergistics2:wireless_crafting_terminal'), [
+  [ore('circuitEv'), metaitem('wireless'), ore('circuitEv')],
+  [item('appliedenergistics2:material', 24), item('appliedenergistics2:part', 360), item('appliedenergistics2:material', 22)],
+  [metaitem('plateFluixQuartz'), item('appliedenergistics2:dense_energy_cell'), metaitem('plateFluixQuartz')]])
+
+crafting.addShaped('wireless_fluid_terminal', item('appliedenergistics2:wireless_fluid_terminal'), [
+  [ore('circuitEv'), metaitem('wireless'), ore('circuitEv')],
+  [item('appliedenergistics2:material', 24), item('appliedenergistics2:part', 520), item('appliedenergistics2:material', 22)],
+  [metaitem('plateFluixQuartz'), item('appliedenergistics2:dense_energy_cell'), metaitem('plateFluixQuartz')]])
+
+crafting.addShaped('wireless_fluid_pattern_terminal', item('ae2fc:wireless_fluid_pattern_terminal'), [
+  [ore('circuitEv'), metaitem('wireless'), ore('circuitEv')],
+  [item('appliedenergistics2:material', 24), item('ae2fc:part_fluid_pattern_terminal'), item('appliedenergistics2:material', 22)],
+  [metaitem('plateFluixQuartz'), item('appliedenergistics2:dense_energy_cell'), metaitem('plateFluixQuartz')]])
+
+//Basic and Advanced Card
+mods.gregtech.assembler.recipeBuilder()
+  .inputs(metaitem('plateRedstone')*2, metaitem('wireFineGold')*4)
+  .fluidInputs(fluid('plastic')*288)
+  .outputs(item('appliedenergistics2:material', 25))
+  .EUt(120)
+  .duration(80)
+  .buildAndRegister()
+
+mods.gregtech.assembler.recipeBuilder()
+  .inputs(metaitem('plateRedstone')*2, metaitem('wireFineAluminium')*4)
+  .fluidInputs(fluid('plastic')*288)
+  .outputs(item('appliedenergistics2:material', 28))
+  .EUt(120)
+  .duration(80)
   .buildAndRegister()
