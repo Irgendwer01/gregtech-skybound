@@ -922,12 +922,6 @@
               "Damage:2": 0,
               "OreDict:8": "",
               "id:8": "minecraft:dirt"
-            },
-            "1:10": {
-              "Count:3": 64,
-              "Damage:2": 1,
-              "OreDict:8": "",
-              "id:8": "minecraft:dirt"
             }
           },
           "taskID:8": "bq_standard:retrieval"
