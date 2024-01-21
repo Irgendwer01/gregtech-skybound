@@ -2143,7 +2143,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "The §2Steam Grinder§f and§2 § §2Steam Oven §fare very powerful multiblocks that §fcan process 8 Items and once, but only take 1.5x of the time it needs normally! \nTime to replace those slow ass Steam Machines!",
+          "desc:8": "The §2Steam Grinder§f and§2 § §2Steam Oven §fare very powerful multiblocks that §fcan process 8 Items and once, but only take 1.5x of the time it needs normally! \nTime to replace those slow ass Steam Machines!\n\nNote: In quests like this one, only either task need to be done, not both!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
