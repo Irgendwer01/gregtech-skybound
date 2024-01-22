@@ -12,6 +12,11 @@
          "required":true
       },
       {
+         "fileID":4733347,
+         "projectID":650242,
+         "required":true
+      },
+      {
          "fileID":2987247,
          "projectID":248787,
          "required":true
@@ -387,7 +392,7 @@
          "required":true
       },
       {
-         "fileID":3542217,
+         "fileID":3245793,
          "projectID":361579,
          "required":true
       },
@@ -410,12 +415,7 @@
          "fileID":2666967,
          "projectID":257655,
          "required":true
-      },
-      {
-         "fileID":650242,
-         "projectID":4445251,
-         "required":true
-      }	
+      }
    ],
    "manifestType":"minecraftModpack",
    "manifestVersion":1,
@@ -428,7 +428,7 @@
       ],
       "version":"1.12.2"
    },
-   "name":"Gregtech: Skybound",
+   "name":"Gregtech Skyblock Edition",
    "overrides":"overrides",
    "version":"2.2"
 }
