@@ -786,6 +786,10 @@
     }
   },
   "exnihilocreatio:block_netherrack_crushed": {
+    "glowstone": {
+      "meshlevel": 2,
+      "chance": 0.025
+    },
     "chalcopyrite": {
       "meshlevel": 2,
       "chance": 0.0432
