@@ -1,7 +1,7 @@
 ore('dirt').add(item('minecraft:dirt', 1))
 mods.gregtech.fluid_solidifier.recipeBuilder()
   .fluidInputs(liquid('glue')*144)
-  .inputs(metaitem('shape.mold.ball'))
+  .notConsumed(metaitem('shape.mold.ball'))
   .outputs(item('minecraft:slime_ball'))
   .EUt(30)
   .duration(80)
