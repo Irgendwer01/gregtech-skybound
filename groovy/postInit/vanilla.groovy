@@ -1,3 +1,5 @@
+crafting.removeByOutput(item('minecraft:ender_eye'))
+
 ore('dirt').add(item('minecraft:dirt', 1))
 mods.gregtech.fluid_solidifier.recipeBuilder()
   .fluidInputs(liquid('glue')*100)
