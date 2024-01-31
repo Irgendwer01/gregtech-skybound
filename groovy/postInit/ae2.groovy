@@ -457,7 +457,7 @@ mods.gregtech.assembler.recipeBuilder()
   .buildAndRegister()
   
 mods.gregtech.assembler.recipeBuilder()
-  .inputs(ore('circuitEv')*4, item('appliedenergistics2:material', 56), item('appliedenergistics2:material', 24)*2, item('appliedenergistics2:material', 23)*2)
+  .inputs(ore('circuitEv')*4, item('appliedenergistics2:material', 56)*3, item('appliedenergistics2:material', 24)*2, item('appliedenergistics2:material', 23)*2)
   .outputs(item('appliedenergistics2:material', 57))
   .EUt(2040)
   .duration(150)
