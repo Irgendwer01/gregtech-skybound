@@ -440,7 +440,12 @@
          "fileID":2936858,
          "projectID":296851,
          "required":true
-      }
+      },
+      {
+         "fileID":3015136,
+         "projectID":376351,
+         "required":true
+      },
    ],
    "manifestType":"minecraftModpack",
    "manifestVersion":1,
