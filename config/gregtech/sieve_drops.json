@@ -431,6 +431,10 @@
     "calcite": {
       "meshlevel": 4,
       "chance": 0.0108
+    },
+    "plutonium": {
+      "meshlevel": 4,
+      "chance": 0.0105
     }
     },
   "exnihilocreatio:block_granite_crushed": {
