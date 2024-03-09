@@ -28,6 +28,12 @@ mods.jei.yeet(item('exnihilocreatio:hammer_diamond'))
 mods.jei.yeet(item('exnihilocreatio:hammer_gold'))
 mods.jei.yeet(item('exnihilocreatio:item_material', 7))
 mods.jei.yeet(item('exnihilocreatio:item_material', 6))
+crafting.removeByOutput(item('exnihilocreatio:block_end_cake'))
+
+crafting.addShaped('end_cake', item('exnihilocreatio:block_end_cake'), [
+ [item('minecraft:ender_eye'), metaitem('quantumeye'), item('minecraft:ender_eye')],
+ [item('minecraft:ender_eye'), item('minecraft:cake'), item('minecraft:ender_eye')],
+ [item('minecraft:ender_eye'), metaitem('quantumeye'), item('minecraft:ender_eye')]])
 
 crafting.addShaped('crucible', item('exnihilocreatio:block_crucible', 1), [
  [item('minecraft:brick'), null, item('minecraft:brick')],
