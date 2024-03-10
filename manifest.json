@@ -500,6 +500,16 @@
          "fileID":2733525,
          "projectID":241895,
          "required":true
+      },
+      {
+         "fileID":4606884,
+         "projectID":394535,
+         "required":true
+      },
+      {
+         "fileID":5102240,
+         "projectID":454372,
+         "required":true
       }
    ],
    "manifestType":"minecraftModpack",
