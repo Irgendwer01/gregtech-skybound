@@ -86,3 +86,11 @@ for (entry : plants) {
     .duration(60)
     .buildAndRegister()
 }
+
+  recipemap('greenhouse').recipeBuilder()
+    .notConsumable(item('exnihilocreatio:item_material', 3))
+    .fluidInputs(liquid('witchwater')*1000)
+    .outputs(item('exnihilocreatio:item_material', 3)*3)
+    .EUt(120)
+    .duration(200)
+    .buildAndRegister()
