@@ -1,5 +1,5 @@
 {
-  "build:8": "0.6-Dev-2",
+  "build:8": "4.2.1",
   "format:8": "2.0.0",
   "questDatabase:9": {
     "0:10": {
@@ -988,7 +988,7 @@
           "consume:1": 0,
           "entryLogic:8": "AND",
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
           "partialMatch:1": 1,
           "requiredItems:9": {
