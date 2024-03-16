@@ -1112,7 +1112,7 @@
             },
             "1:10": {
               "Count:3": 1,
-              "Damage:2": 265,
+              "Damage:2": 327,
               "OreDict:8": "",
               "id:8": "gregtech:meta_ore_chunk"
             },
@@ -4398,7 +4398,7 @@
   },
   "questSettings:10": {
     "betterquesting:10": {
-      "editmode:1": 1,
+      "editmode:1": 0,
       "hardcore:1": 0,
       "home_anchor_x:5": 0.5,
       "home_anchor_y:5": 0.0,
