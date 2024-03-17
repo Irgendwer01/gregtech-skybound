@@ -510,7 +510,17 @@
          "fileID":5102240,
          "projectID":454372,
          "required":true
-      }
+      },
+      {
+         "fileID":5002181,
+         "projectID":951064,
+         "required":true
+      },
+      {
+         "fileID":2524058,
+         "projectID":78778,
+         "required":true
+      },
    ],
    "manifestType":"minecraftModpack",
    "manifestVersion":1,
