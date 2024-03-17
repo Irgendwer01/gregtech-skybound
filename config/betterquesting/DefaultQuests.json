@@ -1557,6 +1557,12 @@
               "Damage:2": 2064,
               "OreDict:8": "",
               "id:8": "gregtech:meta_ore_chunk"
+            },
+            "4:10": {
+              "Count:3": 1,
+              "Damage:2": 276,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_ore_chunk"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -3702,19 +3708,19 @@
             },
             "1:10": {
               "Count:3": 1,
-              "Damage:2": 276,
+              "Damage:2": 272,
               "OreDict:8": "",
               "id:8": "gregtech:meta_ore_chunk"
             },
             "2:10": {
               "Count:3": 1,
-              "Damage:2": 341,
+              "Damage:2": 332,
               "OreDict:8": "",
               "id:8": "gregtech:meta_ore_chunk"
             },
             "3:10": {
               "Count:3": 1,
-              "Damage:2": 272,
+              "Damage:2": 2028,
               "OreDict:8": "",
               "id:8": "gregtech:meta_ore_chunk"
             }
