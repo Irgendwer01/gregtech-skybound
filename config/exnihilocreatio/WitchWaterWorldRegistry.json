@@ -1,13 +1,4 @@
 {
-   "lava":{
-      "minecraft:stone:5":20,
-      "minecraft:stone:1":40,
-      "minecraft:stone:3":20,
-      "gregtech:stone_smooth:2":8,
-      "gregtech:stone_smooth:3":8,
-      "gregtech:stone_smooth:1":8,
-      "gregtech:stone_smooth:0":8
-   },
    "water":{
       "minecraft:dirt":1
    }
