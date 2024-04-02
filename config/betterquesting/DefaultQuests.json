@@ -1,5 +1,5 @@
 {
-  "build:8": "4.2.1",
+  "build:8": "4.2.2",
   "format:8": "2.0.0",
   "questDatabase:9": {
     "0:10": {
@@ -823,7 +823,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "As mentioned in an earlier quest, §2Witch Water§f allows you to make an unlimited §2Stone§f generator that generates any type of Stone! \nIt works just like an cobblestone generator, but instead of the §2Water§f place there §2Lava§f and where the §2Lava§f normally is §2Witch Water§f.\n\nIt is important that the §2Witch Water§f floats to the §2Lava§f, not the other way around because then it creates an normal cobblestone generator! ",
+          "desc:8": "As mentioned in an earlier quest, §2Witch Water§f allows you to make an unlimited §2Stone§f generator that generates any type of Stone! \n\nJust like in an normal Cobblestone generator, let the §2Lava§f flow to the §2Witchwater§f to create Stones. \n\nDifferent stream lengths of the §2Witch Water§f will create different §3§2Stones§f as followed:\n\n1 Block - §2Diorite\n§f2-3 Blocks - §2Granite\n§f4-7 Blocks - §2Andesite",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
