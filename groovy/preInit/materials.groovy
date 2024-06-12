@@ -8,7 +8,7 @@ event_manager.listen { MaterialEvent event ->
             .gem()
             .color(0x674FAF).iconSet('CERTUS')
             .flags('generate_plate', 'disable_decomposition', 'no_smelting', 'crystallizable', 'generate_bolt_screw', 'generate_foil')
-            .components(material('certus_quartz'), 1, material('nether_quartz'), 1, material('redstone'), 1)
+            .components(material('certus_quartz') * 1, material('nether_quartz') * 1, material('redstone') * 1)
             .build()
   material('certus_quartz').addFlags('generate_bolt_screw')
 }

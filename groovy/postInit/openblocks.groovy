@@ -1,7 +1,7 @@
-mods.jei.yeet(item('openblocks:item_dropper'))
-mods.jei.yeet(item('openblocks:block_placer'))
-mods.jei.yeet(item('openblocks:village_highlighter'))
-mods.jei.yeet(item('openblocks:tank'))
+mods.jei.ingredient.yeet(item('openblocks:item_dropper'))
+mods.jei.ingredient.yeet(item('openblocks:block_placer'))
+mods.jei.ingredient.yeet(item('openblocks:village_highlighter'))
+mods.jei.ingredient.yeet(item('openblocks:tank'))
 crafting.removeByOutput(item('openblocks:block_breaker'))
 
 mods.chisel.carving.addGroup('elevator')
