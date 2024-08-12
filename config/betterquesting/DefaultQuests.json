@@ -2084,7 +2084,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Ore Processing in Gregtech will double the output and if done complete will give some neat byproducts, but with the current machines it\u0027s way too slow to do. \nSo you should ignore it before§e Age 3§f§,, because the amount of ores you get at this moment will last you for a while without doubling it.",
+          "desc:8": "Ore Processing in Gregtech will double the output and if done complete will give some neat byproducts, but with the current machines it\u0027s way too slow to do. \nSo you should ignore it before§e Age 3 (High Voltage)§f§,, because the amount of ores you get at this moment will last you for a while without doubling it.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -3775,7 +3775,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "This Quest explains how §3Energy§2§f works in Gregtech.\n\nLike in real life, you have§2 Amperage§f and §2Voltage§f. Each §2§3Tier §fhas an specific amount of §2Voltage§f that it can handle maximum. For example, §e§2§2§3§eULV §2§fhas an §2Voltage§f of 16 §3EU {Energy Units§f§3}§f§f per tick, so it§f can handle all recipes that take up to 16 §3Energy Units§f per tick. Anything above is §2§eLV§f, which can handle up to 32 §3Energy Units §fper tick and so on.\nEach §2Cable§f also has an §3§2Voltage §floss per Block! Be sure to watch out for that!\n\n§2Amperage§f§2 {Amps} §ftakes the §3Energy Units§f§f xN, where N is the number of §2Amps§f. Each §2§3Tier §fhas x4 §3§3§2Amps§f of the lower §4§3Tier§f, so you can power as example an §2§3§eMV §fMachine with an §2Cable§f with §2§eLV §fpower that has x4 §2Amps§f or more.\n\nNOTE: While you can power an §2§eLV §fMachine with an §2§eLV§f §2Cable§f that has §2Amps§f higher than 1, but you can\u0027t power it with an §eMV §f§2Cable§f, it will EXPLODE! This has the reason that the §2Cable§f of the corresponding §3Tier§f will only output as much §3§2Voltage§f as the Machine needs.",
+          "desc:8": "This Quest explains how §3Energy§2§f works in Gregtech.\n\nLike in real life, you have§2 Amperage§f and §2Voltage§f. Each §2§3Tier §fhas an specific amount of §2Voltage§f that it can handle maximum. For example, §e§2§2§3§eULV §2§fhas an §2Voltage§f of 16 §3EU {Energy Units§f§3}§f§f per tick, so it§f can handle all recipes that take up to 16 §3Energy Units§f per tick. Anything above is §2§eLV§f, which can handle up to 32 §3Energy Units §fper tick and so on.\nEach §2Cable§f also has an §3§2Voltage §floss per Block! Be sure to watch out for that!\n\n§2Amperage§f§2 {Amps} §ftakes the §3Energy Units§f§f xN, where N is the number of §2Amps§f. Each §2§3Tier §fhas x4 §3§3§2Amps§f of the lower §4§3Tier§f.\n\nNOTE: While you can power an §2§eLV §fMachine with an §2§eLV§f §2Cable§f that has §2Amps§f higher than 1, but you can\u0027t power it with an §eMV §f§2Cable§f, it will EXPLODE! This has the reason that the §2Cable§f of the corresponding §3Tier§f will only output as much §3§2Voltage§f as the Machine needs.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -3843,6 +3843,1040 @@
         "0:10": {
           "index:3": 0,
           "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "62:10": {
+      "preRequisites:11": [
+        59
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "All §eGregTech§r Machines (except steam machines) can §a§e§f§r§1§2auto-output§r§r through their output face.  To enable §r§r§§auto-output§r, click the appropriate button in the GUI. Fluid and item auto-outputs are toggled separately. Further control over auto-outputs can be achieved with §eFilters§r and §eCovers§r, which are explained in the quest above this one.\n",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "minecraft:hopper"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Machine Auto-Output Behaviour",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 62,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "63:10": {
+      "preRequisites:11": [
+        59
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "§2Covers§r are placed by right-clicking with a cover in hand on a face of a machine, and removed with a §4§r§eCrowbar§r (or by mining the machine, but that\u0027s way slower).\n\nPretty much any §2GregTech§r machine will accept Covers, even if they wouldn\u0027t provide any functionality.\n\nOpening a Cover is done by sneak-right-clicking it with an §eempty hand§r. You can also right-click with a §eScrewdriver§r, or sneak-right-click on another face using the grid.\n\nFor Covers that transfer Items/Fluids, you will have a button to enable/disable other forms of transfer through the cover.\n\n§c- Disabled:§r only the cover will be allowed to transfer on this machine side.\n\n§2- §2Allow Filtered (only relevant with a filter!):§r other transfer will be enabled only if it matches the filter.\n\n§e- Allow Unfiltered:§r any other transfer is allowed on this machine side.\n\n§2Covers§r works independently of §evoltage§r tiers, so placing a higher voltage cover on a lower voltage machine is §3safe§r, though higher tier covers gives §3faster transfer speeds§r.\n",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 301,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "GregTech Covers",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 63,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "64:10": {
+      "preRequisites:11": [
+        60
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "The §eLathe§r is an important machine to help shape metals. Thanks to it, you can turn one §2Ingot§r into two §3Rods§\u0026, and one §2Bolt§r into one §3screw.§r That\u0027s twice the efficiency on those recipes as opposed to crafting by hand.\n",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 440,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Lathe",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 64,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "entryLogic:8": "AND",
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 440,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "65:10": {
+      "preRequisites:11": [
+        60
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "the §eBending Machine§r unlocks the ability to convert one §2Ingot§r into one §3Plate§r, which is a better ratio than the Forge Hammer.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 140,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Bending Machine",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 65,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "entryLogic:8": "AND",
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 140,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "66:10": {
+      "preRequisites:11": [
+        60
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "The Wiremill lets you make §etwo§r Wires from one Ingot. That should be three times cheaper than what you were doing up until now!\n\nTo the right of this Quest, you\u0027ll find some important machines which will grant you cheaper intermediates.\n\nYou will need a §eProgrammed Circuit§r for most recipes. Read the §eProgrammed Circuit§r for further details.\n\n§2Note: Recipes inside §3LV Machines§r§2 go up to a maximum usage of §2§332 EU/t (LV)§r§2. Anything higher than that and you will need a §1§2§3§6§7§7§6MV§r§2 (or better) Machine. Needless to say, we aren\u0027t quite there yet.\n§\n§r\n",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 620,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Wiremill",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 66,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "entryLogic:8": "AND",
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 620,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "67:10": {
+      "preRequisites:11": [
+        60
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "The §ePolarizer§r is one of the cheapest - if not the cheapest - §2LV§r machine. Use this to make §3Redstone-free Magnetic Rods§r for your Motors. Whenever you start to batch your Motors, this machine will save you stacks and stacks of Redstone.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 545,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Polarizer",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 67,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "entryLogic:8": "AND",
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 545,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "68:10": {
+      "preRequisites:11": [
+        59
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "§eSuperconductors§r are special Wires available for each Voltage tier. They don\u0027t come with a Cable counterpart, but that isn\u0027t necessary, as they have absolutely §2zero cable loss.§r\n\nThey also won\u0027t damage you when you touch them. This makes them the best choice for wiring, if not a little expensive in comparison to the other wires.\n\n§2Note: You can\u0027t get the LV superconductor (Manganese Phosphide) until MV, so you\u0027re stuck with tin cables for now.§r\n\n",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 424,
+            "OreDict:8": "",
+            "id:8": "gregtech:wire_quadruple"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Superconductors",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 68,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "69:10": {
+      "preRequisites:11": [
+        59,
+        21
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "The §eLarge Boiler§o§r is an §3optional§r big-boy variant of the Small Boilers. Burning solid or liquid fuel and producing large amounts of steam, you have access to the §eLarge Bronze Boiler§r for now.\n\nIf you want Steam-based power production, this will be your first port-of-call. Other power options are listed in the §3MV§r chapter.\n\n§4§cImportant:§r This Boiler §lCAN§r also §cexplode§r similarly to the regular Boilers! Usually, the explosion can be rather devastating... but it\u0027s configured to not damage blocks or entities in this modpack.\n\n\n§b§3Water supply§r is §ecrucial§o.§§  Dedicate a §3Primitive Pump§r with a §3LV§r Output Hatch in the §6§c§b§2same chunk§o§r as the Boiler. Any biome will still be enough to supply enough water.\n\nOnce fully heated up, the §eLBB§r produces 800 Steam per tick, which is §e400EU/t§r after conversion, or 12.5 Basic Steam Turbines. Such (relatively!) immense power comes at the cost of §ca lot§r of burnable fuel.\n\n\n§2With this in consideration§r, the GUI lets you §cthrottle§r the Boiler down to 25% power for less steam production in exchange for less fuel usage.\n",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 1013,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Large Bronze Boiler",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 69,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "entryLogic:8": "AND",
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 1013,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            },
+            "1:10": {
+              "Count:3": 20,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:metal_casing"
+            },
+            "2:10": {
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:boiler_firebox_casing"
+            },
+            "3:10": {
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:boiler_casing"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "70:10": {
+      "preRequisites:11": [
+        60
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "the §eBattery Buffer§r does nothing. However, if you place batteries inside its internal storage, it will act as a §2power buffer.\n\n§r§eBattery Buffers§r handles §3two Amps in§o§r, and §2one Amp out§r, per Battery. The output side has the dot, and all other sides are used as inputs.\n\n§2Note: You can also charge your tools directly inside the buffer!§r",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 1336,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Battery Buffers",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "OR",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 70,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "entryLogic:8": "AND",
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 1316,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "entryLogic:8": "AND",
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 1336,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "71:10": {
+      "preRequisites:11": [
+        71,
+        60
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "The §eChemical Reactor§r will be required for §2§3§2A lot§r of recipes.\n\nIt can be used to make rubber at a §23x§r discount compared to the alloy smelter you have been using.\n\nto get rubber sheets though, you will have to make a §eFluid solidifier§r, check the fluid solidifier quest for more details.\n",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 215,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Chemical Reactor",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 71,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "entryLogic:8": "AND",
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 215,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "72:10": {
+      "preRequisites:11": [
+        60
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "The §eFluid Solidifier§r turns §4§3Fluids§r into items, and needs a §2Mold§r to cast the fluid. It can be used to make §2§2§2Gears§r§r§r and §2§2§2Rotors§r§r§r more efficiently.\n\nYou can place your §eFluid Solidifer§r next to your §3Chemical Reactor§r to directly make 9 rubber sheets from 3 raw rubber pulp and 1 sulfur.\n",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 395,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Fluid solidifier",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 72,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "entryLogic:8": "AND",
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 395,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "entryLogic:8": "AND",
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 9,
+              "Damage:2": 1068,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_plate"
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
+        }
+      }
+    },
+    "73:10": {
+      "preRequisites:11": [
+        60
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "The §eAssembling Machine§r allows for better yields than your hand tools for things like §2vacuum tubes§r and §3resistors§r.\n\nIt is required to make §2Cupronickel coils§r, which is required for your next milestone, the §3Electric Blast Furnace§r.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 110,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Assembling Machine",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 73,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "entryLogic:8": "AND",
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 110,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "74:10": {
+      "preRequisites:11": [
+        60,
+        76
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "The §eArc Furnace§r allows for easier recipes with §2Glass§r and §3Wrought Iron§r with a bit oxygen.\n\nIt be also be used to recycled machines into some of its original parts.\n\n",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 95,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Arc Furnace",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 74,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "entryLogic:8": "AND",
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 95,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "entryLogic:8": "AND",
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 335,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_ingot"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "minecraft:glass"
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
+        }
+      }
+    },
+    "75:10": {
+      "preRequisites:11": [
+        60,
+        73
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "The §eElectric Blast Furnace§r is your first electric multiblock, congrats!\n\nIt can be used to smelt §2Aluminium dust §rinto §3Aluminium§r, the key material for §3Medium Voltage.§r \n\nThis beefy boy eats up at least §3120EU/t§r, which means that you need §22 LV energy hatch§r to power it, along with at least §2§2§64 LV steam turbines.\n\n§rAlong with the usual input and output bus, the blast furnace also needs a §3Muffler hatch§r and a §2Maintenance hatch.§r The muffler hatch must be placed at the middle of the top layer and §c\n\ncan not §rbe blocked by anyhting, the §2Maintenance hatch§r will be explained in the §dMaintenance§r quest.\n\n",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 1001,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Electric Blast Furnace",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 75,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "entryLogic:8": "AND",
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 1001,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            },
+            "1:10": {
+              "Count:3": 16,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:wire_coil"
+            },
+            "2:10": {
+              "Count:3": 10,
+              "Damage:2": 2,
+              "OreDict:8": "",
+              "id:8": "gregtech:metal_casing"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "entryLogic:8": "AND",
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 2,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_ingot"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "76:10": {
+      "preRequisites:11": [
+        60
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Oxygen can be obtained from several methods:\n\n§2- Centrifuging Air collected by a gas collector.§r\n\n§2§3§2- Electrolysing silicon dioxide obtained from glass dust.\n\n§rchoose whichever is the best for you.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "forge:bucketfilled",
+            "tag:10": {
+              "Amount:3": 1000,
+              "FluidName:8": "liquid_oxygen"
+            }
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Oxygen",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 76,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "entryLogic:8": "AND",
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "forge:bucketfilled",
+              "tag:10": {
+                "Amount:3": 1000,
+                "FluidName:8": "oxygen"
+              }
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "77:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Some multiblocks from now on requires §eMaintenance hatches.§r You will need to perform Maintenance for the Multiblock to begin operating those.\n\nThis is done by having a §3Wrench, a Screwdriver, a Soft Mallet, a Hammer, a Wire Cutter, and a Crowbar§r in your inventory, opening the Maintenance Hatch and §eclicking the center spot once§r. §cThere\u0027s no need to move tools individually.§r\n\nAlternatively, you can circumvent these problems by placing a §3Tape§r in the Maintenance Hatch. Tape is gated behind some polymers starting from §1§3MV.§§r\n\nMaintenance problems have a §35%§r chance of occuring every hour of multiblock activity. Needless to say, they are very rare. Each maintenance problem increases the recipe duration by §c10%§r, Fixing these problems is done the same way as above.\n\nAt §6HV§r, you\u0027ll unlock other Maintenance Hatches that do not require manual repairs.\n",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 1654,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Multiblock Maintenance",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 77,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "entryLogic:8": "AND",
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 1654,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "78:10": {
+      "preRequisites:11": [
+        59
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Machines like the §eLV Alloy smelter§r are not shown here is because they are §cnot required§r as they do the same things as the steam counterparts and at the same speed.\n\n§2Note: The LV extractor now can extract fluids compared to their steam counterparts.§r",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 80,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "No Alloy smelter?",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 78,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "79:10": {
+      "preRequisites:11": [
+        59
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "These machines parts are required to craft §3LV§r machines, they also works as §2Covers§r themselves.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 127,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "LV Parts",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 79,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "entryLogic:8": "AND",
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 127,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 142,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            },
+            "2:10": {
+              "Count:3": 1,
+              "Damage:2": 157,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            },
+            "3:10": {
+              "Count:3": 1,
+              "Damage:2": 187,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
         }
       }
     }
@@ -4335,6 +5369,97 @@
           "sizeY:3": 24,
           "x:3": -12,
           "y:3": 24
+        },
+        "2:10": {
+          "id:3": 64,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 12,
+          "y:3": 60
+        },
+        "3:10": {
+          "id:3": 65,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -36,
+          "y:3": 60
+        },
+        "4:10": {
+          "id:3": 66,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -72,
+          "y:3": 60
+        },
+        "5:10": {
+          "id:3": 67,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 48,
+          "y:3": 60
+        },
+        "6:10": {
+          "id:3": 69,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -108,
+          "y:3": -12
+        },
+        "7:10": {
+          "id:3": 70,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -108,
+          "y:3": 24
+        },
+        "8:10": {
+          "id:3": 71,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -36,
+          "y:3": 96
+        },
+        "9:10": {
+          "id:3": 72,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -72,
+          "y:3": 96
+        },
+        "10:10": {
+          "id:3": 73,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -12,
+          "y:3": 144
+        },
+        "11:10": {
+          "id:3": 74,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 12,
+          "y:3": 96
+        },
+        "12:10": {
+          "id:3": 75,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -12,
+          "y:3": 180
+        },
+        "13:10": {
+          "id:3": 76,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 90,
+          "y:3": 96
+        },
+        "14:10": {
+          "id:3": 79,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 48,
+          "y:3": -12
         }
       }
     },
@@ -4398,6 +5523,34 @@
           "sizeY:3": 24,
           "x:3": 36,
           "y:3": 36
+        },
+        "6:10": {
+          "id:3": 62,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 36,
+          "y:3": 72
+        },
+        "7:10": {
+          "id:3": 63,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 0,
+          "y:3": 72
+        },
+        "8:10": {
+          "id:3": 68,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -36,
+          "y:3": 72
+        },
+        "9:10": {
+          "id:3": 78,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 72,
+          "y:3": 72
         }
       }
     }
