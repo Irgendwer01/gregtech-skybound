@@ -11,5 +11,7 @@ and copy the output to the `hash` field for the mod in `mainifest.json`
 
 ## Credits
 Thanks to the whole GTCEu team for making this awesome mod
+
 Thanks to @kastaqt for the BQ designs  
+
 Thanks to all the people who made the mods, used in this pack.  
