@@ -10,8 +10,8 @@ To update external mods, you need to download the updated version and run `pytho
 and copy the output to the `hash` field for the mod in `mainifest.json`
 
 ## Credits
-Thanks to the whole GTCEu team for making this awesome mod  
-Thanks to Prototype Trousers for making ae2 unofficial extended life  
-Thanks to UserNM for his awesome ciruit textures https://github.com/Usernm0/Gregtech-5-Circuits-32x32-Usernm  
-Thanks to https://www.curseforge.com/minecraft/texture-packs/colored-gt-casings and https://www.curseforge.com/minecraft/texture-packs/zedtech for those texturepacks  
+Thanks to the whole GTCEu team for making this awesome mod
+
+Thanks to @kastaqt for the BQ designs  
+
 Thanks to all the people who made the mods, used in this pack.  
