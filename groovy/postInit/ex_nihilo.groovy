@@ -23,8 +23,6 @@ mods.jei.ingredient.yeet(item('exnihilocreatio:crook_blaze'))
 mods.jei.ingredient.yeet(item('exnihilocreatio:item_material', 1))
 mods.jei.ingredient.yeet(item('exnihilocreatio:hammer_diamond'))
 mods.jei.ingredient.yeet(item('exnihilocreatio:hammer_gold'))
-mods.jei.ingredient.yeet(item('exnihilocreatio:item_material', 7))
-mods.jei.ingredient.yeet(item('exnihilocreatio:item_material', 6))
 crafting.removeByOutput(item('exnihilocreatio:block_end_cake'))
 
 crafting.addShaped('end_cake', item('exnihilocreatio:block_end_cake'), [
