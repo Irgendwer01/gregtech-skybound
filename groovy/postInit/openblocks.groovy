@@ -73,7 +73,7 @@ for (def elevator_rotating : ore('elevator_rotating')) {
 
 crafting.addShaped('block_breaker', item('openblocks:block_breaker'), [
  [metaitem('plateIron'), metaitem('plateIron'), item('minecraft:cobblestone')],
- [metaitem('toolHeadBuzzSawWroughtIron'), item('minecraft:redstone'), item('minecraft:cobblestone')],
+ [metaitem('toolHeadBuzzSawWroughtIron'), item('minecraft:iron_ingot'), item('minecraft:cobblestone')],
  [metaitem('plateIron'), metaitem('plateIron'), item('minecraft:cobblestone')]])
  
 crafting.addShaped('openblocks_elevator', item('openblocks:elevator'), [
