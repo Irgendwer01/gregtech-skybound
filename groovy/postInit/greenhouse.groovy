@@ -1,16 +1,3 @@
-import gregtech.common.metatileentities.MetaTileEntities
-
-import classes.MetaTileEntityGreenhouse
-
-if (!isReloading()) {
-MetaTileEntities.registerMetaTileEntity(32000, new MetaTileEntityGreenhouse(new ResourceLocation("multiblocktweaker", "greenhouse")))
-}
-
-crafting.addShaped('green_house', metaitem('multiblocktweaker:greenhouse'), [
- [metaitem('robot.arm.mv'), metaitem('electric.motor.mv'), metaitem('robot.arm.mv')],
- [ore('circuitMv'), metaitem('hull.mv'), ore('circuitMv')],
- [metaitem('cableGtSingleCopper'), ore('circuitMv'), metaitem('cableGtSingleCopper')]])
-
 def logs = [
  item('minecraft:log'),
  item('minecraft:log', 1),

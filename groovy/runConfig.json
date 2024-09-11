@@ -4,7 +4,8 @@
   "version": "1.0.0",
   "debug": false,
   "classes": [
-      "classes/MetaTileEntityGreenhouse.groovy"
+      "classes/MetaTileEntityGreenhouse.groovy",
+      "classes/MetaTileEntitySteamLargeHammer.groovy"
 ],
   "loaders": {
     "preInit": [
