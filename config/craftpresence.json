@@ -116,7 +116,7 @@
       "activityType": 0,
       "partyPrivacy": 1,
       "details": "{getFirst(menu.message, dimension.message)}",
-      "gameState": "{getOrDefault(server.message)} {getOrDefault(pack.name)}",
+      "gameState": "{getOrDefault(server.message)}",
       "largeImageKey": "{getFirst(menu.icon, dimension.icon)}",
       "largeImageText": "{getFirst(menu.message, dimension.message)}",
       "smallImageKey": "{getFirst(server.icon, pack.icon)}",
@@ -131,8 +131,8 @@
       }
     },
     "dynamicIcons": {
-      "default": "https://via.placeholder.com/256.png",
-      "Irgendwer1": "https://mc-heads.net/avatar/a7d91a8e1d744fec869fc3a316ce351d"
+      "Irgendwer1": "https://mc-heads.net/avatar/a7d91a8e1d744fec869fc3a316ce351d",
+      "default": "https://via.placeholder.com/256.png"
     },
     "dynamicVariables": {
       "default": "Example Text",
