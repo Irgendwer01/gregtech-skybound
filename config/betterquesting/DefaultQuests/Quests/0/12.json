@@ -1,0 +1,53 @@
+{
+  "preRequisites:11": [
+    11
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "autoclaim:1": 0,
+      "desc:8": "The §2Crucible§f made out of §2Bricks§f will allow you to obtain §2Lava§f easily by putting any Stones in it when an appropiate heat source like an §2Torch§f is under it. \nBe sure to check JEI which stone yields the most §2Lava§!!",
+      "frame:8": "ROUNDED_SQUARE",
+      "globalshare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1,
+        "OreDict:8": "",
+        "id:8": "exnihilocreatio:block_crucible"
+      },
+      "ignoresview:1": 0,
+      "ismain:1": 0,
+      "issilent:1": 0,
+      "lockedprogress:1": 0,
+      "name:8": "Crucible",
+      "questlogic:8": "AND",
+      "repeat_relative:1": 1,
+      "repeattime:3": -1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "tasklogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "entryLogic:8": "AND",
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "OreDict:8": "",
+          "id:8": "exnihilocreatio:block_crucible"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

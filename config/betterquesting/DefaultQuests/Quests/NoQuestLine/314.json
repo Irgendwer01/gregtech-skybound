@@ -1,0 +1,70 @@
+{
+  "preRequisites:11": [],
+  "properties:10": {
+    "betterquesting:10": {
+      "autoclaim:1": 0,
+      "desc:8": "A completely §doptional§r Multiblock (§oin playtesting, I kept using HV singleblock miners and was content with them§r).\n\nThe §3Larger Miner§r is ridiculously good to collect ores from veins!\n\nOres are mined as if they were §amacerated§r, but they yield §6three times§r as many §dCrushed ores§r.\n\nYou will need §aDrilling Fluid§r automation to run this.\n\nYou might also want to use a §3Quantum Tunnel§r from AE2 and §3GTEU P2P Tunnels§r to transfer the items and to power it up.\n\n\n§bLore:§r There were some interesting side effects from porting this over from Gregicality, as the multiblock originated from GregTech 5... It\u0027s not perfect, as there isn\u0027t really any advantage on upgrading this miner to the advanced versions. We were thinking of rebalancing the energy costs and yield per tier, so there may be rework for this miner at some point!",
+      "frame:8": "ROUNDED_SQUARE",
+      "globalshare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1026,
+        "OreDict:8": "",
+        "id:8": "gregtech:machine"
+      },
+      "ignoresview:1": 0,
+      "ismain:1": 0,
+      "issilent:1": 0,
+      "lockedprogress:1": 0,
+      "name:8": "Multiblock Miner",
+      "questlogic:8": "AND",
+      "repeat_relative:1": 1,
+      "repeattime:3": -1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "tasklogic:8": "AND",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 80,
+          "OreDict:8": "",
+          "id:8": "gregtech:meta_item_1",
+          "tag:10": {
+            "Fluid:10": {
+              "Amount:3": 8000,
+              "FluidName:8": "drilling_fluid"
+            }
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "entryLogic:8": "AND",
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1026,
+          "OreDict:8": "",
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

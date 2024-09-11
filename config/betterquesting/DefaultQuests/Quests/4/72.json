@@ -1,0 +1,72 @@
+{
+  "preRequisites:11": [],
+  "properties:10": {
+    "betterquesting:10": {
+      "autoclaim:1": 0,
+      "desc:8": "§aBatteries§r for storing energy! They can be put into the energy slot at the bottom middle of machine GUIs, or in a §3Battery Buffer§r.\n\nBatteries in your inventory can be shift right-clicked to enable §dcharging§r your EU items.\n\n§7LV§r, §bMV§r, and §6HV§r Batteries come in three forms, allowing you to pick the one you find the best depending on materials you have. §dLithium§r has the best capacity, followed by §dCadmium§r, then §dSodium§r.\n\nMy recommendation is: find a Salt vein, and either §aelectrolyze Salt§r for §dSodium§r, or §aOre wash crushed Lepidolite§r for §dLithium§r.\n\n\nGet §eany§r Battery to complete this quest.",
+      "frame:8": "GATE",
+      "globalshare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 735,
+        "OreDict:8": "",
+        "id:8": "gregtech:meta_item_1",
+        "tag:10": {
+          "Charge:4": 120000
+        }
+      },
+      "ignoresview:1": 0,
+      "ismain:1": 1,
+      "issilent:1": 0,
+      "lockedprogress:1": 0,
+      "name:8": "Batteries!",
+      "questlogic:8": "AND",
+      "repeat_relative:1": 1,
+      "repeattime:3": -1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "tasklogic:8": "OR",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "entryLogic:8": "AND",
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 732,
+          "OreDict:8": "",
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "entryLogic:8": "AND",
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 2,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 735,
+          "OreDict:8": "",
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

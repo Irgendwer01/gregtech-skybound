@@ -1,0 +1,175 @@
+{
+  "preRequisites:11": [
+    17
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "autoclaim:1": 0,
+      "desc:8": "Gregtech also has Tools that are mainly used for Crafting like the §a§3§2Hammer §for §2File§e.\n\n§fThose will be used ALOT in the progression, but don\u0027t worry, you can later on make items like §2Plates §fand §2Screws §fin machines so you don\u0027t have to make it by hand all the time.\n\nNOTE: This quest accepts either§2 Wrought Iron§f or §2Iron §ftools.",
+      "frame:8": "ROUNDED_SQUARE",
+      "globalshare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "gregtech:hammer",
+        "tag:10": {
+          "DisallowContainerItem:1": 0,
+          "GT.Behaviours:10": {},
+          "GT.Tool:10": {
+            "AttackDamage:5": 3.0,
+            "AttackSpeed:5": -2.8,
+            "Durability:3": 0,
+            "HarvestLevel:3": 2,
+            "Material:8": "gregtech:iron",
+            "MaxDurability:3": 255,
+            "ToolSpeed:5": 6.0
+          },
+          "HideFlags:3": 2
+        }
+      },
+      "ignoresview:1": 0,
+      "ismain:1": 0,
+      "issilent:1": 0,
+      "lockedprogress:1": 0,
+      "name:8": "First Tools",
+      "questlogic:8": "AND",
+      "repeat_relative:1": 1,
+      "repeattime:3": -1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "tasklogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "entryLogic:8": "AND",
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "craftingToolHardHammer",
+          "id:8": "gregtech:hammer",
+          "tag:10": {
+            "DisallowContainerItem:1": 0,
+            "GT.Behaviours:10": {},
+            "GT.Tool:10": {
+              "AttackDamage:5": 3.0,
+              "AttackSpeed:5": -2.8,
+              "Durability:3": 32767,
+              "HarvestLevel:3": 2,
+              "Material:8": "gregtech:iron",
+              "MaxDurability:3": 255,
+              "ToolSpeed:5": 6.0
+            },
+            "HideFlags:3": 2
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "craftingToolFile",
+          "id:8": "gregtech:file",
+          "tag:10": {
+            "DisallowContainerItem:1": 0,
+            "GT.Behaviours:10": {},
+            "GT.Tool:10": {
+              "AttackDamage:5": 0.0,
+              "AttackSpeed:5": -2.4,
+              "Durability:3": 32767,
+              "Material:8": "gregtech:iron",
+              "MaxDurability:3": 255
+            },
+            "HideFlags:3": 2
+          }
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "craftingToolScrewdriver",
+          "id:8": "gregtech:screwdriver",
+          "tag:10": {
+            "DisallowContainerItem:1": 0,
+            "GT.Behaviours:10": {},
+            "GT.Tool:10": {
+              "AttackDamage:5": 1.0,
+              "AttackSpeed:5": 3.0,
+              "Durability:3": 32767,
+              "Material:8": "gregtech:iron",
+              "MaxDurability:3": 255
+            },
+            "HideFlags:3": 2
+          }
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "craftingToolSaw",
+          "id:8": "gregtech:saw",
+          "tag:10": {
+            "DisallowContainerItem:1": 0,
+            "GT.Behaviours:10": {
+              "HarvestIce:1": 1
+            },
+            "GT.Tool:10": {
+              "AttackDamage:5": 1.0,
+              "AttackSpeed:5": -2.6,
+              "Durability:3": 32767,
+              "Material:8": "gregtech:iron",
+              "MaxDurability:3": 255
+            },
+            "HideFlags:3": 2
+          }
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "craftingToolWireCutter",
+          "id:8": "gregtech:wire_cutter",
+          "tag:10": {
+            "DisallowContainerItem:1": 0,
+            "GT.Behaviours:10": {},
+            "GT.Tool:10": {
+              "AttackDamage:5": 1.0,
+              "AttackSpeed:5": -2.4,
+              "Durability:3": 32767,
+              "HarvestLevel:3": 2,
+              "Material:8": "gregtech:iron",
+              "MaxDurability:3": 255,
+              "ToolSpeed:5": 6.0
+            },
+            "HideFlags:3": 2
+          }
+        },
+        "5:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "craftingToolMortar",
+          "id:8": "gregtech:mortar",
+          "tag:10": {
+            "DisallowContainerItem:1": 0,
+            "GT.Behaviours:10": {},
+            "GT.Tool:10": {
+              "AttackDamage:5": 0.0,
+              "AttackSpeed:5": -2.4,
+              "Durability:3": 32767,
+              "Material:8": "gregtech:iron",
+              "MaxDurability:3": 255
+            },
+            "HideFlags:3": 2
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

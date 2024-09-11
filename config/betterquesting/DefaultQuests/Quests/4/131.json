@@ -1,0 +1,51 @@
+{
+  "preRequisites:11": [],
+  "properties:10": {
+    "betterquesting:10": {
+      "autoclaim:1": 0,
+      "desc:8": "You have unlocked a new Tier of Circuits!\nThe Integrated Logic Circuit is an alternate §7LV §aCircuit§r, which can be upgraded to §bMV§r, and then §6HV§r.\n\n\n§9Note:§r This is not a strict upgrade to the cost of Circuits, you would need to get to the next Tier for that, just slightly further down in the MV Age. Why would you need this Circuit type then? You need it to get to §6HV circuits§r.\n\n\n§bLore:§r The circuit progression in GTCEu is mostly based on GT5u\u0027s progression. However it has been rebalanced to not be as painful, specifically this circuit tier which was a complete bait!",
+      "frame:8": "ROUNDED_SQUARE",
+      "globalshare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 623,
+        "OreDict:8": "",
+        "id:8": "gregtech:meta_item_1"
+      },
+      "ignoresview:1": 0,
+      "ismain:1": 0,
+      "issilent:1": 0,
+      "lockedprogress:1": 0,
+      "name:8": "More LV Circuits",
+      "questlogic:8": "AND",
+      "repeat_relative:1": 1,
+      "repeattime:3": -1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "tasklogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "entryLogic:8": "AND",
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 623,
+          "OreDict:8": "",
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

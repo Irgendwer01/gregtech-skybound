@@ -1,0 +1,70 @@
+{
+  "preRequisites:11": [],
+  "properties:10": {
+    "betterquesting:10": {
+      "autoclaim:1": 0,
+      "desc:8": "Stainless Steel is pretty much any Steel you may encounter in everyday\u0027s life. It is extremely resilient against corrosion.§r§r\n\nStainless Steel is the material for §6HV§r components, like Aluminium for §bMV§r and Steel for §7LV§r. It is also used in high quantities for the §3Distillation Tower§r. It unlocks a lot of §6nice stuff§r as well!\n\nIt requires §cChrome§r, obtained mainly from §cRuby§r, and §2Manganese§r, obtained from §2Pyrolusite§r and others in its vein.\n\nSmelting Stainless Steel requires §dHV Power§r, which I highly doubt you have at this point. Scaling Power Production is crucial!\n\nWhat I would §9recommend§r would be to get a second EBF going. They can share blocks, so that is only §a10 Cupronickel Coils§r instead of 16.\nHave one EBF run off MV, for Aluminium and any other recipes requiring MV Power, and one running off HV with §32 MV Energy Hatches§r.",
+      "frame:8": "GATE",
+      "globalshare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 323,
+        "OreDict:8": "",
+        "id:8": "gregtech:meta_ingot"
+      },
+      "ignoresview:1": 0,
+      "ismain:1": 1,
+      "issilent:1": 0,
+      "lockedprogress:1": 0,
+      "name:8": "Stainless Steel",
+      "questlogic:8": "AND",
+      "repeat_relative:1": 1,
+      "repeattime:3": -1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "tasklogic:8": "AND",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 24,
+          "Damage:2": 22,
+          "OreDict:8": "",
+          "id:8": "gregtech:meta_dust"
+        },
+        "1:10": {
+          "Count:3": 24,
+          "Damage:2": 61,
+          "OreDict:8": "",
+          "id:8": "gregtech:meta_dust"
+        }
+      },
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "entryLogic:8": "AND",
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 323,
+          "OreDict:8": "",
+          "id:8": "gregtech:meta_ingot"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

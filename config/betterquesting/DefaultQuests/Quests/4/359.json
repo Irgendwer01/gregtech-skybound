@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [],
+  "properties:10": {
+    "betterquesting:10": {
+      "autoclaim:1": 0,
+      "desc:8": "This is the §9Nano§r Circuit line.\n\nStarting from here all circuits follow a similar pattern:\n§9-§r Processor\n§9-§r Assembly\n§9-§r Supercomputer\n§9-§r Mainframe",
+      "frame:8": "ROUNDED_SQUARE",
+      "globalshare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 989,
+        "OreDict:8": "",
+        "id:8": "gregtech:machine"
+      },
+      "ignoresview:1": 0,
+      "ismain:1": 0,
+      "issilent:1": 1,
+      "lockedprogress:1": 0,
+      "name:8": "Craftable in EV",
+      "questlogic:8": "AND",
+      "repeat_relative:1": 1,
+      "repeattime:3": -1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "tasklogic:8": "AND",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "rewards:9": {},
+  "tasks:9": {}
+}

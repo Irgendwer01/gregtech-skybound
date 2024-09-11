@@ -1,0 +1,65 @@
+{
+  "preRequisites:11": [
+    11
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "autoclaim:1": 0,
+      "desc:8": "§2Witch Water§e§f is an very useful fluid early and can be used to create as example an endless §2Dirt§f or §2Stone§f generator that generates all types of Stone!\n\nTo obtain §2Witch Water§f, use the §2Ancient Spores§f you obtained by sifting §2Dirt§f earlier on an 3x3 §2Dirt§f field by clicking on the middle block to transform it to §2Mycelium§f. Place an §2Barrel §fwith §2Water§a§f in it and it will begin slowly to transform into §2Witch Water§f! Note that this process also generates§2 Mushrooms§f.",
+      "frame:8": "ROUNDED_SQUARE",
+      "globalshare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "ceramics:clay_bucket",
+        "tag:10": {
+          "fluids:10": {
+            "Amount:3": 1000,
+            "FluidName:8": "witchwater"
+          }
+        }
+      },
+      "ignoresview:1": 0,
+      "ismain:1": 0,
+      "issilent:1": 0,
+      "lockedprogress:1": 0,
+      "name:8": "Witch Water",
+      "questlogic:8": "AND",
+      "repeat_relative:1": 1,
+      "repeattime:3": -1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "tasklogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "entryLogic:8": "AND",
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "ceramics:clay_bucket",
+          "tag:10": {
+            "fluids:10": {
+              "Amount:3": 1000,
+              "FluidName:8": "witchwater"
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

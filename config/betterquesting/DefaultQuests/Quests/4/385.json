@@ -1,0 +1,74 @@
+{
+  "preRequisites:11": [
+    384
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "autoclaim:1": 0,
+      "desc:8": "§oA power signularity!§r\n\nThe §aZPM Lapotronic Orb§r is even better than the §dLuV§r one! It of course comes at a price...\n\n§bLore§r: Imagine making 64 IV or 8 LuV Orbs for just one of these! See the Lore for the LuV orb for details.",
+      "frame:8": "GATE",
+      "globalshare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 750,
+        "OreDict:8": "",
+        "id:8": "gregtech:meta_item_1",
+        "tag:10": {
+          "Charge:4": 4000000000
+        }
+      },
+      "ignoresview:1": 0,
+      "ismain:1": 1,
+      "issilent:1": 0,
+      "lockedprogress:1": 0,
+      "name:8": "Mega Batteries",
+      "questlogic:8": "AND",
+      "repeat_relative:1": 1,
+      "repeattime:3": -1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "tasklogic:8": "AND",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "entryLogic:8": "AND",
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 750,
+          "OreDict:8": "",
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "entryLogic:8": "AND",
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 5,
+          "OreDict:8": "",
+          "id:8": "gregtech:battery_block"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}
