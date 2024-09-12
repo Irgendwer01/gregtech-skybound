@@ -12,6 +12,7 @@
       "preInit/"
     ],
     "postInit": [
+      "postInit/multiblocks.groovy",
       "postInit/"
     ]
   }
