@@ -5,7 +5,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoclaim:1": 0,
-      "desc:8": "The §2Steam Solar Boiler§f allows you to produce §3§2Steam§f with only §2Water§f and Sunlight!\n\nNOTE: The High Pressure variant will produce the double amount of §2Steam §fcompared to the normal one!",
+      "desc:8": "The §2Steam Solar Boiler§f allows you to produce §3§2Steam§f with only §2Water§f and Sunlight!\n\nNOTE: The High Pressure variant will produce the triple amount of §2Steam §fcompared to the normal one!",
       "frame:8": "ROUNDED_SQUARE",
       "globalshare:1": 0,
       "icon:10": {
