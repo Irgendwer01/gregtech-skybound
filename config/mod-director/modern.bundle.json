@@ -1,0 +1,66 @@
+{
+	"curse":
+	[
+		{
+    			"addonId": 1061104,
+    			"fileId": 5520060,
+    			"folder": "resourcepacks",
+    			"installationPolicy": {
+       				  "continueOnFailedDownload": false,
+       				  "optionalKey": "$",
+       			          "selectedByDefault": false,
+       			          "name": "Chisel Modern",
+       			          "description": "Modern textures for Chisel"
+    			},
+    			"metadata": {
+        			 "side": "CLIENT"
+    			}
+		},
+		{
+			"addonId": 300317,
+			"fileId": 5756264,
+    			"folder": "resourcepacks",
+    			"installationPolicy": {
+       				  "continueOnFailedDownload": false,
+       				  "optionalKey": "$",
+       			          "selectedByDefault": false,
+       			          "name": "Modernity",
+       			          "description": "Backport of the modern textures from newer versions"
+    			},
+    			"metadata": {
+        			 "side": "CLIENT"
+    			}
+		},
+		{
+			"addonId": 1088911,
+			"fileId": 5758708,
+    			"folder": "resourcepacks",
+    			"installationPolicy": {
+       				  "continueOnFailedDownload": false,
+       				  "optionalKey": "$",
+       			          "selectedByDefault": false,
+       			          "name": "Modernity Adjunct",
+       			          "description": "Modern textures for all other mods"
+    			},
+    			"metadata": {
+        			 "side": "CLIENT"
+    			}
+		}
+	],
+        "url":
+        [
+		{
+			"url": "https://cdn.modrinth.com/data/ZemCyvLM/versions/VkAoaulJ/GregTech%20Refreshed%20v0.7%20%5B1.12%5D.zip",
+    			"installationPolicy": {
+       				  "continueOnFailedDownload": false,
+       				  "optionalKey": "$",
+       			          "selectedByDefault": false,
+       			          "name": "Gregtech Refreshed",
+       			          "description": "What GTCEu uses in newer versions"
+    			},
+    			"metadata": {
+        			 "side": "CLIENT"
+    			}
+		}
+	]
+}

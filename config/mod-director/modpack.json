@@ -1,0 +1,9 @@
+{
+  "packName": "Gregtech: Skybound",
+  "icon":
+  {
+    "path": "config/mod-director/image.png",
+    "width": 320,
+    "height": 320
+  }
+}

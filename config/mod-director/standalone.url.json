@@ -1,3 +1,9 @@
 {
-    "url": "https://github.com/Irgendwer01/Standalone/releases/download/1.0/Standalone-1.12.2-1.0.0.jar"
+    "url": "https://github.com/Irgendwer01/Standalone/releases/download/1.0/Standalone-1.12.2-1.0.0.jar",
+    "installationPolicy": {
+       	   "continueOnFailedDownload": false,
+       	   "selectedByDefault": true,
+           "name": "Standalone",
+       	   "description": "NEEDED, DONT UNCHECK"
+    }
 }

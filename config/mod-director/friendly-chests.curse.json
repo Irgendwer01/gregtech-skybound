@@ -1,4 +1,10 @@
 {
     "addonId": 715086,
-    "fileId": 4476120
+    "fileId": 4476120,
+    "installationPolicy": {
+       	   "continueOnFailedDownload": false,
+       	   "selectedByDefault": true,
+           "name": "Friendly Chests",
+       	   "description": "NEEDED, DONT UNCHECK"
+    }
 }
