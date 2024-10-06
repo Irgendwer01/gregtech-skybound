@@ -43,3 +43,8 @@ crafting.addShaped('crafting_table', item('minecraft:crafting_table'), [
  [ore('plankWood'), ore('plankWood'), null],
  [ore('plankWood'), ore('plankWood'), null],
  [null, null, null]])
+
+crafting.addShaped('slab_oak', item('minecraft:wooden_slab')*3, [
+ [null, null, null],
+ [item('minecraft:planks'), item('minecraft:planks'), item('minecraft:planks')],
+ [null, null, null]])
