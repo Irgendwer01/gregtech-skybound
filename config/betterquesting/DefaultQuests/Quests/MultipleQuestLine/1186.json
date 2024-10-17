@@ -1,0 +1,89 @@
+{
+  "preRequisites:11": [
+    1009
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "autoclaim:1": 0,
+      "desc:8": "§oFeeling scientific?§r\n\nThis quest will explain a mechanic of the Assembly Line: §dResearch§r.\n\nRecipes in the assembly line will often require Research. This means you need to do a few extra things before the recipe will run. You\u0027ll notice there\u0027s a second tab in §3JEI§r: §dThe Scanner§r. Recipes needing Research will also have the output show in the Scanner\u0027s page.\n\n§9Scanning§r:\n\nScanning is the first step for research. Take the item shown in JEI and put it with a §3Data Stick§r to scan it. This will §4consume§r the item and put Data on the Data Stick. Pretty straightforward, right?\n\nYou will need at least an §6HV Scanner§r to progress to §dLuV§r, an §5EV Scanner§r for §aLuV Energy Hatches§r, and an §1IV Scanner§r for §aFusion Reactors§r. You can make any one of them to complete this quest.\n\nSee the next quest for how to use these §3Data Sticks§r.\n\n§9Data Manipulation§r:\n\nEventually, you\u0027ll want multiple Assembly Lines, but you won\u0027t want to re-scan for every Research. This is why you can also use the §3Scanner§r to §dCopy Data§r. Place the data stick you want to copy in one slot, and a blank one in the other. This will copy the contents of the first stick into the second!\n\n§4Important§r: Using two different data sticks with data on them will cause one to §4overwrite§r the other. Be careful!\n\n§9Data Storage§r:\n\nLater on, recipes will require different §aData Storage Items§r for research, such as the §3Data Orb§r. This process will remain the same, but will use different Data Storage Items instead. They can also be copied the same way, but you cannot copy between different types of storage items.\n\n§eConfigs§r: If you find this mechanic unfun, it can be disabled with the config §5\"B:enableResearch\"§r. We strongly encourage you to try it out before disabling it right away, since it becomes very significant late game content as you progress further into research.\n\n§bLore§r: In GT5, Assembly Line recipes would be hidden in NEI until you completed research for them. After scanning the data stick, you could view the recipe\u0027s ingredients by printing a book with the Data Stick - a long and annoying process! It was then made to display in NEI once you acquire the item.\nTecTech later made a nice machine which acts as a recipe viewer for the Data Stick (this mod is so great...).",
+      "frame:8": "ROUNDED_SQUARE",
+      "globalshare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 459,
+        "OreDict:8": "",
+        "id:8": "gregtech:machine"
+      },
+      "ignoresview:1": 0,
+      "ismain:1": 0,
+      "issilent:1": 0,
+      "lockedprogress:1": 0,
+      "name:8": "Data and Research",
+      "questlogic:8": "AND",
+      "repeat_relative:1": 1,
+      "repeattime:3": -1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "tasklogic:8": "OR",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "entryLogic:8": "AND",
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 457,
+          "OreDict:8": "",
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "entryLogic:8": "AND",
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 458,
+          "OreDict:8": "",
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "2:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "entryLogic:8": "AND",
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 2,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 459,
+          "OreDict:8": "",
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

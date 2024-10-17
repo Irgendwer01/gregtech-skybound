@@ -1,0 +1,72 @@
+{
+  "preRequisites:11": [
+    420
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "autoclaim:1": 0,
+      "desc:8": "§oPlacing Blocks manually for Multiblocks is tedious? We got something for ya!§r\n\nThe §dMulitblock Tool§rwill enable you to §6auto-build§r Multiblocks!\n\n§9How to auto-build:§r With your §4Multiblock Tool§r in hand, shift-right-click the Mulitblock Controller that you placed in World, and the structure will be built according to the blocks in your inventory.\n\nNote that the Hatches may not always end up being on the positions you wanted, but at least it placed all the other Blocks for you!\n\nYou can also use this tool to §6debug structure issues§r. If you\u0027re not sure why a multi won\u0027t form, right-click it with the tool and you\u0027ll recieve some potentially useful information.\n\n§bLore§r: The texture for this item was originally from the GCYL Freedom Wrench.",
+      "frame:8": "ROUNDED_SQUARE",
+      "globalshare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1004,
+        "OreDict:8": "",
+        "id:8": "gregtech:meta_item_1"
+      },
+      "ignoresview:1": 0,
+      "ismain:1": 0,
+      "issilent:1": 0,
+      "lockedprogress:1": 0,
+      "name:8": "Auto-build",
+      "questlogic:8": "AND",
+      "repeat_relative:1": 1,
+      "repeattime:3": -1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "tasklogic:8": "AND",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 2,
+          "Damage:2": 1182,
+          "OreDict:8": "",
+          "id:8": "gregtech:machine"
+        },
+        "1:10": {
+          "Count:3": 2,
+          "Damage:2": 1197,
+          "OreDict:8": "",
+          "id:8": "gregtech:machine"
+        }
+      },
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "entryLogic:8": "AND",
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1004,
+          "OreDict:8": "",
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}
