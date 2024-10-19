@@ -1,0 +1,66 @@
+{
+  "preRequisites:11": [
+    212
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "autoclaim:1": 0,
+      "desc:8": "§oI\u0027m running out of things to say for these quests... I hope you get the gist of it, and don\u0027t need too many explanations.§r\n\nAs for every Tier goes, the §3Circuit Assembler§r is an essential part of the Progression, to enable a new Tier of circuits.\n\n\nAt this point you should use an §3Extractor§r next to your Circuit Assembler and send off dozens of stacks of §aSoldering Alloy§r Ingots.",
+      "frame:8": "GATE",
+      "globalshare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 636,
+        "OreDict:8": "",
+        "id:8": "gregtech:machine"
+      },
+      "ignoresview:1": 0,
+      "ismain:1": 1,
+      "issilent:1": 0,
+      "lockedprogress:1": 0,
+      "name:8": "Advanced Circuit Assembler",
+      "questlogic:8": "AND",
+      "repeat_relative:1": 1,
+      "repeattime:3": -1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "tasklogic:8": "AND",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 40,
+          "Damage:2": 320,
+          "OreDict:8": "",
+          "id:8": "gregtech:meta_dust"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "entryLogic:8": "AND",
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 636,
+          "OreDict:8": "",
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

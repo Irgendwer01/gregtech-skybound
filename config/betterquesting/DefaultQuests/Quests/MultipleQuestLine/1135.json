@@ -1,0 +1,54 @@
+{
+  "preRequisites:11": [
+    924,
+    922
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "autoclaim:1": 0,
+      "desc:8": "§oAn excellent way to save on some redstone contraptions.§r\n\nThe §aAdvanced Energy Detector§r is an RS-latch for Energy Control.\n\nPut it on a §3Battery Buffer§r, set a Minimum EU near 0, and a Maximum EU near the max capacity.\nThe Cover will output a §4redstone§r signal until the high threshold is reached, and then it will wait until the low threshold is reached to output redstone again.\n\nThis is a must to automate inertia based power generators, such as Boilers, or more importantly §3Large Turbines§r.",
+      "frame:8": "ROUNDED_SQUARE",
+      "globalshare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 318,
+        "OreDict:8": "",
+        "id:8": "gregtech:meta_item_1"
+      },
+      "ignoresview:1": 0,
+      "ismain:1": 0,
+      "issilent:1": 0,
+      "lockedprogress:1": 0,
+      "name:8": "Advanced Energy Detector",
+      "questlogic:8": "AND",
+      "repeat_relative:1": 1,
+      "repeattime:3": -1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "tasklogic:8": "AND",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "entryLogic:8": "AND",
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 318,
+          "OreDict:8": "",
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

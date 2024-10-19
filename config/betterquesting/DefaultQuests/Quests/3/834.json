@@ -1,0 +1,53 @@
+{
+  "preRequisites:11": [
+    832
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "autoclaim:1": 0,
+      "desc:8": "§oFuel and Oil cracking can get complicated. But let\u0027s not get too bothered about it. It\u0027s mostly done to get hydrocarbons.§r\n\nThere are many ways to acquire §dEthylene§r from Oil processing. It\u0027s easy to get lost in all the options and recipes!\nThe best way is to steam-crack §aNaphtha§r in a §3Chemical Reactor§r. Be sure to make the §aSeverely Steam-Cracked§r version for a higher yield of Ethylene.\n\nOnce in §6HV§r Age, you will have the option to do this recipe in the §3Cracking Unit§r at 100% efficiency. The recipes you are doing with the Chemical Reactor have §450% loss§r!\n\n\n§9Note:§r All of this looks terribly inefficient, I hope that\u0027s a good motivation for you to tier up! The tantalizing §3Distillation Tower§r process for Oil products is sadly not available - yet! You will have to use a §3Distillery§r to get §dEthylene§r.",
+      "frame:8": "ROUNDED_SQUARE",
+      "globalshare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "forge:bucketfilled",
+        "tag:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "severely_steamcracked_naphtha"
+        }
+      },
+      "ignoresview:1": 0,
+      "ismain:1": 0,
+      "issilent:1": 0,
+      "lockedprogress:1": 0,
+      "name:8": "Fuel Cracking",
+      "questlogic:8": "AND",
+      "repeat_relative:1": 1,
+      "repeattime:3": -1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "tasklogic:8": "AND",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "requiredFluids:9": {
+        "0:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "severely_steamcracked_naphtha"
+        }
+      },
+      "taskID:8": "bq_standard:fluid"
+    }
+  }
+}

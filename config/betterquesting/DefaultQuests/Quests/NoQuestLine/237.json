@@ -1,0 +1,53 @@
+{
+  "preRequisites:11": [
+    199
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "autoclaim:1": 0,
+      "desc:8": "§oAutocrafting at last!§r\n\n§aPatterns§r are used for AE2 autocrafting. Using §aPolyvinyl Chloride§r increases the yield by §64 times§r, and higher-tier polymers have higher yields.\n\n§3Molecular Assemblers§r aren\u0027t available for a little while more, but you can still automate machines with §9ME Interfaces§r.\n§r\nWhen using §9ME Terminals§r, you can input mathematical expressions into the amount field when requesting crafts, so you don\u0027t need a calculator.\n\nWhen a craft is finished, you will get a §etoast§r notifying you. This can be disabled in the config.",
+      "frame:8": "ROUNDED_SQUARE",
+      "globalshare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 52,
+        "OreDict:8": "",
+        "id:8": "appliedenergistics2:material"
+      },
+      "ignoresview:1": 0,
+      "ismain:1": 0,
+      "issilent:1": 0,
+      "lockedprogress:1": 0,
+      "name:8": "Patterns",
+      "questlogic:8": "AND",
+      "repeat_relative:1": 1,
+      "repeattime:3": -1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "tasklogic:8": "AND",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "entryLogic:8": "AND",
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 52,
+          "OreDict:8": "",
+          "id:8": "appliedenergistics2:material"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

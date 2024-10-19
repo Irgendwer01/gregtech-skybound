@@ -1,0 +1,65 @@
+{
+  "preRequisites:11": [
+    1695
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "autoclaim:1": 0,
+      "desc:8": "§oTime for some lasers!§r\n\nThe §3Active Transformer§r has a second use, §6Laser Power§r. Lasers are like superconductors, but behave slightly differently. They share the energy input across all connected active transformers, allowing widespread power distribution. §3Active Transformers§r are used to convert regular EU to and from Lasers.\n\nLike optical cables, they can only be connected to §eone input and output§r. But, these ones also only can move in §estraight lines§r. To turn them, an §3Active Transformer§r with a Laser Source Hatch (output) and Target Hatch (input) is needed.\n\n§bLore§r: This is yet again another TecTech feature, but there\u0027s a bit more too it this time. TecTech\u0027s carried 1000s of amps and caused some extreme power inflation in the GTNH late to end game.",
+      "frame:8": "ROUNDED_SQUARE",
+      "globalshare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "gregtech:laser_pipe_normal"
+      },
+      "ignoresview:1": 0,
+      "ismain:1": 0,
+      "issilent:1": 0,
+      "lockedprogress:1": 0,
+      "name:8": "Laser Power Transmission",
+      "questlogic:8": "AND",
+      "repeat_relative:1": 1,
+      "repeattime:3": -1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "tasklogic:8": "AND",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "entryLogic:8": "AND",
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1420,
+          "OreDict:8": "",
+          "id:8": "gregtech:machine"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 1429,
+          "OreDict:8": "",
+          "id:8": "gregtech:machine"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "gregtech:laser_pipe_normal"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

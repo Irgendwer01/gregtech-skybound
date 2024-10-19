@@ -1,0 +1,54 @@
+{
+  "preRequisites:11": [
+    1426,
+    1437
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "autoclaim:1": 0,
+      "desc:8": "§oNitric Acid does not eat your skin unlike most acids, but its fumes are extremely toxic! It is also a very potent oxidizer. Extremely dangerous.§r\n\n§aNitric Acid§r is used in:\n§9-§r Cetane-Boosted Diesel, a better Diesel fuel presented in a next Quest.\n§9-§r Nitrobenzene, a better Gas fuel presented in a next Quest.\n§9-§r The optional gem slurry chains.\n§9-§r The Platinum Group Sludge chain, in §1IV§r Age.\n§9-§r Polybenzimidazole (almost bit my tongue), in §1IV§r Age.\n\n\nThere are two main ways to make §aNitric Acid§r. §oThe good way and the bad ways!§r\n\nSo naturally I will present the best method:\nGet a §3Large Chemical Reactor§r and use it to make §aNitrogen Dioxide§r.\nFrom there, react it in a regular §3Chemical Reactor§r with more §dOxygen§r and §dWater§r and you got yourself some §aNitric Acid§r!\n\nThis requires a lot of §dOxygen§r. Refer to its own Quest in §7LV§r for the most efficient ways to obtain in large amount. Notice that this is Hydrogen free!",
+      "frame:8": "GATE",
+      "globalshare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "forge:bucketfilled",
+        "tag:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "nitric_acid"
+        }
+      },
+      "ignoresview:1": 0,
+      "ismain:1": 1,
+      "issilent:1": 0,
+      "lockedprogress:1": 0,
+      "name:8": "Nitric Acid",
+      "questlogic:8": "OR",
+      "repeat_relative:1": 1,
+      "repeattime:3": -1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "tasklogic:8": "AND",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "requiredFluids:9": {
+        "0:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "nitric_acid"
+        }
+      },
+      "taskID:8": "bq_standard:fluid"
+    }
+  }
+}

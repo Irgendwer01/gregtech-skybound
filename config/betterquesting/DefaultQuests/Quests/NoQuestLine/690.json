@@ -1,0 +1,71 @@
+{
+  "preRequisites:11": [
+    605
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "autoclaim:1": 0,
+      "desc:8": "§oCentralized Power at last!§r\n\nThe §3Power Substation§r is a multiblock power storage system. Fill it with §a2-18 layers§r of assorted §9Capacitor Blocks§r to increase its storage. Each layer must be full of capacitors, and you can use Empty Capacitors to fill unused spaces.\n\n§9Capacitors§r also hold significantly more energy than the batteries used to make them. In the §3Power Substation§r, §9Capacitors§r can be mixed, so they do not all have to be the same tier.\n\nAt §1IV§r Tier, you can make §5EV§r and/or §1IV§r Capacitors.\n\nEnergy is input with regular Energy Hatches, and output with regular Dynamo Hatches.\n\nYou can also use §9Substation Hatches§r to transmit many more amps. These hatches only work in Substations, and do not work in regular multiblocks.",
+      "frame:8": "GATE",
+      "globalshare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1041,
+        "OreDict:8": "",
+        "id:8": "gregtech:machine"
+      },
+      "ignoresview:1": 0,
+      "ismain:1": 1,
+      "issilent:1": 0,
+      "lockedprogress:1": 0,
+      "name:8": "Power Substation",
+      "questlogic:8": "AND",
+      "repeat_relative:1": 1,
+      "repeattime:3": -1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "tasklogic:8": "AND",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "entryLogic:8": "AND",
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1041,
+          "OreDict:8": "",
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "entryLogic:8": "AND",
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "OreDict:8": "",
+          "id:8": "gregtech:battery_block"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

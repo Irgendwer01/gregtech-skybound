@@ -1,0 +1,57 @@
+{
+  "preRequisites:11": [
+    1008,
+    1143,
+    1124,
+    1145,
+    1010
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "autoclaim:1": 0,
+      "desc:8": "§oThe power of the stars... and also particle accelerators because game logic decides so...§r\n\nBuild the structure taking Fusion Glass in §aJEI§r.\nTo save on Fusion Casings, fit Input \u0026 Output Hatches wherever you can (as displayed in the structure).\n\nThe craft for building the full multiblock is quite extensive. You may run into a bottleneck in your Vacuum Freezer(s) cooling here!\n\nI will do something new: explain the Lore at the same time as the mechanics, enjoy the ride!\n\n§bLore:§r GregTech 5\u0027s §3Fusion Reactor§r stores EU you feed it internally. The maximum amount is determined by the amount of §3Energy Hatches§r.\nRecipes can only start if the §9EU to start§r is stored internally, which is §cconsumed§r. Then, the reactor can keep running recipes until it goes idle. At this point it will need the EU to start again.\nShadow of Greg\u0027s §3Fusion Reactor§r (which is now GTCEu\u0027s Fusion Reactor) has an added mechanic called §4Heat§r.\nWhen the reactor runs, the §9EU to start§r is converted to §4Heat§r. That Heat is preserved until the Reactor goes idle, at which point it will slowly go down.\nNext time a recipe is found, it will use all possible Heat and deduct it from the §9EU to start§r, allowing you to save Energy for short pauses.\n\nThe §3Fusion Reactor I§r can only run recipes up to 160MEU required EU to start. The maximum voltage tier this reactor can run recipes at is §dLuV§r. It will also only overclock up to §dLuV§r at best, even if you upgrade to ZPM Hatches, no need to attempt it.",
+      "frame:8": "GATE",
+      "globalshare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1020,
+        "OreDict:8": "",
+        "id:8": "gregtech:machine"
+      },
+      "ignoresview:1": 0,
+      "ismain:1": 1,
+      "issilent:1": 0,
+      "lockedprogress:1": 0,
+      "name:8": "Fusion Reactor I",
+      "questlogic:8": "AND",
+      "repeat_relative:1": 1,
+      "repeattime:3": -1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "tasklogic:8": "AND",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "entryLogic:8": "AND",
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1020,
+          "OreDict:8": "",
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

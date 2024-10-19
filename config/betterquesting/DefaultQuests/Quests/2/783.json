@@ -1,0 +1,53 @@
+{
+  "preRequisites:11": [
+    775
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "autoclaim:1": 0,
+      "desc:8": "While this is an extremely §9important§r machine, this will §9§lnot help you immediately§r as it is expensive. Most of the recipes you want to unlock require §cfluids§r. Get a little bit more infrastructure before rushing this.\n\n\nThe §3Assembling Machine§r is core to gameplay. Consider it as important as a Crafting Table, except... well, it\u0027s a machine duh.\n\n\nWe as modpack developers also love to use this to include all sorts of custom recipes. And do you know what\u0027s the good news? It lets you unlock §dApplied Energistics§r!\n\n\nOnce you have enough Infrastructure, you will be able to make better recipes for:\n§9-§r §6Vacuum Tubes§r\n§9-§r §6Resistors§r\n§9-§r §6Circuit Boards§r\n\n\n§bLore:§r Back in the days of GregTech 2, the Assembling Machine only had two slots, and was used merely for alternate Circuit and Hull recipes.",
+      "frame:8": "GATE",
+      "globalshare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 110,
+        "OreDict:8": "",
+        "id:8": "gregtech:machine"
+      },
+      "ignoresview:1": 0,
+      "ismain:1": 1,
+      "issilent:1": 0,
+      "lockedprogress:1": 0,
+      "name:8": "Basic Assembling Machine",
+      "questlogic:8": "AND",
+      "repeat_relative:1": 1,
+      "repeattime:3": -1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "tasklogic:8": "AND",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "entryLogic:8": "AND",
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 110,
+          "OreDict:8": "",
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

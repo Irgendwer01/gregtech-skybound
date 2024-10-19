@@ -1,0 +1,80 @@
+{
+  "preRequisites:11": [
+    90
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "autoclaim:1": 0,
+      "desc:8": "§oNow that you have Steel, you can make a Flint and Steel! Yes! Why would it not be made out of Steel?§r\n\nOnce you have a §9Flint and Steel§r, you have access to the §4Nether§r.\n§oYou could also light the Nether portal using alternative means... you dirty cheater...§r\n\nThe §4Nether§r has more veins and new ores! Check the Ore Tab for the Nether Veins.\n\nAdditionally, §6Nether Ores are worth two Overworld Ores§r.\n\n§4Nether§r veins will take more effort to find - and are more dangerous - than §2Overworld§r veins. Thankfully the §dSurface Rocks§r (now §oAnywhere Rocks§r) still spawn. Keep using Waypoints!\n\nIf you are not playing on §dPeaceful§r yet, it is not too late! No need to bother fighting Ghasts or Blazes in this pure tech modpack.\n\n§9Note:§r In this pack, the Blaze, Magma Cubes and Enderman loot tables have been changed to §5Sulfur Dust§r and §5Enderpearl Dust§r respectively, so you can\u0027t just rush the End.",
+      "frame:8": "GATE",
+      "globalshare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:netherrack"
+      },
+      "ignoresview:1": 0,
+      "ismain:1": 1,
+      "issilent:1": 0,
+      "lockedprogress:1": 0,
+      "name:8": "The Nether",
+      "questlogic:8": "AND",
+      "repeat_relative:1": 1,
+      "repeattime:3": -1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "tasklogic:8": "AND",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "gregtech:pickaxe",
+          "tag:10": {
+            "DisallowContainerItem:1": 0,
+            "GT.Behaviours:10": {
+              "TorchPlacing:1": 1
+            },
+            "GT.Tool:10": {
+              "AttackDamage:5": 7.0,
+              "AttackSpeed:5": -2.7,
+              "Durability:3": 0,
+              "HarvestLevel:3": 3,
+              "Material:8": "red_steel",
+              "MaxDurability:3": 2560,
+              "ToolSpeed:5": 11.0
+            },
+            "HideFlags:3": 2
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "biome:8": "",
+      "dimension:3": -1,
+      "hideInfo:1": 0,
+      "index:3": 0,
+      "invert:1": 0,
+      "name:8": "New Location",
+      "posX:3": 0,
+      "posY:3": 0,
+      "posZ:3": 0,
+      "range:3": -1,
+      "structure:8": "",
+      "taskID:8": "bq_standard:location",
+      "taxiCabDist:1": 0,
+      "visible:1": 0
+    }
+  }
+}

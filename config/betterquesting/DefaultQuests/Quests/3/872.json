@@ -1,0 +1,67 @@
+{
+  "preRequisites:11": [
+    775
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "autoclaim:1": 0,
+      "desc:8": "The underground has pure Oilsands ore veins. You may §3centrifuge§r the Dust to get §aHeavy Oil§r§r.\n\n\n§9§lNote:§r §lThe Oil path is one path towards §9§lEthylene§r§l. The other paths involve Trees and Plants.§r§r\nFor now, Oil is §doptional§r. But it will become mandatory starting with §5EV§r Age, much later.\n\nOil can also be refined in the form of §aLight Fuel§r, §aDiesel§r or even §aGasoline§r, which are excellent power options.\nIf you chose this path, you should use it for both Power and Ethylene. \n\nHeavy Oil is best used for making §aHeavy Fuel§r for producing §aDiesel§r in combination with another oil type for Light Fuel. Other oil types are also better for producing products such as Ethylene.",
+      "frame:8": "ROUNDED_SQUARE",
+      "globalshare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "gregtech:ore_oilsands_0"
+      },
+      "ignoresview:1": 0,
+      "ismain:1": 0,
+      "issilent:1": 0,
+      "lockedprogress:1": 0,
+      "name:8": "America Simulator",
+      "questlogic:8": "AND",
+      "repeat_relative:1": 1,
+      "repeattime:3": -1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "tasklogic:8": "AND",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "entryLogic:8": "AND",
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "gregtech:ore_oilsands_0"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 1,
+      "requiredFluids:9": {
+        "0:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "oil_heavy"
+        }
+      },
+      "taskID:8": "bq_standard:fluid"
+    }
+  }
+}

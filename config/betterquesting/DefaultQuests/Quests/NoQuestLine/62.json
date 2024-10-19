@@ -1,0 +1,37 @@
+{
+  "preRequisites:11": [],
+  "properties:10": {
+    "betterquesting:10": {
+      "autoclaim:1": 0,
+      "desc:8": "Welcome to §2§lGregTech: The Community Modpack§r.\n\nThis modpack features §2§lGregtech: Community Edition Unofficial§r (also known as §2GTCEu§r or §2CEu§r), a continuation of GTCE. This mod provides a lot more content through all the tiers and up to §dUltimate Voltage§r, and a non negligible amount Quality of Life.\n\nThis is a pure §4Tech§r modpack, focusing on GregTech and its progression.\n\nYou will find no better place to learn about this mod and all the features it adds!\n\n§6This questbook is very informative§r, so check it out to learn anything new about the mod. Click on the Eye§r icon to toggle §9View Mode§r to read any quest ahead of time. This is one of many features added by §2Better Questing Unofficial§r, yet another great port of a mod.\n\n\n§bLore:§r At the time of writing this, a few players have already completed the modpack. They thoroughly enjoyed it! GTCEu really is what GTCE should have been.",
+      "frame:8": "GATE",
+      "globalshare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 283,
+        "OreDict:8": "",
+        "id:8": "gregtech:meta_item_1"
+      },
+      "ignoresview:1": 0,
+      "ismain:1": 1,
+      "issilent:1": 0,
+      "lockedprogress:1": 0,
+      "name:8": "Welcome",
+      "questlogic:8": "AND",
+      "repeat_relative:1": 1,
+      "repeattime:3": -1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "tasklogic:8": "AND",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

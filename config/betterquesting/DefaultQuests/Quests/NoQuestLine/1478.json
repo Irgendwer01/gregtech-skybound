@@ -1,0 +1,53 @@
+{
+  "preRequisites:11": [
+    1424
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "autoclaim:1": 0,
+      "desc:8": "While the §aWood Vinegar§r Distillation gives §aAcetone§r, the yield is low and might not suffice.\n\nThere is a direct §3LCR§r recipe from §aAcetic Acid§r to obtain §aAcetone§r.\n\nIf you want to be fancy, you can also the good old §aAcetic Acid§r -\u003e §dDissolved Calcium Acetate§r -\u003e §aAcetone§r loop, which does not require a §3LCR§r, but still recycles the Calcium compound perfectly.\n\n\n§oI\u0027ve been talking about Acetic Acid... but I haven\u0027t mentioned how to obtain it, wouldn\u0027t that be great?§r\n§aAcetic Acid§r can be synthesized in the §3Chemical Reactor§r. My favorite recipe is from §dEthylene§r.",
+      "frame:8": "ROUNDED_SQUARE",
+      "globalshare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "forge:bucketfilled",
+        "tag:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "acetone"
+        }
+      },
+      "ignoresview:1": 0,
+      "ismain:1": 0,
+      "issilent:1": 0,
+      "lockedprogress:1": 0,
+      "name:8": "Acetone",
+      "questlogic:8": "AND",
+      "repeat_relative:1": 1,
+      "repeattime:3": -1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "tasklogic:8": "AND",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "requiredFluids:9": {
+        "0:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "acetone"
+        }
+      },
+      "taskID:8": "bq_standard:fluid"
+    }
+  }
+}

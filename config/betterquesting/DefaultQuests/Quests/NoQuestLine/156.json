@@ -1,0 +1,79 @@
+{
+  "preRequisites:11": [
+    155,
+    150
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "autoclaim:1": 0,
+      "desc:8": "This Quest explains the core mechanic of the §3Electric Blast Furnace§r, while other Quests after it will explain the mechanics of the Multiblock Parts that you will also need, so be sure to refer to them!§r\n\nThe §3EBF§r is your first electric multiblock! It is used to process materials at high temperatures.\n\nYou will use the EBF to make §aAluminium§r and progress to §d§bMV Age§r. It can also make §7Steel§r faster than a PBF.\n\nThe EBF is a beefy boy. The minimum power cost to run a recipe is §9120 EU/t§r! That\u0027s slightly under 4 §7LV§r Generators. This is why it was locked behind the Battery Quest. You may wish to consider building a separate power line, with separate Generators and Battery Buffer to run this.\n\n\n§bLore:§r We have a config \"casingsActiveEmissiveTextures\" which enables bloom on the Coils of the EBF when it is running. Feel free to enable it, no need to restart the game!",
+      "frame:8": "GATE",
+      "globalshare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1001,
+        "OreDict:8": "",
+        "id:8": "gregtech:machine"
+      },
+      "ignoresview:1": 0,
+      "ismain:1": 1,
+      "issilent:1": 0,
+      "lockedprogress:1": 0,
+      "name:8": "Electric Blast Furnace",
+      "questlogic:8": "AND",
+      "repeat_relative:1": 1,
+      "repeattime:3": -1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "tasklogic:8": "AND",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 4,
+          "Damage:2": 424,
+          "OreDict:8": "",
+          "id:8": "gregtech:meta_dust"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 1611,
+          "OreDict:8": "",
+          "id:8": "gregtech:machine",
+          "tag:10": {
+            "Fluid:10": {
+              "Amount:3": 12000,
+              "FluidName:8": "nitrogen"
+            }
+          }
+        }
+      },
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "entryLogic:8": "AND",
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1001,
+          "OreDict:8": "",
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

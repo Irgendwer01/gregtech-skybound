@@ -1,0 +1,71 @@
+{
+  "preRequisites:11": [
+    502
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "autoclaim:1": 0,
+      "desc:8": "§aAE2 Fluid Crafting§r allows you to autocraft with fluids directly!\n\nTo get started, you need a §aFluid Discretizer§r. Only one is required for the entire ME network. It will make all of your fluids accessible by your system into \"Drops.\" These do NOT take up space in your storage system, despite being items.\n\nOnce you have one in your network, you can use §aFluid Pattern Terminals§r to pattern recipes with fluids in them directly. This is very useful for circuits, for example.\n\nThe §eDual Interface§r can be used for autocrafting recipes containing fluids. It will supply both the items and fluids according to the requested craft.\n\nThe §9Fluid Packet Decoder§r can be used to turn the Drops back into normal fluid, if you get some. It\u0027s also useful for Ordered Fluids in the Assembly Line if you enable it in the config and want an additional challenge.\n\nThe §9Precision Burette§r can be used to fill fluid containers with precise amounts. You probably don\u0027t need this...\n\nThe §9Fluid Assembler§r allows you to autocraft recipes that use filled fluid containers, but instead draws the fluid from the ME system. An example of this would be recipes using water buckets in them. You also probably don\u0027t need this...\n",
+      "frame:8": "ROUNDED_SQUARE",
+      "globalshare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "ae2fc:fluid_discretizer"
+      },
+      "ignoresview:1": 0,
+      "ismain:1": 0,
+      "issilent:1": 0,
+      "lockedprogress:1": 0,
+      "name:8": "AE2 Fluid Crafting",
+      "questlogic:8": "AND",
+      "repeat_relative:1": 1,
+      "repeattime:3": -1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "tasklogic:8": "AND",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "entryLogic:8": "AND",
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "ae2fc:fluid_discretizer"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "entryLogic:8": "AND",
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "ae2fc:part_fluid_pattern_terminal"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}
