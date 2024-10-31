@@ -1,0 +1,56 @@
+{
+  "preRequisites:11": [
+    785
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "autoclaim:1": 0,
+      "desc:8": "§oWhy can\u0027t these items I mine behave and enter my inventory!? This magnet should solve it, even if it makes no sense!§r\n\nCharge the Magnet while you would with a §9Battery§r, and §dsneak right-click§r when in hand to activate it. Do it again to deactivate. It will work from anywhere in your inventory.\n\n§9Note:§r If are you worried about getting overwhelmed by Cobblestone or Netherrack, open the trash can from FTB:Utilities in the top left corner to void them.",
+      "frame:8": "ROUNDED_SQUARE",
+      "globalshare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 471,
+        "OreDict:8": "",
+        "id:8": "gregtech:meta_item_1",
+        "tag:10": {
+          "Charge:4": 100000
+        }
+      },
+      "ignoresview:1": 0,
+      "ismain:1": 0,
+      "issilent:1": 0,
+      "lockedprogress:1": 0,
+      "name:8": "Magnet",
+      "questlogic:8": "AND",
+      "repeat_relative:1": 1,
+      "repeattime:3": -1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "tasklogic:8": "AND",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "entryLogic:8": "AND",
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 471,
+          "OreDict:8": "",
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

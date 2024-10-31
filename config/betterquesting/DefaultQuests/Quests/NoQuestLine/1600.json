@@ -1,0 +1,66 @@
+{
+  "preRequisites:11": [
+    1637,
+    1416
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "autoclaim:1": 0,
+      "desc:8": "§aLiquid Air§r is a great way to get large amounts of §aNitrogen§r and §aOxygen§r, at the cost of using more energy than §3LV Centrifuges§r.\n\nHowever, this will also give you both §6Helium§r and §6Argon§r which are great to boost smelting in the §3Electric Blast Furnace§r.\n\n\n§cNote:§r You will need at least §3HV Input \u0026 Output Hatches§r to be able to run this recipe.",
+      "frame:8": "ROUNDED_SQUARE",
+      "globalshare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "forge:bucketfilled",
+        "tag:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "air"
+        }
+      },
+      "ignoresview:1": 0,
+      "ismain:1": 0,
+      "issilent:1": 0,
+      "lockedprogress:1": 0,
+      "name:8": "True Distillation: Air",
+      "questlogic:8": "AND",
+      "repeat_relative:1": 1,
+      "repeattime:3": -1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "tasklogic:8": "AND",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "requiredFluids:9": {
+        "0:10": {
+          "Amount:3": 1000000,
+          "FluidName:8": "oxygen"
+        },
+        "1:10": {
+          "Amount:3": 1000000,
+          "FluidName:8": "nitrogen"
+        },
+        "2:10": {
+          "Amount:3": 64000,
+          "FluidName:8": "helium"
+        },
+        "3:10": {
+          "Amount:3": 32000,
+          "FluidName:8": "argon"
+        }
+      },
+      "taskID:8": "bq_standard:fluid"
+    }
+  }
+}

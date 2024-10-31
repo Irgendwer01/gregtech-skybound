@@ -1,0 +1,37 @@
+{
+  "preRequisites:11": [],
+  "properties:10": {
+    "betterquesting:10": {
+      "autoclaim:1": 0,
+      "desc:8": "§oThis quest will cover all the units you will encounter in GregTech.§r\n\n- §dFluids§r are measured in millibuckets, or mB. 1 mB is equivalent to 1 L (Litre), which is sometimes used.\nOne nugget or tiny dust of material is 16 mB, one ingot is 144 mB, one gem is 250 mB, one bucket is 1000 mB, and one block is 1296 mB. \n\n- §dTime§r is measured in ticks, or t, each of which is 1/20 of an in-game second.\nVery occasionally hours (h) will be used, which is 3600 seconds, or 72k ticks.\n\n- §dEnergy§r is measured in Energy Units, or EU. 1 EU is equivalent to 4 RF or 2 mB of Steam. Energy is transferred in §dPackets§r, or p.\n\n- §dPower§r is measured in EU per tick (EU/t). §dVoltage§r is measured in volts (V), which are EU/p. §dAmperage§r is measured in amperes (A), which are p/t.\n\n§bLore§r: Before EU and RF, there were Minecraft Joules (MJ), the native energy system for BuildCraft. When EU was introduced, it was calculated that 2.5 EU \u003d 1 MJ based on how much energy their coal generators made. Then when RF was introduced with Thermal Expansion 3, it was defined that 10 RF \u003d 1 MJ. Therefore 1 EU \u003d 4 RF by default.",
+      "frame:8": "ROUNDED_SQUARE",
+      "globalshare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 470,
+        "OreDict:8": "",
+        "id:8": "gregtech:meta_item_1"
+      },
+      "ignoresview:1": 0,
+      "ismain:1": 0,
+      "issilent:1": 0,
+      "lockedprogress:1": 0,
+      "name:8": "Units Overview",
+      "questlogic:8": "AND",
+      "repeat_relative:1": 1,
+      "repeattime:3": -1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "tasklogic:8": "AND",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

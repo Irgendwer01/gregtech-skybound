@@ -1,0 +1,73 @@
+{
+  "preRequisites:11": [
+    1009,
+    1145,
+    1124
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "autoclaim:1": 0,
+      "desc:8": "§oTime to build a server room!§r\n\nThe §3Data Bank§r is a multiblock capable of storing huge amounts of data. You can fill it with §aData Access Hatches§r, and fill those with §aData Storage Items§r.\n\nAfter that, you\u0027ll need power, and then a way to connect it to your Assembly Line! This is done through §3Optical Fiber Cables§r, which can be used to link §3Optical Data Hatches together§r.\n\nAn §9Optical Transmission Hatch§r is used to send data (like an output), and an §9Optical Reception Hatches§r recieve the data (like an input). \n\nOptical cables have some restrictions however. They can only connect §eone input to one output§r. The Data Bank is a solution to this, since you can place many hatches on them to route in different directions.\n\nYou can use this behavior to §echain§r Data Banks as well. Connecting one Data Bank to another, and then one of them to an Assembly Line will provide the data of both banks!\n\n§eNote: §rThis multiblock will be required later on in progression, but is very useful to set up early.\n\n§bLore§r: This multiblock also originates from TecTech, but it required optical cables to be painted as well. You don\u0027t have to do that here, but it looks really nice if you do!",
+      "frame:8": "GATE",
+      "globalshare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1037,
+        "OreDict:8": "",
+        "id:8": "gregtech:machine"
+      },
+      "ignoresview:1": 0,
+      "ismain:1": 1,
+      "issilent:1": 0,
+      "lockedprogress:1": 0,
+      "name:8": "Mass Data Storage",
+      "questlogic:8": "AND",
+      "repeat_relative:1": 1,
+      "repeattime:3": -1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "tasklogic:8": "AND",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "entryLogic:8": "AND",
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1037,
+          "OreDict:8": "",
+          "id:8": "gregtech:machine"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 1408,
+          "OreDict:8": "",
+          "id:8": "gregtech:machine"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 1407,
+          "OreDict:8": "",
+          "id:8": "gregtech:machine"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "gregtech:optical_pipe_normal"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

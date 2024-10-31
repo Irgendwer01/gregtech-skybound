@@ -1,0 +1,108 @@
+{
+  "preRequisites:11": [
+    1364
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "autoclaim:1": 0,
+      "desc:8": "Just like in §bMV§r, more higher-tier components.\n\nThe painful §dFlawless Gems§r have been replaced with painful §dEyes of Ender§r.\n\nNotice that the §aMotors§r require §d2x Silver Cables§r.\n§aHulls§r and §aMachines§r use §dGold Cables§r.\n\n§9Tips:§r\nConsider using §dElectrotine decomposition§r and §dOre Processing§r for §eElectrum§r.\nConsider using the §3Chemical Bath§r with §dMercury§r for §eGold§r, from a wide variety of ores.",
+      "frame:8": "ROUNDED_SQUARE",
+      "globalshare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 129,
+        "OreDict:8": "",
+        "id:8": "gregtech:meta_item_1"
+      },
+      "ignoresview:1": 0,
+      "ismain:1": 0,
+      "issilent:1": 0,
+      "lockedprogress:1": 0,
+      "name:8": "We call this \"Fun\"",
+      "questlogic:8": "AND",
+      "repeat_relative:1": 1,
+      "repeattime:3": -1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "tasklogic:8": "AND",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 12,
+          "Damage:2": 22,
+          "OreDict:8": "",
+          "id:8": "gregtech:meta_stick"
+        },
+        "1:10": {
+          "Count:3": 32,
+          "Damage:2": 277,
+          "OreDict:8": "",
+          "id:8": "gregtech:meta_ingot"
+        }
+      },
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "entryLogic:8": "AND",
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 129,
+          "OreDict:8": "",
+          "id:8": "gregtech:meta_item_1"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 174,
+          "OreDict:8": "",
+          "id:8": "gregtech:meta_item_1"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 159,
+          "OreDict:8": "",
+          "id:8": "gregtech:meta_item_1"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 144,
+          "OreDict:8": "",
+          "id:8": "gregtech:meta_item_1"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 189,
+          "OreDict:8": "",
+          "id:8": "gregtech:meta_item_1"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "Damage:2": 219,
+          "OreDict:8": "",
+          "id:8": "gregtech:meta_item_1"
+        },
+        "6:10": {
+          "Count:3": 1,
+          "Damage:2": 234,
+          "OreDict:8": "",
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "preRequisites:11": [
+    79
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "autoclaim:1": 0,
+      "desc:8": "§oIron, Copper and Tin will only get you so far.§r\n\n§dRedstone§r and §dDiamond§r will be required during the Steam Age.\n\n§\n§c§aNickel§r, §aLead§r and §aSilver§r are nice to have, and will be useful soon enough.\n\nCheck the §5Ore Tab§r for more information on the Veins containing these materials.",
+      "frame:8": "ROUNDED_SQUARE",
+      "globalshare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 69,
+        "OreDict:8": "",
+        "id:8": "gregtech:meta_ingot"
+      },
+      "ignoresview:1": 0,
+      "ismain:1": 0,
+      "issilent:1": 0,
+      "lockedprogress:1": 0,
+      "name:8": "Early Investments",
+      "questlogic:8": "AND",
+      "repeat_relative:1": 1,
+      "repeattime:3": -1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "tasklogic:8": "AND",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 128,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "minecraft:clay_ball"
+        },
+        "1:10": {
+          "Count:3": 128,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "minecraft:sand"
+        },
+        "2:10": {
+          "Count:3": 64,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "minecraft:redstone"
+        },
+        "3:10": {
+          "Count:3": 24,
+          "Damage:2": 69,
+          "OreDict:8": "",
+          "id:8": "gregtech:meta_ingot"
+        },
+        "4:10": {
+          "Count:3": 24,
+          "Damage:2": 55,
+          "OreDict:8": "",
+          "id:8": "gregtech:meta_ingot"
+        },
+        "5:10": {
+          "Count:3": 24,
+          "Damage:2": 100,
+          "OreDict:8": "",
+          "id:8": "gregtech:meta_ingot"
+        },
+        "6:10": {
+          "Count:3": 8,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "minecraft:diamond"
+        }
+      },
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "entryLogic:8": "AND",
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 64,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "minecraft:redstone"
+        },
+        "1:10": {
+          "Count:3": 24,
+          "Damage:2": 69,
+          "OreDict:8": "",
+          "id:8": "gregtech:meta_ingot"
+        },
+        "2:10": {
+          "Count:3": 24,
+          "Damage:2": 55,
+          "OreDict:8": "",
+          "id:8": "gregtech:meta_ingot"
+        },
+        "3:10": {
+          "Count:3": 24,
+          "Damage:2": 100,
+          "OreDict:8": "",
+          "id:8": "gregtech:meta_ingot"
+        },
+        "4:10": {
+          "Count:3": 8,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "minecraft:diamond"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}
