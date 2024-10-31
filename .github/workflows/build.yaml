@@ -38,4 +38,3 @@ jobs:
           title: ${{ steps.vars.outputs.sha_short }}
           files: |
             buildOut/client.zip
-            buildOut/server.zip
