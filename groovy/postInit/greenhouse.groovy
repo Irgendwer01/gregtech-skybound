@@ -29,6 +29,7 @@ for (int i = 0; i < logs.size; i++) {
     .buildAndRegister()
 
   recipemap('greenhouse').recipeBuilder()
+    .circuitMeta(1)
     .notConsumable(saplings[i])
     .inputs(metaitem('fertilizer')*8)
     .fluidInputs(liquid('water')*1000)
