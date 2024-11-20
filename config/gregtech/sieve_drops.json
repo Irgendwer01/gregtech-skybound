@@ -76,7 +76,7 @@
     },
     "zeolite": {
       "meshlevel": 1,
-      "chance": 0.0001
+      "chance": 0
     },
     "calcite": {
       "meshlevel": 2,
@@ -88,11 +88,11 @@
     },
     "lazurite": {
       "meshlevel": 2,
-      "chance": 0.0001
+      "chance": 0
     },
     "sodalite": {
       "meshlevel": 2,
-      "chance": 0.0001
+      "chance": 0
     },
     "cobaltite": {
       "meshlevel": 3,
@@ -232,7 +232,7 @@
     },
     "bentonite": {
       "meshlevel": 3,
-      "chance": 0.0001
+      "chance": 0
     },
     "glauconite_sand": {
       "meshlevel": 3,
@@ -248,7 +248,7 @@
     },
     "grossular": {
       "meshlevel": 4,
-      "chance": 0.0001
+      "chance": 0
     },
     "pyrolusite": {
       "meshlevel": 4,
@@ -256,7 +256,7 @@
     },
     "spessartine": {
       "meshlevel": 4,
-      "chance": 0.0001
+      "chance": 0
     },
     "tantalite": {
       "meshlevel": 4,
@@ -302,7 +302,7 @@
     },
     "spodumene": {
       "meshlevel": 3,
-      "chance": 0.0001
+      "chance": 0
     },
     "bauxite": {
       "meshlevel": 4,
@@ -310,7 +310,7 @@
     },
     "kyanite": {
       "meshlevel": 4,
-      "chance": 0.0001
+      "chance": 0
     },
     "mica": {
       "meshlevel": 4,
@@ -318,7 +318,7 @@
     },
     "pollucite": {
       "meshlevel": 4,
-      "chance": 0.0001
+      "chance": 0
     }
   },
   "exnihilocreatio:block_netherrack_crushed": {
@@ -404,7 +404,7 @@
     },
     "thorium": {
       "meshlevel": 3,
-      "chance": 0.0001
+      "chance": 0
     },
     "topaz": {
       "meshlevel": 3,
@@ -442,7 +442,7 @@
   "ore:sand": {
     "asbestos": {
       "meshlevel": 2,
-      "chance": 0.0001
+      "chance": 0
     },
     "basaltic_mineral_sand": {
       "meshlevel": 2,
@@ -454,15 +454,15 @@
     },
     "diatomite": {
       "meshlevel": 2,
-      "chance": 0.0001
+      "chance": 0
     },
     "fullers_earth": {
       "meshlevel": 2,
-      "chance": 0.0001
+      "chance": 0
     },
     "garnet_sand": {
       "meshlevel": 2,
-      "chance": 0.0001
+      "chance": 0
     },
     "granitic_mineral_sand": {
       "meshlevel": 2,
@@ -474,11 +474,11 @@
     },
     "almandine": {
       "meshlevel": 3,
-      "chance": 0.0001
+      "chance": 0
     },
     "amethyst": {
       "meshlevel": 3,
-      "chance": 0.0001
+      "chance": 0
     },
     "green_sapphire": {
       "meshlevel": 3,
@@ -486,15 +486,15 @@
     },
     "opal": {
       "meshlevel": 3,
-      "chance": 0.0001
+      "chance": 0
     },
     "pyrope": {
       "meshlevel": 3,
-      "chance": 0.0001
+      "chance": 0
     },
     "garnet_red": {
       "meshlevel": 3,
-      "chance": 0.0001
+      "chance": 0
     },
     "sapphire": {
       "meshlevel": 3,
@@ -502,7 +502,7 @@
     },
     "garnet_yellow": {
       "meshlevel": 3,
-      "chance": 0.0001
+      "chance": 0
     },
     "oilsands": {
       "meshlevel": 4,
