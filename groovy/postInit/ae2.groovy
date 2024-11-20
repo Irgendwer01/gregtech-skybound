@@ -66,6 +66,7 @@ crafting.removeByOutput(item('ae2fc:wireless_fluid_pattern_terminal'))
 crafting.removeByOutput(item('appliedenergistics2:material', 25))
 crafting.removeByOutput(item('appliedenergistics2:material', 28))
 crafting.removeByOutput(item('appliedenergistics2:material', 52))
+crafting.removeByOutput(item('appliedenergistics2:part', 120))
 
 //Add own Fluix to AE2 fluix oreDicts
 ore('crystalFluix').add(metaitem('gemFluixQuartz'))
@@ -631,3 +632,9 @@ recipemap('assembler').recipeBuilder()
         .inputs(ore('circuitMv'))
         .outputs(item('appliedenergistics2:material', 52) * 64)
         .duration(200).EUt(480).buildAndRegister()
+
+//Cable anchor
+recipemap('lathe').recipeBuilder()
+        .inputs(metaitem('stickIron'))
+        .outputs(item('appliedenergistics2:part', 120) * 2)
+        .duration(200).EUt(32).buildAndRegister()
