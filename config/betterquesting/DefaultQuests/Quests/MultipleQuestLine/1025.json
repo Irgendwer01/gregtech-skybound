@@ -1,0 +1,41 @@
+{
+  "preRequisites:11": [
+    1024,
+    971,
+    1058
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "autoclaim:1": 0,
+      "desc:8": "§oThe Large Turbines are the most complex Multiblock Generators there exists in GTCEu in the present day.§r\n\nLet\u0027s start with the §4drawbacks§r of §3Large Turbines§r:\n§9-§r They work off §eInertia§r, which requires continuous running to achieve maximum Power.\n§9-§r Any excess unconsumed Energy produced will be §cvoided§r. You §lwill§r want to use large Energy Buffers, and an §3Advanced Energy Detector§r.\n§9-§r They require a §aRotor§r which loses durability over time and eventually §cbreak§r.\n§9-§r A little bit of Math is required to get the expected results.\n\n\nNow, with the §6upsides§r:\n§9-§r They can scale §9Power§r production substantially higher than the base output thanks to tiered §3Rotor Holders§r.\n§9-§r The §aRotor§r can give a huge boost to §dFuel efficiency§r, and §9Power§r production.\n§9-§r Self satisfaction for setting them up properly (yay!).\n\n\n§3Rotor Holders§r above the tier of the §3Large Turbine§r will §6double§r the production for every tier, multiplicatively.\n§3Rotor Holders§r above the tier of the §3Large Turbine§r will increase the efficiency by 10% for every tier, additively.\n\n§aRotors§r have a §9Power§r, §dEfficiency§r and §4Durability§r that are based on tool stats.\n§9Power§r multiplies the production of the §3Turbine§r. This stacks multiplicatively with the §3Rotor Holder§r.\n§dEfficiency§r reduces the fuel consumption. This stacks multiplicatively with the §3Rotor Holder§r.\n§4Durability§r is the lifetime of the §aRotor§r in seconds, when the §3Turbine§r§r is active.\n\n\n§2§lIn summary:§r\n\nThe §9Power§r output affects both the fuel consumption and the EU/t generation. It is calculated with the following formula:\n§eproduction \u003d baseEUt * rotorPower * 2^(rotorHolderTier - turbineTier)§r\n\nThe §dEfficiency§r reduces the fuel consumption, but does not alter the EU/t generation. It is calculated with the following formula:\n§eefficiency \u003d rotorEfficiency * (1 + 0.1 * (rotorHolderTier - turbineTier))§r\n\n\n§2§lSome examples:§r\n\nLarge Steam Turbine, with Ultimet Rotor and EV Rotor Holder:\nProduction \u003d 1024 * 1.60 * 2 \u003d 3276 EU/t\nEfficiency \u003d 1.30 * 1.10 \u003d 143%\n(Steam consumption \u003d 4582 L/t, this is above a Titanium Boiler, or a TungstenSteel Boiler with ~70% throttle)\n\nLarge Gas Turbine, with Chrome Rotor and EV Rotor Holder:\nProduction \u003d 4096 * 1.70 * 1 \u003d 5325 EU/t\nEfficiency \u003d 1.55 * 1.00 \u003d 155%\n(The same fuel consumption would produce 3435 EU/t using 6.7 Turbo Gas Turbines)\n\nLarge Plasma Turbine, with HSS-S Rotor and ZPM Rotor Holder:\nProduction \u003d 16834 * 2.50 * 4 \u003d 168340 EU/t\nEfficiency \u003d 1.80 * 1.20 \u003d 216%\n(This is more than a ZPM Amp!)",
+      "frame:8": "ROUNDED_SQUARE",
+      "globalshare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 711,
+        "OreDict:8": "",
+        "id:8": "gregtech:meta_item_1"
+      },
+      "ignoresview:1": 0,
+      "ismain:1": 0,
+      "issilent:1": 0,
+      "lockedprogress:1": 0,
+      "name:8": "Large Turbine Mechanics",
+      "questlogic:8": "OR",
+      "repeat_relative:1": 1,
+      "repeattime:3": -1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "tasklogic:8": "AND",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}
