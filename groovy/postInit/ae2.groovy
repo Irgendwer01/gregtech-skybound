@@ -67,6 +67,15 @@ crafting.removeByOutput(item('appliedenergistics2:material', 25))
 crafting.removeByOutput(item('appliedenergistics2:material', 28))
 crafting.removeByOutput(item('appliedenergistics2:material', 52))
 crafting.removeByOutput(item('appliedenergistics2:part', 120))
+crafting.removeByOutput(item('appliedenergistics2:part', 460))
+
+//P2P Tunnel
+mods.gregtech.assembler.recipeBuilder()
+  .inputs(ore('circuitZpm')*2, metaitem('emitter.luv')*4, item('appliedenergistics2:material', 22)*8, item('appliedenergistics2:material', 24)*8, item('ae2fc:part_dual_interface'))
+  .outputs(item('appliedenergistics2:part', 460)*2)
+  .EUt(2048)
+  .duration(600)
+  .buildAndRegister()
 
 //Add own Fluix to AE2 fluix oreDicts
 ore('crystalFluix').add(metaitem('gemFluixQuartz'))
