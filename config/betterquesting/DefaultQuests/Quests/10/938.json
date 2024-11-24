@@ -1,12 +1,11 @@
 {
   "preRequisites:11": [
-    858,
-    958
+    208
   ],
   "properties:10": {
     "betterquesting:10": {
       "autoclaim:1": 0,
-      "desc:8": "§oAutocrafting at last!§r\n\n§3Molecular Assemblers§r automate table crafting recipes, which now implies you can automate just about anything.\n\nTo maximise the number of recipes a single Molecular Assembler can do, make a 3D matrix of Molecular Assemblers and ME Interfaces - where each component is surrounded on 6 sides by the other.\n\nUsing higher-tier materials yields more Molecular Assemblers.\n\n§cWarning:§r Do not use GT tools in AE2 autocrafting! It does cause quite a few bugs... You may or may not destroy the TPS, or end up having thousands of tools being crafted as soon as one of them breaks.\nIf you §oreally§r want to use GT tools in AE2 autocrafting, dump some of them with high durability, but do not setup autocrafting for the tools themselves.\nInstead, use the alternate §3Assembling Machine§r recipes.",
+      "desc:8": "§oAutocrafting at last!§r\n\n§3Molecular Assemblers§r automate table crafting recipes, which now implies you can automate just about anything.\n\nTo maximise the number of recipes a single Molecular Assembler can do, make a 3D matrix of Molecular Assemblers and ME Interfaces - where each component is surrounded on 6 sides by the other.\n\n§cWarning:§r Do not use GT tools in AE2 autocrafting! It does cause quite a few bugs... You may or may not destroy the TPS, or end up having thousands of tools being crafted as soon as one of them breaks.\nIf you §oreally§r want to use GT tools in AE2 autocrafting, dump some of them with high durability, but do not setup autocrafting for the tools themselves.\nInstead, use the alternate §3Assembling Machine§r recipes.",
       "frame:8": "ROUNDED_SQUARE",
       "globalshare:1": 0,
       "icon:10": {

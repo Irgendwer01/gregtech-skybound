@@ -1,6 +1,6 @@
 {
   "preRequisites:11": [
-    144
+    858
   ],
   "properties:10": {
     "betterquesting:10": {
@@ -55,9 +55,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 35,
+          "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "appliedenergistics2:material"
+          "id:8": "appliedenergistics2:energy_acceptor"
         }
       },
       "taskID:8": "bq_standard:retrieval"

@@ -1,25 +1,24 @@
 {
   "preRequisites:11": [
-    1093,
-    928
+    921
   ],
   "properties:10": {
     "betterquesting:10": {
       "autoclaim:1": 0,
-      "desc:8": "Remotely expand your AE2 network, if you desire to move your base or set up Large Miner or anything else away...\n\nThe §3Quantum Tunnel§r is rather expensive, so you will have work for it if you want it!",
+      "desc:8": "§oAutocrafting at last!§r\n\n§3Molecular Assemblers§r automate table crafting recipes, which now implies you can automate just about anything.\n\nTo maximise the number of recipes a single Molecular Assembler can do, make a 3D matrix of Molecular Assemblers and ME Interfaces - where each component is surrounded on 6 sides by the other.\n\nUsing higher-tier materials yields more Molecular Assemblers.\n\n§cWarning:§r Do not use GT tools in AE2 autocrafting! It does cause quite a few bugs... You may or may not destroy the TPS, or end up having thousands of tools being crafted as soon as one of them breaks.\nIf you §oreally§r want to use GT tools in AE2 autocrafting, dump some of them with high durability, but do not setup autocrafting for the tools themselves.\nInstead, use the alternate §3Assembling Machine§r recipes.",
       "frame:8": "ROUNDED_SQUARE",
       "globalshare:1": 0,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "appliedenergistics2:quantum_link"
+        "id:8": "appliedenergistics2:molecular_assembler"
       },
       "ignoresview:1": 0,
       "ismain:1": 0,
       "issilent:1": 0,
       "lockedprogress:1": 0,
-      "name:8": "Quantum Tunnel",
+      "name:8": "Autocrafting",
       "questlogic:8": "AND",
       "repeat_relative:1": 1,
       "repeattime:3": -1,
@@ -42,34 +41,10 @@
       "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 2,
+          "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "appliedenergistics2:quantum_link"
-        },
-        "1:10": {
-          "Count:3": 16,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "appliedenergistics2:quantum_ring"
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "1:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "entryLogic:8": "AND",
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
-      "index:3": 1,
-      "partialMatch:1": 1,
-      "requiredItems:9": {
-        "0:10": {
-          "Count:3": 2,
-          "Damage:2": 48,
-          "OreDict:8": "",
-          "id:8": "appliedenergistics2:material"
+          "id:8": "appliedenergistics2:molecular_assembler"
         }
       },
       "taskID:8": "bq_standard:retrieval"

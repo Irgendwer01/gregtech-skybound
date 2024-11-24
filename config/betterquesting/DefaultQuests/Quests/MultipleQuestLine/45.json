@@ -1,24 +1,24 @@
 {
   "preRequisites:11": [
-    980
+    29
   ],
   "properties:10": {
     "betterquesting:10": {
       "autoclaim:1": 0,
-      "desc:8": "NAE2 adds §aDense Crafting CPUs§r which provide a lot more bytes in a lot less space!\n\nIt also adds §aDense Coprocessors§r which allow you to power up your Crafting CPUs to perform more tasks simultaneously!",
-      "frame:8": "ROUNDED_SQUARE",
+      "desc:8": "§2Netherrack§f§f§f will allow you to obtain §2Sulfur§f, which is an important ingredient to obtain§2 Rubber§f.\n\nIt is obtained by right-clicking an §2Stone Barrel§f§f filled with §2Lava§f with§2 Redstone§f, but can be automated using§2 Item Pipes§f as well!\n\n§3Hint: §fOres from Netherrack or Endstone give double the amount they normally give.",
+      "frame:8": "GATE",
       "globalshare:1": 0,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "nae2:storage_crafting_16384k"
+        "id:8": "minecraft:netherrack"
       },
       "ignoresview:1": 0,
       "ismain:1": 0,
       "issilent:1": 0,
       "lockedprogress:1": 0,
-      "name:8": "Dense Crafting",
+      "name:8": "Netherrack",
       "questlogic:8": "AND",
       "repeat_relative:1": 1,
       "repeattime:3": -1,
@@ -26,7 +26,7 @@
       "snd_complete:8": "minecraft:entity.player.levelup",
       "snd_update:8": "minecraft:entity.player.levelup",
       "tasklogic:8": "AND",
-      "visibility:8": "ALWAYS"
+      "visibility:8": "NORMAL"
     }
   },
   "rewards:9": {},
@@ -44,13 +44,25 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "nae2:coprocessor_4x"
+          "id:8": "minecraft:netherrack"
         },
         "1:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "nae2:storage_crafting_256k"
+          "id:8": "exnihilocreatio:block_netherrack_crushed"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 103,
+          "OreDict:8": "",
+          "id:8": "gregtech:meta_ore_nether_chunk"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 339,
+          "OreDict:8": "",
+          "id:8": "gregtech:meta_ore_nether_chunk"
         }
       },
       "taskID:8": "bq_standard:retrieval"
