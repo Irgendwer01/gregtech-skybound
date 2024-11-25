@@ -6,7 +6,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoclaim:1": 0,
-      "desc:8": "As mentioned in the quest earlier, §2Witch Water§f allows you to make an unlimited §2Stone§f generator that generates any type of Stone! \n\nJust like in an normal Cobblestone generator, let the §2Lava§f flow to the §Witch Water§f to create different types of §2Stones§f.\n\n§3Note§f: This generator will NOT generate GT stones! Use the §2Rock Breaker§f later on to multiplicate those you obtained by sifting.\n",
+      "desc:8": "As mentioned in the quest earlier, §2Witch Water§f allows you to make an unlimited §2Stone§f generator that generates any type of Stone! \n\nJust like in an normal Cobblestone generator, let the §2Witch Water§f flow to the §2Lava§f to create different types of §2Stones§f.\n\n§3Note§f: This generator will NOT generate GT stones! Use the §2Rock Breaker§f later on to multiplicate those you obtained by sifting.\n",
       "frame:8": "ROUNDED_SQUARE",
       "globalshare:1": 0,
       "icon:10": {
