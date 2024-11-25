@@ -6,7 +6,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoclaim:1": 0,
-      "desc:8": "As mentioned in an earlier quest, §2Witch Water§f allows you to make an unlimited §2Stone§f generator that generates any type of Stone! \n\nJust like in an normal Cobblestone generator, let the §2Lava§f flow to the §2Witchwater§f to create Stones. \n\nDifferent stream lengths of the §2Witch Water§f will create different §3§2Stones§f as followed:\n\n1 Block - §2Diorite\n§f2-3 Blocks - §2Granite\n§f4-7 Blocks - §2Andesite",
+      "desc:8": "As mentioned in the quest earlier, §2Witch Water§f allows you to make an unlimited §2Stone§f generator that generates any type of Stone! \n\nJust like in an normal Cobblestone generator, let the §2Witch Water§f flow to the §2Lava§f to create different types of §2Stones§f.\n\n§3Note§f: This generator will NOT generate GT stones! Use the §2Rock Breaker§f later on to multiplicate those you obtained by sifting.\n",
       "frame:8": "ROUNDED_SQUARE",
       "globalshare:1": 0,
       "icon:10": {
@@ -33,34 +33,8 @@
   "rewards:9": {},
   "tasks:9": {
     "0:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "entryLogic:8": "AND",
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
       "index:3": 0,
-      "partialMatch:1": 1,
-      "requiredItems:9": {
-        "0:10": {
-          "Count:3": 64,
-          "Damage:2": 1,
-          "OreDict:8": "",
-          "id:8": "minecraft:stone"
-        },
-        "1:10": {
-          "Count:3": 64,
-          "Damage:2": 5,
-          "OreDict:8": "",
-          "id:8": "minecraft:stone"
-        },
-        "2:10": {
-          "Count:3": 64,
-          "Damage:2": 3,
-          "OreDict:8": "",
-          "id:8": "minecraft:stone"
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
+      "taskID:8": "bq_standard:checkbox"
     }
   }
 }
