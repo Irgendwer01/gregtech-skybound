@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    11
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §2Crucible§f made out of §2Bricks§f will allow you to obtain §2Lava§f easily by putting any Stones in it when an appropiate heat source like an §2Torch§f is under it. \nBe sure to check JEI which stone yields the most §2Lava§!!",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1,
+        "id:8": "exnihilocreatio:block_crucible"
+      },
+      "name:8": "Crucible"
+    }
+  },
+  "questID:3": 12,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "exnihilocreatio:block_crucible"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -4,31 +4,17 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "autoclaim:1": 0,
       "desc:8": "The §3Packager§r packs §aWires§r into §athicker Wires§r, and §aTiny§r or §aSmall Dusts§r into §afull Dusts§r.\n\nIt can also work in reverse, unpack your §athick wires§r into §athinner§r ones, or §afull Dusts§r into §aSmall§r or §aTiny§r ones.\nAn additional functionality is §aunpacking Cables§r back into §aWires§r and §aRubber§r, which will be appreciated once you rework your Energy Network.\n\n\n§oI know...§r the compacting recipes do not sound useful because the crafting tables recipes exist. This machine exists mainly for §9automation§r purposes, save for unpacking Cables and a few other things.\n\n\n§bLore§r: You might wonder why this quest is in the Ore Processing section, the quest reward and the mentions of Tiny Dusts are a hint. In earlier versions of GTCEu, Ore Processing used to give Byproducts as a static amount of Tiny Dusts instead of a chance at a full Dust, so you\u0027d use a packager to combine them into full Dusts.\n\n§bMore Lore§r: In GTCE, the reverse operation required a separate machine, the Unpackager.",
-      "frame:8": "ROUNDED_SQUARE",
-      "globalshare:1": 0,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 500,
-        "OreDict:8": "",
         "id:8": "gregtech:machine"
       },
-      "ignoresview:1": 0,
-      "ismain:1": 0,
-      "issilent:1": 0,
-      "lockedprogress:1": 0,
       "name:8": "Basic Packager",
-      "questlogic:8": "AND",
-      "repeat_relative:1": 1,
-      "repeattime:3": -1,
-      "simultaneous:1": 0,
-      "snd_complete:8": "minecraft:entity.player.levelup",
-      "snd_update:8": "minecraft:entity.player.levelup",
-      "tasklogic:8": "AND",
       "visibility:8": "ALWAYS"
     }
   },
+  "questID:3": 484,
   "rewards:9": {
     "0:10": {
       "index:3": 0,
@@ -37,7 +23,6 @@
         "0:10": {
           "Count:3": 144,
           "Damage:2": 41,
-          "OreDict:8": "",
           "id:8": "gregtech:meta_dust_tiny"
         }
       }
@@ -45,18 +30,11 @@
   },
   "tasks:9": {
     "0:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "entryLogic:8": "AND",
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
       "index:3": 0,
-      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
           "Damage:2": 500,
-          "OreDict:8": "",
           "id:8": "gregtech:machine"
         }
       },

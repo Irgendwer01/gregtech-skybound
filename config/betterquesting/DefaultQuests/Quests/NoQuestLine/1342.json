@@ -4,38 +4,25 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "autoclaim:1": 0,
       "desc:8": "§oYour first polymer! Or if you want to be less fancy, just call it plastic, but hide in a corner first.§r\n\nFor the polymerization process, add §aOxygen§r. That\u0027s better than Air.\nThen solidify like you would with Rubber.\n\n\n§aPolyethylene (PE)§r is the key to unlock §6many new things§r. It\u0027s used mostly as §dSheets§r or §dFluid§r form.\nNo spoilers here! Let\u0027s have you figure out what it does with all the next Quests, one by one.\n\n\n§bLore:§r The OreDict and fluid name for Polyethylene is §oplastic§r, for cross-mod compatibility.",
       "frame:8": "GATE",
-      "globalshare:1": 0,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 1012,
-        "OreDict:8": "",
         "id:8": "gregtech:meta_plate"
       },
-      "ignoresview:1": 0,
       "ismain:1": 1,
-      "issilent:1": 0,
-      "lockedprogress:1": 0,
       "name:8": "Polyethylene",
-      "questlogic:8": "AND",
-      "repeat_relative:1": 1,
-      "repeattime:3": -1,
-      "simultaneous:1": 0,
-      "snd_complete:8": "minecraft:entity.player.levelup",
-      "snd_update:8": "minecraft:entity.player.levelup",
-      "tasklogic:8": "AND",
       "visibility:8": "ALWAYS"
     }
   },
+  "questID:3": 1342,
   "rewards:9": {
     "0:10": {
       "choices:9": {
         "0:10": {
           "Count:3": 1,
           "Damage:2": 81,
-          "OreDict:8": "",
           "id:8": "gregtech:meta_item_1",
           "tag:10": {
             "Fluid:10": {
@@ -47,7 +34,6 @@
         "1:10": {
           "Count:3": 1,
           "Damage:2": 81,
-          "OreDict:8": "",
           "id:8": "gregtech:meta_item_1",
           "tag:10": {
             "Fluid:10": {
@@ -63,18 +49,11 @@
   },
   "tasks:9": {
     "0:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "entryLogic:8": "AND",
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
       "index:3": 0,
-      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
           "Damage:2": 1012,
-          "OreDict:8": "",
           "id:8": "gregtech:meta_plate"
         }
       },

@@ -4,42 +4,22 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "autoclaim:1": 0,
       "desc:8": "Obtain §aPhenol§r from:\n§91 -§r §aWood Tar§r distillation.\n§92 -§r Reacting §aBenzene§r with §dChlorine§r and §dSodium Hydroxide§r (§3LCR§r, Chlorine is perfectly looped).\n§93 -§r Doing the above shortcut recipe which skips using §dSodium Hydroxide§r, but is lossy on §dChlorine§r.\n§94 -§r Reacting §aBenzene§r, §dPropene§r and §dOxygen§r using a small amount of §4Phosphoric Acid§r, normally a catalyst, but consumed in small quantity for... reasons. This is called the Cumene process.\n\nThe choice is yours:\n§91 -§r Great if you have §3Pyrolyse§r + §3Distillation Tower§r combo.\n§92 -§r My preference, you can use the §dSalt§r to make §dSalt Water§r and electrolyze it as a loop.\n§93 -§r Great if you have infinite supply of §dChlorine§r thanks to a §3Fluid Drilling Rig§r on Salt Water.\n§94 -§r §4Phosphoric Acid§r is a pain to produce and is only required for other things at §cZPM§r in GTCEu, unrecommended.\n\n\n§bLore:§r The Benzene + Oxygen recipe was added in GTCE as part of chemical fixes as the Large Chemical Reactor didn\u0027t exist. Now that there are more realistic option, that recipe might go away.",
-      "frame:8": "ROUNDED_SQUARE",
-      "globalshare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 0,
-        "OreDict:8": "",
         "id:8": "forge:bucketfilled",
         "tag:10": {
           "Amount:3": 1000,
           "FluidName:8": "phenol"
         }
       },
-      "ignoresview:1": 0,
-      "ismain:1": 0,
-      "issilent:1": 0,
-      "lockedprogress:1": 0,
       "name:8": "Phenol",
-      "questlogic:8": "AND",
-      "repeat_relative:1": 1,
-      "repeattime:3": -1,
-      "simultaneous:1": 0,
-      "snd_complete:8": "minecraft:entity.player.levelup",
-      "snd_update:8": "minecraft:entity.player.levelup",
-      "tasklogic:8": "AND",
       "visibility:8": "ALWAYS"
     }
   },
-  "rewards:9": {},
+  "questID:3": 1481,
   "tasks:9": {
     "0:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
       "index:3": 0,
       "requiredFluids:9": {
         "0:10": {

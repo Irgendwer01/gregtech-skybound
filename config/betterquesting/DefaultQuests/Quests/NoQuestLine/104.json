@@ -4,31 +4,17 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "autoclaim:1": 0,
       "desc:8": "§oThe Steam Grinder\u0027s big brother. Or little brother, don\u0027t let him know.§r\n\nThe §3Steam Oven§r is a great multiblock to §6effortlessly smelt large quantities of items.§r No more lines of furnaces that you have to manually empty and refuel.\n\n\nAs always, check §2JEI§r for the structure.\n\nRecipes are handled differently than in previous Multiblocks or Singleblocks machines.\nThe main block acts as the brain.\nInputs go into the Input Bus.\nOutputs come out of the Output Bus.\nThe Steam Hatch is the heart, pump steam in to power the whole thing.\n\n§9Note:§r Buses and Hatches §dautomatically import/export§r (depending on context) through their front face. This makes automation extremely easy. Simply place chests, drawers, anything you see fit next to their side with a dot.\n\n\n§cWarning:§r This multiblock is much more expensive than your typical machines at this point. You will also need some alloys you have not crafted yet. Either be prepared to spend a lot of resources, or wait until you start LV Age (it will be easier).\n\n\n§bLore:§r This Multiblock - despite being very similar to the Grinder - is not ported from a GregTech version or addon. Its actual origin is the Steam Oven from Railcraft, which dates back to 1.4.7!",
-      "frame:8": "ROUNDED_SQUARE",
-      "globalshare:1": 0,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 1024,
-        "OreDict:8": "",
         "id:8": "gregtech:machine"
       },
-      "ignoresview:1": 0,
-      "ismain:1": 0,
-      "issilent:1": 0,
-      "lockedprogress:1": 0,
       "name:8": "Steam Oven",
-      "questlogic:8": "AND",
-      "repeat_relative:1": 1,
-      "repeattime:3": -1,
-      "simultaneous:1": 0,
-      "snd_complete:8": "minecraft:entity.player.levelup",
-      "snd_update:8": "minecraft:entity.player.levelup",
-      "tasklogic:8": "AND",
       "visibility:8": "ALWAYS"
     }
   },
+  "questID:3": 104,
   "rewards:9": {
     "0:10": {
       "index:3": 0,
@@ -37,7 +23,6 @@
         "0:10": {
           "Count:3": 24,
           "Damage:2": 260,
-          "OreDict:8": "",
           "id:8": "gregtech:meta_ingot"
         }
       }
@@ -45,48 +30,34 @@
   },
   "tasks:9": {
     "0:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "entryLogic:8": "AND",
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
       "index:3": 0,
-      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
           "Damage:2": 1024,
-          "OreDict:8": "",
           "id:8": "gregtech:machine"
         },
         "1:10": {
           "Count:3": 1,
           "Damage:2": 1653,
-          "OreDict:8": "",
           "id:8": "gregtech:machine"
         },
         "2:10": {
           "Count:3": 1,
           "Damage:2": 1652,
-          "OreDict:8": "",
           "id:8": "gregtech:machine"
         },
         "3:10": {
           "Count:3": 1,
           "Damage:2": 1651,
-          "OreDict:8": "",
           "id:8": "gregtech:machine"
         },
         "4:10": {
           "Count:3": 8,
-          "Damage:2": 0,
-          "OreDict:8": "",
           "id:8": "gregtech:metal_casing"
         },
         "5:10": {
           "Count:3": 8,
-          "Damage:2": 0,
-          "OreDict:8": "",
           "id:8": "gregtech:boiler_firebox_casing"
         }
       },

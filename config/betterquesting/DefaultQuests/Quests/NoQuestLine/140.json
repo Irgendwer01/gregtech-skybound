@@ -4,46 +4,24 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "autoclaim:1": 0,
       "desc:8": "The §3Thermal Centrifuge§r is the most energy hungry out of the Ore Processing machines.\nIt takes §aCrushed Ore§r or §aPurified Ore§r to give a different §6Byproduct§r from the §3Ore Washer§r, but at the same rate.\n\n\n§bLore:§r The Thermal Centrifuge in GT5 required 48EU/t to run. Yes this is above 32EU/t, but GT5 had special mechanics where certain machines such as this one could accept more than 1 Amp.\nIn GTCE, the Thermal Centrifuge was made to only work at MV with 60EU/t recipes.\nAnd now to be honest with you... it was awful, never worth it. So we buffed the machine to be much more relevant.",
-      "frame:8": "ROUNDED_SQUARE",
-      "globalshare:1": 0,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 605,
-        "OreDict:8": "",
         "id:8": "gregtech:machine"
       },
-      "ignoresview:1": 0,
-      "ismain:1": 0,
-      "issilent:1": 0,
-      "lockedprogress:1": 0,
       "name:8": "Basic Thermal Centrifuge",
-      "questlogic:8": "AND",
-      "repeat_relative:1": 1,
-      "repeattime:3": -1,
-      "simultaneous:1": 0,
-      "snd_complete:8": "minecraft:entity.player.levelup",
-      "snd_update:8": "minecraft:entity.player.levelup",
-      "tasklogic:8": "AND",
       "visibility:8": "ALWAYS"
     }
   },
-  "rewards:9": {},
+  "questID:3": 140,
   "tasks:9": {
     "0:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "entryLogic:8": "AND",
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
       "index:3": 0,
-      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
           "Damage:2": 605,
-          "OreDict:8": "",
           "id:8": "gregtech:machine"
         }
       },

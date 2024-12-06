@@ -1,32 +1,17 @@
 {
-  "preRequisites:11": [],
   "properties:10": {
     "betterquesting:10": {
-      "autoclaim:1": 0,
       "desc:8": "The §9Integrated§r Circuit line is not a strict upgrade in terms of cost, but works as a stepping stone towards the next tier.\n\nThey require a MV §3Laser Engraver§r and a MV §3Cutting Machine§r.\n\n\n§bLore:§r In Omnifactory, and in previous Gregicality, this circuit line was called §9Refined§r and was standardized like further tiers.",
-      "frame:8": "ROUNDED_SQUARE",
-      "globalshare:1": 0,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 986,
-        "OreDict:8": "",
         "id:8": "gregtech:machine"
       },
-      "ignoresview:1": 0,
-      "ismain:1": 0,
       "issilent:1": 1,
-      "lockedprogress:1": 0,
       "name:8": "Craftable in MV",
-      "questlogic:8": "AND",
-      "repeat_relative:1": 1,
-      "repeattime:3": -1,
-      "simultaneous:1": 0,
-      "snd_complete:8": "minecraft:entity.player.levelup",
-      "snd_update:8": "minecraft:entity.player.levelup",
-      "tasklogic:8": "AND",
       "visibility:8": "ALWAYS"
     }
   },
-  "rewards:9": {},
+  "questID:3": 564,
   "tasks:9": {}
 }

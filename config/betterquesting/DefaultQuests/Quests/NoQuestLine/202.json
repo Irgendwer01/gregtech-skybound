@@ -4,46 +4,26 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "autoclaim:1": 0,
       "desc:8": "§oAlright, you have made a Polymer already, how about you make another one?§r\n\n§aPolyvinyl Chloride (PVC)§r is the 3rd-most produced plastic in real life. Here, it can be used in place of Polyethylene in production of §aPlastic Circuit Boards§r and other items to increase the yield. It is required to wrap §5EV§r tier and above Cables.\n\nPVC item pipes also have the §6highest throughput§r available for a while, if your setups need it.\n\n§9Pro tip:§r the fluid form of PVC is never used in base GTCEu, so feel free to solidify all of it into sheets.",
       "frame:8": "GATE",
-      "globalshare:1": 0,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 1007,
-        "OreDict:8": "",
         "id:8": "gregtech:meta_plate"
       },
-      "ignoresview:1": 0,
       "ismain:1": 1,
-      "issilent:1": 0,
-      "lockedprogress:1": 0,
       "name:8": "Polyvinyl Chloride",
-      "questlogic:8": "AND",
-      "repeat_relative:1": 1,
-      "repeattime:3": -1,
-      "simultaneous:1": 0,
-      "snd_complete:8": "minecraft:entity.player.levelup",
-      "snd_update:8": "minecraft:entity.player.levelup",
-      "tasklogic:8": "AND",
       "visibility:8": "ALWAYS"
     }
   },
-  "rewards:9": {},
+  "questID:3": 202,
   "tasks:9": {
     "0:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "entryLogic:8": "AND",
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
       "index:3": 0,
-      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
           "Damage:2": 1007,
-          "OreDict:8": "",
           "id:8": "gregtech:meta_plate"
         }
       },

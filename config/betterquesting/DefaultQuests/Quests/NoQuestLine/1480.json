@@ -7,46 +7,27 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "autoclaim:1": 0,
       "desc:8": "§oEpoxy Resin makes for really strong electronic boards once solidified.§r\n\n§aEpoxy§r is the foundation for all future Circuit Boards in the game!\n\n§9§lNote:§r This Quest appears without having the all prerequisites complete to show the full intricacies involving making Epoxy. This is quite complicated so you will need all the help.§r\n\nThere are several ways to obtain the ingredients for §aEpoxy§r.\nWe will ignore recipes related to Glycerol as they are never worth it unless modpack devs tweak things around.\n\nYou will want to try and use §3Large Chemical Reactors§r to shortcut recipes.\n\n§dChlorine§r is only partially recycled, so you will need a supply. Feeding it manually will do fine at first.\nRecipes involving §dSodium Hydroxide§r may be looped by electrolyzing the §9Salt Water§r co-product.\n\nYou will probably need to use Quadruple Pipes, Pump Covers, Fluid Filters... or route all of that using AE2.\n§oIn general, closed loop setups are nice to prevent overproduction or overconsumption, but that\u0027s just my kind of playstyle.§r",
       "frame:8": "GATE",
-      "globalshare:1": 0,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 1013,
-        "OreDict:8": "",
         "id:8": "gregtech:meta_plate"
       },
-      "ignoresview:1": 0,
       "ismain:1": 1,
-      "issilent:1": 0,
-      "lockedprogress:1": 0,
       "name:8": "Epoxy",
       "questlogic:8": "OR",
-      "repeat_relative:1": 1,
-      "repeattime:3": -1,
-      "simultaneous:1": 0,
-      "snd_complete:8": "minecraft:entity.player.levelup",
-      "snd_update:8": "minecraft:entity.player.levelup",
-      "tasklogic:8": "AND",
       "visibility:8": "ALWAYS"
     }
   },
-  "rewards:9": {},
+  "questID:3": 1480,
   "tasks:9": {
     "0:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "entryLogic:8": "AND",
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
       "index:3": 0,
-      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 16,
           "Damage:2": 1013,
-          "OreDict:8": "",
           "id:8": "gregtech:meta_plate"
         }
       },

@@ -11,47 +11,24 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "autoclaim:1": 0,
       "desc:8": "§bDigital fluid storage§r is pretty cool. Each §b1k ME Fluid Storage Cell§r holds up to §d5 types§r of fluid, and can hold §6over 8,000 buckets§r of those 5 fluid types! That\u0027s more than a §3Super Tank 2§r!\n\nHigher tier §aFluid Storage Cells§r hold even more fluid, but are only available quite a bit later.\n\nYou may want to §4format§r Fluid Storage Cells to certain types, to prevent the network from clogging. Make a §3Cell Workbench§r to do so.\n\n§4Beware§r! §aFluid Storage Components§r require EV circuits, that means you need a §3Cleanroom§r!",
-      "frame:8": "ROUNDED_SQUARE",
-      "globalshare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 0,
-        "OreDict:8": "",
         "id:8": "appliedenergistics2:fluid_storage_cell_1k",
         "tag:10": {}
       },
-      "ignoresview:1": 0,
-      "ismain:1": 0,
-      "issilent:1": 0,
-      "lockedprogress:1": 0,
       "name:8": "Digital Fluid Storage",
-      "questlogic:8": "AND",
-      "repeat_relative:1": 1,
-      "repeattime:3": -1,
-      "simultaneous:1": 0,
-      "snd_complete:8": "minecraft:entity.player.levelup",
-      "snd_update:8": "minecraft:entity.player.levelup",
-      "tasklogic:8": "AND",
       "visibility:8": "ALWAYS"
     }
   },
-  "rewards:9": {},
+  "questID:3": 1532,
   "tasks:9": {
     "0:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "entryLogic:8": "AND",
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
       "index:3": 0,
-      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
           "Damage:2": 54,
-          "OreDict:8": "",
           "id:8": "appliedenergistics2:material"
         }
       },

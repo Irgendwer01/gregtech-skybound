@@ -6,46 +6,26 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "autoclaim:1": 0,
       "desc:8": "Perhaps you never noticed the §9\"chance per tier\"§r when hovering over the bonus outputs in §2JEI§r?\nEach overclock above the required tier will add that bonus to the chanced output!\n\nThis means the §3EV Macerator§r yields §6more Byproducts§r!\n\nYou might ask: is it time to setup ore processing on large scale perhaps...? Nope!\nWell... Running all the ores with a maceration step into this EV Macerator is fair.\nBut I would still recommend cherry-picking whatever ores you want byproducts of.",
       "frame:8": "GATE",
-      "globalshare:1": 0,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 68,
-        "OreDict:8": "",
         "id:8": "gregtech:machine"
       },
-      "ignoresview:1": 0,
       "ismain:1": 1,
-      "issilent:1": 0,
-      "lockedprogress:1": 0,
       "name:8": "Shredding your Ores with more Byproducts",
-      "questlogic:8": "AND",
-      "repeat_relative:1": 1,
-      "repeattime:3": -1,
-      "simultaneous:1": 0,
-      "snd_complete:8": "minecraft:entity.player.levelup",
-      "snd_update:8": "minecraft:entity.player.levelup",
-      "tasklogic:8": "AND",
       "visibility:8": "ALWAYS"
     }
   },
-  "rewards:9": {},
+  "questID:3": 1548,
   "tasks:9": {
     "0:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "entryLogic:8": "AND",
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
       "index:3": 0,
-      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
           "Damage:2": 68,
-          "OreDict:8": "",
           "id:8": "gregtech:machine"
         }
       },

@@ -6,57 +6,33 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "autoclaim:1": 0,
       "desc:8": "Regardless of whether you\u0027re playing on Peaceful or not, you will have to defeat the §4Ender Dragon§r to return to the Overworld safely.\nPrepare yourself with a bow, a few arrows, a blade, and some beds (speedrunner strats!). \nOr abuse §7MC-123081§r and place an §dEnd Crystal§r immediately upon spawning in the End to skip the fight. We won\u0027t judge in this tech-focused pack!\n\n§9The End§r has even more new veins and materials to harvest, such as §ePlatinum§r and §7Naquadah§r! Also, like Nether ores, End ores are §6worth two Overworld ores§r.\n\n§aEyes of Ender§r are additionally used in crafting certain components, or for creating §5Quantum Eyes§r.\n\nThis quest will print the §alocation of the nearest Stronghold§r in chat. Note it, or don\u0027t note it and locate the Stronghold the vanilla way...",
       "frame:8": "GATE",
-      "globalshare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 0,
-        "OreDict:8": "",
         "id:8": "minecraft:end_portal_frame"
       },
-      "ignoresview:1": 0,
       "ismain:1": 1,
-      "issilent:1": 0,
-      "lockedprogress:1": 0,
       "name:8": "The End",
-      "questlogic:8": "AND",
-      "repeat_relative:1": 1,
-      "repeattime:3": -1,
-      "simultaneous:1": 0,
-      "snd_complete:8": "minecraft:entity.player.levelup",
-      "snd_update:8": "minecraft:entity.player.levelup",
-      "tasklogic:8": "AND",
       "visibility:8": "ALWAYS"
     }
   },
+  "questID:3": 1432,
   "rewards:9": {
     "0:10": {
-      "asScript:1": 1,
       "command:8": "#Script Comment\nlocate Stronghold",
       "description:8": "Locate nearest Stronghold",
-      "hideBlockIcon:1": 1,
       "index:3": 0,
       "rewardID:8": "bq_standard:command",
-      "title:8": "bq_standard.reward.command",
       "viaPlayer:1": 1
     }
   },
   "tasks:9": {
     "0:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "entryLogic:8": "AND",
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
       "index:3": 0,
-      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 12,
-          "Damage:2": 0,
-          "OreDict:8": "",
           "id:8": "minecraft:ender_eye"
         }
       },

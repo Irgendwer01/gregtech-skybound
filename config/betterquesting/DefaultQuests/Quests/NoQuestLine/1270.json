@@ -4,46 +4,24 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "autoclaim:1": 0,
       "desc:8": "§oA crafting component, OH MY GOSH THIS ONE IS EXPENSIVE, but also a cover!§r\n(Next quest explain how to interact with covers)\n\n\nThe Robot Arm, when placed on a machine, is a more advanced Conveyor Module. It lets you transfer items in specific batches, at specific rates, or keep a certain amount of items stocked.\nActual uses for the Robot Arm will be explained in future Quests as tutorial.\n\n§9Note:§r The functionalities provided by the Robot Arm work §lonly§r if it is doing the operation.\n\n\n§bLore:§r GregTech 5 had blocks such as the Buffer, Filter and Type Filter to allow fine control over items. In GTCE it\u0027s all been replaced by the almighty Robot Arm and various Filter Covers. That is a lot more compact!",
-      "frame:8": "ROUNDED_SQUARE",
-      "globalshare:1": 0,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 187,
-        "OreDict:8": "",
         "id:8": "gregtech:meta_item_1"
       },
-      "ignoresview:1": 0,
-      "ismain:1": 0,
-      "issilent:1": 0,
-      "lockedprogress:1": 0,
       "name:8": "LV Robot Arm",
-      "questlogic:8": "AND",
-      "repeat_relative:1": 1,
-      "repeattime:3": -1,
-      "simultaneous:1": 0,
-      "snd_complete:8": "minecraft:entity.player.levelup",
-      "snd_update:8": "minecraft:entity.player.levelup",
-      "tasklogic:8": "AND",
       "visibility:8": "ALWAYS"
     }
   },
-  "rewards:9": {},
+  "questID:3": 1270,
   "tasks:9": {
     "0:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "entryLogic:8": "AND",
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
       "index:3": 0,
-      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
           "Damage:2": 187,
-          "OreDict:8": "",
           "id:8": "gregtech:meta_item_1"
         }
       },

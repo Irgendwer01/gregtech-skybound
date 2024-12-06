@@ -4,46 +4,26 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "autoclaim:1": 0,
       "desc:8": "§oVisions of GT++§r\n\nThe §aAlloy Blast Smelter§r is the only main §2GCYM§r machine available in the §5EV§r Tier. You can use it to produce any alloy you would normally use the Mixer for. \n\nInstead of producing Hot Ingots, the ABS produces §9Molten Fluids§r if the recipe is hot enough. These fluids require cooling with a Vacuum Freezer. Otherwise it produces regular liquids.\n\nDon\u0027t be afraid of some long smelting times. This machine incorporates the Mixer step directly into the smelting recipe, and actually saves you quite a bit of time over smelting the dust in an EBF!\n\nNearly every §2GCYM§r material is produced in this machine, so if you have trouble finding a mixer recipe, look for a molten fluid!\n\n§bLore§r: This multiblock was originally inspired by GT++. It did not use heating coils at all, had no temperature requirements, and only produced regular liquids for all materials. It was pretty OP back in the day, but it was later restricted to only a single energy hatch to balance it out. It for some reason also allowed you to cook any dust into liquid too.",
       "frame:8": "GATE",
-      "globalshare:1": 0,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 2001,
-        "OreDict:8": "",
         "id:8": "gregtech:machine"
       },
-      "ignoresview:1": 0,
       "ismain:1": 1,
-      "issilent:1": 0,
-      "lockedprogress:1": 0,
       "name:8": "So Many Alloys",
-      "questlogic:8": "AND",
-      "repeat_relative:1": 1,
-      "repeattime:3": -1,
-      "simultaneous:1": 0,
-      "snd_complete:8": "minecraft:entity.player.levelup",
-      "snd_update:8": "minecraft:entity.player.levelup",
-      "tasklogic:8": "AND",
       "visibility:8": "ALWAYS"
     }
   },
-  "rewards:9": {},
+  "questID:3": 1207,
   "tasks:9": {
     "0:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "entryLogic:8": "AND",
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
       "index:3": 0,
-      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
           "Damage:2": 2001,
-          "OreDict:8": "",
           "id:8": "gregtech:machine"
         }
       },

@@ -1,0 +1,17 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "This is the §9Wetware§r Circuit line.\n\nIt will be the biggest automation challenge to face in this modpack.\n\n§2Gregicality Science§r will offer 5 new tiers of Circuits after this (subject to change):\n§9-§r Bioware\n§9-§r Optical\n§9-§r Exotic\n§9-§r§r Cosmic\n§9-§r Supracausal",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 992,
+        "id:8": "gregtech:machine"
+      },
+      "issilent:1": 1,
+      "name:8": "Craftable in ZPM",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1075,
+  "tasks:9": {}
+}

@@ -4,31 +4,18 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "autoclaim:1": 0,
       "desc:8": "If you remember in the Steam Information Quest, I told you how regular Steam machines had a duration penalty and were twice as slow.\n\nHigh Pressure Steam machines no longer have any duration penalty for recipes, making them clear upgrades.\n\nMake §eone§r of the proposed HP machines to complete this quest.",
-      "frame:8": "ROUNDED_SQUARE",
-      "globalshare:1": 0,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 12,
-        "OreDict:8": "",
         "id:8": "gregtech:machine"
       },
-      "ignoresview:1": 0,
-      "ismain:1": 0,
-      "issilent:1": 0,
-      "lockedprogress:1": 0,
       "name:8": "No More Penalty",
-      "questlogic:8": "AND",
-      "repeat_relative:1": 1,
-      "repeattime:3": -1,
-      "simultaneous:1": 0,
-      "snd_complete:8": "minecraft:entity.player.levelup",
-      "snd_update:8": "minecraft:entity.player.levelup",
       "tasklogic:8": "OR",
       "visibility:8": "ALWAYS"
     }
   },
+  "questID:3": 748,
   "rewards:9": {
     "0:10": {
       "index:3": 0,
@@ -37,7 +24,6 @@
         "0:10": {
           "Count:3": 8,
           "Damage:2": 324,
-          "OreDict:8": "",
           "id:8": "gregtech:meta_plate"
         }
       }
@@ -45,54 +31,33 @@
   },
   "tasks:9": {
     "0:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "entryLogic:8": "AND",
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
       "index:3": 0,
-      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
           "Damage:2": 12,
-          "OreDict:8": "",
           "id:8": "gregtech:machine"
         }
       },
       "taskID:8": "bq_standard:retrieval"
     },
     "1:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "entryLogic:8": "AND",
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
       "index:3": 1,
-      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
           "Damage:2": 14,
-          "OreDict:8": "",
           "id:8": "gregtech:machine"
         }
       },
       "taskID:8": "bq_standard:retrieval"
     },
     "2:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "entryLogic:8": "AND",
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
       "index:3": 2,
-      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
           "Damage:2": 18,
-          "OreDict:8": "",
           "id:8": "gregtech:machine"
         }
       },

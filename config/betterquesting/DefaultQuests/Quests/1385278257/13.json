@@ -1,0 +1,40 @@
+{
+  "preRequisites:11": [
+    11
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§2Witch Water§e§f is an very useful fluid early and can be used to create as example an endless §2Dirt§f or §2Stone§f generator that generates all types of Stone!\n\nTo obtain §2Witch Water§f, use the §2Ancient Spores§f you obtained by sifting §2Dirt§f earlier on an 3x3 §2Dirt§f field by clicking on the middle block to transform it to §2Mycelium§f. Place an §2Barrel §fwith §2Water§a§f in it and it will begin slowly to transform into §2Witch Water§f! \n\n§3Note§f: This process also generates§2 Mushrooms§f and the mycelium will spread to other §2Dirt§f blocks.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "ceramics:clay_bucket",
+        "tag:10": {
+          "fluids:10": {
+            "Amount:3": 1000,
+            "FluidName:8": "witchwater"
+          }
+        }
+      },
+      "name:8": "Witch Water"
+    }
+  },
+  "questID:3": 13,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "ceramics:clay_bucket",
+          "tag:10": {
+            "fluids:10": {
+              "Amount:3": 1000,
+              "FluidName:8": "witchwater"
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

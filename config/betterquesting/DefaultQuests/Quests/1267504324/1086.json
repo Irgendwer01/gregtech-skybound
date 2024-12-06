@@ -1,0 +1,17 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "On this line you can see §4UHV§r equivalents, formerly known as MAX in GTCE.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 9,
+        "id:8": "gregtech:machine_casing"
+      },
+      "issilent:1": 1,
+      "name:8": "UHV equivalent",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1086,
+  "tasks:9": {}
+}

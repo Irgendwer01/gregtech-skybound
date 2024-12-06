@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    1020
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oHow does Neutronate even work??§r\n\n§aUHV Superconductors§r exist, and are used for a few things. You can use them for Superconducting Coils, as well as the §9Rotary Hearth Furnace§r and §9Bulk Blast Chiller§r from §2GCYM§r. These two multis are your parallel EBF and Vacuum Freezer!",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 432,
+        "id:8": "gregtech:wire_single"
+      },
+      "name:8": "UHV Superconductors",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1166,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 432,
+          "id:8": "gregtech:wire_single"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

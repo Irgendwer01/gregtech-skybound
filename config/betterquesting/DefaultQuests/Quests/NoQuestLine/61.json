@@ -4,32 +4,16 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "autoclaim:1": 0,
       "desc:8": "Gregtech has it\u0027s Machines divided in §3Tiers§f. Each Recipe in an Machine has an minimum §2§3Tier §fneeded to be able to be processed. \n\nThere are 10 Tiers in Gregtech by standard:\n§e0 - Ultra Low Voltage (ULV)\n1 - Low Voltage (LV)\n2 - Medium Voltage (MV)\n3 - High Voltage (HV)\n4 - Extreme Voltage (EV)\n5 - Insane Voltage (IV)\n6 - Ludicrious Voltage (LuV)\n7 - Zero Point Module (ZPM)\n8 - Ultimate Voltage (UV)\n9 - Ultra High Voltage (UHV)\n\n§eULV§f doesn\u0027t have any Machines.\n\n§2§2§fYou may notice that §2§eSteam §fis not listed here, that has the reason that it is not directly an §3Tier§f on it\u0027s own and can perform all recipes that are §3§eLV§f.\n\n§fUsing an higher §2§3§3Tier§f to process an Recipe with an lower §3Tier§f needed, the time of the Recipe gets halfed each time by how much the current §3Tier §fis greater than the §3Tier§f needed, so an §2§3§§§eLow Voltage§f Recipe in an §f§3§d§e§eHigh Voltage§f Machine have the time cut in half two times.",
-      "frame:8": "ROUNDED_SQUARE",
-      "globalshare:1": 0,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 994,
-        "OreDict:8": "",
         "id:8": "gregtech:machine"
       },
-      "ignoresview:1": 0,
-      "ismain:1": 0,
-      "issilent:1": 0,
-      "lockedprogress:1": 0,
-      "name:8": "Tiers in Gregtech",
-      "questlogic:8": "AND",
-      "repeat_relative:1": 1,
-      "repeattime:3": -1,
-      "simultaneous:1": 0,
-      "snd_complete:8": "minecraft:entity.player.levelup",
-      "snd_update:8": "minecraft:entity.player.levelup",
-      "tasklogic:8": "AND",
-      "visibility:8": "NORMAL"
+      "name:8": "Tiers in Gregtech"
     }
   },
-  "rewards:9": {},
+  "questID:3": 61,
   "tasks:9": {
     "0:10": {
       "index:3": 0,

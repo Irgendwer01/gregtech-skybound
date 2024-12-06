@@ -4,46 +4,26 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "autoclaim:1": 0,
       "desc:8": "The next Board for the §1Quantum§r Circuit line.\n\n§9Tips:§r For efficient and fast board production, you should use two §3Large Chemical Reactors§r, both powered with §6HV§r or higher (make them both share the same §3Energy Hatch§r):\n\n§9-§r One §3LCR§r for §aIron III Chloride§r. The §dHydrogen§r may be looped, so reproduce §dHydrochloric Acid§r locally, that way you will only have to passively input §aIron Dusts§r and §aChlorine§r.\n\n§9-§r One §3LCR§r for both the §acoated Boards§r and the §aempty Circuit Boards§r to make §ecrafting Requests§r with AE2 extremely easy. Keeping an Input Hatch filled with Sulfuric Acid shouldn\u0027t be a problem, either.",
       "frame:8": "GATE",
-      "globalshare:1": 0,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 405,
-        "OreDict:8": "",
         "id:8": "gregtech:meta_item_1"
       },
-      "ignoresview:1": 0,
       "ismain:1": 1,
-      "issilent:1": 0,
-      "lockedprogress:1": 0,
       "name:8": "Extreme Circuit Boards",
-      "questlogic:8": "AND",
-      "repeat_relative:1": 1,
-      "repeattime:3": -1,
-      "simultaneous:1": 0,
-      "snd_complete:8": "minecraft:entity.player.levelup",
-      "snd_update:8": "minecraft:entity.player.levelup",
-      "tasklogic:8": "AND",
       "visibility:8": "ALWAYS"
     }
   },
-  "rewards:9": {},
+  "questID:3": 1507,
   "tasks:9": {
     "0:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "entryLogic:8": "AND",
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
       "index:3": 0,
-      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
           "Damage:2": 405,
-          "OreDict:8": "",
           "id:8": "gregtech:meta_item_1"
         }
       },

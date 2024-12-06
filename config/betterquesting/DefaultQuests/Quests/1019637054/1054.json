@@ -1,0 +1,33 @@
+{
+  "preRequisites:11": [
+    1053
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oAre you noticing a pattern? It\u0027s not just my imagination...§r\n\nThe §3EV Mixer§r is required for more alloys. The most important being §dTungstensteel§r and §dRTM Alloy§r.",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 473,
+        "id:8": "gregtech:machine"
+      },
+      "ismain:1": 1,
+      "name:8": "Extreme Mixing",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1054,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 473,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

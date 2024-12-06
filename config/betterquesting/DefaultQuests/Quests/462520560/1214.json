@@ -1,0 +1,41 @@
+{
+  "preRequisites:11": [
+    1087
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §aAdvanced Memory Card§r allows for much greater control and efficiency when setting up §9P2Ps§r.\n\nYou can use the card on any §9P2P tunnel§r connected to an §9AE2§r network, and it allows you to rename, rebind, link, or cycle the mode of any other §9P2P§r on the network. You can also use it to reset all connections on a §9P2P tunnel§r.\n\n§bLore:§r The §aAdvanced Memory Card§r is from §2Betterer P2P§r, which is a fork of §2Better P2P§r, integrating features from GTNH\u0027s fork of the mod.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "betterp2p:advanced_memory_card",
+        "tag:10": {
+          "frequency:2": 0,
+          "gui:1": 1,
+          "mode:3": 0,
+          "selectedIndex:10": {}
+        }
+      },
+      "name:8": "Advanced Memory Card",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1214,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "betterp2p:advanced_memory_card",
+          "tag:10": {
+            "frequency:2": 0,
+            "gui:1": 1,
+            "mode:3": 0,
+            "selectedIndex:10": {}
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

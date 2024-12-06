@@ -1,0 +1,78 @@
+{
+  "preRequisites:11": [
+    1245
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§3High Pressure Boilers§r will be a better source of Steam to power your Steam machines.\n\nKeep in mind energy conversion will use Steam to also power your Electric machines in the LV age.\n\n§cNote:§r You will need more than a handful of §3HP Boilers§r. The more you make, the easier it will be.\n\nThe §3Solid Boiler§r burns solid Fuel. It\u0027s self explanatory.\n\nThe §3Liquid Boiler§r burns either §dLava§r or §dCreosote§r.\n\nThe §3Solar Boiler§r burns nothing, it works on solar energy.\n\nDo you want a recommendation...? Well, you\u0027re out of luck, all of them are really good while having their own drawback. But I can tell you this: you will love the Advancement name from making an HP Solar Boiler.\n\n\nGet §eany§r of the three proposed boilers to complete this quest.",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 2,
+        "id:8": "gregtech:machine"
+      },
+      "ismain:1": 1,
+      "name:8": "High Pressure",
+      "tasklogic:8": "OR",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1253,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 12,
+          "id:8": "minecraft:iron_ingot"
+        },
+        "1:10": {
+          "Count:3": 12,
+          "Damage:2": 335,
+          "id:8": "gregtech:meta_ingot"
+        },
+        "2:10": {
+          "Count:3": 12,
+          "Damage:2": 324,
+          "id:8": "gregtech:meta_ingot"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 4,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "2:10": {
+      "index:3": 2,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 6,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

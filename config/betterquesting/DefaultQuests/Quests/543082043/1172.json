@@ -1,0 +1,36 @@
+{
+  "preRequisites:11": [
+    1020
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oDon\u0027t ask me how neutrons create electron holes§r\n\nThis is the §afinal silicon boule§r, which produces a ton of wafers! It also unlocks the recipe for the §aHighly Advanced SoC§r, which is used to make cheaper §4wetware circuits§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 364,
+        "id:8": "gregtech:meta_item_1"
+      },
+      "name:8": "Neutronium-doped Silicon Boule",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1172,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 364,
+          "id:8": "gregtech:meta_item_1"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 599,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "preRequisites:11": [
+    913
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Remotely expand your AE2 network, if you desire to move your base or set up Large Miner or anything else away...\n\nThe §3Quantum Tunnel§r is rather expensive, so you will have work for it if you want it!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "appliedenergistics2:quantum_link"
+      },
+      "name:8": "Quantum Tunnel",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 392,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 2,
+          "id:8": "appliedenergistics2:quantum_link"
+        },
+        "1:10": {
+          "Count:3": 16,
+          "id:8": "appliedenergistics2:quantum_ring"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 2,
+          "Damage:2": 48,
+          "id:8": "appliedenergistics2:material"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

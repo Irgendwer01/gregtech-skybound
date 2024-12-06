@@ -1,0 +1,33 @@
+{
+  "preRequisites:11": [
+    867,
+    842
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The Gas Collector collects Air, to centrifuge into §aOxygen§r and §aNitrogen§r.\n\n\n§bLore:§r GregTech 5 players remember when they had to use a Compressor with IC2 cells to get Compressed Air... In here, cell chemistry is no more.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 530,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "Basic Gas Collector",
+      "questlogic:8": "OR",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 809,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 530,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -5,56 +5,32 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "autoclaim:1": 0,
       "desc:8": "§oDon\u0027t worry it\u0027s simplified enough, you won\u0027t end up on a watch list or anything...§r\n\n§aUranium§r has very few uses in §2GTCEu§r right now, as we have §4not yet§r implemented the §3Nuclear Reactor§r (it is planned!).\n\nMake §dUranium Hexafluoride§r from §aUraninite§r, this will allow you to seperate the isotopes between U238 and U235.\n\n§9Fluorine§r is fully recycled in the reaction, but you will need around maybe 40 buckets to bootstrap.\n§9Hydrogen§r is consumed, you will need quite a lot of it. Either electrolyze a lot of water using several §3LV Electrolyzer§r for the best energy efficiency, or recycle your unused §dhydrocarbons§r such as Methane.\n\n§9Tip:§r You can make this setup compact by having one single §3Centrifuge§r and using a §6Fluid Regulator§r set to §dSupply Exact 1,000§r.",
       "frame:8": "GATE",
-      "globalshare:1": 0,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 116,
-        "OreDict:8": "",
         "id:8": "gregtech:meta_dust"
       },
-      "ignoresview:1": 0,
       "ismain:1": 1,
-      "issilent:1": 0,
-      "lockedprogress:1": 0,
       "name:8": "Uranium Refinement",
-      "questlogic:8": "AND",
-      "repeat_relative:1": 1,
-      "repeattime:3": -1,
-      "simultaneous:1": 0,
-      "snd_complete:8": "minecraft:entity.player.levelup",
-      "snd_update:8": "minecraft:entity.player.levelup",
-      "tasklogic:8": "AND",
       "visibility:8": "ALWAYS"
     }
   },
-  "rewards:9": {},
+  "questID:3": 586,
   "tasks:9": {
     "0:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "entryLogic:8": "AND",
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
       "index:3": 0,
-      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 3,
           "Damage:2": 332,
-          "OreDict:8": "",
           "id:8": "gregtech:meta_dust"
         }
       },
       "taskID:8": "bq_standard:retrieval"
     },
     "1:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
       "index:3": 1,
       "requiredFluids:9": {
         "0:10": {
@@ -65,18 +41,11 @@
       "taskID:8": "bq_standard:fluid"
     },
     "2:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "entryLogic:8": "AND",
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
       "index:3": 2,
-      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
           "Damage:2": 116,
-          "OreDict:8": "",
           "id:8": "gregtech:meta_dust"
         }
       },

@@ -1,0 +1,52 @@
+{
+  "preRequisites:11": [
+    807,
+    805
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oI hope at no point you made the LV Extruder, because only the MV Extruder is actually useful. If you did, I suggest you recycle it through the Arc Furnace.§r\n\nThe Extruder shapes solid materials into (almost!) any form using §aIngots§r. This is a great way to reduce the amount of microcrafting, as well as keeping a high conversion ratio.\n\nThe Extruder can make §6Bolts§r, §6§6Small Gears§r, §6Gears§r, and §6§6Rings§r at the highest efficiency in a single step!\nYou may also like to use it for §dPipes§r, §dLong Rods§r, and §dRotors§r.",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 321,
+        "id:8": "gregtech:machine"
+      },
+      "ismain:1": 1,
+      "name:8": "Advanced Extruder",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 865,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 55,
+          "id:8": "gregtech:meta_item_1"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 52,
+          "id:8": "gregtech:meta_item_1"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 321,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

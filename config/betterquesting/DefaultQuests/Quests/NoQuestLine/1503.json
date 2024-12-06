@@ -5,46 +5,26 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "autoclaim:1": 0,
       "desc:8": "Nothing special here... the §3IV Assembler§r is required to unlock §3IV Energy \u0026 Dynamo Hatches§r as well as §3HSS-G Coils§r, you know you do.\n\nUpgrading this to §2Gregicality Multiblocks§r is a wise decision.\n\n\n§bLore:§r Did you know that GTCE\u0027s content stopped at EV, and the content up to UV was always filled with Shadows of Greg, a third-party mod? This was one of the few IV machines you could make with only GTCE installed. This in fact traces all the way back to the original GT5!",
       "frame:8": "GATE",
-      "globalshare:1": 0,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 114,
-        "OreDict:8": "",
         "id:8": "gregtech:machine"
       },
-      "ignoresview:1": 0,
       "ismain:1": 1,
-      "issilent:1": 0,
-      "lockedprogress:1": 0,
       "name:8": "IV Assembling",
-      "questlogic:8": "AND",
-      "repeat_relative:1": 1,
-      "repeattime:3": -1,
-      "simultaneous:1": 0,
-      "snd_complete:8": "minecraft:entity.player.levelup",
-      "snd_update:8": "minecraft:entity.player.levelup",
-      "tasklogic:8": "AND",
       "visibility:8": "ALWAYS"
     }
   },
-  "rewards:9": {},
+  "questID:3": 1503,
   "tasks:9": {
     "0:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "entryLogic:8": "AND",
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
       "index:3": 0,
-      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
           "Damage:2": 114,
-          "OreDict:8": "",
           "id:8": "gregtech:machine"
         }
       },

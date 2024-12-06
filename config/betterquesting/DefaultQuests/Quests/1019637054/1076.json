@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    967
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oNothing to see here... just normal progression.§r\n\nStarting from here, §3Energy§r and §3Dynamo Hatches§r can be upgraded to a §d4Amps§r variant.\nThis is extremely useful for Multiblock Generators.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1214,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "Upgrading your EBF III",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1076,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1214,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

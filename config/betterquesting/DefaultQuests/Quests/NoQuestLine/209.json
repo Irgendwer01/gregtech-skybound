@@ -5,88 +5,53 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "autoclaim:1": 0,
       "desc:8": "The §3Laser Engraver§r engraves patterns into §9Silicon Wafers§r based on the type of §9Lens§r it is given. After the wafers are engraved, they must be passed through a §3Cutting Machine§r to turn them into components ready to be put into Circuits.\nHigher tier Engravers can etch more complex wafers for more efficient Circuits.\n\nFor now, the §aIntegrated Logic Circuit§r will be the one of interest, but the others will become important for higher tier Circuits.",
       "frame:8": "GATE",
-      "globalshare:1": 0,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 561,
-        "OreDict:8": "",
         "id:8": "gregtech:machine"
       },
-      "ignoresview:1": 0,
       "ismain:1": 1,
-      "issilent:1": 0,
-      "lockedprogress:1": 0,
       "name:8": "Laser Engraving",
-      "questlogic:8": "AND",
-      "repeat_relative:1": 1,
-      "repeattime:3": -1,
-      "simultaneous:1": 0,
-      "snd_complete:8": "minecraft:entity.player.levelup",
-      "snd_update:8": "minecraft:entity.player.levelup",
-      "tasklogic:8": "AND",
       "visibility:8": "ALWAYS"
     }
   },
-  "rewards:9": {},
+  "questID:3": 209,
   "tasks:9": {
     "0:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "entryLogic:8": "AND",
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
       "index:3": 0,
-      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
           "Damage:2": 561,
-          "OreDict:8": "",
           "id:8": "gregtech:machine"
         }
       },
       "taskID:8": "bq_standard:retrieval"
     },
     "1:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "entryLogic:8": "AND",
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
       "index:3": 1,
-      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
           "Damage:2": 311,
-          "OreDict:8": "",
           "id:8": "gregtech:meta_lens"
         }
       },
       "taskID:8": "bq_standard:retrieval"
     },
     "2:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "entryLogic:8": "AND",
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
       "index:3": 3,
-      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
           "Damage:2": 568,
-          "OreDict:8": "",
           "id:8": "gregtech:meta_item_1"
         },
         "1:10": {
           "Count:3": 8,
           "Damage:2": 593,
-          "OreDict:8": "",
           "id:8": "gregtech:meta_item_1"
         }
       },

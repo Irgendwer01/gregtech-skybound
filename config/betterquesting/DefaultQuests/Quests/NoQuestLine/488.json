@@ -5,82 +5,47 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "autoclaim:1": 0,
       "desc:8": "The §3Diode§r (block, not item component) accepts energy inputs from 5 sides, but only outputs through a single side.\n\nIts main purpose is to §dlimit Amperage§r. It is useful for regulating centralised Power generation, so you can distribute your power everywhere without having to math out what cable size is safe depending on consumers...\n\nThey can also be used as some sort of Repeaters when the voltage loss from Cables (or GTEU P2P tunnels, more on that later!) get too high.\n\nYou can use a §5Soft Hammer§r to change the Amperage limit of the output.\n\n§eAny§r Diode will complete this Quest.",
-      "frame:8": "ROUNDED_SQUARE",
-      "globalshare:1": 0,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 1304,
-        "OreDict:8": "",
         "id:8": "gregtech:machine"
       },
-      "ignoresview:1": 0,
-      "ismain:1": 0,
-      "issilent:1": 0,
-      "lockedprogress:1": 0,
       "name:8": "Diode",
-      "questlogic:8": "AND",
-      "repeat_relative:1": 1,
-      "repeattime:3": -1,
-      "simultaneous:1": 0,
-      "snd_complete:8": "minecraft:entity.player.levelup",
-      "snd_update:8": "minecraft:entity.player.levelup",
       "tasklogic:8": "OR",
       "visibility:8": "ALWAYS"
     }
   },
-  "rewards:9": {},
+  "questID:3": 488,
   "tasks:9": {
     "0:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "entryLogic:8": "AND",
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
       "index:3": 0,
-      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
           "Damage:2": 1303,
-          "OreDict:8": "",
           "id:8": "gregtech:machine"
         }
       },
       "taskID:8": "bq_standard:retrieval"
     },
     "1:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "entryLogic:8": "AND",
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
       "index:3": 1,
-      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
           "Damage:2": 1304,
-          "OreDict:8": "",
           "id:8": "gregtech:machine"
         }
       },
       "taskID:8": "bq_standard:retrieval"
     },
     "2:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "entryLogic:8": "AND",
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
       "index:3": 2,
-      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
           "Damage:2": 1305,
-          "OreDict:8": "",
           "id:8": "gregtech:machine"
         }
       },

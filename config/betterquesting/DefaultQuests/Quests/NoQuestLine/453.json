@@ -1,33 +1,17 @@
 {
-  "preRequisites:11": [],
   "properties:10": {
     "betterquesting:10": {
-      "autoclaim:1": 0,
       "desc:8": "Explaining §2Applied Energistics§r mechanics would almost need its own entire Quest Book, which is too much effort for what it\u0027s worth.\n\nThere are great resources online and excellent video tutorials for all the mechanics in §2AE2§r, which I invite you to check out.\nThe Quests focus on on major milestones, and tricks that are not widely known.\n\nMake sure to use §aJEI§r for all the expert-style modified recipes, which remain fairly accessible.\n\n\n§9Note:§r In this modpack, Channels are §4disabled§r.\nThis means there is no need for a ME Controller or to manage channels in any way whatsoever.\n\n\n§bLore:§r This version of AE2 is a fork originally made for Omnifactory. Notice \"Unofficial\" in the mod name? It comes with a lot of performance improvements and QoL over the original version.",
-      "frame:8": "ROUNDED_SQUARE",
-      "globalshare:1": 0,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 4,
-        "OreDict:8": "",
         "id:8": "gregtech:warning_sign"
       },
-      "ignoresview:1": 0,
-      "ismain:1": 0,
-      "issilent:1": 0,
-      "lockedprogress:1": 0,
       "name:8": "AE2 Quests are only uncommon tips \u0026 tricks",
-      "questlogic:8": "AND",
-      "repeat_relative:1": 1,
-      "repeattime:3": -1,
-      "simultaneous:1": 0,
-      "snd_complete:8": "minecraft:entity.player.levelup",
-      "snd_update:8": "minecraft:entity.player.levelup",
-      "tasklogic:8": "AND",
       "visibility:8": "ALWAYS"
     }
   },
-  "rewards:9": {},
+  "questID:3": 453,
   "tasks:9": {
     "0:10": {
       "index:3": 0,

@@ -4,14 +4,10 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "autoclaim:1": 0,
       "desc:8": "§aCetane-Boosted Diesel§r is §650% more energy dense§r than regular §aDiesel§r, and only requires 1 part §dTetranitromethane (TNM)§r for every 50 parts §aDiesel§r. What a deal, right?\n\nThe catch comes in the complexity of making §dTNM§r. In order to make it, you must react §aNitric Acid§r with either §dEthenone§r or §aMethyl Acetate§r, both of which have quite an involved process themselves.",
-      "frame:8": "ROUNDED_SQUARE",
-      "globalshare:1": 0,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 78,
-        "OreDict:8": "",
         "id:8": "gregtech:meta_item_1",
         "tag:10": {
           "Fluid:10": {
@@ -20,28 +16,13 @@
           }
         }
       },
-      "ignoresview:1": 0,
-      "ismain:1": 0,
-      "issilent:1": 0,
-      "lockedprogress:1": 0,
       "name:8": "Cetane-Boosted Diesel",
-      "questlogic:8": "AND",
-      "repeat_relative:1": 1,
-      "repeattime:3": -1,
-      "simultaneous:1": 0,
-      "snd_complete:8": "minecraft:entity.player.levelup",
-      "snd_update:8": "minecraft:entity.player.levelup",
-      "tasklogic:8": "AND",
       "visibility:8": "ALWAYS"
     }
   },
-  "rewards:9": {},
+  "questID:3": 438,
   "tasks:9": {
     "0:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
       "index:3": 0,
       "requiredFluids:9": {
         "0:10": {

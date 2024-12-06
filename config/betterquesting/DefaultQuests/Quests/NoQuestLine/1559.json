@@ -6,44 +6,30 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "autoclaim:1": 0,
       "desc:8": "§oAll in one! This Quest describes the Tungsten Chain.§r\n\n§aTungsten§r is obtained from either §eTungstate§r or §eScheelite§r, which are part of the same vein in the End.\n\nJust like the §dRutile§r chain, you will only need to input one item type, and everything else will be looped perfectly!\n\nYou will need:\n§9-§r One §3Chemical Bath§r, to make §dTungstic Acid§r.\n§9-§r One §3Electrolyzer§r, to electrolyze §oboth§r Bath outputs.\n§9-§r One §3Chemical Reactor§r, to loop back §dHydrogen§r and §dChlorine§r into §aHydrochloric Acid§r.\n\nYou will be granted either Calcium or Lithium as Byproduct, that\u0027s free of charge!\n\n\n§bLore:§r In GTCE, Tungstate or Scheelite took 40sec and 4 Hydrogen buckets at 1920 EU/t to electrolyze into 1 Tungsten Dust. Even if it was simpler, it was much more ridiculously expensive! This new chain is great.",
       "frame:8": "GATE",
-      "globalshare:1": 0,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 115,
-        "OreDict:8": "",
         "id:8": "gregtech:meta_dust"
       },
-      "ignoresview:1": 0,
       "ismain:1": 1,
-      "issilent:1": 0,
-      "lockedprogress:1": 0,
       "name:8": "Tungsten Chain",
-      "questlogic:8": "AND",
-      "repeat_relative:1": 1,
-      "repeattime:3": -1,
-      "simultaneous:1": 0,
-      "snd_complete:8": "minecraft:entity.player.levelup",
-      "snd_update:8": "minecraft:entity.player.levelup",
-      "tasklogic:8": "AND",
       "visibility:8": "ALWAYS"
     }
   },
+  "questID:3": 1559,
   "rewards:9": {
     "0:10": {
       "choices:9": {
         "0:10": {
           "Count:3": 12,
           "Damage:2": 2,
-          "OreDict:8": "",
           "id:8": "gregtech:ore_scheelite_0"
         },
         "1:10": {
           "Count:3": 12,
           "Damage:2": 2,
-          "OreDict:8": "",
           "id:8": "gregtech:ore_tungstate_0"
         }
       },
@@ -53,42 +39,27 @@
   },
   "tasks:9": {
     "0:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "entryLogic:8": "AND",
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
       "index:3": 0,
-      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
           "Damage:2": 203,
-          "OreDict:8": "",
           "id:8": "gregtech:machine"
         },
         "1:10": {
           "Count:3": 1,
           "Damage:2": 278,
-          "OreDict:8": "",
           "id:8": "gregtech:machine"
         }
       },
       "taskID:8": "bq_standard:retrieval"
     },
     "1:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "entryLogic:8": "AND",
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
       "index:3": 1,
-      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
           "Damage:2": 115,
-          "OreDict:8": "",
           "id:8": "gregtech:meta_dust"
         }
       },

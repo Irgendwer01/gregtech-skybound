@@ -4,31 +4,18 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "autoclaim:1": 0,
       "desc:8": "§oTo not confound with a certain man.§r\n\n§aPotin§r Fluid Pipes have a very §6high Throughput§r, for the material tier and cost, you may use this.\n\nTo get §aPotin§r, look at the recipe for the §aDust§r.\n\nThis quest calls for either the small or normal version, get §eeither§r to complete it.\n\n\n§bLore:§r Potin Fluid Pipes were originally created in GT++, and were a huge power spike in GT:NH. Despite that fact, everybody seems to be enjoying them, and so we do too.\nAlso in reality, this is an alloy used in coins! Don\u0027t question the logic.",
-      "frame:8": "ROUNDED_SQUARE",
-      "globalshare:1": 0,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 2037,
-        "OreDict:8": "",
         "id:8": "gregtech:fluid_pipe_normal"
       },
-      "ignoresview:1": 0,
-      "ismain:1": 0,
-      "issilent:1": 0,
-      "lockedprogress:1": 0,
       "name:8": "Potin Gang",
-      "questlogic:8": "AND",
-      "repeat_relative:1": 1,
-      "repeattime:3": -1,
-      "simultaneous:1": 0,
-      "snd_complete:8": "minecraft:entity.player.levelup",
-      "snd_update:8": "minecraft:entity.player.levelup",
       "tasklogic:8": "OR",
       "visibility:8": "ALWAYS"
     }
   },
+  "questID:3": 114,
   "rewards:9": {
     "0:10": {
       "index:3": 0,
@@ -37,7 +24,6 @@
         "0:10": {
           "Count:3": 6,
           "Damage:2": 2037,
-          "OreDict:8": "",
           "id:8": "gregtech:meta_plate"
         }
       }
@@ -45,36 +31,22 @@
   },
   "tasks:9": {
     "0:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "entryLogic:8": "AND",
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
       "index:3": 0,
-      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
           "Damage:2": 2037,
-          "OreDict:8": "",
           "id:8": "gregtech:fluid_pipe_small"
         }
       },
       "taskID:8": "bq_standard:retrieval"
     },
     "1:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "entryLogic:8": "AND",
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
       "index:3": 1,
-      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
           "Damage:2": 2037,
-          "OreDict:8": "",
           "id:8": "gregtech:fluid_pipe_normal"
         }
       },

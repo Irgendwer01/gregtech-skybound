@@ -1,0 +1,22 @@
+{
+  "preRequisites:11": [
+    8
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "As mentioned in the welcome quest, this modpack features §2Effortless Building§f!\n\n§2Effortless Building§f makes building by a thousand times easier by allowing to build simple structures like floors and walls in an limited range that can be upgraded with §2Range Upgrades§f which you can acquire while progressing.\n\nTo access the menu of the mod, press and hold §2ALT§f.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "xtones:base"
+      },
+      "name:8": "Effortless Building"
+    }
+  },
+  "questID:3": 2,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

@@ -4,46 +4,24 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "autoclaim:1": 0,
       "desc:8": "§aBlue Alloy§r is an excellent Cable material for §6HV§r voltage.\nNothing prevents you from using it for §bMV§r voltage too! Beware of not overvolting your machines, though.\nSuperconductors for both MV and HV are unlocked... much later.\n\n§aElectrotine§r is obtained from the §cNether§r, so don\u0027t craft it in the Mixer!\n\n§aElectrotine§r can be separated for §dElectrum§r and §dRedstone§r. If you need 8 whole dusts as input, that\u0027s for balance reasons.",
-      "frame:8": "ROUNDED_SQUARE",
-      "globalshare:1": 0,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 2527,
-        "OreDict:8": "",
         "id:8": "gregtech:meta_ingot"
       },
-      "ignoresview:1": 0,
-      "ismain:1": 0,
-      "issilent:1": 0,
-      "lockedprogress:1": 0,
       "name:8": "Blue Alloy",
-      "questlogic:8": "AND",
-      "repeat_relative:1": 1,
-      "repeattime:3": -1,
-      "simultaneous:1": 0,
-      "snd_complete:8": "minecraft:entity.player.levelup",
-      "snd_update:8": "minecraft:entity.player.levelup",
-      "tasklogic:8": "AND",
       "visibility:8": "ALWAYS"
     }
   },
-  "rewards:9": {},
+  "questID:3": 1574,
   "tasks:9": {
     "0:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "entryLogic:8": "AND",
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
       "index:3": 0,
-      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
           "Damage:2": 2527,
-          "OreDict:8": "",
           "id:8": "gregtech:meta_ingot"
         }
       },

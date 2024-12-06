@@ -5,44 +5,30 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "autoclaim:1": 0,
       "desc:8": "§oTime for a real oil refinery.§r\n\nThe §3Distillation Tower§r is a multiblock meant for producing huge amounts of products. In §3Distilleries§r, you had to pick only one product to output. DTs output §6all of it at once§r!\n\n§9Note the special placement rules:§r Energy, Items, and Fluid Inputs can only be placed on the bottom layer. Maintenance can be placed anywhere. Fluid Outputs can only be placed starting on the second vertical layer, and only allow one per layer as well.\n\nThe §3DT§r can form at any height from §c§c3§r to §c13§r blocks, allowing 2 to 12 Fluid Outputs. Fluid will always output on the layer corresponding to the recipe in §2JEI§r.\nThe §3DT§r has one more §9special§r rule. You can deliberately build it too short, and it will §cvoid§r whichever Fluid should have been output at the top layers that were removed. Useful in niche situations.\n\nIt is a good idea to use §3Super Tanks§r as the output for every layer.\n\n§cNote:§r Using the §3Distillation Tower§r for Oil -\u003e Fuel -\u003e Diesel is §cnot§r worth it! You will spend more energy Overclocking the Multiblock, than what the extra outputs will provide. You may instead look at the §3Processing Array§r (§1IV§r) for large scale Diesel production.\nIt is however §6very worth§r for Cracked Fuels and Pyrolyse products.",
       "frame:8": "GATE",
-      "globalshare:1": 0,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 1005,
-        "OreDict:8": "",
         "id:8": "gregtech:machine"
       },
-      "ignoresview:1": 0,
       "ismain:1": 1,
-      "issilent:1": 0,
-      "lockedprogress:1": 0,
       "name:8": "Distillation Tower",
-      "questlogic:8": "AND",
-      "repeat_relative:1": 1,
-      "repeattime:3": -1,
-      "simultaneous:1": 0,
-      "snd_complete:8": "minecraft:entity.player.levelup",
-      "snd_update:8": "minecraft:entity.player.levelup",
-      "tasklogic:8": "AND",
       "visibility:8": "ALWAYS"
     }
   },
+  "questID:3": 288,
   "rewards:9": {
     "0:10": {
       "choices:9": {
         "0:10": {
           "Count:3": 16,
           "Damage:2": 5,
-          "OreDict:8": "",
           "id:8": "gregtech:metal_casing"
         },
         "1:10": {
           "Count:3": 4,
           "Damage:2": 1575,
-          "OreDict:8": "",
           "id:8": "gregtech:machine"
         }
       },
@@ -52,18 +38,11 @@
   },
   "tasks:9": {
     "0:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "entryLogic:8": "AND",
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
       "index:3": 0,
-      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
           "Damage:2": 1005,
-          "OreDict:8": "",
           "id:8": "gregtech:machine"
         }
       },

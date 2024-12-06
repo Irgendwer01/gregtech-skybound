@@ -5,31 +5,19 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "autoclaim:1": 0,
       "desc:8": "§oDoping is the process of intentionally introducing impurities into semiconductors to change their properties.§r\n\n§7Silicon§r can be doped with small amounts of §ePhosphorus§r to make a better §eSilicon Boule§r.\n\nPhosphorus-doped Silicon Boules typically yield §68 times§r more wafers than their non-doped counterparts. However, they are not strictly needed until the §5EV§r age, where they will be used in more complex wafers.\n\n§9Note§r: All processing of Phosphorus Boules and Wafers requires a §dCleanroom§r!",
       "frame:8": "GATE",
-      "globalshare:1": 0,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 362,
-        "OreDict:8": "",
         "id:8": "gregtech:meta_item_1"
       },
-      "ignoresview:1": 0,
       "ismain:1": 1,
-      "issilent:1": 0,
-      "lockedprogress:1": 0,
       "name:8": "Phosphorus Boules",
-      "questlogic:8": "AND",
-      "repeat_relative:1": 1,
-      "repeattime:3": -1,
-      "simultaneous:1": 0,
-      "snd_complete:8": "minecraft:entity.player.levelup",
-      "snd_update:8": "minecraft:entity.player.levelup",
-      "tasklogic:8": "AND",
       "visibility:8": "ALWAYS"
     }
   },
+  "questID:3": 1417,
   "rewards:9": {
     "0:10": {
       "index:3": 0,
@@ -38,7 +26,6 @@
         "0:10": {
           "Count:3": 1,
           "Damage:2": 737,
-          "OreDict:8": "",
           "id:8": "gregtech:meta_item_1",
           "tag:10": {
             "Charge:4": 1800000
@@ -49,36 +36,22 @@
   },
   "tasks:9": {
     "0:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "entryLogic:8": "AND",
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
       "index:3": 0,
-      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
           "Damage:2": 362,
-          "OreDict:8": "",
           "id:8": "gregtech:meta_item_1"
         }
       },
       "taskID:8": "bq_standard:retrieval"
     },
     "1:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "entryLogic:8": "AND",
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
       "index:3": 1,
-      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
           "Damage:2": 562,
-          "OreDict:8": "",
           "id:8": "gregtech:machine"
         }
       },

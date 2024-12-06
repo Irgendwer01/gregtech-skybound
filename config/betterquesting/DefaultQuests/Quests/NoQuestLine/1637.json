@@ -4,31 +4,17 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "autoclaim:1": 0,
       "desc:8": "Some specific fluids are §dCryogenic§r, which are too cold for ordinary pipes. \n\nYou need to pick the right pipe for the job!\n\nNot many pipes support cold fluids, so give §aStainless Steel§r or §aIridium§r a try. Later on you can use §aNaquadah§r or most of the fusion materials when you get there.\n\n§cWARNING:§r§r Cryogenics in the wrong pipes will cause §cvoiding§r, §cpipe freezing§r, and high rates of §cdeath§r! Be careful!\n\n§bLore:§r This is the first time GregTech has cryogenic mechanics, a GTCEu-original feature!",
-      "frame:8": "ROUNDED_SQUARE",
-      "globalshare:1": 0,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 323,
-        "OreDict:8": "",
         "id:8": "gregtech:fluid_pipe_large"
       },
-      "ignoresview:1": 0,
-      "ismain:1": 0,
-      "issilent:1": 0,
-      "lockedprogress:1": 0,
       "name:8": "This isn\u0027t Cryotheum!",
-      "questlogic:8": "AND",
-      "repeat_relative:1": 1,
-      "repeattime:3": -1,
-      "simultaneous:1": 0,
-      "snd_complete:8": "minecraft:entity.player.levelup",
-      "snd_update:8": "minecraft:entity.player.levelup",
-      "tasklogic:8": "AND",
       "visibility:8": "ALWAYS"
     }
   },
+  "questID:3": 1637,
   "rewards:9": {
     "0:10": {
       "index:3": 0,
@@ -37,7 +23,6 @@
         "0:10": {
           "Count:3": 12,
           "Damage:2": 323,
-          "OreDict:8": "",
           "id:8": "gregtech:fluid_pipe_small"
         }
       }

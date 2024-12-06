@@ -6,63 +6,28 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "autoclaim:1": 0,
-      "desc:8": "While you could go into §9The End§r (Via the §aEnd Cake§f), it is completely optional and you can safely ignore till like §5IV§f because it only can give you §aEnder Air§f which won\u0027t be useful for now.\n\nAutomating §aEnd Stone§f will also be important as it\u0027s an important source of Ores like §aPlutonium-239§f or §aNaquadah§f.\n\n§aEyes of Ender§r are used in crafting certain components, or for creating §5Quantum Eyes§r.",
+      "desc:8": "You can travel to §9The End§r via an §aEnd Cake§f, you can safely ignore it till §5IV§f as it requires §2§aQuantum Stars§r to obtain.\n\nAutomating §aEnd Stone§f will be important as it\u0027s an important source of Ores like §aPlutonium-239§f or §aNaquadah§f.\n\n§aEyes of Ender§r are used in crafting important components like §5Quantum Eyes§r.",
       "frame:8": "GATE",
-      "globalshare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 0,
-        "OreDict:8": "",
         "id:8": "minecraft:end_portal_frame"
       },
-      "ignoresview:1": 0,
       "ismain:1": 1,
-      "issilent:1": 0,
-      "lockedprogress:1": 0,
       "name:8": "The End?",
-      "questlogic:8": "AND",
-      "repeat_relative:1": 1,
-      "repeattime:3": -1,
-      "simultaneous:1": 0,
-      "snd_complete:8": "minecraft:entity.player.levelup",
-      "snd_update:8": "minecraft:entity.player.levelup",
-      "tasklogic:8": "AND",
       "visibility:8": "ALWAYS"
     }
   },
-  "rewards:9": {
-    "0:10": {
-      "asScript:1": 1,
-      "command:8": "#Script Comment\nlocate Stronghold",
-      "description:8": "Locate nearest Stronghold",
-      "hideBlockIcon:1": 1,
-      "index:3": 0,
-      "rewardID:8": "bq_standard:command",
-      "title:8": "bq_standard.reward.command",
-      "viaPlayer:1": 1
-    }
-  },
+  "questID:3": 926,
   "tasks:9": {
     "0:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "entryLogic:8": "AND",
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
       "index:3": 0,
-      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 12,
-          "Damage:2": 0,
-          "OreDict:8": "",
           "id:8": "minecraft:ender_eye"
         },
         "1:10": {
           "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": "",
           "id:8": "minecraft:end_stone"
         }
       },

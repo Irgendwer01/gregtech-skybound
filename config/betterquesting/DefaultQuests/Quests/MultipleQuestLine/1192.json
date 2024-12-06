@@ -4,58 +4,36 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "autoclaim:1": 0,
       "desc:8": "§oThis isn\u0027t a quantum computer...§r\n\nThe §3High Performance Computation Array§r, also known as the §3HPCA§r, is the multiblock used to create §9Computation§r, measured in CWU/t (Compute-Work Units per tick).\n\nThe HPCA is a modular multiblock built out of different components. There are §a9 slots available§r for different components, and there are some example layouts in the JEI previews.\n\nThere are two main types of components:\n- §9Computation Components§r: These generate a certain amount of CWU/t and require EU/t and cooling.\n- §9Cooling Components§r: These provide a certain amount of cooling, and require EU/t.\n\nCurrently Available Components:\n- §9Empty§r: Fills a slot but otherwise does nothing.\n-§9 Heat Sink§r: Requires no power but provides 1 cooling.\n- §9Active Cooler§r: Requires power, PCB Coolant, but provides 2 cooling.\n- §9Computation§r: Creates 4 CWU/t, but requires a lot of power and cooling.\n\nThe HPCA draws some power to idle. Power and cooling requirements are scaled between this idle upkeep power, and a maximum value depending on how much computation is being actively used.\n\nIf the HPCA is not given enough cooling, Computation components can be §4damaged§r if it is running above §c100C§r. The idle temperature is §a20C§r. Only computation components can be damaged, and all other blocks will be unharmed.\n\nThe HPCA can only have 1 §3Computation Data Transmission Hatch§r. You can connect it to the Reception Hatch of the §9Research Station§r with Optical Fiber Cable to transmit the computation.\n\nBasic CWU/t Requirements for ZPM Tier:\n- §a4 CWU/t§r for §cZPM§r Sensors, Emitters, and Field Generators\n- §a8 CWU/t§r for §cZPM§r Enegy Hatches\n- §a16 CWU/t§r for §3UV§r Circuits and beyond.\n\nDon\u0027t feel forced to go for 16 CWU/t immediately. There\u0027s lots to do in between these milestones.\n\n§bLore§r: This mechanic is loosely inspired by TecTech\u0027s Quantum Computer, which is similar but has some much more annoying mechanics like the Uncertainty Resolver.",
       "frame:8": "GATE",
-      "globalshare:1": 0,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 1039,
-        "OreDict:8": "",
         "id:8": "gregtech:machine"
       },
-      "ignoresview:1": 0,
       "ismain:1": 1,
-      "issilent:1": 0,
-      "lockedprogress:1": 0,
       "name:8": "HPCA",
-      "questlogic:8": "AND",
-      "repeat_relative:1": 1,
-      "repeattime:3": -1,
-      "simultaneous:1": 0,
-      "snd_complete:8": "minecraft:entity.player.levelup",
-      "snd_update:8": "minecraft:entity.player.levelup",
-      "tasklogic:8": "AND",
       "visibility:8": "ALWAYS"
     }
   },
-  "rewards:9": {},
+  "questID:3": 1192,
   "tasks:9": {
     "0:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "entryLogic:8": "AND",
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
       "index:3": 0,
-      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
           "Damage:2": 1039,
-          "OreDict:8": "",
           "id:8": "gregtech:machine"
         },
         "1:10": {
           "Count:3": 1,
           "Damage:2": 1410,
-          "OreDict:8": "",
           "id:8": "gregtech:machine"
         },
         "2:10": {
           "Count:3": 1,
           "Damage:2": 1413,
-          "OreDict:8": "",
           "id:8": "gregtech:machine"
         }
       },

@@ -1,32 +1,16 @@
 {
-  "preRequisites:11": [],
   "properties:10": {
     "betterquesting:10": {
-      "autoclaim:1": 0,
       "desc:8": "Your only source of Diamond!\n\nDiamond has §6five times more durability§r than Iron for tools. However you may need Diamond Plates for some of them, which is locked behind the Cutting Machine.\n\nDiamond and Graphite both electrolyze to a lot of Carbon.\n\n§cNote:§r Avoid macerating Diamonds in the early game. Recovering gem dusts into the actual gem cannot be done for a while.",
-      "frame:8": "ROUNDED_SQUARE",
-      "globalshare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 0,
-        "OreDict:8": "",
         "id:8": "gregtech:ore_graphite_0"
       },
-      "ignoresview:1": 0,
-      "ismain:1": 0,
-      "issilent:1": 0,
-      "lockedprogress:1": 0,
       "name:8": "Graphite - Source of Diamond, Carbon",
-      "questlogic:8": "AND",
-      "repeat_relative:1": 1,
-      "repeattime:3": -1,
-      "simultaneous:1": 0,
-      "snd_complete:8": "minecraft:entity.player.levelup",
-      "snd_update:8": "minecraft:entity.player.levelup",
-      "tasklogic:8": "AND",
       "visibility:8": "ALWAYS"
     }
   },
+  "questID:3": 890,
   "rewards:9": {
     "0:10": {
       "index:3": 0,
@@ -35,7 +19,6 @@
         "0:10": {
           "Count:3": 1,
           "Damage:2": 800,
-          "OreDict:8": "",
           "id:8": "gregtech:meta_item_1"
         }
       }
@@ -43,30 +26,18 @@
   },
   "tasks:9": {
     "0:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "entryLogic:8": "AND",
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
       "index:3": 0,
-      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": "",
           "id:8": "gregtech:ore_graphite_0"
         },
         "1:10": {
           "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": "",
           "id:8": "gregtech:ore_diamond_0"
         },
         "2:10": {
           "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": "",
           "id:8": "gregtech:ore_coal_0"
         }
       },

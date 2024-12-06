@@ -1,0 +1,62 @@
+{
+  "preRequisites:11": [
+    5,
+    6
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §f§2Sieve§f is the main source of resources in this pack, but don\u0027t worry, it can be automated as soon as you get into the steam age!\n\n§2§fRight-Click the §2Sieve§f with an §2Mesh§f to put it in and then hold Right-Click with the block you want to sift, for example§2 Dirt§f to get the resources you want from this block.\n\n§2Sieves§f can be put nearby each other to sift multiple blocks at once! Pretty neat, or?",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "exnihilocreatio:block_sieve"
+      },
+      "name:8": "Sieve"
+    }
+  },
+  "questID:3": 0,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 9,
+          "id:8": "exnihilocreatio:block_sieve"
+        },
+        "1:10": {
+          "Count:3": 9,
+          "Damage:2": 1,
+          "id:8": "exnihilocreatio:item_mesh"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "exnihilocreatio:item_pebble"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 3,
+          "id:8": "exnihilocreatio:item_material"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 3,
+          "id:8": "exnihilocreatio:item_pebble"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "exnihilocreatio:item_pebble"
+        },
+        "6:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "id:8": "exnihilocreatio:item_pebble"
+        },
+        "7:10": {
+          "Count:3": 1,
+          "id:8": "gregtech:rubber_sapling"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

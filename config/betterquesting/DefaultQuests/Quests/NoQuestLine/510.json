@@ -6,46 +6,26 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "autoclaim:1": 0,
       "desc:8": "§oFusion, but even more expensive!§r\n\nBuild the structure taking Fusion Glass in §aJEI§r.\nTo save on Fusion Casings, fit Input \u0026 Output Hatches wherever you can (as displayed in the structure).\n\nThe §aFusion Reactor Mk2§r is even more expensive than the Mk1! The key difference is that it has a higher §6Energy To Start§r than the Mk1, allowing you to run new recipes.\n\nIt can also overclock lower voltage recipes, such as those in the Mk1 reactor.\n\n§6Fusion Reactor Overclocking§r works a bit differently compared to most machines. Instead of the traditional 4x power and 2x speed boost, the Fusion Reactor only does §a2x power for a 2x speed boost§r. You may be thinking this is the same as the LCR\u0027s perfect overclocking, but it\u0027s not. \nRemember how machines get one overclock for each voltage tier past the recipe\u0027s required tier? This means your §cZPM§r Fusion Reactor Mk2 will still only overclock §etwice§r with an §9IV§r recipe, meaning a total of 4x the power consumption for a 4x speed boost.",
       "frame:8": "GATE",
-      "globalshare:1": 0,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 1021,
-        "OreDict:8": "",
         "id:8": "gregtech:machine"
       },
-      "ignoresview:1": 0,
       "ismain:1": 1,
-      "issilent:1": 0,
-      "lockedprogress:1": 0,
       "name:8": "Fusion Reactor II",
-      "questlogic:8": "AND",
-      "repeat_relative:1": 1,
-      "repeattime:3": -1,
-      "simultaneous:1": 0,
-      "snd_complete:8": "minecraft:entity.player.levelup",
-      "snd_update:8": "minecraft:entity.player.levelup",
-      "tasklogic:8": "AND",
       "visibility:8": "ALWAYS"
     }
   },
-  "rewards:9": {},
+  "questID:3": 510,
   "tasks:9": {
     "0:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "entryLogic:8": "AND",
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
       "index:3": 0,
-      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
           "Damage:2": 1021,
-          "OreDict:8": "",
           "id:8": "gregtech:machine"
         }
       },

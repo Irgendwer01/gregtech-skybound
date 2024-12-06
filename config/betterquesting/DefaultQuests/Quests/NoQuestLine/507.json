@@ -5,38 +5,21 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "autoclaim:1": 0,
       "desc:8": "§oDon\u0027t touch the acid!§r\n\nRefining §9Naquadah§r into further products is your next automation task. The primary resources are §aEnriched Naquadah§r, §aNaquadria§r, and §aTrinium§r. It also produces many useful byproducts, which you can discover using JEI.\n\n§aEnriched Naquadah§r currently does not have many uses, but will be used for power generation in the future.\n\n§aNaquadria§r is a later game material, used for §3UV§r components.\n\n§aTrinium§r is the most useful resource for you right now. It is used to build the Fusion Reactor, and in all §cZPM§r machines.\n\n§eNote§r: This processing chain contains a more complex loop than what you\u0027ve seen previously! Outputs in later steps can be sent back into previous steps, but lose a little bit of fluid each time. This can be challenging to automate. Good luck!\n\n§r§bLore§r: Many GregTech iterations have Naquadah processing. The first was likely Impact, with a Naquadah fuel process. Then, Gregicality Legacy followed with Processes for making the naquadah material (and variants) as well as Fuel. After that, GTNH added their own naquadah processes for the material and fuel. Lastly, GTCEu added the process you\u0027re about to set up!",
       "frame:8": "GATE",
-      "globalshare:1": 0,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 126,
-        "OreDict:8": "",
         "id:8": "gregtech:meta_dust"
       },
-      "ignoresview:1": 0,
       "ismain:1": 1,
-      "issilent:1": 0,
-      "lockedprogress:1": 0,
       "name:8": "Naquadah Chain",
-      "questlogic:8": "AND",
-      "repeat_relative:1": 1,
-      "repeattime:3": -1,
-      "simultaneous:1": 0,
-      "snd_complete:8": "minecraft:entity.player.levelup",
-      "snd_update:8": "minecraft:entity.player.levelup",
-      "tasklogic:8": "AND",
       "visibility:8": "ALWAYS"
     }
   },
-  "rewards:9": {},
+  "questID:3": 507,
   "tasks:9": {
     "0:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
       "index:3": 0,
       "requiredFluids:9": {
         "0:10": {

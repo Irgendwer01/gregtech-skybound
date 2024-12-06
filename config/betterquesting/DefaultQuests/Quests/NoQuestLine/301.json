@@ -6,62 +6,37 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "autoclaim:1": 0,
       "desc:8": "§oDo you notice a pattern?§r\n\nThe §aLow Power Integrated Circuit§r requires an §3HV Cutting Machine§r inside your §3Cleanroom§r.\n\n§3HV Energy Hatches§r will be nice to run your Multiblocks (mainly Electric Blast Furnace and Large Chemical Reactor) off §6HV§r directly.\n\nThis time around, you won\u0027t need to upgrade your EBF with 2 Energy Hatches to progress to §5EV§r, phew!",
       "frame:8": "GATE",
-      "globalshare:1": 0,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 1213,
-        "OreDict:8": "",
         "id:8": "gregtech:machine"
       },
-      "ignoresview:1": 0,
       "ismain:1": 1,
-      "issilent:1": 0,
-      "lockedprogress:1": 0,
       "name:8": "Upgrade your EBF II",
-      "questlogic:8": "AND",
-      "repeat_relative:1": 1,
-      "repeattime:3": -1,
-      "simultaneous:1": 0,
-      "snd_complete:8": "minecraft:entity.player.levelup",
-      "snd_update:8": "minecraft:entity.player.levelup",
-      "tasklogic:8": "AND",
       "visibility:8": "ALWAYS"
     }
   },
-  "rewards:9": {},
+  "questID:3": 301,
   "tasks:9": {
     "0:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "entryLogic:8": "AND",
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
       "index:3": 0,
-      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
           "Damage:2": 821,
-          "OreDict:8": "",
           "id:8": "gregtech:meta_item_1"
         },
         "1:10": {
           "Count:3": 1,
           "Damage:2": 603,
-          "OreDict:8": "",
           "id:8": "gregtech:meta_item_1"
         }
       },
       "taskID:8": "bq_standard:retrieval"
     },
     "1:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
       "index:3": 1,
       "requiredFluids:9": {
         "0:10": {
@@ -72,18 +47,11 @@
       "taskID:8": "bq_standard:fluid"
     },
     "2:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "entryLogic:8": "AND",
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
       "index:3": 2,
-      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
           "Damage:2": 1213,
-          "OreDict:8": "",
           "id:8": "gregtech:machine"
         }
       },
