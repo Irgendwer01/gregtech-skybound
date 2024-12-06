@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    662
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oAnd you thought there wouldn\u0027t be creative items...§r\n\nThe §aCreative Energy Cell§r is one of the few craftable creative items. It provides infinite energy to your AE system, so you don\u0027t have to worry about adding any more §9Dense Energy Cells§r, or using §9Energy Acceptors§r anymore.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "appliedenergistics2:creative_energy_cell"
+      },
+      "name:8": "Creative ME Energy",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 663,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:creative_energy_cell"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

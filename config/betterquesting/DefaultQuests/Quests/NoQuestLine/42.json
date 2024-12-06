@@ -1,0 +1,49 @@
+{
+  "preRequisites:11": [
+    39
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The next thing you should make are §2Molds§k§k§f. Those are important to progress further and allow you to §fmake §2Glass§f,§2 Rubber §fand §2Vacuum Tubes§f.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 11,
+        "id:8": "gregtech:meta_item_1"
+      },
+      "name:8": "Molds"
+    }
+  },
+  "questID:3": 42,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 12,
+          "id:8": "gregtech:meta_item_1"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 18,
+          "id:8": "gregtech:meta_item_1"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 17,
+          "id:8": "gregtech:meta_item_1"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 11,
+          "id:8": "gregtech:meta_item_1"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:glass"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

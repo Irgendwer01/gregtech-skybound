@@ -1,0 +1,43 @@
+{
+  "preRequisites:11": [
+    775
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oThis of a chemical reaction, either realistic, theorical or invented by the power of video gaming. The Chemical Reactor will create the conditions for it to happen, and TADAAA. You can also call this a magic box, if you want.§r\n\n\nThe §3Chemical Reactor§r will be required for §la lot§r of recipes.\n\n\nThen, use your freshly made Chemical Reactor to unlock a new, §6better recipe for Rubber§r. It is §dunusable§r as a Fluid, so you will need to make another machine next.\n\nMake an §3Solidifier§r to solidify directly into §aRubber Sheets§r. You want this.\n\nMake an §3Assembling Machine§r to use the molten Rubber for §aCables§r. Not important for Tin Cables.\n\n\n§eNote:§r Submit a fluid by having it stored in §lany§r tank in your inventory. A Drum is the perfect candidate.",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 215,
+        "id:8": "gregtech:machine"
+      },
+      "ismain:1": 1,
+      "name:8": "Basic Chemical Reactor",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 771,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 215,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredFluids:9": {
+        "0:10": {
+          "Amount:3": 1296,
+          "FluidName:8": "rubber"
+        }
+      },
+      "taskID:8": "bq_standard:fluid"
+    }
+  }
+}

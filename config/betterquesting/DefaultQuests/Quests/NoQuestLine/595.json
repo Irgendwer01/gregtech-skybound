@@ -1,0 +1,35 @@
+{
+  "preRequisites:11": [
+    460,
+    291,
+    306
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Better Ore Processing for §6chanced Byproducts§r, only at the cost of this §3Macerator§r! A must have.\n\nAnd now, is it finally time for mass ore processing automation...? §oYes?§r\nThe next Quest will help you with that!",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 69,
+        "id:8": "gregtech:machine"
+      },
+      "ismain:1": 1,
+      "name:8": "Shredding your Ores with further more Byproducts",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 595,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 69,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    48
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §2Portable Cell§f is like an Backpack, so you can store in there Items you will need often like §2Tools§f but don\u0027t want to clutter your inventory with it everytime.\n\nNote that it uses Energy and will lose some by the time you have it open, but don\u0027t worry it won\u0027t be long anymore till you can charge it!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "appliedenergistics2:portable_cell",
+        "tag:10": {}
+      },
+      "name:8": "Portable Cell"
+    }
+  },
+  "questID:3": 53,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:portable_cell",
+          "tag:10": {
+            "internalCurrentPower:6": 20000.0,
+            "internalMaxPower:6": 20000.0
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

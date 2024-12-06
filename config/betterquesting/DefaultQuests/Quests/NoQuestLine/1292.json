@@ -1,0 +1,42 @@
+{
+  "preRequisites:11": [
+    1263
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oBatteries are great! They let you store energy if you have too little or too much power generation.§r\n\nMake some Battery Alloy, used for Battery Hulls.\n\nAntimony is found in the §cNether§r, do not forget to check that Ore Tab.\n\n\n§9Note:§r This quest does §lnot§r contain functional Batteries, head to the next one for that!",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 256,
+        "id:8": "gregtech:meta_ingot"
+      },
+      "name:8": "Battery Preparations!",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1292,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 2,
+          "Damage:2": 256,
+          "id:8": "gregtech:meta_ingot"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 717,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

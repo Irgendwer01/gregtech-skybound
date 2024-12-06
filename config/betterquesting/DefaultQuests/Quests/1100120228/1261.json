@@ -1,0 +1,71 @@
+{
+  "preRequisites:11": [
+    1248,
+    1243
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oThe circuiter part of circuits... Sorry I ran out of adjectives§r\n\nMacerate Wood into Wood Pulp, then Compress it into Wood Plates. Combine it with Resin to make an empty board. Stick in some expensive copper wires (they will get cheaper in LV Age) and you have got the base for your first circuit.",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 401,
+        "id:8": "gregtech:meta_item_1"
+      },
+      "ismain:1": 1,
+      "name:8": "Electronics Part Two: The Board",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1261,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1617,
+          "id:8": "gregtech:meta_dust"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 1617,
+          "id:8": "gregtech:meta_plate"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 381,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 8,
+          "Damage:2": 25,
+          "id:8": "gregtech:meta_plate"
+        },
+        "1:10": {
+          "Count:3": 8,
+          "Damage:2": 25,
+          "id:8": "gregtech:wire_single"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "2:10": {
+      "index:3": 2,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 401,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

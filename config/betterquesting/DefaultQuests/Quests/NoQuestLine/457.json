@@ -1,0 +1,51 @@
+{
+  "preRequisites:11": [
+    148,
+    144
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§bMV§r Batteries will be convenient to buffer Energy, just like it was useful for §7LV§r.\n\nThe cost in §aSodium§r or §aLithium§r bumps to 8 dusts, so you may use whatever you have the most of.\nThe difference in storage is not that huge after all...\n\nGet §eeither§r Battery to complete the Quest.",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 736,
+        "id:8": "gregtech:meta_item_1",
+        "tag:10": {
+          "Charge:4": 420000
+        }
+      },
+      "ismain:1": 1,
+      "name:8": "Better Batteries",
+      "tasklogic:8": "OR",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 457,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 733,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 736,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

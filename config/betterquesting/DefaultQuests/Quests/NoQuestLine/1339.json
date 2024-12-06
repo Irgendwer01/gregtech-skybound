@@ -1,0 +1,53 @@
+{
+  "preRequisites:11": [
+    1277,
+    1295
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oJEI will probably overwhelm you for this, so I\u0027m presenting you the best path for Sulfuric Acid here.§r\n\n\nMaking §eSulfuric Acid§r is a three step process. It is used in many important reactions, so you should automate its production soon.\n\nTo automate it, you will need §3three LV Chemical Reactors§r. I would recommend building an isolated node somewhere with §3one LV Generator§r to power all three machines. And then spaghetti the pipes for input and output (... or simply use AE2).\n\n§9-§r Step 1: React §aSulfur§r with §bOxygen§r, to form §aSulfur Dioxide§r.\n§9-§r Step 2: React §aSulfur Dioxide§r with more §bOxygen§r, to form §aSulfur Trioxide§r.\n§9-§r Step 3: React §aSulfur Trioxide§r with §bWater§r, to form §eSulfuric Acid§r.\n\nWhy am I not presenting these steps in the retrieval tasks...? So you don\u0027t have to make sure to submit every single one of them, that would be way too tedious if every quest were like that!\n\n\n§bLore:§r GregTech 5\u0027s Chemical Reactor only had one Fluid slot. To circumvent that, they would do cell chemistry. Now the way you would automate Sulfuric Acid was by having one cell travel from machine to machine and then looping back. A somewhat fun and interesting challenge, but also a chore!",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "forge:bucketfilled",
+        "tag:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "sulfuric_acid"
+        }
+      },
+      "ismain:1": 1,
+      "name:8": "Sulfuric Acid",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1339,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredFluids:9": {
+        "0:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "sulfuric_acid"
+        }
+      },
+      "taskID:8": "bq_standard:fluid"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 85,
+          "id:8": "gregtech:meta_item_1",
+          "tag:10": {
+            "Fluid:10": {
+              "Amount:3": 1000,
+              "FluidName:8": "sulfuric_acid"
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

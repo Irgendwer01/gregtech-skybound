@@ -1,0 +1,61 @@
+{
+  "preRequisites:11": [
+    546
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oWrought Iron has a very low carbon content, but that\u0027s enough to make it tougher than regular Iron.§r\n\nGregTech Tools made of §aWrought Iron§r are §650% more durable§r than with regular Iron.\n\nYou can make it from §asmelting Iron Nuggets§r, and §arecombining the Nuggets§r. Do not convert all your Iron as it is not interchangeable.",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 335,
+        "id:8": "gregtech:meta_ingot"
+      },
+      "ismain:1": 1,
+      "name:8": "Wrought Iron",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 69,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 5,
+          "Damage:2": 335,
+          "id:8": "gregtech:meta_ingot"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 9,
+          "id:8": "minecraft:iron_nugget"
+        },
+        "1:10": {
+          "Count:3": 9,
+          "Damage:2": 335,
+          "id:8": "gregtech:meta_nugget"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 335,
+          "id:8": "gregtech:meta_ingot"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

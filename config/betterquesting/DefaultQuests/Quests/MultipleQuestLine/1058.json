@@ -1,0 +1,33 @@
+{
+  "preRequisites:11": [
+    1132
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oPlasma? Turbine? What!? That\u0027s not even possible!\n\nUse this turbine to extract very large amounts of power from plasma!\n\n§aHelium Plasma§r is the best fuel for its cost.\n\nDo not question how little sense a Plasma Turbine actually makes... look up Magnetohydrodynamic Generators if you want the real-deal.",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1012,
+        "id:8": "gregtech:machine"
+      },
+      "ismain:1": 1,
+      "name:8": "Large Plasma Turbine",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1058,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1012,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

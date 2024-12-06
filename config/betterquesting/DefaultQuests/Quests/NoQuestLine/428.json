@@ -1,0 +1,98 @@
+{
+  "preRequisites:11": [
+    426,
+    470
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §aPlatinum Group Metals§r are six rare metals with useful catalytic properties. They are §3Ruthenium§r, §dRhodium§r, §7Palladium§r, §9Osmium§r, §bIridium§r, and §ePlatinum§r.\nYou will need to §4automate§r this entire process, as all these metals are used extensively in the late game.\n\nTo begin, treat various PGM-bearing §aPurified Crushed Ores§r with §dNitric Acid§r to produce §aPlatinum Group Sludge§r.\nThen, centrifuge it with §dAqua Regia§r to produce the various PGM salts.\n\n§dChlorine§r is perfectly recycled from the §eRaw Platinum Powder§r.\n§dNitric Acid§r is sort of recycled from §7Raw Palladium Powder§r through §dAmmonia§r, though I would recommend to keep that Ammonia for other uses (Rocket Fuel and PBI).\n\nThe other PGM salts have their mini-chain associated to them, more or on the next quests.\n\n§9Note:§r §ePlatinum§r and §7Palladium§r can also be obtained from The End or through normal Ore Processing.\n\n§bLore:§r Have you heard of the infamous \"Platline\" from either Gregicality of GregTech: New Horizons? The extremely daunting chain was added in GT:NH through Bartworks. The concept is amazing, but we had to tune it down significantly to make the entry point to late game in GTCEu much smoother.",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 364,
+        "id:8": "gregtech:meta_dust"
+      },
+      "ismain:1": 1,
+      "name:8": "Platinum Group Processing",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 428,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 20,
+          "Damage:2": 265,
+          "id:8": "gregtech:meta_crushed_purified"
+        },
+        "1:10": {
+          "Count:3": 20,
+          "Damage:2": 327,
+          "id:8": "gregtech:meta_crushed_purified"
+        },
+        "2:10": {
+          "Count:3": 20,
+          "Damage:2": 348,
+          "id:8": "gregtech:meta_crushed_purified"
+        },
+        "3:10": {
+          "Count:3": 20,
+          "Damage:2": 347,
+          "id:8": "gregtech:meta_crushed_purified"
+        },
+        "4:10": {
+          "Count:3": 20,
+          "Damage:2": 380,
+          "id:8": "gregtech:meta_crushed_purified"
+        },
+        "5:10": {
+          "Count:3": 10,
+          "Damage:2": 273,
+          "id:8": "gregtech:meta_crushed_purified"
+        }
+      },
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredFluids:9": {
+        "0:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "aqua_regia"
+        }
+      },
+      "taskID:8": "bq_standard:fluid"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 6,
+          "Damage:2": 364,
+          "id:8": "gregtech:meta_dust"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "2:10": {
+      "index:3": 2,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 299,
+          "id:8": "gregtech:meta_dust"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 2058,
+          "id:8": "gregtech:meta_dust"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

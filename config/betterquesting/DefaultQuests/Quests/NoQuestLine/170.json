@@ -1,0 +1,46 @@
+{
+  "preRequisites:11": [
+    223
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oSteel can form a lot of Alloys... such as Blue Steel, Red Steel, Black Steel... Fun names?§r\n\n\nVanadiumsteel is required in small quantities in progression. It is §6nearly four times as durable§r as Steel for GregTech tools. The Vanadium comes from §aVanadium Magnetite§r, which you have probably encountered in Magnetite veins.\n\n\nTake some Blue Steel free of charge, that one is twice as durable as Steel.",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 4,
+        "Damage:2": 2036,
+        "id:8": "gregtech:meta_ingot"
+      },
+      "ismain:1": 1,
+      "name:8": "Steel Alloys",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 170,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 16,
+          "Damage:2": 2511,
+          "id:8": "gregtech:meta_ingot"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 4,
+          "Damage:2": 2036,
+          "id:8": "gregtech:meta_ingot"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

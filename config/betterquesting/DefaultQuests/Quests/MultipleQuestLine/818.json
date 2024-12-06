@@ -1,0 +1,81 @@
+{
+  "preRequisites:11": [
+    1245
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oRelatively large tank storage comes at the cost of a Multiblock... for now.§r\n\nThe §3Wooden Multiblock Tank§r§r holds §a250,000 mB§r, but it cannot store §chot Fluids§r such as Lava, or §cGases§r such as Steam or Oxygen.\n\nThe §3Steel Multiblock Tank§r holds §a1,000,000 mB§r, and lifts restrictions on which Fluids can be stored.\n\nGet §eany§r of the Tanks to complete this quest. The Steel version is way too expensive right now, I would not recommend it.\n\nFluid transfer is done through the Controller block, or up to §atwo Valves§r.\nValves can §9auto-output§r by placing them on the §dbottom layer§r and making them §dface down§r (as always, use a §5Wrench§r to adjust their facing).\n\nUnlike §3Drums§r, they are not portable. But I bet you guessed that already...\n\n\nThis Quest rewards an extra §6Cove Oven§r. Place it next to an existing Coke Oven, they can §dshare walls§r.\n\n\n§bLore:§r Just like Drums, these multiblocks are ported from GregTech 6.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1599,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "Multiblock Tanks",
+      "tasklogic:8": "OR",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 818,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1017,
+          "id:8": "gregtech:machine"
+        },
+        "1:10": {
+          "Count:3": 16,
+          "Damage:2": 8,
+          "id:8": "gregtech:metal_casing"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1597,
+          "id:8": "gregtech:machine"
+        },
+        "1:10": {
+          "Count:3": 24,
+          "Damage:2": 5,
+          "id:8": "gregtech:steam_casing"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 1596,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1599,
+          "id:8": "gregtech:machine"
+        },
+        "1:10": {
+          "Count:3": 24,
+          "Damage:2": 4,
+          "id:8": "gregtech:metal_casing"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 1598,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

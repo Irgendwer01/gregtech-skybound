@@ -1,0 +1,42 @@
+{
+  "preRequisites:11": [
+    1013
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oNaquadah, but radioactive!§r\n\n§aEnriched Naquadah§r is an isotope of naquadah, Nq-528. It is radioactive, and will be used to produce power in the future.\n\nCurrently, you just need it to make §9Trinium Coils§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 125,
+        "id:8": "gregtech:meta_ingot"
+      },
+      "name:8": "Enriched Naquadah",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1152,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 447,
+          "id:8": "gregtech:meta_dust"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 125,
+          "id:8": "gregtech:meta_ingot"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

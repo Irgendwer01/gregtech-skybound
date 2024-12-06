@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    286
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oThis is a guide on how to automatically route §lall§r§o your Hot Ingots to your Chemical Bath while keeping everything automated perfectly fine.§r\n\nThe cheap way would be to use filters, and manually add Hot Ingots one by one... That\u0027s boring! I don\u0027t like being bored, let\u0027s do something much better.\n\n\nInstall an §aOre Dictionary Filter§r Cover on the side of your §3Chemical Bath§r, open it and set to §e§lingotHot*§r whitelist.\nThe slot is to §dtest§r items to make sure you configured the Filter properly, drag ingots from JEI!\n\nFrom here, you can route with §9Item Pipes§r.\n\nConnect the output of your §3EBF(s)§r to the input of your §3Chemical Bath§r and the output dump (Chest or Crate).\nYou can also have a §dRestrictive Pipe§r in front of the output dump to ensure the Chemical Bath will be prioritized.\n\n\n§l§9Note:§r If you wish to know more Ore Dictionaries for more automation setups, they will display if you press Shift when hovering over an item. This is due to an enabled config in JEI Integration.\n\n§9Other Note:§r The Ore Dictionary Filter partially supports §dregex§r, hover over the info icon for more information.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 292,
+        "id:8": "gregtech:meta_item_1"
+      },
+      "name:8": "250IQ",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 677,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 292,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

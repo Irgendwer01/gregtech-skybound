@@ -1,0 +1,63 @@
+{
+  "preRequisites:11": [
+    88
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oThe Steam Oven\u0027s elder brother. Or perhaps it was the opposite?§r\n\nThe §3Steam Grinder§r is §lthe§r reason you will start doing Ore Processing. §6It can pulverize large batches of items fast and effortlessly.§r\n\n\nAs always, check §2JEI§r for the structure.\n\nRecipes are handled differently than in previous Multiblocks or Singleblocks machines.\nThe main block acts as the brain.\nInputs go into the Input Bus.\nOutputs come out of the Output Bus.\nThe Steam Hatch is the heart, pump steam in to power the whole thing.\n\n§9Note:§r Buses and Hatches §dautomatically import/export§r (depending on context) through their front face. This makes automation extremely easy. Simply place chests, drawers, anything you see fit next to their side with a dot.\n\n\n§cWarning:§r This multiblock is much more expensive than your typical machines at this point. You will also need some alloys you have not crafted yet. Either be prepared to spend a lot of resources, or wait until you start LV Age (it will be easier).\n\n\n§bLore:§r This Multiblock originally comes from GT++. It required Tumbaga to craft, an alloy with a mix of Gold and Bronze.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1025,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "Steam Grinder",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 105,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 24,
+          "Damage:2": 260,
+          "id:8": "gregtech:meta_ingot"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1025,
+          "id:8": "gregtech:machine"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 1653,
+          "id:8": "gregtech:machine"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 1652,
+          "id:8": "gregtech:machine"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 1651,
+          "id:8": "gregtech:machine"
+        },
+        "4:10": {
+          "Count:3": 22,
+          "id:8": "gregtech:metal_casing"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

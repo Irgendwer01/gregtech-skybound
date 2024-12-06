@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    21
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Getting an §2Solid Fuel Steam Boiler§f will bring you torwards §eAge 0 - The Steam Age§f!\n\nSimply just put §2Water§f into the §2Boiler§f and then put an burnable fuel in like §2Coal§f§f and wait for it to build up heat by watching the red bar going up, then it will begin to produce §2Steam§f! It won\u0027t output §2Steam§f to the bottom, it\u0027s the best to use that side to input §2Water§f from that side (It was specifically implemented for this).\n\n§fNOTE: Never put §2Water§f into the §2Boiler§f while it\u0027s hot and empty, else it will explode!",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "Steam Boiler"
+    }
+  },
+  "questID:3": 25,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

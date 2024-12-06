@@ -1,0 +1,33 @@
+{
+  "preRequisites:11": [
+    657
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oThe board that keeps life§r\n\nThe final circuit board at last! As you can see, this board is §cmuch§r more expensive than the other ones, but you should be okay.\n\n§bLore§r: In GTNH, these circuit boards require LuV Sensors, instead of IV. This means that Wetware LuV circuits, needed other (crystal) LuV circuits! Additionally, because Wetware was so expensive, using Crystal was preferred unless UHV wetware circuits were needed. Thankfully, CEu does not have this problem, and LuV Wetware Circuits are worth making.",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 407,
+        "id:8": "gregtech:meta_item_1"
+      },
+      "ismain:1": 1,
+      "name:8": "Master Circuit Board",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 655,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 407,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

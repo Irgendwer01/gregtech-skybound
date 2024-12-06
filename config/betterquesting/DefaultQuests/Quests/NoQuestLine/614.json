@@ -1,0 +1,35 @@
+{
+  "preRequisites:11": [
+    613,
+    637,
+    646
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oIt\u0027s over 9000!!§!§\n\n\n§aTrinium Coils§r bring up the Heat Capacity to §d9,001K§r.\n\nThese coils are required for progressing to the second half of §cZPM§r, and beyond.",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 6,
+        "id:8": "gregtech:wire_coil"
+      },
+      "ismain:1": 1,
+      "name:8": "Trinium Coils",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 614,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 16,
+          "Damage:2": 6,
+          "id:8": "gregtech:wire_coil"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

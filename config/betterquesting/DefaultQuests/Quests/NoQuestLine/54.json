@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    50
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "It\u0027s finally time to make some §2LV Circuits§f! You will need ALOT of them, so it\u0027s recommend to already begin to batchcraft them so you don\u0027t need to craft them everytime again.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 621,
+        "id:8": "gregtech:meta_item_1"
+      },
+      "name:8": "LV Circuits"
+    }
+  },
+  "questID:3": 54,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 2,
+          "Damage:2": 621,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

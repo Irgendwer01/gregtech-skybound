@@ -1,0 +1,40 @@
+{
+  "preRequisites:11": [
+    1268,
+    1269,
+    1270
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oCovers are ways to give your machines extra behavior without using any extra block space.§r\n\nCovers are placed by right-clicking with it on a face of a machine, and removed with a §5Crowbar§r (or by mining the machine, but that\u0027s too brutal!).\n\nPretty much any GregTech TileEntity will accept Covers, even if they provide no functionality.\n\nOpening a Cover is done by shift-right-clicking it with an §5empty hand§r. You can also right-click with a §5Screwdriver§r, or shift-right-click on another face using the grid.\n\nFor the Covers transferring Items/Fluids, you will have a button to enable/disable other forms of transfer through the cover:\n§9- §rDisabled: only the cover will be allowed to transfer on this machine side.\n§9-§r Allow Filtered (only relevant with a filter!): other transfer will be enabled only if it matches the filter\n§9-§r Allow Unfiltered: any other transfer is allowed on this machine side.\n\nPlacing a cover of a lower voltage tier on a machine is §9safe§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 321,
+        "id:8": "gregtech:meta_item_1"
+      },
+      "name:8": "Covers Behavior",
+      "questlogic:8": "OR",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1271,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 321,
+          "id:8": "gregtech:meta_item_1"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

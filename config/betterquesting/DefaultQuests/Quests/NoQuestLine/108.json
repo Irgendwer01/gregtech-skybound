@@ -1,0 +1,60 @@
+{
+  "preRequisites:11": [
+    66
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oThe harder component for circuits§r\n\nVacuum Tubes are painful to make, hehe.\nWires and Sticks are sadly very expensive right now, but they will get cheaper in §7LV§r Age.\n\nVacuum Tubes are also technically your first Ultra Low Voltage (§8ULV§r) Circuit! You won\u0027t find very much use for these by themselves though.",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 516,
+        "id:8": "gregtech:meta_item_1"
+      },
+      "ismain:1": 1,
+      "name:8": "Electronics Part Three: The Vacuum Tubes",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 108,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 4,
+          "Damage:2": 324,
+          "id:8": "gregtech:meta_stick"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 6,
+          "Damage:2": 25,
+          "id:8": "gregtech:meta_plate"
+        },
+        "1:10": {
+          "Count:3": 6,
+          "Damage:2": 25,
+          "id:8": "gregtech:wire_single"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "2:10": {
+      "index:3": 2,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 2,
+          "Damage:2": 516,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "preRequisites:11": [
+    1690
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oI was scared of having to explain in details on how to make Diesel, but thankfully you already made Light Fuel... phew.§r\n\n§aDiesel§r is a §9Combustion Fuel§r. It is §dOil based§r.\n\nTo mix §aLight Fuel§r and §aHeavy Fuel§r, the right ratio for §3Distilleries§r is §63:2§r from §dOil§r or §dRaw Oil§r.\n3 Distilleries for Light Fuel.\n2 Distilleries for Heavy Fuel.\n\nYou may cut the amount of §dOil§r §6drastically§r by using §dHeavy Oil§r for §aHeavy Fuel§r specifically. §dOilsands§r is great to use for this!\n(For the math nerds, you go from 8.33 Oil -\u003e 6 Diesel, to 5 Oil + 0.4 Heavy Oil -\u003e 6 Diesel) \n\n§cNote: Do §cnot attempt§r to put Oil in the §3Distillation Tower§r, thinking it\u0027s a good idea because it gives both Light Fuel and Heavy Fuel right now. This requires a lot of overclocking and you will lose more energy than what the byproducts are worth for power generation.\nIn general, it is better to prioritize placing down more machines instead of overclocking the recipes for power generation. That way, you end up losing less energy processing the resources. Later on this will change when you have the power generation to keep up with energy-intensive processes.\n\n\n§aDiesel§r is burned in a §3Combustion Generator§r. It can be further refined to §6Cetane-Boosted Diesel§r in §6HV§r Age. Compared to the other power sources, it is generally more efficient, but more demanding. If you take the §eOil§r route for §aPolyethylene§r, this can work great with existing infrastructure. Ultimately, your power source is your choice.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 78,
+        "id:8": "gregtech:meta_item_1",
+        "tag:10": {
+          "Fluid:10": {
+            "Amount:3": 1000,
+            "FluidName:8": "diesel"
+          }
+        }
+      },
+      "name:8": "The Church of Diesel",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1368,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 80,
+          "id:8": "gregtech:meta_item_1",
+          "tag:10": {
+            "Fluid:10": {
+              "Amount:3": 8000,
+              "FluidName:8": "oil_heavy"
+            }
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredFluids:9": {
+        "0:10": {
+          "Amount:3": 30000,
+          "FluidName:8": "diesel"
+        }
+      },
+      "taskID:8": "bq_standard:fluid"
+    }
+  }
+}

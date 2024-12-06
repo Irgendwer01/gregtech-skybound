@@ -1,0 +1,33 @@
+{
+  "preRequisites:11": [
+    1426
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oBy this point I should be rambling on how important it is to automate everything and... yeah, do it, embrace the pain!§r\n\n§aLaminated Glass§r is the Glass tier for §1IV§r and onwards. It is made in the §3Forming Press§r using a new Polymer: §dPolyvinyl Butyral§r.\n\nNone of the steps should be particularly difficult if you already have the §3Distillation Tower§r for Cracked Fuels, and you have also automated Epoxy.\nIf you do not have both, you know what to do!\n\n\n§9Note:§r §dPolyvinyl Acetate§r (required for the Glass) can also be used for §aGlue§r, if you ever care about that...",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 2,
+        "id:8": "gregtech:transparent_casing"
+      },
+      "ismain:1": 1,
+      "name:8": "Laminated Glass",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1634,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "id:8": "gregtech:transparent_casing"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

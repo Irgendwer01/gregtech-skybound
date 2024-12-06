@@ -1,0 +1,35 @@
+{
+  "preRequisites:11": [
+    523
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oEver wanted your pipes to look §leven§r§o cooler? Now you can!§r\n\nFluid and Item Pipes can be placed inside of Frameboxes, giving them an §6absolutely breathtaking§r appearance!\n\nSimply Right Click a frame onto a pipe or a pipe onto a frame, and you\u0027re done!\n\n§bLore:§r This is a GTCEu-original mechanic!",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 4,
+        "id:8": "gregtech:meta_block_frame_20"
+      },
+      "name:8": "Aesthetic Ultra",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 627,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 4,
+          "id:8": "gregtech:meta_block_frame_20"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "preRequisites:11": [
+    1282
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oThis machine combines Cauldron washing for simple automation, but also advanced and precise washing for byproducts.§r\n\nWashing a §aCrushed Ore§r will grant a §aPurified Ore§r which can refined further, some useless stone, and more importantly the first §6Byproduct§r.\nOn average every §9three Purified Ore§r will also net you §9one Dust§r of this §6Byproduct§r! So prioritize this step the most.\n\nDistilled Water over Water cuts recipe duration in half, but is also less convenient to produce.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 485,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "Basic Ore Washing Plant",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1283,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 485,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 6,
+          "Damage:2": 311,
+          "id:8": "gregtech:meta_crushed"
+        },
+        "1:10": {
+          "Count:3": 6,
+          "Damage:2": 311,
+          "id:8": "gregtech:meta_crushed_purified"
+        },
+        "2:10": {
+          "Count:3": 2,
+          "Damage:2": 22,
+          "id:8": "gregtech:meta_dust"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

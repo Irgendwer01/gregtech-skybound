@@ -1,0 +1,55 @@
+{
+  "preRequisites:11": [
+    303
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§7§oStyrene-Butadiene Rubber (SBR)§r§o is an enhanced type of Rubber.§r\n\nIt can be used in place of Rubber in most recipes, and is §6four times more efficient§r at §ainsulating Cables§r. It is also strictly required for certain higher-tier recipes.\n\nThis isn\u0027t exactly worth making until you get the §3Distillation Tower§r, but then it becomes great thanks to §dFuel Cracking§r.\n\nCollect §eany§r of these forms of Rubber to complete this Quest.\n\n§9Note:§r Rubber will have to be replaced with either §a§aSilicone Rubber§r or §aStyrene-Butadienne Rubber§r for §1IV§r Cables.\nBoth §aSilicone Rubber§r and §aStyrene-Butadienne Rubber§r will be required in §dLuV§r.",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1004,
+        "id:8": "gregtech:meta_plate"
+      },
+      "ismain:1": 1,
+      "name:8": "Styrene-Butadiene Rubber",
+      "tasklogic:8": "OR",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 481,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredFluids:9": {
+        "0:10": {
+          "Amount:3": 1296,
+          "FluidName:8": "styrene_butadiene_rubber"
+        }
+      },
+      "taskID:8": "bq_standard:fluid"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1004,
+          "id:8": "gregtech:meta_ingot"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "2:10": {
+      "index:3": 2,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1004,
+          "id:8": "gregtech:meta_plate"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

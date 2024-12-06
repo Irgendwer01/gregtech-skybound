@@ -1,0 +1,35 @@
+{
+  "preRequisites:11": [
+    26
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "In Gregtech, Fluid and Item transportation is done using §3§2Pipes§f.\n§3§2Pipes§f are the only way nearby an ME-System to transfer Items and Fluids around in this pack.\n\n§2Pipes§f will not auto-extract Fluids/Items from Blocks, you need to use something that can do that like §2Hoppers §f(There\u0027s an version out of wood in this pack), or §2Covers§f (Those will be shown in an later quest).\n\nEach Pipe has different transfer rates, depending on the Material they are made. The bests you can make right now are §2Tin §fand§2 Bronze§f ones.\n\nYou can see in their description which can transfer Items and which can transfer Fluids, it also depends on the Material.\n\nNOTE: Output Hatches and Buses from Multiblocks will auto-insert into Pipes, but be sure that the output face is showing where the Pipe is, else it won\u0027t auto-insert!",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 260,
+        "id:8": "gregtech:fluid_pipe_normal"
+      },
+      "name:8": "Pipes"
+    }
+  },
+  "questID:3": 28,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 112,
+          "id:8": "gregtech:item_pipe_normal"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 260,
+          "id:8": "gregtech:fluid_pipe_normal"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "preRequisites:11": [
+    84
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oAn Iron-Nickel Alloy.§r\n\nIt has §650% more durability§r for GregTech tools compared to Iron, and is also faster. All tools made from it come with §6Efficiency I§r, great for mining!",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 287,
+        "id:8": "gregtech:meta_ingot"
+      },
+      "name:8": "Invar",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 126,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "gregtech:mining_hammer",
+          "tag:10": {
+            "DisallowContainerItem:1": 0,
+            "GT.Behaviours:10": {
+              "AoEColumn:3": 1,
+              "AoELayer:3": 0,
+              "AoERow:3": 1,
+              "MaxAoEColumn:3": 1,
+              "MaxAoELayer:3": 0,
+              "MaxAoERow:3": 1,
+              "TorchPlacing:1": 1
+            },
+            "GT.Tool:10": {
+              "AttackDamage:5": 4.5,
+              "AttackSpeed:5": -3.2,
+              "Durability:3": 0,
+              "HarvestLevel:3": 2,
+              "Material:8": "gregtech:invar",
+              "MaxDurability:3": 1151,
+              "ToolSpeed:5": 5.6
+            },
+            "HideFlags:3": 2,
+            "ench:9": {
+              "0:10": {
+                "id:2": 32,
+                "lvl:2": 1
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 3,
+          "Damage:2": 287,
+          "id:8": "gregtech:meta_ingot"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

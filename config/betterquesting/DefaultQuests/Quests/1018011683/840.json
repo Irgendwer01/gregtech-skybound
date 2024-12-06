@@ -1,0 +1,74 @@
+{
+  "preRequisites:11": [
+    839
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Clay is an extremely §mbalanced§r useful material for electrolysis.\nAll four output Dusts are great.\n\nYou will need §a§ra total of §a416 Clay Dust§r for this quest. You may also want to look into other sources of similar materials, such as §aSodalite§r. Check JEI for some ideas.\n\nYou should use Sodium and/or Lithium to make some §6MV Batteries§r.\n\nAll this useless §dWater§r you are getting... Make use of a §3Voiding Cover§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:clay_ball"
+      },
+      "name:8": "A Balanced Quest",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 840,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "Damage:2": 718,
+          "id:8": "gregtech:meta_item_1"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 64,
+          "Damage:2": 2063,
+          "OreDict:8": "dustClay",
+          "id:8": "gregtech:meta_dust"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 64,
+          "Damage:2": 101,
+          "OreDict:8": "dustSodium",
+          "id:8": "gregtech:meta_dust"
+        },
+        "1:10": {
+          "Count:3": 32,
+          "Damage:2": 56,
+          "OreDict:8": "dustLithium",
+          "id:8": "gregtech:meta_dust"
+        },
+        "2:10": {
+          "Count:3": 64,
+          "Damage:2": 2,
+          "OreDict:8": "dustAluminium",
+          "id:8": "gregtech:meta_dust"
+        },
+        "3:10": {
+          "Count:3": 64,
+          "Damage:2": 99,
+          "OreDict:8": "dustSilicon",
+          "id:8": "gregtech:meta_dust"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

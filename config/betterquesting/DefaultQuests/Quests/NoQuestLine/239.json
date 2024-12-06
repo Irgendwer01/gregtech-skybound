@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    119
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "In theory, Crates are better than chests. A single block space that stores more items.\n\nThe sad truth however is... they do not support item movement shortcuts well. We are planning on making them great again.\n\nWhere they shine however is the fact that they §6accept Covers§r, making them perfect candidates for buffers in automation.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1627,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "Storage",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 239,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1627,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

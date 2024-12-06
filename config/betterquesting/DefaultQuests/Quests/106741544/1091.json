@@ -1,0 +1,33 @@
+{
+  "preRequisites:11": [
+    839
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oFluorine is the most rare gas to obtain from electrolysis in this game.§r\n\nYou may obtain it from §aLepidolite§r, §aBastnatite§r, and §aMica§r, but the best source is from §aTopaz§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "forge:bucketfilled",
+        "tag:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "fluorine"
+        }
+      },
+      "name:8": "Fluorine",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1091,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredFluids:9": {
+        "0:10": {
+          "Amount:3": 16000,
+          "FluidName:8": "fluorine"
+        }
+      },
+      "taskID:8": "bq_standard:fluid"
+    }
+  }
+}

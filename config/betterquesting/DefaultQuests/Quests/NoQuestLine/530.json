@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    225,
+    212
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oThe name of the quest implies nothing dangerous with bathing and electricity... (it does)§r\n\nThe §3HV Chemical Bath§r is used to §ddye Lenses§r using §aChemical Dye§r.\nThis will let you engrave more types of Wafers!\n\nThis is also required for §aEyes of Ender§r.",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 202,
+        "id:8": "gregtech:machine"
+      },
+      "ismain:1": 1,
+      "name:8": "High Voltage Bathing",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 530,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 202,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

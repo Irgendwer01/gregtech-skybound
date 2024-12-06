@@ -1,0 +1,30 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oStargate\u0027s Strongest§r\n\nThis is the main material for §cZPM§r. Prepare to make lots... after you make §9Fusion§r and §9Crystal Circuits§r. Do that first.",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 2042,
+        "id:8": "gregtech:meta_ingot"
+      },
+      "ismain:1": 1,
+      "name:8": "Naquadah Alloy",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 302,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2042,
+          "id:8": "gregtech:meta_ingot"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "preRequisites:11": [
+    189
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oIf you read the previous Quest, this shouldn\u0027t be too bad. If you didn\u0027t... What are you waiting for!?§r\n\nDistillating §aOil§r will give you Fuel that you will need to desulfurize.\n\n§aHydrogen Sulfide§r is perfectly §drecycled§r in an §3Electrolyzer§r.\nTo automate this process, simply place your §3Chemical Reactor§r and your §3Electrolyzer§r next to each other. Be sure to use your §5Screwdriver§r to §4enable input from output side§r.\n\n\n§aLight Fuel§r is a good §9Power§r option. But there is something even greater... Check the Quest to the left.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "forge:bucketfilled",
+        "tag:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "light_fuel"
+        }
+      },
+      "name:8": "Light Fuel",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 678,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredFluids:9": {
+        "0:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "sulfuric_light_fuel"
+        },
+        "1:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "light_fuel"
+        }
+      },
+      "taskID:8": "bq_standard:fluid"
+    }
+  }
+}

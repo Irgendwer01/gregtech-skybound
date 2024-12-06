@@ -1,0 +1,22 @@
+{
+  "preRequisites:11": [
+    8
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "This modpack also features an mod called §2Twerk-Sim 2K16§f!\n\nThis mod allows you to grow an sapling without bonemeal by spamming crouch near it.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:sapling"
+      },
+      "name:8": "Twerking"
+    }
+  },
+  "questID:3": 3,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

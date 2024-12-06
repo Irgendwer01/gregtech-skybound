@@ -1,0 +1,49 @@
+{
+  "preRequisites:11": [
+    296
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §3Central Monitor§r is an §doptional§r yet extremely charming structure.\n\nIt acts as a §6display screen§r for machine information, machine GUI, and more!\nUsing it, you can also §9remotely access§r machines, given the right configuration.\n\nIts mechanics are explained in the §4Terminal§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1029,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "Central Monitor",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 423,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "Damage:2": 781,
+          "id:8": "gregtech:meta_item_1"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1029,
+          "id:8": "gregtech:machine"
+        },
+        "1:10": {
+          "Count:3": 9,
+          "Damage:2": 1667,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

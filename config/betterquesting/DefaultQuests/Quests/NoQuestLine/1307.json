@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    1309,
+    1289
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oDon\u0027t let JEI fool you, there\u0027s only one available recipe right now for this Primitive Diode.§r\n\nDiode has a inconvenient recipe, but it will get cheaper and more convenient once you can obtain Polyethylene.\nThis is required for §dMV Circuits§r.",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 521,
+        "id:8": "gregtech:meta_item_1"
+      },
+      "ismain:1": 1,
+      "name:8": "Diodes",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1307,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 521,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

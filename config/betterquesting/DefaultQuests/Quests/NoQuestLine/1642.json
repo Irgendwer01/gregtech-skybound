@@ -1,0 +1,72 @@
+{
+  "preRequisites:11": [
+    1542
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §aSimple System on Chip§r will be used for either §dME Fluid Storage Components§r, or the best §dULV Circuit§r recipe.\n\nI would also recommend going ahead and making all the other useful colored Lenses ahead of time. They are listed here in an §eoptional§r task.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 829,
+        "id:8": "gregtech:meta_item_1"
+      },
+      "name:8": "I see the world in colors",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1642,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 829,
+          "id:8": "gregtech:meta_item_1"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 596,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 821,
+          "id:8": "gregtech:meta_item_1"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 824,
+          "id:8": "gregtech:meta_item_1"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 830,
+          "id:8": "gregtech:meta_item_1"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 835,
+          "id:8": "gregtech:meta_item_1"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 826,
+          "id:8": "gregtech:meta_item_1"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "Damage:2": 832,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

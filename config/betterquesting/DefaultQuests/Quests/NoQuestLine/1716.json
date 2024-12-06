@@ -1,0 +1,33 @@
+{
+  "preRequisites:11": [
+    1486
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "NAE2 adds §aDense Crafting CPUs§r which provide a lot more bytes in a lot less space!\n\nIt also adds §aDense Coprocessors§r which allow you to power up your Crafting CPUs to perform more tasks simultaneously!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "nae2:storage_crafting_16384k"
+      },
+      "name:8": "Dense Crafting",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1716,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "nae2:coprocessor_4x"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "nae2:storage_crafting_256k"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

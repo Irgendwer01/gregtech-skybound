@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    26
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The§2§2§2 Steam Sieve§f can perform sifting recipes, allowing you to easily automate sifting. No more hours of right-clicking!\n\nNOTE: You should get an better infrastructure before trying to do full automation, one boiler will not be enough!",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 4000,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "Steam Sieve"
+    }
+  },
+  "questID:3": 33,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 4000,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

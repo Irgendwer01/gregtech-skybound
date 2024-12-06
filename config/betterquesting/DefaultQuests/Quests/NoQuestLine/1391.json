@@ -1,0 +1,41 @@
+{
+  "preRequisites:11": [
+    1224
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "A decent alternative to the pure Tin vein, if you did not find it.\n\nThe other ores are as good as decoration.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "gregtech:ore_cassiterite_sand_0"
+      },
+      "name:8": "Cassiterite Sand - Source of Tin",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1391,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "gregtech:ore_cassiterite_sand_0"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "gregtech:ore_garnet_sand_0"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "gregtech:ore_asbestos_0"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "gregtech:ore_diatomite_0"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

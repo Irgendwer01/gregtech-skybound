@@ -1,0 +1,59 @@
+{
+  "preRequisites:11": [
+    97,
+    89,
+    96,
+    106
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oPut that Resin into use! Rubber is an excellent insulation material, and that\u0027s exactly what it is gonna be used for.§r\n\nUse the §3Alloy Smelter§r to make §aRubber Bars§r.\nThe ratios in the recipes start at a mediocre rate. In LV age, it will be a lot better.\n\n\n§bLore:§r In base GregTech 5, and in base GTCE, you needed to get string and black wool carpets as your first insulation material. §mThat was obviously better and by far§r.",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1068,
+        "id:8": "gregtech:meta_ingot"
+      },
+      "ismain:1": 1,
+      "name:8": "Rubber",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 99,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 8,
+          "Damage:2": 1068,
+          "id:8": "gregtech:meta_plate"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1002,
+          "id:8": "gregtech:meta_dust"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 1068,
+          "id:8": "gregtech:meta_ingot"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 1068,
+          "id:8": "gregtech:meta_plate"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

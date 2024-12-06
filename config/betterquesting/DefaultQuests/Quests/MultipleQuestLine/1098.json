@@ -1,0 +1,49 @@
+{
+  "preRequisites:11": [
+    1097,
+    1155
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oA power signularity!§r\n\nThe §aZPM Lapotronic Orb§r is even better than the §dLuV§r one! It of course comes at a price...\n\n§bLore§r: Imagine making 64 IV or 8 LuV Orbs for just one of these! See the Lore for the LuV orb for details.",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 750,
+        "id:8": "gregtech:meta_item_1",
+        "tag:10": {
+          "Charge:4": 4000000000
+        }
+      },
+      "ismain:1": 1,
+      "name:8": "Mega Batteries",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1098,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 750,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 5,
+          "id:8": "gregtech:battery_block"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "preRequisites:11": [
+    475
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§aNano CPU Wafers§r are made by infusing regular §aCPU Wafers§r with §dGlowstone§r and §9Raw Carbon Fibers§r.\nThey will be needed in large quantities for making the §5Nano§r line of Circuits.\n\nHigher-tier polymers will increase your yield of §9Raw Carbon Fibers§r. One §dEpoxy§r is enough for a full stack.\n\n§9Tip:§r Don\u0027t like mining §dGlowstone§r? Do ore processing from Redstone, that\u0027s seriously OP!",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 569,
+        "id:8": "gregtech:meta_item_1"
+      },
+      "ismain:1": 1,
+      "name:8": "Nano CPUs",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 474,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 16,
+          "Damage:2": 499,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 569,
+          "id:8": "gregtech:meta_item_1"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 594,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

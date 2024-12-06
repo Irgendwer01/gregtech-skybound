@@ -1,0 +1,52 @@
+{
+  "preRequisites:11": [
+    225,
+    222
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oTime for a real oil refinery.§r\n\nThe §3Distillation Tower§r is a multiblock meant for producing huge amounts of products. In §3Distilleries§r, you had to pick only one product to output. DTs output §6all of it at once§r!\n\n§9Note the special placement rules:§r Energy, Items, and Fluid Inputs can only be placed on the bottom layer. Maintenance can be placed anywhere. Fluid Outputs can only be placed starting on the second vertical layer, and only allow one per layer as well.\n\nThe §3DT§r can form at any height from §c§c3§r to §c13§r blocks, allowing 2 to 12 Fluid Outputs. Fluid will always output on the layer corresponding to the recipe in §2JEI§r.\nThe §3DT§r has one more §9special§r rule. You can deliberately build it too short, and it will §cvoid§r whichever Fluid should have been output at the top layers that were removed. Useful in niche situations.\n\nIt is a good idea to use §3Super Tanks§r as the output for every layer.\n\n§cNote:§r Using the §3Distillation Tower§r for Oil -\u003e Fuel -\u003e Diesel is §cnot§r worth it! You will spend more energy Overclocking the Multiblock, than what the extra outputs will provide. You may instead look at the §3Processing Array§r (§1IV§r) for large scale Diesel production.\nIt is however §6very worth§r for Cracked Fuels and Pyrolyse products.",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1005,
+        "id:8": "gregtech:machine"
+      },
+      "ismain:1": 1,
+      "name:8": "Distillation Tower",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 288,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 16,
+          "Damage:2": 5,
+          "id:8": "gregtech:metal_casing"
+        },
+        "1:10": {
+          "Count:3": 4,
+          "Damage:2": 1575,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1005,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

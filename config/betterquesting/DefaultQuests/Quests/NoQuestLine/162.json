@@ -1,0 +1,39 @@
+{
+  "preRequisites:11": [
+    161,
+    144
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oI\u0027m not sure why it\u0027s called \"Good\" Circuit Board, as I consider it rather evil to craft.§r\n\nThis Circuit Board is used to create §dMV Circuits§r!\n\n\n§9Note:§r You have §ltwo§r options to make the Phenolic Circuit Board. Using §aSodium Persulfate§r or §aIron III Chloride§r, making boards takes §6only a quarter of the Silver§r as opposed to the crafting recipe.\n§lHowever§r given how painful it may be for you to obtain these chemicals §oright now§r, you may want to simply use more Silver by mining most of a Galena Vein...\n\n\nThe Quest for Sodium Persulfate is in the MV chapter, if you are interested in that.",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 402,
+        "id:8": "gregtech:meta_item_1"
+      },
+      "ismain:1": 1,
+      "name:8": "Evil Circuit Board",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 162,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 382,
+          "id:8": "gregtech:meta_item_1"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 402,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

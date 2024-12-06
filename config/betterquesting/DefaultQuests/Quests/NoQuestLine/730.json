@@ -1,0 +1,60 @@
+{
+  "preRequisites:11": [
+    721
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oThe bucket recipe is changed, it now requires Plates. #realism§r\n\n§dPlates are used everywhere§r in GregTech. You make them §ausing two Ingots§r thanks to your newly made §5Hammer§r. Better recipes for Plates will be unlocked later.\n\n\nHere, take this Wooden Barrel full of Water as a reward. You may ask why? No reason! Ah, just as a way to teach you that all GTCEu tanks are portable!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:bucket"
+      },
+      "name:8": "Greg has struck",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 730,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1610,
+          "id:8": "gregtech:machine",
+          "tag:10": {
+            "Fluid:10": {
+              "Amount:3": 16000,
+              "FluidName:8": "water"
+            }
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 3,
+          "Damage:2": 51,
+          "OreDict:8": "plateIron",
+          "id:8": "gregtech:meta_plate"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:bucket"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

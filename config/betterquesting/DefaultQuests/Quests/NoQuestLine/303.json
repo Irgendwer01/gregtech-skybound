@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    225,
+    212
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §3HV Chemical Reactor§r unlocks new recipes, for the ever growing demand on more advanced Chemistry!\n\n§9Note:§r A lot of content is unlocked by the §6HV§r Age. However not all of them are useful just yet! It would make HV too dense to include all of them here.\nGo check out the §5EV§r Chapter for what you have available!",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 217,
+        "id:8": "gregtech:machine"
+      },
+      "ismain:1": 1,
+      "name:8": "High Voltage Chemistry",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 303,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 217,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

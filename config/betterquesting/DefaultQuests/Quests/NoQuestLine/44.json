@@ -1,0 +1,42 @@
+{
+  "preRequisites:11": [
+    48
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §2Steam Liquid Boiler§f allows you to produce lots of §2Steam§f with either §2Creosote§f or §2Lava§k§f as Fuel.\n\nNOTE: The High Pressure variant will produce the double amount of §2Steam §fcompared to the normal one!",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 5,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "Liquid Boiler",
+      "tasklogic:8": "OR"
+    }
+  },
+  "questID:3": 44,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 5,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 6,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

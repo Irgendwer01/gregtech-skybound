@@ -1,0 +1,17 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "This is the §9Nano§r Circuit line.\n\nStarting from here all circuits follow a similar pattern:\n§9-§r Processor\n§9-§r Assembly\n§9-§r Supercomputer\n§9-§r Mainframe",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 989,
+        "id:8": "gregtech:machine"
+      },
+      "issilent:1": 1,
+      "name:8": "Craftable in EV",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 359,
+  "tasks:9": {}
+}

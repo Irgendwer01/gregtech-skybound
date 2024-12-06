@@ -1,0 +1,33 @@
+{
+  "preRequisites:11": [
+    836
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oAlright, you have made a Polymer already, how about you make another one?§r\n\n§aPolyvinyl Chloride (PVC)§r is the 3rd-most produced plastic in real life. Here, it can be used in place of Polyethylene in production of §aPlastic Circuit Boards§r and other items to increase the yield. It is required to wrap §5EV§r tier and above Cables.\n\nPVC item pipes also have the §6highest throughput§r available for a while, if your setups need it.\n\n§9Pro tip:§r the fluid form of PVC is never used in base GTCEu, so feel free to solidify all of it into sheets.",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1007,
+        "id:8": "gregtech:meta_plate"
+      },
+      "ismain:1": 1,
+      "name:8": "Polyvinyl Chloride",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 838,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1007,
+          "id:8": "gregtech:meta_plate"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

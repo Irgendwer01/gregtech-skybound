@@ -1,0 +1,33 @@
+{
+  "preRequisites:11": [
+    545
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oNow with disinfectant!§r\n\nThe §aSterilized Cleanroom§r is required to produce the next tier of circuits. Nearly every step must be performed inside of one! Good luck fitting everything into such a tight space!\n\nIf you only have one §3Cleanroom§r, you will need another for §aSterilized§r recipes.\n\n§eNote§r: Normal Cleanroom recipes cannot run in the Sterilized Cleanroom, so you can\u0027t simply upgrade it.",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 2,
+        "id:8": "gregtech:cleanroom_casing"
+      },
+      "ismain:1": 1,
+      "name:8": "Sterilized Cleanroom",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 631,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 8,
+          "Damage:2": 2,
+          "id:8": "gregtech:cleanroom_casing"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

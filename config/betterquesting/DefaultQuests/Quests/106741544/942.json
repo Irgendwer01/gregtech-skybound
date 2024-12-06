@@ -1,0 +1,36 @@
+{
+  "preRequisites:11": [
+    932
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Making §aNitrobenzene§r will boost the energy efficiency of §aBenzene§r roughly §6fourfold§r! What a deal, right?\n\nThe catch here is that it takes §dDistilled Water§r and consumes a bit of §dSulfur§r every step.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 78,
+        "id:8": "gregtech:meta_item_1",
+        "tag:10": {
+          "Fluid:10": {
+            "Amount:3": 1000,
+            "FluidName:8": "nitrobenzene"
+          }
+        }
+      },
+      "name:8": "Benzene Nitro",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 942,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredFluids:9": {
+        "0:10": {
+          "Amount:3": 40000,
+          "FluidName:8": "nitrobenzene"
+        }
+      },
+      "taskID:8": "bq_standard:fluid"
+    }
+  }
+}

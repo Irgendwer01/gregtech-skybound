@@ -1,0 +1,52 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oA little bit of exploring never hurts... right? Strech your legs.§r\n\nMine some §dSulfur§r from the Nether.\n\n§aPotions of Fire Resistance§r are §6craftable§r!\n\n§bLore:§r With the existence of Small Ores randomly scattered in GregTech 5, you could decide to mine enough in the Overworld to avoid the Nether Vein. It did require some dedication, though.",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 103,
+        "id:8": "gregtech:meta_dust"
+      },
+      "ismain:1": 1,
+      "name:8": "Sulfur",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 743,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 2,
+          "id:8": "minecraft:potion",
+          "tag:10": {
+            "Potion:8": "minecraft:long_fire_resistance"
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 8,
+          "Damage:2": 1,
+          "OreDict:8": "oreNetherrackSulfur",
+          "id:8": "gregtech:ore_sulfur_0"
+        },
+        "1:10": {
+          "Count:3": 16,
+          "Damage:2": 103,
+          "OreDict:8": "dustSulfur",
+          "id:8": "gregtech:meta_dust"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}
