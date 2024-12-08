@@ -1,7 +1,4 @@
 {
-  "preRequisites:11": [
-    83
-  ],
   "properties:10": {
     "betterquesting:10": {
       "desc:8": "§oJust kidding, Tanks for fluids.§r\n\nGregTech has a lot of Fluids. §3Drums§r allow you to store them. Any §3Drum§r can be broken and picked up and will §6keep the Fluid§r.\n\nAdditionally, internal tanks from machines will accept interacting with an item containing fluid. This is great for manual crafting.\n\nTo void Fluid contained in a Drum, place it in your crafting grid.\n\n§9Pssst:§r A §5Screwdriver§r right-click allows a Drum to §ddrain§r its content into another container placed under it. This is great to keep Liquid Boilers fueled for longer.\n\n\n§oDo not attempt to store Steam using Drums, §ma massive Creeper will be dropped in your base§r§o. Buffering Steam is largely overrated, and it\u0027s unethical, I beg you. *sobbing face*§r\n\n\n§bLore:§r The Drums are actually ported from GregTech 6!",

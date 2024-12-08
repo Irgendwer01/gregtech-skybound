@@ -1,6 +1,6 @@
 {
   "preRequisites:11": [
-    79
+    21
   ],
   "properties:10": {
     "betterquesting:10": {
@@ -16,7 +16,7 @@
       "visibility:8": "ALWAYS"
     }
   },
-  "questID:3": 83,
+  "questID:3": 1238,
   "rewards:9": {
     "0:10": {
       "choices:9": {
