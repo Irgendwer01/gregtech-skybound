@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    1416
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oLet\u0027s get cracking, shall we?§r\n\nThe §3Oil Cracking Unit§r is a multiblock meant to make cracked fluids. It has all the recipes of §3Chemical Reactor§r Cracking, but it is §6lossless§r.\n\nA great way to save a lot of Fuel in the long term!\n\nHigher Coil tiers provide small energy discount, up to 70% with the best Coils available.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1009,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "Multiblock Cracking",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1415,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1009,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

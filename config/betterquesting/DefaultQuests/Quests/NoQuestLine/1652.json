@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    1517
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oSpicy Plutonium Isotope§r\n\n§aPlutonium-241§r is yet another requirement for the §9Fusion Reactor§r. It\u0027s very easy to make: just centrifuge some §9Pu-239§r to separate some out!\n\nIn the future, this material will require a §dNuclear Reactor§r to produce, but that\u0027s not in GTCEu yet.\n\n§bLore§r: In GT Impact, making Pu-241 was a challenge. Your first Pu-241 had to be produced as a byproduct of its very expensive Naquadah fuel process, and it could only be made independently with something post-fusion!",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 82,
+        "id:8": "gregtech:meta_dust"
+      },
+      "name:8": "Plutonium-241",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1652,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 82,
+          "id:8": "gregtech:meta_dust"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

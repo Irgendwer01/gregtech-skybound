@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    70
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Finally, an real Bucket.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:bucket"
+      },
+      "name:8": "Iron Bucket"
+    }
+  },
+  "questID:3": 19,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:bucket"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

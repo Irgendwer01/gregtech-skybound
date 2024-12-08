@@ -1,0 +1,119 @@
+{
+  "preRequisites:11": [
+    35,
+    30
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §2Steam Grinder§f, § §2Steam Oven§r and §2Large Steam Hammer §fare very powerful multiblocks that §fcan process 8 Items and once, but only take 1.5x of the time it needs normally! \nTime to replace those slow ass Steam Machines!\n\nNote: In quests like this one, only either task need to be done, not both!",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1025,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "Steam Multiblocks",
+      "tasklogic:8": "OR"
+    }
+  },
+  "questID:3": 34,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1025,
+          "id:8": "gregtech:machine"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 1651,
+          "id:8": "gregtech:machine"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 1652,
+          "id:8": "gregtech:machine"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 1653,
+          "id:8": "gregtech:machine"
+        },
+        "4:10": {
+          "Count:3": 22,
+          "id:8": "gregtech:metal_casing"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 8,
+          "id:8": "gregtech:boiler_firebox_casing"
+        },
+        "1:10": {
+          "Count:3": 8,
+          "id:8": "gregtech:metal_casing"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 1024,
+          "id:8": "gregtech:machine"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 1651,
+          "id:8": "gregtech:machine"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 1652,
+          "id:8": "gregtech:machine"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "Damage:2": 1653,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "2:10": {
+      "index:3": 2,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "gregtech:boiler_casing"
+        },
+        "1:10": {
+          "Count:3": 39,
+          "id:8": "gregtech:metal_casing"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 1653,
+          "id:8": "gregtech:machine"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 1652,
+          "id:8": "gregtech:machine"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 1651,
+          "id:8": "gregtech:machine"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "Damage:2": 32001,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

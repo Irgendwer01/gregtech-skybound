@@ -1,0 +1,74 @@
+{
+  "preRequisites:11": [
+    1313
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oDid you hate crafting the components in the previous tier? They\u0027re back, and stronger!§r\n\nHere is a list of the components you will need in the §bMV§r Age. To alleviate the pain, be sure to autocraft or §dbulk-craft§r these parts, especially §aMotors§r.\n\nNote the appearance of the §aEmitter§r? This one requires a §dFlawless Emerald§r which will be only attainable with the §3Sifting Machine§r for now.\n\nConveyors, Pumps and Robot Arms are upgrades to §7LV§r versions if you use them as covers.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 128,
+        "id:8": "gregtech:meta_item_1"
+      },
+      "name:8": "MV Components",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1332,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 48,
+          "Damage:2": 274,
+          "id:8": "gregtech:meta_ingot"
+        },
+        "1:10": {
+          "Count:3": 3,
+          "Damage:2": 278,
+          "id:8": "gregtech:meta_gem_flawless"
+        }
+      },
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 128,
+          "id:8": "gregtech:meta_item_1"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 173,
+          "id:8": "gregtech:meta_item_1"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 143,
+          "id:8": "gregtech:meta_item_1"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 158,
+          "id:8": "gregtech:meta_item_1"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 188,
+          "id:8": "gregtech:meta_item_1"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "Damage:2": 218,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

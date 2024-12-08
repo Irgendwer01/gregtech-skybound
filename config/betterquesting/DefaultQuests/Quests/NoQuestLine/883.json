@@ -1,0 +1,38 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "A source of Bauxite for your first ever source of Titanium.\n\nKyanite and Mica have decent decompositions, but there are better options.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "gregtech:ore_mica_0"
+      },
+      "name:8": "Mica - Source of GT:NH Hatred, and some Aluminium, Fluorine, Titanium",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 883,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "gregtech:ore_kyanite_0"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "gregtech:ore_mica_0"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "gregtech:ore_bauxite_0"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "gregtech:ore_pollucite_0"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

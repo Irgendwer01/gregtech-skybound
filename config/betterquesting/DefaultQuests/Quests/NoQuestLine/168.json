@@ -1,0 +1,47 @@
+{
+  "preRequisites:11": [
+    167,
+    158
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oHopefully your first MV Circuit expense.§r\n\nFrom now on, all Circuits will be made in a §3Circuit Assembler§r. Use it now to make §6cheaper LV and MV circuits§r.\n\n\n§bLore:§r The Circuit Assembler appears in and out of GregTech versions. GT5 did not have it, and it was added in GT5 Unofficial. GTCE did not port it, and it was added back in GTCEu.",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 635,
+        "id:8": "gregtech:machine"
+      },
+      "ismain:1": 1,
+      "name:8": "Basic Circuit Assembling Machine",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 168,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 3,
+          "Damage:2": 402,
+          "id:8": "gregtech:meta_item_1"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 635,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

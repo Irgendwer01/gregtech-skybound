@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    1521
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "This block allows you to encode patterns with up to §b36§r total inputs and §b8§r total outputs! \n\nIf you need to make something in huge batches, this is the tool for you!\n\n§eNote:§r This block does not connect to an ME system, so don\u0027t get rid of your old Pattern Terminals.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "ae2fc:ultimate_encoder"
+      },
+      "name:8": "Ultimate Pattern Encoding",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1710,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "ae2fc:ultimate_encoder"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

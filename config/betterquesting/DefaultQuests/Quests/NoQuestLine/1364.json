@@ -1,0 +1,51 @@
+{
+  "preRequisites:11": [
+    1372
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Stainless Steel is pretty much any Steel you may encounter in everyday\u0027s life. It is extremely resilient against corrosion.§r§r\n\nStainless Steel is the material for §6HV§r components, like Aluminium for §bMV§r and Steel for §7LV§r. It is also used in high quantities for the §3Distillation Tower§r. It unlocks a lot of §6nice stuff§r as well!\n\nIt requires §cChrome§r, obtained mainly from §cRuby§r, and §2Manganese§r, obtained from §2Pyrolusite§r and others in its vein.\n\nSmelting Stainless Steel requires §dHV Power§r, which I highly doubt you have at this point. Scaling Power Production is crucial!\n\nWhat I would §9recommend§r would be to get a second EBF going. They can share blocks, so that is only §a10 Cupronickel Coils§r instead of 16.\nHave one EBF run off MV, for Aluminium and any other recipes requiring MV Power, and one running off HV with §32 MV Energy Hatches§r.",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 323,
+        "id:8": "gregtech:meta_ingot"
+      },
+      "ismain:1": 1,
+      "name:8": "Stainless Steel",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1364,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 24,
+          "Damage:2": 22,
+          "id:8": "gregtech:meta_dust"
+        },
+        "1:10": {
+          "Count:3": 24,
+          "Damage:2": 61,
+          "id:8": "gregtech:meta_dust"
+        }
+      },
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 323,
+          "id:8": "gregtech:meta_ingot"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

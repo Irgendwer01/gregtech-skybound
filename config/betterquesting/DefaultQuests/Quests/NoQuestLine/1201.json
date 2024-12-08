@@ -1,0 +1,35 @@
+{
+  "preRequisites:11": [
+    826
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oWondering how to move those ores around?§r\n\n\n§3Long-Distance Item Pipes§r can be used to send items across great distances. Place one endpoint at each end, and connect them with pipeline blocks.\n\nThese pipes instantly transfer from the input side to the output side.\n\nThey also have a minimum distance between pipe endpoints, so you can\u0027t use these for short-range operations.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1749,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "Long-Distance Items",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1201,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 2,
+          "Damage:2": 1749,
+          "id:8": "gregtech:machine"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "gregtech:ld_item_pipe"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

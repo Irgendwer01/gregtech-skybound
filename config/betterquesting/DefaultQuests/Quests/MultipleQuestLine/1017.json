@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    1046,
+    1198
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oThe §6§ofinal§r §ocircuit§r.\n\nThis is a huge accomplishment, nice job!",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 647,
+        "id:8": "gregtech:meta_item_1"
+      },
+      "ismain:1": 1,
+      "name:8": "Wetware Mainframe - The UHV Circuit",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1017,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 647,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

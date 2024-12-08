@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    1422
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "By this point, normal Cables with insulation have a near insignificant loss.\n\nYou can use those for good looks!\n\nSuperconductors are still required to craft §aField Generators§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 426,
+        "id:8": "gregtech:wire_single"
+      },
+      "name:8": "HV Superconductors",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1434,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 426,
+          "id:8": "gregtech:wire_single"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "preRequisites:11": [
+    74
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§2Bronze§f is an important alloy made out of §2Tin§f and§2 Copper§f that will be needed to get into the§e Steam Age§f!\n\nIt is made by combining §2§f3 §2Copper dust§f and 1 §2§2Tin dust§f in an crafting table and smelting the outcoming §2Bronze dust §fin an §2Furnace§f.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 260,
+        "id:8": "gregtech:meta_ingot"
+      },
+      "name:8": "Bronze"
+    }
+  },
+  "questID:3": 21,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 112,
+          "id:8": "gregtech:meta_dust"
+        },
+        "1:10": {
+          "Count:3": 3,
+          "Damage:2": 25,
+          "id:8": "gregtech:meta_dust"
+        },
+        "2:10": {
+          "Count:3": 3,
+          "Damage:2": 260,
+          "id:8": "gregtech:meta_dust"
+        },
+        "3:10": {
+          "Count:3": 3,
+          "Damage:2": 260,
+          "id:8": "gregtech:meta_ingot"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

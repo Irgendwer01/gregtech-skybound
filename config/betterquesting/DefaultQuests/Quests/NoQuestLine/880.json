@@ -1,0 +1,26 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Good source of §6Heavy Oil§r, which is useful for §6Diesel§r setups early on.\n\nIf you don\u0027t want to process the ore entirely, you can §bCentrifuge§r it directly.\n",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "gregtech:ore_oilsands_0"
+      },
+      "name:8": "Oilsands - Source of American Dreams",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 880,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "gregtech:ore_oilsands_0"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

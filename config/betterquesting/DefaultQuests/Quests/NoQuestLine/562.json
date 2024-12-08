@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    129
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§aBlue Alloy§r is an excellent Cable material for §6HV§r voltage.\nNothing prevents you from using it for §bMV§r voltage too! Beware of not overvolting your machines, though.\nSuperconductors for both MV and HV are unlocked... much later.\n\n§aElectrotine§r is obtained from the §cNether§r, so don\u0027t craft it in the Mixer!\n\n§aElectrotine§r can be separated for §dElectrum§r and §dRedstone§r. If you need 8 whole dusts as input, that\u0027s for balance reasons.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 2527,
+        "id:8": "gregtech:meta_ingot"
+      },
+      "name:8": "Blue Alloy",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 562,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2527,
+          "id:8": "gregtech:meta_ingot"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

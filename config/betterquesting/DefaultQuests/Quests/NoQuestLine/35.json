@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    31
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§2Potin§f is an very powerful material for §2Fluid Pipes§,, it has the best stats §ffor those in this Age and will be used still alot later too.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 2037,
+        "id:8": "gregtech:meta_ingot"
+      },
+      "name:8": "Potin"
+    }
+  },
+  "questID:3": 35,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2037,
+          "id:8": "gregtech:meta_ingot"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

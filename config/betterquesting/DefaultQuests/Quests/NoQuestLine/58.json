@@ -1,0 +1,45 @@
+{
+  "preRequisites:11": [
+    39
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §2Steel Mesh §fis the third §a§fMesh you can obtain and allows you to obtain rarer Materials like §2§2Diamond§f and §2Graphite§e§e§f. \n\nYou will need it in the LV age!",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 3,
+        "id:8": "exnihilocreatio:item_mesh"
+      },
+      "name:8": "Steel Mesh"
+    }
+  },
+  "questID:3": 58,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 3,
+          "id:8": "exnihilocreatio:item_mesh"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 272,
+          "id:8": "gregtech:meta_ore_chunk"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 332,
+          "id:8": "gregtech:meta_ore_chunk"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 2028,
+          "id:8": "gregtech:meta_ore_chunk"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

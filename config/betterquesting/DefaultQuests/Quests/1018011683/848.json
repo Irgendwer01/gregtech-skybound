@@ -1,0 +1,46 @@
+{
+  "preRequisites:11": [
+    846
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oI\u0027m running out of things to say for these quests... I hope you get the gist of it, and don\u0027t need too many explanations.§r\n\nAs for every Tier goes, the §3Circuit Assembler§r is an essential part of the Progression, to enable a new Tier of circuits.\n\n\nAt this point you should use an §3Extractor§r next to your Circuit Assembler and send off dozens of stacks of §aSoldering Alloy§r Ingots.",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 636,
+        "id:8": "gregtech:machine"
+      },
+      "ismain:1": 1,
+      "name:8": "Advanced Circuit Assembler",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 848,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 40,
+          "Damage:2": 320,
+          "id:8": "gregtech:meta_dust"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 636,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

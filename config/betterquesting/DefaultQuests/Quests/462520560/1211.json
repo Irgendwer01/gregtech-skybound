@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    959
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "These cells will void §c§l§neverything§r inserted into them.\n\nFilter them with a §9Cell Workbench§r to make sure nothing important gets lost!\n\nThey also store the amount of items voided, and can produce items in the §9Matter Condenser§r using the voided items. This can be very useful for producing AE2 Singularities, for example.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "nae2:fluid_storage_cell_void",
+        "tag:10": {}
+      },
+      "name:8": "Void Cells",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1211,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "nae2:material"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

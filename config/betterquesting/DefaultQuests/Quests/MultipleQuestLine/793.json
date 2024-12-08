@@ -1,0 +1,49 @@
+{
+  "preRequisites:11": [
+    796
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Prepare §a128 Cupronickel§r, §a32 Bronze§r and §a16 Tin Alloy§r to craft the Heating Coils for your Electric Blast Furnace.\n\nThis is still less than half of the cost of the entire EBF in raw materials. You will also need about a stack each of Invar and Steel.\n\nNote that §aCupronickel§r can be made in the §9Alloy Smelter§r. It\u0027s much faster than mixing!\n\n\nThe Cupronickel Coils will allow the EBF to perform recipes up to §d1,800K§r (ignoring Voltage bonuses). That\u0027s pretty hot if you ask me.",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "gregtech:wire_coil"
+      },
+      "ismain:1": 1,
+      "name:8": "Cupronickel Coils",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 793,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 18,
+          "Damage:2": 287,
+          "id:8": "gregtech:meta_ingot"
+        },
+        "1:10": {
+          "Count:3": 18,
+          "Damage:2": 324,
+          "id:8": "gregtech:meta_ingot"
+        }
+      },
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 16,
+          "id:8": "gregtech:wire_coil"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

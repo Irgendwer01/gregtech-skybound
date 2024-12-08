@@ -1,0 +1,33 @@
+{
+  "preRequisites:11": [
+    852
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "A Circuit Component, that you can now make thanks the §3MV Assembler§r.\n\nIf you want to make them cheaper, you may smelt §aNickel-Zinc Ferrite§r.",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 522,
+        "id:8": "gregtech:meta_item_1"
+      },
+      "ismain:1": 1,
+      "name:8": "Inductors",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 853,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 522,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

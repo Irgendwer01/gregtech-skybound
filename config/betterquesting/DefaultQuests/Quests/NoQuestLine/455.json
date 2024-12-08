@@ -1,0 +1,35 @@
+{
+  "preRequisites:11": [
+    415,
+    222,
+    202
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oYou know the drill.§r",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 638,
+        "id:8": "gregtech:machine"
+      },
+      "ismain:1": 1,
+      "name:8": "EV Assembling Machine",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 455,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 113,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

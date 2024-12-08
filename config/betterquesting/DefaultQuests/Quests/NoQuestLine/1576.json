@@ -1,0 +1,17 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §9Integrated§r Circuit line is not a strict upgrade in terms of cost, but works as a stepping stone towards the next tier.\n\nThey require a MV §3Laser Engraver§r and a MV §3Cutting Machine§r.\n\n\n§bLore:§r In Omnifactory, and in previous Gregicality, this circuit line was called §9Refined§r and was standardized like further tiers.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 986,
+        "id:8": "gregtech:machine"
+      },
+      "issilent:1": 1,
+      "name:8": "Craftable in MV",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1576,
+  "tasks:9": {}
+}

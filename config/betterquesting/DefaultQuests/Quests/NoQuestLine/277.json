@@ -1,0 +1,36 @@
+{
+  "preRequisites:11": [
+    98
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Your classic Nether Quartz vein.\n\nSilicon is never really hard to obtain, but this can be one of the ways through Quartzite.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1,
+        "id:8": "gregtech:ore_nether_quartz_0"
+      },
+      "name:8": "Quartz - Source of Nether Quartz, Silicon",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 277,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "gregtech:ore_nether_quartz_0"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "gregtech:ore_quartzite_0"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

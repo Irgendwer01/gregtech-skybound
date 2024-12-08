@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    10,
+    6,
+    12
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "A §2Stone Barrel§a§f is used to obtain things like §2Obsidian§f or §2Netherrack§f, because those require that §L§2Lava §fis in the Barrel and the Wooden one cannot take it.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "exnihilocreatio:block_barrel1"
+      },
+      "name:8": "Stone Barrel"
+    }
+  },
+  "questID:3": 29,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "exnihilocreatio:block_barrel1"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:obsidian"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

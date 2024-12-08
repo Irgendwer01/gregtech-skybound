@@ -1,0 +1,41 @@
+{
+  "preRequisites:11": [
+    1224
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The worst Iron vein, good in the early game, that\u0027s about it.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "gregtech:ore_basaltic_mineral_sand_0"
+      },
+      "name:8": "Mineral Sand - Source of Iron",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1388,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "gregtech:ore_basaltic_mineral_sand_0"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "gregtech:ore_granitic_mineral_sand_0"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "gregtech:ore_fullers_earth_0"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "gregtech:ore_gypsum_0"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

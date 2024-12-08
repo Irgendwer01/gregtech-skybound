@@ -1,0 +1,67 @@
+{
+  "preRequisites:11": [
+    1261,
+    1262,
+    1260,
+    1252,
+    1251
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oThis quest technically requires all the previous quests it depends on, not just one. I figured it would be nice if you could see all the requirements ahead of time.§r\n\nYour first §aElectronic Circuit§r!! YEEEEEEEEHAAAAAW!!\nJust kidding, you actually need three Circuits to get started anywhere relevant in the §7LV§r Age. Thankfully for you, a generous donator under the name of Mr. Questbook Writer decided to give you the third Circuit.\n\nHere, I\u0027m also throwing a §aLV Machine Hull§r in this quest. That\u0027s what you need to make any §7LV§r machine! I am feeling so generous, that this quest will grant you a second hull, free of charge!\n\n§6Once you complete this Quest and the LV Motor Quest, you are ready to move on to the LV Age.§r",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 621,
+        "id:8": "gregtech:meta_item_1"
+      },
+      "ismain:1": 1,
+      "name:8": "Electronics Part Four: The Circuit",
+      "questlogic:8": "OR",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1263,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 621,
+          "id:8": "gregtech:meta_item_1"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 986,
+          "id:8": "gregtech:machine"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 2,
+          "Damage:2": 621,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 986,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "On this line you can see the Steam, or §8§8ULV§r equivalents.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "gregtech:machine_casing"
+      },
+      "issilent:1": 1,
+      "name:8": "ULV equivalent",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 364,
+  "tasks:9": {}
+}

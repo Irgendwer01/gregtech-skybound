@@ -1,0 +1,33 @@
+{
+  "preRequisites:11": [
+    468
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The next board material is as easy as §aEpoxy§r, plus an added extra step in the §3Chemical Bath§r.\n\n§oHOORAY!§r",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1006,
+        "id:8": "gregtech:meta_plate"
+      },
+      "ismain:1": 1,
+      "name:8": "Fiber-Reinforced Epoxy",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 601,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1006,
+          "id:8": "gregtech:meta_plate"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

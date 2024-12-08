@@ -1,0 +1,50 @@
+{
+  "preRequisites:11": [
+    1310,
+    1285
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Many materials going forward cannot be smelted directly from any Ores! They are instead obtained as byproducts from processing of other ores. Gallium and Arsenic are among these materials.\n\nFor §dGallium§r, you may, ranged from worst to best (compromising difficulty and yields):\n§9- §3Electrolyze §aSphalerite§r for a low chance of small dust. Note that you lose on direct smelting value.\n§9-§r Put §aCrushed Bauxite§r in the §3Chemical Bath§r. Note that this requires §9Sodium Persulfate§r.\n§9-§r Obtain it as a Byproduct of §aSphalerite§r Ore Processing, in the §3Thermal Centrifuge§r or §3Centrifuge§r.\n\nFor §dArsenic§r, you will have to mine and §3centrifuge§r §aRealgar§r.",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 351,
+        "id:8": "gregtech:meta_dust"
+      },
+      "ismain:1": 1,
+      "name:8": "Gallium Arsenide",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1309,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 39,
+          "id:8": "gregtech:meta_dust"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 6,
+          "id:8": "gregtech:meta_dust"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 2,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 351,
+          "id:8": "gregtech:meta_dust"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

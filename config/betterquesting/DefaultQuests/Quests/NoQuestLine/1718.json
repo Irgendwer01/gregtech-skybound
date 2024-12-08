@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    1492
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §aPattern Multitool§r does A LOT!\n\n§2Blank Pattern Storage:§r\nR-clicking the tool will open a gui where you can insert §9Blank Patterns§r. Add regular §9Capacity Cards§r to increase the slots. Opening any §9Pattern Terminal§r with the tool in your inventory or in a bauble slot will utilize Blank Patterns from these slots. You can also view this pattern storage GUI from any Pattern Terminal.\n\n§2Bulk Pattern Modification:§r\nInserting §9Encoded Patterns§r instead of blank ones will allow you to multiply/divide/add/subtract them all at once in bulk. Division and subtraction is enabled while holding §ashift§r. This GUI also shows up in the §9Interface Terminal§r or any §9ME Item/Fluid/Dual Interface§r§r. This is particularly useful when multiplying up your patterns for parallel on-demand machinery.\n\nPatterns can also be cleared in bulk with the \"Clear\" button. There is a confirmation after clicking it, but use with caution.\n\n§2Item Search and Replace:§r\nR-clicking the tool and opening the §aReplace tab§r will bring up a new GUI. This GUI will allow you to replace all occurrences of one item with another for the §9Encoded Patterns§r stored within the tool. Successful replacements are highlighted in §agreen§r, and invalid patterns in §cred§r. This is particularly useful for §eupgrading GT circuits§r, such as transitioning from Nano to Quantum EV circuits.\n\n§2Easy Pattern Transfer:§r\nShift-LClicking patterns will move them between the player inventory and the multitool where possible. This means you can easily move patterns around between interfaces and terminals without clogging your inventory.\n\n§2In-Place Editing:§r\nRclicking an §9ME Item/Fluid/Dual Interface§r will display the interface\u0027s patterns in the multitool. This will allow you to easily modify the patterns inside it without having to manually move them back and forth.\n\n§bLore§r: Neeve, the author of the NAE2 mod suggested tiering this item at §eUXV§r tier, because it \"gives the player way too much power.\" For reference, §eUXV§r is 4 tiers past §3UV§r tier, two tiers before §c§lMAX§r voltage.",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "nae2:pattern_multiplier"
+      },
+      "ismain:1": 1,
+      "name:8": "Pattern Multitool",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1718,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "nae2:pattern_multiplier"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

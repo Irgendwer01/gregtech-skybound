@@ -1,0 +1,66 @@
+{
+  "preRequisites:11": [
+    460
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "New Cutting Machine? ✓\n\nNew Lens? ✓\n\nNew Power Circuit? ✓\n\nNew EBF Metal required? ✓\n\nNew Coil for Energy Hatch? ✓\n\n\n§9Note:§r If you haven\u0027t found a Jungle yet, you can §acentrifuge Stone Dust§r for §dMetal Mixture Dust§r which doubles as a Brown Dye.",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 604,
+        "id:8": "gregtech:meta_item_1"
+      },
+      "ismain:1": 1,
+      "name:8": "Power Integrated Circuit",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 461,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 248,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 832,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "2:10": {
+      "index:3": 2,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 604,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "3:10": {
+      "index:3": 3,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 100,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

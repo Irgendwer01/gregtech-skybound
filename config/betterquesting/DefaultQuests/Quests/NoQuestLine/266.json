@@ -1,0 +1,30 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Making the best §6HV§r Circuits will allow for easier HV Machines for your on-demand automation. Convenient!\n\nStarting from here, all circuit lines will be consistent with each other until the end of the game.\nEach tier until §fZPM§r will have its own challenges to be able to acquire new and better Circuits.",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 632,
+        "id:8": "gregtech:meta_item_1"
+      },
+      "ismain:1": 1,
+      "name:8": "Best HV Circuits!",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 266,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 632,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

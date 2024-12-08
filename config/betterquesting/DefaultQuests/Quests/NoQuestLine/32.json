@@ -1,0 +1,22 @@
+{
+  "preRequisites:11": [
+    31
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Ore Processing in Gregtech will double the output and if done complete will give some neat byproducts, but with the current machines it\u0027s way too slow to do. \nSo you should ignore it before§e Age 3§f§,, because the amount of ores you get at this moment will last you for a while without doubling it.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "gregtech:ore_iron_0"
+      },
+      "name:8": "Ore Processing?"
+    }
+  },
+  "questID:3": 32,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "preRequisites:11": [
+    1144
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oDefinitely isn\u0027t terrible for both you and the environment...§r\n\n§3Dielectric PCB Coolant§r is used for highly advanced late and end-game machinery.\n\nYou only need a little bit in §dLuV§r, but you\u0027ll want to automate it in §cZPM§r tier.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 78,
+        "id:8": "gregtech:meta_item_1",
+        "tag:10": {
+          "Fluid:10": {
+            "Amount:3": 1000,
+            "FluidName:8": "pcb_coolant"
+          }
+        }
+      },
+      "name:8": "Dielectric PCB Coolant",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1195,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredFluids:9": {
+        "0:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "pcb_coolant"
+        }
+      },
+      "taskID:8": "bq_standard:fluid"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    1478,
+    1416
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§aGasoline§r is an extremely powerful Combustion Fuel. It\u0027s way over §63 times§r as energy dense as §dDiesel§r!\n\n§9Note:§r This Combustion Fuel exists solely as a §echallenge§r for you to overcome if you desire to take on it.\nIt is completely §doptional§r, so I will let you figure out how to obtain it, without any further tips.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "forge:bucketfilled",
+        "tag:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "gasoline"
+        }
+      },
+      "name:8": "Gasoline",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1479,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredFluids:9": {
+        "0:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "gasoline"
+        }
+      },
+      "taskID:8": "bq_standard:fluid"
+    }
+  }
+}

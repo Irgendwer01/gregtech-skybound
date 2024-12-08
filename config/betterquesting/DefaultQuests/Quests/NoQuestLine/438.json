@@ -1,0 +1,36 @@
+{
+  "preRequisites:11": [
+    426
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§aCetane-Boosted Diesel§r is §650% more energy dense§r than regular §aDiesel§r, and only requires 1 part §dTetranitromethane (TNM)§r for every 50 parts §aDiesel§r. What a deal, right?\n\nThe catch comes in the complexity of making §dTNM§r. In order to make it, you must react §aNitric Acid§r with either §dEthenone§r or §aMethyl Acetate§r, both of which have quite an involved process themselves.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 78,
+        "id:8": "gregtech:meta_item_1",
+        "tag:10": {
+          "Fluid:10": {
+            "Amount:3": 1000,
+            "FluidName:8": "nitro_fuel"
+          }
+        }
+      },
+      "name:8": "Cetane-Boosted Diesel",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 438,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredFluids:9": {
+        "0:10": {
+          "Amount:3": 50000,
+          "FluidName:8": "nitro_fuel"
+        }
+      },
+      "taskID:8": "bq_standard:fluid"
+    }
+  }
+}

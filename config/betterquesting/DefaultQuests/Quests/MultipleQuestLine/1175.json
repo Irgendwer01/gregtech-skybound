@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    1009
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oThis thing is completely ludicrous!§r\n\nAt the cost of 16x the drilling Power, the §3Advanced Fluid Drilling Rig II§r will be gaining §664x the output§r in Fluid.\nThe depletion of veins is also eighthed. This means you will get a total of §6128x§r as much Oil (or whatever fluid) as the regular rig from a bedrock fluid vein until depletion!\n\nEven when depleted, you can still use this and be very power positive.\n\nOne single §3Advanced Fluid Drilling Rig II§r should be enough to last you until the end of the game, for whatever fluid you drill.\n",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1034,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "Ludicrous Fluid Driling",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1175,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1034,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "preRequisites:11": [
+    460,
+    291
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oGood luck fueling this§r\n\nThe §aLarge Tungstensteel Boiler§r is the final steam boiler. It\u0027s even more efficient than the previous ones, and produces more steam too.\n\nThis thing is §nextremely§r not worth it, and you should use something else. Don\u0027t make this, it\u0027s not good. Steam doesn\u0027t scale beyond this point, and this boiler will likely be removed in the future.\n\n§eNote§r: This quest can be skipped (for completion progress) by clicking the Checkmark. You do not have to actually craft one.\n\n§bLore§r: No one makes these in GT5u either...",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1016,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "Worst Combustion",
+      "tasklogic:8": "OR",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 668,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1016,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "preRequisites:11": [
+    288
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "This Quest requires the §3Pyrolyse Oven§r and is §doptional§r, yet convenient.\n\nThe upper part are the important products of §aWood Tar§r Distillation:\n§9-§r Phenol: useful for Epoxy and PBI\n§9-§r Benzene: an important hydrocarbon\n§9-§r Toluene: useful for TNT\n§9-§r Dimethylbenzene: useful for PBI\n\nUnlike Oil, putting §aWood Tar§r in the §3Distillation Tower§r for the byproducts, and using §dNitrobenzene§r for power is arguably worth it.\n\n\nThe bottom part are the important products from §aWood Vinegar§r Distillation:\n§9-§r Acetic Acid: useful to make more Acetone\n§9-§r Methanol: a moderately important hydrocarbon\n§9-§r Acetone: useful for Epoxy and Gasoline\n\nComplete §eeither§r task to validate this Quest.\n\n\nIt is also possible to go for a full combo of 4 §3DTs§r. One for §aCharcoal Byproducts§r as the whole input, splitting into §aWood Tar§r, §aWood Gas§r and §aWood Vinegar§r.\nNot the most efficient cost to production ratio, but an option nonetheless if you are interested in that.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "forge:bucketfilled",
+        "tag:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "wood_tar"
+        }
+      },
+      "name:8": "True Distillation: Organic",
+      "tasklogic:8": "OR",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 589,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredFluids:9": {
+        "0:10": {
+          "Amount:3": 16000,
+          "FluidName:8": "phenol"
+        },
+        "1:10": {
+          "Amount:3": 64000,
+          "FluidName:8": "benzene"
+        },
+        "2:10": {
+          "Amount:3": 16000,
+          "FluidName:8": "toluene"
+        },
+        "3:10": {
+          "Amount:3": 32000,
+          "FluidName:8": "dimethylbenzene"
+        }
+      },
+      "taskID:8": "bq_standard:fluid"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredFluids:9": {
+        "0:10": {
+          "Amount:3": 16000,
+          "FluidName:8": "acetic_acid"
+        },
+        "1:10": {
+          "Amount:3": 32000,
+          "FluidName:8": "methanol"
+        },
+        "2:10": {
+          "Amount:3": 8000,
+          "FluidName:8": "acetone"
+        }
+      },
+      "taskID:8": "bq_standard:fluid"
+    }
+  }
+}

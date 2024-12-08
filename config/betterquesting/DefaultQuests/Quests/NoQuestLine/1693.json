@@ -1,0 +1,36 @@
+{
+  "preRequisites:11": [
+    1692
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oWho needs hard drives anyways?§r\n\nOnce scanned, the §3Data Stick tooltip§r will be updated to show what things it can be used to make in the Assembly Line. Put this data stick into a §dData Access Hatch§r. \n\nThe Assembly Line will now be able to run all the recipes provided by Data Sticks. You\u0027ll want one Data Stick for each research, to avoid re-scanning many times.\n\n§bLore§r: In GT5u, this hatch only had 4 slots, which meant you had to constantly swap data sticks around until you could make a larger one!",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1404,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "Data Storage",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1693,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1404,
+          "id:8": "gregtech:machine"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 261,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

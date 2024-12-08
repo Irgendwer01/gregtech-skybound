@@ -1,0 +1,57 @@
+{
+  "preRequisites:11": [
+    934,
+    920,
+    917
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "This part of the chain starts with §aInert Metal Mixture§r.\n\n§dSulfuric Acid§r can be perfectly recycled. You will produce excess §dOxygen§r and §dHydrogen§r.\n\n§aRuthenium§r is a gate to the §9IV§r age. You\u0027ll need it for the next coil!\n\n§aRhodium§r is the gate to the §dLuV§r Age. But you should still automate it so you won\u0027t need to do it later!",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 93,
+        "id:8": "gregtech:meta_ingot"
+      },
+      "ismain:1": 1,
+      "name:8": "Ruthenium and Rhodium",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1113,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 433,
+          "id:8": "gregtech:meta_dust"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 93,
+          "id:8": "gregtech:meta_dust"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "2:10": {
+      "index:3": 2,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 90,
+          "id:8": "gregtech:meta_dust"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

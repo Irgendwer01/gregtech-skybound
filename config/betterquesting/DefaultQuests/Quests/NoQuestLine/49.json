@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    46,
+    48
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The§2 Resistors§f are the next Circuit part you should craft, be sure to go the §2Fine Copper Wire§f route for crafting, as it will allow you to safe resources!",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 519,
+        "id:8": "gregtech:meta_item_1"
+      },
+      "name:8": "Resistors"
+    }
+  },
+  "questID:3": 49,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 2,
+          "Damage:2": 519,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

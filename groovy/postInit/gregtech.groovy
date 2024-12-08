@@ -48,3 +48,14 @@ mods.gregtech.rock_breaker.recipeBuilder()
   .EUt(7)
   .duration(16)
   .buildAndRegister()
+
+//ULV Covers
+crafting.addShaped('ulv_conveyor', item('ulv_covers:ulv_cover_meta_item'), [
+ [item('gregtech:meta_item_1', 438), item('gregtech:wire_single', 55), null],
+ [item('ulv_covers:ulv_cover_meta_item', 2), item('gregtech:meta_item_1', 438), null],
+ [null, null, null]])
+
+crafting.addShaped('ulv_pump', item('ulv_covers:ulv_cover_meta_item', 1), [
+ [item('gregtech:fluid_pipe_normal', 25), item('gregtech:meta_rotor', 260), null],
+ [item('ulv_covers:ulv_cover_meta_item', 2), item('gregtech:meta_item_1', 438), null],
+ [null, null, null]])

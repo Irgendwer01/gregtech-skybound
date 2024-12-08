@@ -1,0 +1,33 @@
+{
+  "preRequisites:11": [
+    137
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Better HV Circuits, much §6cheaper§r and easier to make than from the previous Tier.\n\n\n§6You should now be ready to move on the HV Chapter§r, unless you still need to scale up Power Production.",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 629,
+        "id:8": "gregtech:meta_item_1"
+      },
+      "ismain:1": 1,
+      "name:8": "More HV Circuits",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 141,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 629,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

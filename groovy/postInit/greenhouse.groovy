@@ -29,6 +29,7 @@ for (int i = 0; i < logs.size; i++) {
     .buildAndRegister()
 
   recipemap('greenhouse').recipeBuilder()
+    .circuitMeta(1)
     .notConsumable(saplings[i])
     .inputs(metaitem('fertilizer')*8)
     .fluidInputs(liquid('water')*1000)
@@ -77,7 +78,7 @@ for (entry : plants) {
   recipemap('greenhouse').recipeBuilder()
     .notConsumable(item('exnihilocreatio:item_material', 3))
     .fluidInputs(liquid('witchwater')*1000)
-    .outputs(item('exnihilocreatio:item_material', 3)*3)
+    .outputs(item('exnihilocreatio:item_material', 3)*5)
     .EUt(120)
-    .duration(200)
+    .duration(100)
     .buildAndRegister()

@@ -1,0 +1,96 @@
+{
+  "preRequisites:11": [
+    74
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oPut your micro-crafting talent to the task. Don\u0027t worry, you are not wasting anything crafting this, and they are gonna be required very soon.§r\n\nIn general, it is worth §9bulk-crafting§r more than you need, so you will have the intermediates ready for more crafts.\n\nI will give you a nice §6Reward§r for achieving this task.\n\n§dBone Meal§r can be used on Sugar Canes thanks to Random Tweaks.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 15,
+        "id:8": "minecraft:dye"
+      },
+      "name:8": "A Small Boost",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 528,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 64,
+          "Damage:2": 15,
+          "id:8": "minecraft:dye"
+        },
+        "1:10": {
+          "Count:3": 12,
+          "id:8": "minecraft:potato"
+        },
+        "2:10": {
+          "Count:3": 128,
+          "id:8": "minecraft:sand"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "gregtech:shovel",
+          "tag:10": {
+            "DisallowContainerItem:1": 0,
+            "GT.Behaviours:10": {},
+            "GT.Tool:10": {
+              "AttackDamage:5": 3.5,
+              "AttackSpeed:5": -3.0,
+              "Durability:3": 0,
+              "HarvestLevel:3": 2,
+              "Material:8": "iron",
+              "MaxDurability:3": 256,
+              "ToolSpeed:5": 6.0
+            },
+            "HideFlags:3": 2
+          }
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "gregtech:axe",
+          "tag:10": {
+            "DisallowContainerItem:1": 0,
+            "GT.Behaviours:10": {
+              "DisableShields:1": 1,
+              "TreeFelling:1": 1
+            },
+            "GT.Tool:10": {
+              "AttackDamage:5": 7.0,
+              "AttackSpeed:5": -3.2,
+              "Durability:3": 0,
+              "HarvestLevel:3": 2,
+              "Material:8": "iron",
+              "MaxDurability:3": 256,
+              "ToolSpeed:5": 4.0
+            },
+            "HideFlags:3": 2
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 16,
+          "Damage:2": 51,
+          "id:8": "gregtech:meta_bolt"
+        },
+        "1:10": {
+          "Count:3": 8,
+          "Damage:2": 51,
+          "id:8": "gregtech:meta_plate"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

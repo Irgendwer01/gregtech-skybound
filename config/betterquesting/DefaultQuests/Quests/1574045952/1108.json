@@ -1,0 +1,61 @@
+{
+  "preRequisites:11": [
+    966
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§1IV§r Components - fortunately for you - are not a big step up in terms of complexity.\n\nThe amount of required §dTungsten§r is huge.\n\n§aEmitters§r and §aSensors§r are another topic though... as they require §dNether Star§r and §dIridium§r, both of which have their own dedicated Quests.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 131,
+        "id:8": "gregtech:meta_item_1"
+      },
+      "name:8": "There is no limit to \"fun\"",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1108,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 131,
+          "id:8": "gregtech:meta_item_1"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 176,
+          "id:8": "gregtech:meta_item_1"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 146,
+          "id:8": "gregtech:meta_item_1"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 161,
+          "id:8": "gregtech:meta_item_1"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 191,
+          "id:8": "gregtech:meta_item_1"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "Damage:2": 236,
+          "id:8": "gregtech:meta_item_1"
+        },
+        "6:10": {
+          "Count:3": 1,
+          "Damage:2": 221,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "preRequisiteTypes:7": [
+    0,
+    0,
+    1,
+    1,
+    1
+  ],
+  "preRequisites:11": [
+    1124,
+    1113,
+    1111,
+    964,
+    1110
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oNot an actual TradeMark.§r\n\nThis armor provides more QoL compared to the Nano suit.\n\n§9Helmet:§r Provides §dNight vision§r (default keybind §4M§r but check for conflicts), prevents harmful potion effects, and automatically eats for you!\n\n§9Chestplate:§r Nullifies burning, but can be further upgraded into the §aAdvanced§r version at the very end of §dLuV§r Age. Note that this does NOT include a jetpack without the advanced upgrade.\n\n§9Leggings:§r Provides the speed boost which the Nano leggings did not.\n\n§9Boots:§r Provides §dStep Assist§r, nullifies fall damage, and increases jump height!\n\n§bLore:§r This armor is originally inspired by IndustrialCraft, but its first implementation within the GTCE environment came with Nuke Powered Utils, an addon mod to GTCE.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 41,
+        "id:8": "gregtech:gt_armor"
+      },
+      "name:8": "QuarkTech™",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1149,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 40,
+          "id:8": "gregtech:gt_armor",
+          "tag:10": {}
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 41,
+          "id:8": "gregtech:gt_armor"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 42,
+          "id:8": "gregtech:gt_armor"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 43,
+          "id:8": "gregtech:gt_armor"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

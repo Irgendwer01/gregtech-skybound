@@ -1,0 +1,37 @@
+{
+  "preRequisites:11": [
+    415,
+    222
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oYou\u0027re going to need a lot of charcoal§r\n\nThe §aLarge Titanium Boiler§r is yet another steam boiler. It\u0027s even more efficient than the previous ones, and produces more steam too. However, Steam §cbarely scales§r at this voltage.\n\nThis thing is really not worth it, and there are much better alternatives for power by this point, so you shouldn\u0027t make this. The better alternatives require §9EV energy hatches§r, which are later in the chapter\n\n§eNote§r: This quest can be skipped (for completion progress) by clicking the Checkmark. You do not have to actually craft one.\n\n§bLore§r: In GT5u, there is another multiblock called the Large Heat Exchanger. It is also made from titanium, but produced Superheated Steam from hot IC2 coolant, or lava. This was a much better than regular steam, and was actually viable! This may come to CEu one day in the future.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1015,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "Worse Combustion",
+      "tasklogic:8": "OR",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 667,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1015,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

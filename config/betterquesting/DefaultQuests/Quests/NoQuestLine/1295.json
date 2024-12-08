@@ -1,0 +1,35 @@
+{
+  "preRequisites:11": [
+    1285,
+    1286
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oIf you wanted to be picky, it would be Dioxygen, or Oxygen Gas. But gameplay convention makes it simply Oxygen.§r\n\nYou could be spending §ominutes§r in JEI looking for Oxygen recipes given the many ways to obtain it. Various minerals will produce it when electrolyzed.\n\nHowever the best source according to me (!) is §acentrifuging Air§r after making a §dGas Collector§r, which you probably cannot make just yet. This recipe also gives §aNitrogen§r, which can speed up certain §3Electric Blast Furnace§r recipes§r.\n\nThe second best source according to me (!) is §aelectrolyzing Silicon Dioxide§r. Silicon Dioxide is obtained from various sources, such as Glass Dust, Granite Dust and Black Granite Dust.\n\nThe third best source according to me (!) is §aelectrolyzing Water§r. But that\u0027s more for §aHydrogen§r due to the higher energy cost.\n\nThe fourth best source according to me (!) is §ato not void§r it, ever. Any Oxygen obtained from any source is worth something and should be stored in Tanks. The §3Steel Multiblock Tank§r is a good candidate for storing Oxygen... Or you can simply make more drums.\n\n\n§eNote:§r Submit a fluid by having it stored in §lany§r tank in your inventory. A bucket will also work.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "forge:bucketfilled",
+        "tag:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "oxygen"
+        }
+      },
+      "name:8": "Breath of Fresh Oxygen",
+      "questlogic:8": "OR",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1295,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredFluids:9": {
+        "0:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "oxygen"
+        }
+      },
+      "taskID:8": "bq_standard:fluid"
+    }
+  }
+}

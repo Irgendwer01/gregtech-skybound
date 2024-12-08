@@ -1,0 +1,44 @@
+{
+  "preRequisites:11": [
+    0
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §2Hammer§f allows you to grind down various blocks, like §2Cobblestone§f into §3§2Gravel§f, §2Gravel§f into §2Sand§f, and so on.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "exnihilocreatio:hammer_wood"
+      },
+      "name:8": "Hammer"
+    }
+  },
+  "questID:3": 9,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "exnihilocreatio:hammer_wood"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:cobblestone"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:gravel"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:sand"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "exnihilocreatio:block_dust"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

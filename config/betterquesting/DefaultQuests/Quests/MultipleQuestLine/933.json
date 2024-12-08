@@ -1,0 +1,55 @@
+{
+  "preRequisites:11": [
+    926,
+    934,
+    802
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "How to get Platinum:\n§9-§r From §aNickel Ore§r byproduct, either §3Chemical Bath§r of §3HV Macerator§r (be sure to remember to check the ore byproduct JEI page!)\n§9-§r From §aSheldonite vein§r in the End\n§9-§r From §aPlatinum Group Sludge§r, a complicated chain granting all Platinum Group metals. Highly §cunrecommended until IV Age§r, but eventually required, as with many chains.\n\n\nPlatinum is needed in small amounts for §dSMD Diodes§r, and for diverse recipes starting in the §5EV§r Age.\n\n\n§bLore:§r Mekanism\u0027s primary material was planned to be Platinum. However GregoriusT complained about it being such a rare material that would be spread all over the world.",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 80,
+        "id:8": "gregtech:meta_ingot"
+      },
+      "ismain:1": 1,
+      "name:8": "Platinum",
+      "questlogic:8": "OR",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 933,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 92,
+          "id:8": "gregtech:meta_item_1",
+          "tag:10": {}
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 80,
+          "id:8": "gregtech:meta_dust"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 80,
+          "id:8": "gregtech:meta_ingot"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

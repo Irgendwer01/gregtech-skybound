@@ -1,0 +1,40 @@
+{
+  "preRequisites:11": [
+    1015
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oUltimited Power!!!§r\n\nThe §aZero Point Module§r (item) is a non-rechargable battery with TONS of energy stored. You may have found one of these before now, but couldn\u0027t discharge it until reaching §cZPM§r tier.\n\nThese can only be found as loot from §6Jungle Temples§r.  They\u0027re very rare, so don\u0027t worry about finding one. This quest is §6optional§r and is just for fun. So feel free to hit the checkbox if you want to get the completion points.\n\n§bLore:§r Zero Point Module, the full name of the ZPM tier, is  also from Stargate. It is named after a device which generated crazy amounts of energy.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 752,
+        "id:8": "gregtech:meta_item_1"
+      },
+      "name:8": "Zero Point Module",
+      "tasklogic:8": "OR",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1158,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 752,
+          "id:8": "gregtech:meta_item_1",
+          "tag:10": {
+            "Charge:4": 2000000000000
+          }
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

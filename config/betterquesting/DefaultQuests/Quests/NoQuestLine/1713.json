@@ -1,0 +1,33 @@
+{
+  "preRequisites:11": [
+    1594
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oVisions of GT++§r\n\nThe §aAlloy Blast Smelter§r is the only main §2GCYM§r machine available in the §5EV§r Tier. You can use it to produce any alloy you would normally use the Mixer for. \n\nInstead of producing Hot Ingots, the ABS produces §9Molten Fluids§r if the recipe is hot enough. These fluids require cooling with a Vacuum Freezer. Otherwise it produces regular liquids.\n\nDon\u0027t be afraid of some long smelting times. This machine incorporates the Mixer step directly into the smelting recipe, and actually saves you quite a bit of time over smelting the dust in an EBF!\n\nNearly every §2GCYM§r material is produced in this machine, so if you have trouble finding a mixer recipe, look for a molten fluid!\n\n§bLore§r: This multiblock was originally inspired by GT++. It did not use heating coils at all, had no temperature requirements, and only produced regular liquids for all materials. It was pretty OP back in the day, but it was later restricted to only a single energy hatch to balance it out. It for some reason also allowed you to cook any dust into liquid too.",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 2001,
+        "id:8": "gregtech:machine"
+      },
+      "ismain:1": 1,
+      "name:8": "So Many Alloys",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1713,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2001,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

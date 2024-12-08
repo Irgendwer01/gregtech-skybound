@@ -1,0 +1,32 @@
+{
+  "preRequisiteTypes:7": [
+    2
+  ],
+  "preRequisites:11": [
+    1467
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The ME Storage Exposer can - as its name suggests - expose the contents of your ME network to any attached inventory.\n\nFor instance, if you place it on an Input Bus, the Bus will be able to view anything contained within your network. This can be incredibly powerful when paired with appropriately-filtered Conveyor Modules or Robot Arms. You may want to integrate this into your §6Ore Processing§r in future.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "nae2:exposer"
+      },
+      "name:8": "The Cooler ME Interface",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1722,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "nae2:exposer"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

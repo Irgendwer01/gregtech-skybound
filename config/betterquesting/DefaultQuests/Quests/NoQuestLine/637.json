@@ -1,0 +1,39 @@
+{
+  "preRequisites:11": [
+    613,
+    507
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oAnother Stargate material? Impossible!§r\n\n§aTrinium§r is a very important material for progression. You\u0027ll need it to make a §9Fusion Reactor§r, and throughout all §cZPM§r.\n\nIt also requires an §dLuV§r EBF to smelt! You\u0027ll probably want a dedicated setup for cooking this.",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 130,
+        "id:8": "gregtech:meta_ingot"
+      },
+      "ismain:1": 1,
+      "name:8": "Trinium",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 637,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 443,
+          "id:8": "gregtech:meta_dust"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 130,
+          "id:8": "gregtech:meta_ingot"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

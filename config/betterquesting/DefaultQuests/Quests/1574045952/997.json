@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    966,
+    919
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Nothing special here... the §3IV Assembler§r is required to unlock §3IV Energy \u0026 Dynamo Hatches§r as well as §3HSS-G Coils§r, you know you do.\n\nUpgrading this to §2Gregicality Multiblocks§r is a wise decision.\n\n\n§bLore:§r Did you know that GTCE\u0027s content stopped at EV, and the content up to UV was always filled with Shadows of Greg, a third-party mod? This was one of the few IV machines you could make with only GTCE installed. This in fact traces all the way back to the original GT5!",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 114,
+        "id:8": "gregtech:machine"
+      },
+      "ismain:1": 1,
+      "name:8": "IV Assembling",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 997,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 114,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

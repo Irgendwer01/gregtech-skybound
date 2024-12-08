@@ -1,0 +1,58 @@
+{
+  "preRequisites:11": [
+    206,
+    209
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oA LV Battery Buffer and two LV Energy Hatches are not so convenient, let\u0027s remedy that!§r\n\nUpgrade your Electric Blast Furnace with a §3MV Energy Hatch§r, so you can run it off MV Generators without using §3Transformers§r.",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1212,
+        "id:8": "gregtech:machine"
+      },
+      "ismain:1": 1,
+      "name:8": "Upgrade your EBF",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 234,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 24,
+          "Damage:2": 252,
+          "id:8": "gregtech:wire_single"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 602,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1212,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

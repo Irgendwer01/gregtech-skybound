@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    226,
+    190
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oTurning plant matter into fuel? That doesn\u0027t sound industrial enough!§r\n\nFor this route, you will need §9plant matter§r.\n\n§aSaplings§r work fine in §3Brewery§r for a decent yield, but are slow.\nOthe§rrwise, you may go the §dPlantball§r into §dBio Chaff§r route, and then turn it into Biomass either in the §3Brewery§r or the §3Pyrolyse Oven§r, the latter being more efficient.\n\n§9Note:§r Only one Bio Chaff can be obtained from the maceration§r step until the §3HV Macerator§r.\n\n\n§bLore:§r Plantball and Bio Chaff originate from IndustrialCraft2. In IC2 Experimental, there was this rather obscure way to turn Biomass into Biogas for power, which usually required too much investment to be really worth it.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 439,
+        "id:8": "gregtech:meta_item_1"
+      },
+      "name:8": "Biomass",
+      "questlogic:8": "OR",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 193,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 1,
+      "requiredFluids:9": {
+        "0:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "biomass"
+        }
+      },
+      "taskID:8": "bq_standard:fluid"
+    }
+  }
+}

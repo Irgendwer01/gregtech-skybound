@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    846
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oThe §3§oMulti Smelter§o§r§o might be the §6§omost powerful Furnace§r§o in modded Minecraft.§r\n\nAt its lowest power (Cupronickel coils and LV Voltage), it smelts 32 items in just 12 seconds - equivalent to §926.7 Furnaces§r, or 3.3 Steam Ovens!\n\nNot to mention, standard §aoverclocks§r are in effect.\nAnd more importantly higher tier §3Coils§r increase the amount of items it can smelt in §dparallel§r!",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1006,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "Ultimate Smelter",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 940,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1006,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "preRequisites:11": [
+    1416
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Here are the four most relevant §dHydrocarbons§r you will be obtaining §6all at once§r from distilling Steam-Cracked Fuels.\n\nYou will §lwant§r to set this up §lbefore§r moving to the §1IV§r Age.\n\n§aSteam-Cracked Light Fuel§r as input is the most favorable, but you are free to experiment.\n\n\n§oI know what you are thinking, that Carbon output is infuriating it gets in the way of the automation!§r\nEnable Item Voiding (in the controller GUI) if you don\u0027t want to build an Output Bus.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "forge:bucketfilled",
+        "tag:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "oil"
+        }
+      },
+      "name:8": "True Distillation: Fuel",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1490,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredFluids:9": {
+        "0:10": {
+          "Amount:3": 40000,
+          "FluidName:8": "benzene"
+        },
+        "1:10": {
+          "Amount:3": 10000,
+          "FluidName:8": "butadiene"
+        },
+        "2:10": {
+          "Amount:3": 64000,
+          "FluidName:8": "ethylene"
+        },
+        "3:10": {
+          "Amount:3": 64000,
+          "FluidName:8": "methane"
+        }
+      },
+      "taskID:8": "bq_standard:fluid"
+    }
+  }
+}

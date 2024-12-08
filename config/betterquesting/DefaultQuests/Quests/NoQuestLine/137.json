@@ -1,0 +1,30 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6The best MV Circuits§r! You will be making these for the remainder of the game.\n\nEventually (in IV Age), they will become even cheaper.",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 628,
+        "id:8": "gregtech:meta_item_1"
+      },
+      "ismain:1": 1,
+      "name:8": "Best MV Circuits",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 137,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 628,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}
