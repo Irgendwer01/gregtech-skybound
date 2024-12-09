@@ -51,6 +51,7 @@
         [
 		{
 			"url": "https://cdn.modrinth.com/data/ZemCyvLM/versions/VkAoaulJ/GregTech%20Refreshed%20v0.7%20%5B1.12%5D.zip",
+			"folder": "resourcepacks",
     			"installationPolicy": {
        				  "continueOnFailedDownload": false,
        				  "optionalKey": "$",

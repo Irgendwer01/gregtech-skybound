@@ -1,4 +1,5 @@
 crafting.removeByOutput(item('minecraft:ender_eye'))
+crafting.removeByOutput(item('minecraft:crafting_table'))
 
 ore('dirt').add(item('minecraft:dirt', 1))
 mods.gregtech.fluid_solidifier.recipeBuilder()
@@ -36,12 +37,9 @@ mods.gregtech.mixer.recipeBuilder()
   .buildAndRegister()
 
 crafting.addShapeless('gravel_to_flint', item('minecraft:flint'), [item('minecraft:gravel'), item('minecraft:gravel'), item('minecraft:gravel')])
-
-crafting.replaceShaped('minecraft:crafting_table',item('minecraft:crafting_table'), [
- [ore('plankWood'), ore('plankWood'), null],
- [ore('plankWood'), ore('plankWood'), null],
- [null, null, null]])
-
+crafting.addShaped('crafting_table', item('minecraft:crafting_table'), [
+ [ore('plankWood'), ore('plankWood')],
+ [ore('plankWood'), ore('plankWood')]])
 
 crafting.addShaped('slab_oak', item('minecraft:wooden_slab')*6, [
  [null, null, null],
