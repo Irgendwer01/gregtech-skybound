@@ -78,6 +78,10 @@
       "meshlevel": 1,
       "chance": 0
     },
+    "realgar": {
+      "meshlevel": 1,
+      "chance": 0.2
+    },
     "calcite": {
       "meshlevel": 2,
       "chance": 0.1
