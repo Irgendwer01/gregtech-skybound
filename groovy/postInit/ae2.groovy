@@ -68,6 +68,7 @@ crafting.removeByOutput(item('appliedenergistics2:material', 28))
 crafting.removeByOutput(item('appliedenergistics2:material', 52))
 crafting.removeByOutput(item('appliedenergistics2:part', 120))
 crafting.removeByOutput(item('appliedenergistics2:part', 460))
+crafting.removeByOutput(item('appliedenergistics2:quartz_block'))
 
 //P2P Tunnel
 mods.gregtech.assembler.recipeBuilder()
