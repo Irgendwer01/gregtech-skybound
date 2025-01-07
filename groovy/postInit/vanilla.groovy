@@ -2,6 +2,14 @@ crafting.removeByOutput(item('minecraft:ender_eye'))
 crafting.removeByOutput(item('minecraft:crafting_table'))
 
 ore('dirt').add(item('minecraft:dirt', 1))
+ore('dyeGreen').add(metaitem('dustMalachite'))
+ore('dye').add(metaitem('dustMalachite'))
+ore('dyeRed').add(metaitem('dustRuby'))
+ore('dye').add(metaitem('dustRuby'))
+ore('dyeBlack').add(metaitem('dustCoal'))
+ore('dye').add(metaitem('dustCoal'))
+
+
 mods.gregtech.fluid_solidifier.recipeBuilder()
   .fluidInputs(liquid('glue')*100)
   .notConsumable(metaitem('shape.mold.ball'))
@@ -37,11 +45,14 @@ mods.gregtech.mixer.recipeBuilder()
   .buildAndRegister()
 
 crafting.addShapeless('gravel_to_flint', item('minecraft:flint'), [item('minecraft:gravel'), item('minecraft:gravel'), item('minecraft:gravel')])
+
+//Overwrite hard GT recipes to make it playable when enabled
 crafting.addShaped('crafting_table', item('minecraft:crafting_table'), [
  [ore('plankWood'), ore('plankWood')],
  [ore('plankWood'), ore('plankWood')]])
 
-crafting.addShaped('slab_oak', item('minecraft:wooden_slab')*6, [
- [null, null, null],
- [item('minecraft:planks'), item('minecraft:planks'), item('minecraft:planks')],
- [null, null, null]])
+crafting.addShaped('slab_oak', item('minecraft:wooden_slab')*6, [[item('minecraft:planks'), item('minecraft:planks'), item('minecraft:planks')]])
+
+crafting.addShapeless('yellow_dye', item('minecraft:dye', 11)*2, [ore('dyeGreen'), ore('dyeRed')])
+
+
