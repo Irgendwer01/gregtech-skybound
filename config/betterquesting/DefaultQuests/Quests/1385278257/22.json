@@ -5,6 +5,7 @@
   "properties:10": {
     "betterquesting:10": {
       "desc:8": "The §2Bronze Mesh§f is the next tier Mesh, allowing to obtain new materials like §2Redstone§f or §2Silver§f. \n\nThese materials will be important in the later progression.",
+      "frame:8": "GATE",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 2,

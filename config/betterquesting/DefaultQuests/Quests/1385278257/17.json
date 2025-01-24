@@ -5,6 +5,7 @@
   "properties:10": {
     "betterquesting:10": {
       "desc:8": "Now that you have obtained all kinds of Stones, it\u0027s time to actually obtain some important resources like §f§2Iron§k§f or §2Copper§f!\n\nHere won\u0027t be listed where to obtain which resource, so please look up in JEI where to obtain which ore!",
+      "frame:8": "GATE",
       "icon:10": {
         "Count:3": 1,
         "id:8": "minecraft:iron_ingot"

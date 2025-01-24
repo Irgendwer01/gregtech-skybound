@@ -5,6 +5,7 @@
   "properties:10": {
     "betterquesting:10": {
       "desc:8": "Getting an §2Barrel §fwill allow you getting §2dirt§f by putting compostables in like §2saplings §fwhich can be looked up in JEI.\n\nIt also allows various§2 fluid transformations§f for different kinds of materials like §2soul sand§f, just right click the barrel in JEI to see what\u0027s possible with it!",
+      "frame:8": "GATE",
       "icon:10": {
         "Count:3": 1,
         "id:8": "exnihilocreatio:block_barrel0"

@@ -6,6 +6,7 @@
   "properties:10": {
     "betterquesting:10": {
       "desc:8": "The §f§2Sieve§f is the main source of resources in this pack, but don\u0027t worry, it can be automated as soon as you get into the steam age!\n\n§2§fRight-Click the §2Sieve§f with an §2Mesh§f to put it in and then hold Right-Click with the block you want to sift, for example§2 Dirt§f to get the resources you want from this block.\n\n§2Sieves§f can be put nearby each other to sift multiple blocks at once! Pretty neat, or?",
+      "frame:8": "GATE",
       "icon:10": {
         "Count:3": 1,
         "id:8": "exnihilocreatio:block_sieve"

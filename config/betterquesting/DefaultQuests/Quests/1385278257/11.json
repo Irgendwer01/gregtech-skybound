@@ -6,6 +6,7 @@
   "properties:10": {
     "betterquesting:10": {
       "desc:8": "The §2Clay Bucket§f is the earliest way of transferring Fluids like §2Water§f.\nNote that it will break when transferring §2Lava§f!\n",
+      "frame:8": "GATE",
       "icon:10": {
         "Count:3": 1,
         "id:8": "ceramics:clay_bucket"
