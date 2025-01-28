@@ -5,7 +5,8 @@ def logs = [
  item('minecraft:log', 3),
  item('minecraft:log2'),
  item('minecraft:log2', 1),
- item('gregtech:rubber_log')
+ item('gregtech:rubber_log'),
+ item('integrateddynamics:menril_log')
 ]
 
 def saplings = [
@@ -15,7 +16,8 @@ def saplings = [
  item('minecraft:sapling', 3),
  item('minecraft:sapling', 4),
  item('minecraft:sapling', 5),
- item('gregtech:rubber_sapling')
+ item('gregtech:rubber_sapling'),
+ item('integrateddynamics:menril_sapling')
 ]
 
 for (int i = 0; i < logs.size; i++) {
