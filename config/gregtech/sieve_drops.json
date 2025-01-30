@@ -199,6 +199,14 @@
     "uraninite": {
       "meshlevel": 4,
       "chance": 0.1
+    },
+    "zbgt:adamantium": {
+      "meshlevel": 4,
+      "chance": 0
+    },
+    "zbgt:quantium": {
+      "meshlevel": 4,
+      "chance": 0
     }
   },
   "exnihilocreatio:block_granite_crushed": {
