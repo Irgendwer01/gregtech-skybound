@@ -5,6 +5,7 @@
   "properties:10": {
     "betterquesting:10": {
       "desc:8": "Like in almost any other modpacks, you will begin with punching trees to get wood, except this time in the sky and with no exploration needed.",
+      "frame:8": "GATE",
       "icon:10": {
         "Count:3": 1,
         "id:8": "minecraft:log"

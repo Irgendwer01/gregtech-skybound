@@ -135,5 +135,12 @@
       "chance": 0.05,
       "meshLevel": 1
     }
+  ],
+  "exnihilocreatio:block_endstone_crushed":  [
+    {
+      "drop": "minecraft:chorus_fruit:-1",
+      "chance": 0.05,
+      "meshLevel": 4
+    }
   ]
 }

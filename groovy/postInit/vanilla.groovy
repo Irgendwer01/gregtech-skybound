@@ -1,3 +1,7 @@
+import gregtech.common.ConfigHolder
+
+mods.jei.ingredient.yeet(item('personalworlds:personal_portal'))
+
 crafting.removeByOutput(item('minecraft:ender_eye'))
 crafting.removeByOutput(item('minecraft:crafting_table'))
 
@@ -54,5 +58,23 @@ crafting.addShaped('crafting_table', item('minecraft:crafting_table'), [
 crafting.addShaped('slab_oak', item('minecraft:wooden_slab')*6, [[item('minecraft:planks'), item('minecraft:planks'), item('minecraft:planks')]])
 
 crafting.addShapeless('yellow_dye', item('minecraft:dye', 11)*2, [ore('dyeGreen'), ore('dyeRed')])
+ 
+if (ConfigHolder.recipes.nerfWoodCrafting) {
+crafting.addShaped('logs_to_chests', item('minecraft:chest')*2, [
+ [ore('logWood'), ore('logWood'), ore('logWood')],
+ [ore('logWood'), null, ore('logWood')],
+ [ore('logWood'), ore('logWood'), ore('logWood')]])
+crafting.addShaped('logs_to_sticks', item('minecraft:stick')*4, [
+ [ore('logWood')],
+ [ore('logWood')]])
+} else {
+crafting.addShaped('logs_to_chests', item('minecraft:chest')*4, [
+ [ore('logWood'), ore('logWood'), ore('logWood')],
+ [ore('logWood'), null, ore('logWood')],
+ [ore('logWood'), ore('logWood'), ore('logWood')]])
+crafting.addShaped('logs_to_sticks', item('minecraft:stick')*16, [
+ [ore('logWood')],
+ [ore('logWood')]])
+}
 
 

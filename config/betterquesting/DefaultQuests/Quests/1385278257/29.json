@@ -7,6 +7,7 @@
   "properties:10": {
     "betterquesting:10": {
       "desc:8": "A §2Stone Barrel§a§f is used to obtain things like §2Obsidian§f or §2Netherrack§f, because those require that §L§2Lava §fis in the Barrel and the Wooden one cannot take it.",
+      "frame:8": "GATE",
       "icon:10": {
         "Count:3": 1,
         "id:8": "exnihilocreatio:block_barrel1"
