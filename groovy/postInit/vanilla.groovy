@@ -1,5 +1,7 @@
 import gregtech.common.ConfigHolder
 
+mods.jei.ingredient.yeet(item('personalworlds:personal_portal'))
+
 crafting.removeByOutput(item('minecraft:ender_eye'))
 crafting.removeByOutput(item('minecraft:crafting_table'))
 
