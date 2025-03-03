@@ -648,3 +648,7 @@ recipemap('lathe').recipeBuilder()
         .inputs(metaitem('stickIron'))
         .outputs(item('appliedenergistics2:part', 120) * 2)
         .duration(200).EUt(32).buildAndRegister()
+
+//Interfaces conversion
+crafting.addShapeless('me_interface_from_part', item('appliedenergistics2:interface'), [item('appliedenergistics2:part', 440)])
+crafting.addShapeless('fluid_interface_from_part', item('appliedenergistics2:fluid_interface'), [item('appliedenergistics2:part', 441)])
