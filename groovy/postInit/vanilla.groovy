@@ -1,4 +1,5 @@
 import gregtech.common.ConfigHolder
+import net.minecraftforge.event.world.BlockEvent.HarvestDropsEvent
 
 mods.jei.ingredient.yeet(item('personalworlds:personal_portal'))
 
@@ -77,4 +78,16 @@ crafting.addShaped('logs_to_sticks', item('minecraft:stick')*16, [
  [ore('logWood')]])
 }
 
+block('minecraft:end_portal_frame').setHarvestLevel("pickaxe", 2)
+block('minecraft:end_portal_frame').setHardness(2F)
 
+crafting.addShaped('end_portal_frame', item('minecraft:end_portal_frame'), [
+ [item('minecraft:coal_block'), metaitem('quantumeye'), item('minecraft:coal_block')],
+ [item('minecraft:obsidian'), item('minecraft:obsidian'), item('minecraft:obsidian')],
+ [item('minecraft:end_stone'), item('minecraft:end_stone'), item('minecraft:end_stone')]])
+
+event_manager.listen { HarvestDropsEvent event ->
+    if (event.getState().getBlock().equals(block('minecraft:end_portal_frame'))) {
+	event.getDrops().add(item('minecraft:end_portal_frame'))
+    }
+}
