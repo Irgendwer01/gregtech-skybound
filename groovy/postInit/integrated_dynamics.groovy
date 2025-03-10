@@ -1,4 +1,6 @@
 mods.jei.ingredient.yeet(item('integrateddynamics:coal_generator'))
+mods.jei.ingredient.yeet(item('integrateddynamics:energy_battery'))
+
 
 mods.integrateddynamics.mechanical_squeezer.removeAll()
 mods.integrateddynamics.squeezer.removeAll()
