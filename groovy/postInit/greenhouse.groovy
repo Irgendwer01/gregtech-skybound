@@ -5,8 +5,7 @@ def logs = [
  item('minecraft:log', 3),
  item('minecraft:log2'),
  item('minecraft:log2', 1),
- item('gregtech:rubber_log'),
- item('integrateddynamics:menril_log')
+ item('gregtech:rubber_log')
 ]
 
 def saplings = [
@@ -16,12 +15,12 @@ def saplings = [
  item('minecraft:sapling', 3),
  item('minecraft:sapling', 4),
  item('minecraft:sapling', 5),
- item('gregtech:rubber_sapling'),
- item('integrateddynamics:menril_sapling')
+ item('gregtech:rubber_sapling')
 ]
 
 for (int i = 0; i < logs.size; i++) {
   recipemap('greenhouse').recipeBuilder()
+    .circuitMeta(2)
     .notConsumable(saplings[i])
     .fluidInputs(liquid('water')*1000)
     .outputs(logs[i]*64)
@@ -58,6 +57,7 @@ def plants = [
 ]
 for (entry : plants) {
   recipemap('greenhouse').recipeBuilder()
+    .circuitMeta(2)
     .notConsumable(item(entry.getKey()))
     .fluidInputs(liquid('water')*1000)
     .outputs(entry.getValue())
@@ -68,6 +68,7 @@ for (entry : plants) {
   def output = entry.getValue().copy()
   output.setCount(output.getCount()*2)
   recipemap('greenhouse').recipeBuilder()
+    .circuitMeta(1)
     .notConsumable(item(entry.getKey()))
     .inputs(metaitem('fertilizer')*8)
     .fluidInputs(liquid('water')*1000)
