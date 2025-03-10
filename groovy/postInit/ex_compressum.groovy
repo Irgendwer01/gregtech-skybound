@@ -34,4 +34,6 @@ mods.jei.ingredient.yeet(item('excompressum:compressed_block', 7))
 mods.jei.ingredient.yeet(item('excompressum:compressed_block', 8))
 mods.jei.ingredient.yeet(item('excompressum:compressed_block', 9))
 mods.jei.ingredient.yeet(item('excompressum:compressed_block', 10))
+crafting.removeByOutput(item('excompressum:bait', 12))
 
+crafting.addShapeless('parrot_bait', item('excompressum:bait', 12), [ore('dyeYellow'), ore('dyeGreen'), ore('dyeRed')])
