@@ -215,7 +215,7 @@ mods.gregtech.forming_press.recipeBuilder()
   .duration(100)
   .buildAndRegister()
 
-//Processors
+//Engineering Processor
 mods.gregtech.circuit_assembler.recipeBuilder()
   .inputs(item('appliedenergistics2:material', 17), item('appliedenergistics2:material', 20), ore('circuitLv'))
   .fluidInputs(fluid('redstone')*144)
@@ -225,6 +225,31 @@ mods.gregtech.circuit_assembler.recipeBuilder()
   .buildAndRegister()
 
 mods.gregtech.circuit_assembler.recipeBuilder()
+  .inputs(item('appliedenergistics2:material', 17)*2, item('appliedenergistics2:material', 20)*2, ore('circuitMv'))
+  .fluidInputs(fluid('redstone')*144)
+  .outputs(item('appliedenergistics2:material', 24)*2)
+  .EUt(30)
+  .duration(100)
+  .buildAndRegister()
+
+mods.gregtech.circuit_assembler.recipeBuilder()
+  .inputs(item('appliedenergistics2:material', 17)*4, item('appliedenergistics2:material', 20)*4, ore('circuitHv'))
+  .fluidInputs(fluid('redstone')*144)
+  .outputs(item('appliedenergistics2:material', 24)*4)
+  .EUt(30)
+  .duration(100)
+  .buildAndRegister()
+
+mods.gregtech.circuit_assembler.recipeBuilder()
+  .inputs(item('appliedenergistics2:material', 17)*8, item('appliedenergistics2:material', 20)*8, ore('circuitEv'))
+  .fluidInputs(fluid('redstone')*144)
+  .outputs(item('appliedenergistics2:material', 24)*8)
+  .EUt(30)
+  .duration(100)
+  .buildAndRegister()
+
+//Calculation Processor
+mods.gregtech.circuit_assembler.recipeBuilder()
   .inputs(item('appliedenergistics2:material', 16), item('appliedenergistics2:material', 20), ore('circuitLv'))
   .fluidInputs(fluid('redstone')*144)
   .outputs(item('appliedenergistics2:material', 23))
@@ -233,6 +258,31 @@ mods.gregtech.circuit_assembler.recipeBuilder()
   .buildAndRegister()
 
 mods.gregtech.circuit_assembler.recipeBuilder()
+  .inputs(item('appliedenergistics2:material', 16)*2, item('appliedenergistics2:material', 20)*2, ore('circuitMv'))
+  .fluidInputs(fluid('redstone')*144)
+  .outputs(item('appliedenergistics2:material', 23)*2)
+  .EUt(30)
+  .duration(100)
+  .buildAndRegister()
+
+mods.gregtech.circuit_assembler.recipeBuilder()
+  .inputs(item('appliedenergistics2:material', 16)*4, item('appliedenergistics2:material', 20)*4, ore('circuitHv'))
+  .fluidInputs(fluid('redstone')*144)
+  .outputs(item('appliedenergistics2:material', 23)*4)
+  .EUt(30)
+  .duration(100)
+  .buildAndRegister()
+
+mods.gregtech.circuit_assembler.recipeBuilder()
+  .inputs(item('appliedenergistics2:material', 16)*8, item('appliedenergistics2:material', 20)*8, ore('circuitEv'))
+  .fluidInputs(fluid('redstone')*144)
+  .outputs(item('appliedenergistics2:material', 23)*8)
+  .EUt(30)
+  .duration(100)
+  .buildAndRegister()
+
+//Logic Processor
+mods.gregtech.circuit_assembler.recipeBuilder()
   .inputs(item('appliedenergistics2:material', 18), item('appliedenergistics2:material', 20), ore('circuitLv'))
   .fluidInputs(fluid('redstone')*144)
   .outputs(item('appliedenergistics2:material', 22))
@@ -240,6 +290,31 @@ mods.gregtech.circuit_assembler.recipeBuilder()
   .duration(100)
   .buildAndRegister()
 
+mods.gregtech.circuit_assembler.recipeBuilder()
+  .inputs(item('appliedenergistics2:material', 18)*2, item('appliedenergistics2:material', 20)*2, ore('circuitMv'))
+  .fluidInputs(fluid('redstone')*144)
+  .outputs(item('appliedenergistics2:material', 22)*2)
+  .EUt(30)
+  .duration(100)
+  .buildAndRegister()
+
+mods.gregtech.circuit_assembler.recipeBuilder()
+  .inputs(item('appliedenergistics2:material', 18)*4, item('appliedenergistics2:material', 20)*4, ore('circuitHv'))
+  .fluidInputs(fluid('redstone')*144)
+  .outputs(item('appliedenergistics2:material', 22)*4)
+  .EUt(30)
+  .duration(100)
+  .buildAndRegister()
+
+mods.gregtech.circuit_assembler.recipeBuilder()
+  .inputs(item('appliedenergistics2:material', 18)*8, item('appliedenergistics2:material', 20)*8, ore('circuitEv'))
+  .fluidInputs(fluid('redstone')*144)
+  .outputs(item('appliedenergistics2:material', 22)*8)
+  .EUt(30)
+  .duration(100)
+  .buildAndRegister()
+
+//Skystone Dust
 mods.gregtech.mixer.recipeBuilder()
   .inputs(metaitem('dustBasalt'), item('minecraft:glowstone_dust'))
   .outputs(item('appliedenergistics2:material', 45)*2)
@@ -481,21 +556,51 @@ crafting.addShapeless('quantum_link_card', item('appliedenergistics2:material', 
 //Magnet Card
 crafting.addShapeless('magnet_card', item('appliedenergistics2:material', 60), [item('appliedenergistics2:material', 28), metaitem('stickIronMagnetic'), metaitem('stickIronMagnetic')])
 
-//Autocrafting
+//Crafting Unit
 mods.gregtech.assembler.recipeBuilder()
   .inputs(ore('circuitMv')*2, metaitem('plateTitanium')*4, item('appliedenergistics2:material', 23), item('appliedenergistics2:material', 22), item('appliedenergistics2:material', 24))
   .outputs(item('appliedenergistics2:crafting_unit'))
   .EUt(510)
   .duration(150)
   .buildAndRegister()
-  
+
+mods.gregtech.assembler.recipeBuilder()
+  .inputs(ore('circuitHv')*2, metaitem('plateTitanium')*4, item('appliedenergistics2:material', 23), item('appliedenergistics2:material', 22), item('appliedenergistics2:material', 24))
+  .outputs(item('appliedenergistics2:crafting_unit')*2)
+  .EUt(510)
+  .duration(150)
+  .buildAndRegister()
+
+mods.gregtech.assembler.recipeBuilder()
+  .inputs(ore('circuitEv')*2, metaitem('plateTitanium')*4, item('appliedenergistics2:material', 23), item('appliedenergistics2:material', 22), item('appliedenergistics2:material', 24))
+  .outputs(item('appliedenergistics2:crafting_unit')*4)
+  .EUt(510)
+  .duration(150)
+  .buildAndRegister()
+
+//Molecular Assembler
 mods.gregtech.assembler.recipeBuilder()
   .inputs(ore('circuitMv')*2, metaitem('plateTitanium')*4, item('minecraft:crafting_table'), item('appliedenergistics2:material', 22)*2, item('appliedenergistics2:material', 24)*2)
   .outputs(item('appliedenergistics2:molecular_assembler'))
   .EUt(510)
   .duration(100)
   .buildAndRegister()
-  
+
+mods.gregtech.assembler.recipeBuilder()
+  .inputs(ore('circuitHv')*2, metaitem('plateTitanium')*4, item('minecraft:crafting_table'), item('appliedenergistics2:material', 22)*2, item('appliedenergistics2:material', 24)*2)
+  .outputs(item('appliedenergistics2:molecular_assembler')*2)
+  .EUt(510)
+  .duration(100)
+  .buildAndRegister()
+
+mods.gregtech.assembler.recipeBuilder()
+  .inputs(ore('circuitEv')*2, metaitem('plateTitanium')*4, item('minecraft:crafting_table'), item('appliedenergistics2:material', 22)*2, item('appliedenergistics2:material', 24)*2)
+  .outputs(item('appliedenergistics2:molecular_assembler')*4)
+  .EUt(510)
+  .duration(100)
+  .buildAndRegister()
+
+//Interface
 mods.gregtech.assembler.recipeBuilder()
   .inputs(metaitem('plateStainlessSteel')*8, item('appliedenergistics2:material', 22)*2, item('appliedenergistics2:material', 24)*2, metaitem('robot.arm.lv')*2)
   .outputs(item('appliedenergistics2:interface'))
@@ -523,7 +628,8 @@ mods.gregtech.assembler.recipeBuilder()
   .EUt(510)
   .duration(800)
   .buildAndRegister()
-  
+
+//Fluid Interface  
 mods.gregtech.assembler.recipeBuilder()
   .inputs(metaitem('plateStainlessSteel')*8, item('appliedenergistics2:material', 22)*2, item('appliedenergistics2:material', 24)*2, metaitem('electric.pump.lv')*2)
   .outputs(item('appliedenergistics2:fluid_interface'))
