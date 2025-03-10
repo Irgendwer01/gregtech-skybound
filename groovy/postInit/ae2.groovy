@@ -70,6 +70,12 @@ crafting.removeByOutput(item('appliedenergistics2:part', 120))
 crafting.removeByOutput(item('appliedenergistics2:part', 460))
 crafting.removeByOutput(item('appliedenergistics2:quartz_block'))
 
+//Controller
+crafting.addShaped('me_controller', item('appliedenergistics2:controller'), [
+[item('appliedenergistics2:smooth_sky_stone_block'), item('appliedenergistics2:material', 24), item('appliedenergistics2:smooth_sky_stone_block')],
+[item('appliedenergistics2:material', 22), item('appliedenergistics2:energy_acceptor'), item('appliedenergistics2:material', 22)],
+[item('appliedenergistics2:smooth_sky_stone_block'), item('appliedenergistics2:material', 24), item('appliedenergistics2:smooth_sky_stone_block')]])
+
 //P2P Tunnel
 mods.gregtech.assembler.recipeBuilder()
   .inputs(ore('circuitIv')*2, metaitem('emitter.ev')*4, item('appliedenergistics2:material', 22)*8, item('appliedenergistics2:material', 24)*8, item('ae2fc:part_dual_interface'))
