@@ -1,0 +1,17 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "On this line you can see §fZPM§r equivalents.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 7,
+        "id:8": "gregtech:machine_casing"
+      },
+      "issilent:1": 1,
+      "name:8": "ZPM equivalent",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 371,
+  "tasks:9": {}
+}

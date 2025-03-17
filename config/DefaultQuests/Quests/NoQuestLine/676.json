@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    121,
+    122
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oDon\u0027t want to spend your circuits to select recipes?§r\n\nBy clicking the §6Circuit Configuration Slot§r in machines, you can create a §bGhost Programmed Circuit§r. \n\nThis is a fake circuit that allows you to select a given configuration for recipes! There\u0027s no more need to spend your circuits crafting §bProgrammed Circuits§r anymore.\n\n§dElectric Machines§r and §dItem Input Buses§r will have a Ghost Circuit Slot.\n\n§bLore§r: This feature is originally from GTNH!",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 461,
+        "id:8": "gregtech:meta_item_1",
+        "tag:10": {
+          "Configuration:3": 1
+        }
+      },
+      "name:8": "Programmed Circuits",
+      "questlogic:8": "OR",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 676,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    42,
+    45,
+    51
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Obtaining §2Rubber§f is an important step towards§2§e Age 1 - Low Voltage§f as it allows you to make cables and is used in alot of other recipes.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1068,
+        "id:8": "gregtech:meta_ingot"
+      },
+      "name:8": "Rubber"
+    }
+  },
+  "questID:3": 46,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1068,
+          "id:8": "gregtech:meta_ingot"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

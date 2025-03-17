@@ -1,0 +1,24 @@
+{
+  "preRequisites:11": [
+    1593
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §aInterface P2P Tunnel§r is an upgraded version of §9Item/Fluid P2P Tunnels§r.\n\nThe input side is placed on an ME Interface containing patterns. It can have multiple outputs, which should connect to inventories.\n\nWhen multiple crafts of a single pattern are requested, the P2P Tunnel will evenly distribute the crafts between all of the connected outputs.\n\nThe Interface P2P Tunnel also respects §eBlocking Mode§r, which is set in the interface containing the patterns.\n\nIt additionally works with §9Fluid Interfaces§r and §9Dual Interfaces§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1,
+        "id:8": "nae2:part"
+      },
+      "name:8": "Interface P2P",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1715,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

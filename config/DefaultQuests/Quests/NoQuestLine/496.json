@@ -1,0 +1,33 @@
+{
+  "preRequisites:11": [
+    601
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oLiked Fiber-Reinforced Epoxy? Now do it again!§r\n\n§aExtreme Circuit Boards§r are the next step in your circuit journey. They\u0027re not particularly interesting compared to the previous boards: just two of the previous stuck together.\n\n§bLore:§r In Gregicality Legacy, these circuit boards were much more complicated. They required Kapton, a dual polymer material. It was a challenge, to say the least. In the future, the GTCEu team might make these boards somewhat more involved to produce.",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 406,
+        "id:8": "gregtech:meta_item_1"
+      },
+      "ismain:1": 1,
+      "name:8": "Elite Circuit Boards",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 496,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 406,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

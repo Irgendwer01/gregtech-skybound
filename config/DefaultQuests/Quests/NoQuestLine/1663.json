@@ -1,0 +1,62 @@
+{
+  "preRequisites:11": [
+    1654,
+    1521
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oPrepare your Platline!§r\n\n§cZPM§r Components thankfully aren\u0027t too much harder than §dLuV§r. \n\nThey use lots of §9Osmiridum§r, so make sure your platinum refining process is up to the task.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 133,
+        "id:8": "gregtech:meta_item_1"
+      },
+      "name:8": "Absolute Elation",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1663,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 133,
+          "id:8": "gregtech:meta_item_1"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 178,
+          "id:8": "gregtech:meta_item_1"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 148,
+          "id:8": "gregtech:meta_item_1"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 163,
+          "id:8": "gregtech:meta_item_1"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 193,
+          "id:8": "gregtech:meta_item_1"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "Damage:2": 238,
+          "id:8": "gregtech:meta_item_1"
+        },
+        "6:10": {
+          "Count:3": 1,
+          "Damage:2": 223,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oWoah! Let\u0027s be honest, this was tough to get here, I\u0027m sure you thought the same! You will appreciate not having to make a new polymer for Circuits Boards.§r\n\nThe §3IV Circuit Assembler§r unlocks the §1Quantum§r Circuit line.\n\nThis also unlocks the §6best recipe§r for §dMV Circuits§r.",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 639,
+        "id:8": "gregtech:machine"
+      },
+      "ismain:1": 1,
+      "name:8": "IV Circuit Assembling",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 399,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 639,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

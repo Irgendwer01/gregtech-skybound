@@ -1,0 +1,38 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "A great vein for the early game. Copper and Tin to make Bronze, Realgar for your first source of Arsenic, and Zeolite for... nothing much.\n\n§bLore:§r Due to auto-generated recipes, Zeolite used to be electrolyzed in batches of 141. Oops!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "gregtech:ore_chalcopyrite_0"
+      },
+      "name:8": "Chalcopyrite - Source of Copper, Tin",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 892,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "gregtech:ore_chalcopyrite_0"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "gregtech:ore_zeolite_0"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "gregtech:ore_cassiterite_0"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "gregtech:ore_realgar_0"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

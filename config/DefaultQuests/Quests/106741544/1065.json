@@ -1,0 +1,48 @@
+{
+  "preRequisites:11": [
+    943
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oNot an actual TradeMark.§r\n\nYou probably don\u0027t have mobs to fight, but this armor provides nice QoL that you may enjoy!\n\n§9Helmet:§r Provides §dNight vision§r (default keybind §4M§r but check for conflicts)\n\n§9Chestplate:§r Provides nothing interesting, but can be further upgraded into the §aAdvanced§r version at the very end of §6HV§r Age.\n\n§9Leggings:§r Provides nothing special, perhaps we should have given it a small speed boost?\n\n§9Boots:§r Provides §dStep Assist§r. You read that right!\n\n\n§bLore:§r This armor is originally inspired by IndustrialCraft, but its first implementation within the GTCE environment came with Nuke Powered Utils, an addon mod to GTCE.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 21,
+        "id:8": "gregtech:gt_armor"
+      },
+      "name:8": "NanoMuscle™",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1065,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 20,
+          "id:8": "gregtech:gt_armor",
+          "tag:10": {}
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 21,
+          "id:8": "gregtech:gt_armor"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 22,
+          "id:8": "gregtech:gt_armor"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 23,
+          "id:8": "gregtech:gt_armor"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

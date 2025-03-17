@@ -1,0 +1,33 @@
+{
+  "preRequisites:11": [
+    1277
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oThe Fluid Solidifier Solidifies... Or you could say it freezes stuff if you like cursedness.§r\n\nBuild this machine next to your §3Chemical Reactor§r to automatically solidify Rubber into §aRubber Sheets§r.\nThen, §dwrench§r the side of your §3Chemical Reactor§r and enable Fluid §9auto-output§r.\n\nThere will be more Fluids to solidify, so you may re-purpose your §3Fluid Solidifier§r when not crafting Rubber.",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 395,
+        "id:8": "gregtech:machine"
+      },
+      "ismain:1": 1,
+      "name:8": "Basic Fluid Solidifier",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1288,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 395,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

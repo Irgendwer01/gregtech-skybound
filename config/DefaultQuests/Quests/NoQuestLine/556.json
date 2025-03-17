@@ -1,0 +1,35 @@
+{
+  "preRequisites:11": [
+    194,
+    678
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "This Jetpack takes most §aCombustion Fuels§r (excluding oils) to enable a primitive form of flight.\n\nFill it like you would fill a Drum, or with a §3Canning Machine§r.\n\nPress §4H§r (default) to enable Hover Mode.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 2,
+        "id:8": "gregtech:gt_armor"
+      },
+      "name:8": "I believe I can fly",
+      "questlogic:8": "OR",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 556,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "id:8": "gregtech:gt_armor",
+          "tag:10": {}
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

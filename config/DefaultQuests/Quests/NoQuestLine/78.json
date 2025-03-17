@@ -1,0 +1,65 @@
+{
+  "preRequisites:11": [
+    74
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Gather more resources, namely §aCopper§r and §aTin§r.\n\nCheck the ore tab to find out which veins they come from.\n\nYou can tell at a glance the element types within most ores (and most other materials) with the §emolecular formula§r in the tooltip. Copper is §dCu§r, Tin is §dSn§r, Iron is §dFe§r, and you can consult a §dperiodic table§r for most of the others.\n\nThis quest can be completed with §eeither§r metal, so you can claim as the reward the metal you\u0027re missing. Be sure to find a source of both soon though, as you will need a lot of both to get through the Steam Age.",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 25,
+        "id:8": "gregtech:meta_ingot"
+      },
+      "ismain:1": 1,
+      "name:8": "Onward to Bronze Age",
+      "tasklogic:8": "OR",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 78,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 24,
+          "Damage:2": 25,
+          "id:8": "gregtech:meta_ingot"
+        },
+        "1:10": {
+          "Count:3": 24,
+          "Damage:2": 112,
+          "id:8": "gregtech:meta_ingot"
+        }
+      },
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 32,
+          "Damage:2": 25,
+          "OreDict:8": "ingotCopper",
+          "id:8": "gregtech:meta_ingot"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 16,
+          "Damage:2": 112,
+          "OreDict:8": "ingotTin",
+          "id:8": "gregtech:meta_ingot"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

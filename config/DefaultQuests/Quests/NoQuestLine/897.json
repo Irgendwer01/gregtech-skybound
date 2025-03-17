@@ -1,0 +1,38 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Almost a pure Copper vein.\n\nStibnite smelts directly into Antimony, which you will want in the LV Age.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1,
+        "id:8": "gregtech:ore_tetrahedrite_0"
+      },
+      "name:8": "Tetrahedrite - Source of Copper, Antimony",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 897,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "gregtech:ore_tetrahedrite_0"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "gregtech:ore_copper_0"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "gregtech:ore_stibnite_0"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

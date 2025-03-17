@@ -1,0 +1,46 @@
+{
+  "preRequisites:11": [
+    0
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §2Auto Sifter§f is an pretty cheap way of automating §2Sieves§f, you can put up to 5x5 Sieves on top and insert the drops into the Sifter. You need to connect the Sifter to the §2Water Wheels§f with §Stone Axles§f, the more wheels you have the faster the sifter will operate.\n\n§3Hint§f: Ex Nihilo Creatio has it\u0027s own Stone gear and rod, so you don\u0027t need to go through the pain and craft the GT ones.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "exnihilocreatio:block_auto_sifter"
+      },
+      "name:8": "Auto Sifter"
+    }
+  },
+  "questID:3": 1149741794,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "exnihilocreatio:block_auto_sifter"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "exnihilocreatio:block_axle_stone"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "exnihilocreatio:block_waterwheel"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 7,
+          "id:8": "exnihilocreatio:item_material"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 6,
+          "id:8": "exnihilocreatio:item_material"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

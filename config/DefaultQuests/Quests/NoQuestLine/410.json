@@ -1,0 +1,30 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oAnother High Speed Steel, completely fictional, alloyed with Iridium and Osmium.§r\n\n§aHSS-S§r will be necessary to craft §dLuV Motors§r.\n\nThis alloy has a great mining speed, which translates into extremely good §6efficiency§r when used as a §dRotor§r in §3Large Turbines§r.",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 2520,
+        "id:8": "gregtech:meta_ingot"
+      },
+      "ismain:1": 1,
+      "name:8": "HSS-S",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 410,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2520,
+          "id:8": "gregtech:meta_ingot"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oWho needs Stargate when you have Star Trek!§r\n\n§aDuranium§r is a material from Star Trek, and is used for a few things in GT. It makes some pretty awesome pipes, but otherwise you won\u0027t need much of this quite yet.\n\n§bLore§r: In some versions of GT5u, this material was entirely white. In fact, most fusion materials and later were like this. Boring!",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 129,
+        "id:8": "gregtech:meta_ingot"
+      },
+      "name:8": "Duranium",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 344,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 129,
+          "id:8": "gregtech:meta_ingot"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    200
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oChannels may be disabled, but P2P Tunnels are still extremely important automation tools! Especially the Item P2P and the GTEU P2P.§r\n\n§9Note:§r There are great resources online to explain how P2P Tunnels work. The short description is that they allow transfer of things from one input to endless outputs, with the Unofficial Extended Life version of AE2 (which we are using) allowing any number of inputs to any number of outputs. They are linked using a Memory Card.\nThis Quest acts as a tutorial on how to use the P2P Tunnels to your own benefit.\n\n\n§2§lThe GTEU P2P Tunnel:§r\n\nTo turn a P2P Tunnel into a §aGTEU P2P Tunnel§r, right-click it in the world with a §dWire§r or §dCable§r.\n\nThis is ideal in lategame situations, to avoid spamming Cables or Transformers. You can also use them in conjunction with the AE2 Quantum Bridge to power your high tier Miners and Drills outside your base.\n\nThere is a §45% Voltage Tax§r on the output side of the P2P, resulting in 5% energy loss.\n\n\n§2§lThe Item P2P Tunnel:§r\n\nTo turn a P2P Tunnel into an §aItem P2P Tunnel§r, right-click it in the world with a §dvanilla Chest§r.\nItem P2P Tunnels are useful in a more abstract way so let\u0027s start with an example.\n\n§eExample:§r Making a §9HV Machine Hull§r in the §3Assembler§r also requires an §3Extractor§r for the Fluid. That is two machines, hence two inventories.\nYou could passively fill the Assembler with Polyethylene, §lor§r you can also include it in your §dPattern§r, in the form of 2 Bars (Ingots).\n\nNow, you may think the next step is just to dump the items in a Buffer and route the items with Pipes, however this system will eventually §4jam§r due to the incompatibility with AE2 Interface blocking mode! Trust me.\nPlace the input of the §aItem P2P§r on your §3ME Interface§r, and one output on the §3Extractor§r, one on the §3Assembler§r.\nThen, use Filter covers where the outputs are connected. §dOre Dictionary Filters§r are better, since you can configure them to §9ingot*§r. Have them on §ewhitelist§r for the §3Extractor§r, and on §eblacklist§r for the §3Assembler§r (no Assembler recipe ever requires Ingots, that\u0027s an intentional design decision in GregTech). \nDo not forget §dBlocking Mode§r on your Interface.\n\n\n§oYes, that\u0027s another reason why it is good to store polymers (Polyethylene, PTFE, PBI) as Bars!",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 470,
+        "id:8": "appliedenergistics2:part"
+      },
+      "name:8": "P2P Tunnels",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1087,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 460,
+          "id:8": "appliedenergistics2:part"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

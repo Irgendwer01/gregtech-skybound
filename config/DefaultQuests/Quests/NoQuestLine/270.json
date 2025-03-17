@@ -1,0 +1,37 @@
+{
+  "preRequisites:11": [
+    67
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oYour Forestry compatibility mineral, Apatite!§r\n\nThis is pretty much the one vein you want to tap in for Phosphorus, which requires quite a few steps of processing to obtain.\n\nPyrochlore will eventually become extremely valuable, as it is a source of Niobium.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "gregtech:ore_apatite_0"
+      },
+      "name:8": "Apatite - Source of Calcium, Phosphorus, Niobium",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 270,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "gregtech:ore_apatite_0"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "gregtech:ore_tricalcium_phosphate_0"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "gregtech:ore_pyrochlore_0"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "preRequisites:11": [
+    1273
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oArgueably the second best LV machine to craft, but the choice is yours!§r\n\nThis helps converting one §6Ingot into one Plate§r, which is a better ratio than the Forge Hammer.\n\nYou will need a §dProgrammed Circuit§r for recipes. I\u0027m sure you don\u0027t want to spend a precious circuit crafting one, so §6read the dedicated quest for important details§r.",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 140,
+        "id:8": "gregtech:machine"
+      },
+      "ismain:1": 1,
+      "name:8": "Basic Bending Machine",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1274,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 140,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

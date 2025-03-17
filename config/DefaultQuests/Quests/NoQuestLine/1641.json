@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    1430,
+    1428
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oAn excellent way to save on some redstone contraptions.§r\n\nThe §aAdvanced Energy Detector§r is an RS-latch for Energy Control.\n\nPut it on a §3Battery Buffer§r, set a Minimum EU near 0, and a Maximum EU near the max capacity.\nThe Cover will output a §4redstone§r signal until the high threshold is reached, and then it will wait until the low threshold is reached to output redstone again.\n\nThis is a must to automate inertia based power generators, such as Boilers, or more importantly §3Large Turbines§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 318,
+        "id:8": "gregtech:meta_item_1"
+      },
+      "name:8": "Advanced Energy Detector",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1641,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 318,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

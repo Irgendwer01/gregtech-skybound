@@ -1,0 +1,30 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "This Superconductor will be required for progression during §dLuV§r (if you guessed why, congratulations, you are an expert with §2JEI§r!).",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 428,
+        "id:8": "gregtech:wire_single"
+      },
+      "ismain:1": 1,
+      "name:8": "IV Superconductors",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 411,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 428,
+          "id:8": "gregtech:wire_single"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

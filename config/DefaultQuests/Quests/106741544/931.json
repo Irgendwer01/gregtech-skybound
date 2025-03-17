@@ -1,0 +1,35 @@
+{
+  "preRequisites:11": [
+    831,
+    918
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§aAmmonia§r is §doptional§r in the §6HV§r Age.\n\nYou may use it in the production of:\n§9-§r Nitric Acid, although unrecommended.\n§9-§r Rocket Fuel, required for Nether Stars, in §1IV§r Age.\n§9-§r Polybenzimidazole (almost bit my tongue), in §1IV§r Age.\n\n\nThe recipe that will give you the least headaches is the one in the §3HV Chemical Reactor§r.\nMake sure your §aHydrogen§r production (mostly from §aWater electrolysis§r) is keeping up.\n\nIt will also be obtained as a waste product from the §dPlatinum Group Sludge§r processing.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "forge:bucketfilled",
+        "tag:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "ammonia"
+        }
+      },
+      "name:8": "Ammonia",
+      "questlogic:8": "OR",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 931,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredFluids:9": {
+        "0:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "ammonia"
+        }
+      },
+      "taskID:8": "bq_standard:fluid"
+    }
+  }
+}

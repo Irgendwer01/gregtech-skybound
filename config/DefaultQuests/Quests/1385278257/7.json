@@ -1,0 +1,33 @@
+{
+  "preRequisites:11": [
+    9
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Getting an §2Crucible§f out of wood will allow you to obtain early §2Water §fin this pack and right-clicking it with §2Dust§k§f while it\u0027s filled with §2Water§f will allow you to obtain early §f§3§3§2Clay§f.\n\nDon\u0027t forget to make your 2x2 infinite water source, so you don\u0027t have to do this everytime you want water!",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "excompressum:wooden_crucible"
+      },
+      "name:8": "Wood Crucible"
+    }
+  },
+  "questID:3": 7,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "excompressum:wooden_crucible"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:clay"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

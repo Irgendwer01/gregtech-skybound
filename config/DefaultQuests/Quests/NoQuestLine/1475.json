@@ -1,0 +1,37 @@
+{
+  "preRequisites:11": [
+    1419,
+    1439,
+    1427,
+    1599,
+    1344
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oAgain, this was quite a journey to get here. Consider yourself deeply rooted in EV Age once you reach this point.§r\n\nThe §3EV Circuit Assembling§r enables the next tier of Circuits, §5Nano§r.",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 638,
+        "id:8": "gregtech:machine"
+      },
+      "ismain:1": 1,
+      "name:8": "EV Circuit Assembling",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1475,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 638,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

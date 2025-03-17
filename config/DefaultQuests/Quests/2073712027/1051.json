@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    1016,
+    1057
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oStar Trek strikes again!§r\n\n§aTritanium§r is a material from Star Trek, and is used for a few other things in GT. It, like §9Americium§r, requires two fusion steps!\n\nYou\u0027ll need this to get the next tier of circuits, and for §3UV§r components.\n\n§bLore§r: In some versions of GT5u, only Tritanium fluid was red. The material was otherwise white. In GTCEu, we decided to make the whole thing red instead. Much better looking!",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 128,
+        "id:8": "gregtech:meta_ingot"
+      },
+      "ismain:1": 1,
+      "name:8": "Tritanium",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1051,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 128,
+          "id:8": "gregtech:meta_ingot"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

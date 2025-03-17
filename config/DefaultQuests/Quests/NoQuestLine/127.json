@@ -1,0 +1,38 @@
+{
+  "preRequisites:11": [
+    297
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§aPlatinum§r (needed for SMD Diodes) has its own dedicated Quest in the §5EV§r tab.\n\n§bLore:§r The SMD Inductors make an appearance in GTCEu for the first time. It\u0027s more consistent and convenient to have all Circuit components get a SMD counterpart.",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 527,
+        "id:8": "gregtech:meta_item_1"
+      },
+      "ismain:1": 1,
+      "name:8": "More SMD Components",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 127,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 526,
+          "id:8": "gregtech:meta_item_1"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 527,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

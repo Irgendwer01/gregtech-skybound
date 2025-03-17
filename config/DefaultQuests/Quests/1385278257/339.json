@@ -1,0 +1,44 @@
+{
+  "preRequisites:11": [
+    24
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§4Charcoal smelting in Furnace is disabled§r, you will need the §3Coke Oven§r.\n§dWooden Planks§r are still pretty good as Furnace Fuel, especially since you get four from one log.\n\nIf you want to enable Charcoal smelting regardless, you can head to GregTech configs.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1,
+        "id:8": "minecraft:coal"
+      },
+      "name:8": "Charcoal?",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 339,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 16,
+          "Damage:2": 1,
+          "id:8": "minecraft:coal"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 48,
+          "OreDict:8": "logWood",
+          "id:8": "minecraft:log"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

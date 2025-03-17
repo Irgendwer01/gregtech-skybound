@@ -1,0 +1,28 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Required for §dLuV§r+ cables.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1008,
+        "id:8": "gregtech:meta_foil"
+      },
+      "name:8": "Polyphenylene Sulfide",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 346,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1008,
+          "id:8": "gregtech:meta_foil"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

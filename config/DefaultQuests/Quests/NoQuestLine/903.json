@@ -1,0 +1,38 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The one way to get into Applied Energistics is to mine Certus Quartz.\n\nBarite electrolyses into Barium, which you will need at some point.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1,
+        "id:8": "gregtech:ore_certus_quartz_0"
+      },
+      "name:8": "Certus Quartz - Source of Applied Energistics, Barium",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 903,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "gregtech:ore_quartzite_0"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "gregtech:ore_certus_quartz_0"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "gregtech:ore_barite_0"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

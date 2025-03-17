@@ -1,0 +1,46 @@
+{
+  "preRequisites:11": [
+    209
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oWho likes meteor hunting anyway?§r\n\nMaking §aAE2 Presses§r will unlock all the §9Processors§r from AE2. This opens up §9ME Drives§r, §9ME Interfaces,§r §9ME Crafting CPUs§r... almost the rest of AE2!\n\nAE2 §9Printed Circuits§r are made in the §3Forming Press§r.\n\nLook in the §e§dAE2 quest tab§r for more details on how to use each piece (once it\u0027s done).",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 15,
+        "id:8": "appliedenergistics2:material"
+      },
+      "name:8": "Pressing Matters",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 452,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 13,
+          "id:8": "appliedenergistics2:material"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 14,
+          "id:8": "appliedenergistics2:material"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 15,
+          "id:8": "appliedenergistics2:material"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 19,
+          "id:8": "appliedenergistics2:material"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    1281
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oThis quest\u0027s subject is optional and less useful. We have put it here in the name of completeness, but if this is not useful to you, feel free to skip it.§r\n\nThe §3Item Collector§o§r collects dropped items in its radius. Useful for something like a mob farm.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 980,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "Vacuum Hopper",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1501,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 980,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

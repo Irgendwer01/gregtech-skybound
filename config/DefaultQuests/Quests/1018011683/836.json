@@ -1,0 +1,63 @@
+{
+  "preRequisites:11": [
+    835
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oYour first polymer! Or if you want to be less fancy, just call it plastic, but hide in a corner first.§r\n\nFor the polymerization process, add §aOxygen§r. That\u0027s better than Air.\nThen solidify like you would with Rubber.\n\n\n§aPolyethylene (PE)§r is the key to unlock §6many new things§r. It\u0027s used mostly as §dSheets§r or §dFluid§r form.\nNo spoilers here! Let\u0027s have you figure out what it does with all the next Quests, one by one.\n\n\n§bLore:§r The OreDict and fluid name for Polyethylene is §oplastic§r, for cross-mod compatibility.",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1012,
+        "id:8": "gregtech:meta_plate"
+      },
+      "ismain:1": 1,
+      "name:8": "Polyethylene",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 836,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 81,
+          "id:8": "gregtech:meta_item_1",
+          "tag:10": {
+            "Fluid:10": {
+              "Amount:3": 16000,
+              "FluidName:8": "ethanol"
+            }
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 81,
+          "id:8": "gregtech:meta_item_1",
+          "tag:10": {
+            "Fluid:10": {
+              "Amount:3": 32000,
+              "FluidName:8": "naphtha"
+            }
+          }
+        }
+      },
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1012,
+          "id:8": "gregtech:meta_plate"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

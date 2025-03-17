@@ -1,0 +1,55 @@
+{
+  "preRequisites:11": [
+    96,
+    107
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oThe easier component for circuits§r\n\nYou will want the recipes using §aFine Wires§r as it will save you more materials overall.\nThis wire recipe is sadly expensive. But once you get to LV, they will become cheap.",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 519,
+        "id:8": "gregtech:meta_item_1"
+      },
+      "ismain:1": 1,
+      "name:8": "Electronics Part One: The Resistors",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 110,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 25,
+          "id:8": "gregtech:meta_plate"
+        },
+        "1:10": {
+          "Count:3": 2,
+          "Damage:2": 25,
+          "id:8": "gregtech:meta_foil"
+        },
+        "2:10": {
+          "Count:3": 2,
+          "Damage:2": 25,
+          "id:8": "gregtech:meta_wire_fine"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 519,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

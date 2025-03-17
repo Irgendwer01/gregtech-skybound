@@ -1,0 +1,42 @@
+{
+  "preRequisites:11": [
+    867,
+    842
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oDo you know what this is? Shame if you do not.§r\n\nA fancy tool to help with base building, has different modes.\nAlso check out the §3Destruction Gadget§r and the §3Copy Paste Gadget§r.\n\nCharge this in the charger slot of any GregTech machine.\n\nTell me... do not use it to make a cobble platform, please! At least chisel it first.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "buildinggadgets:buildingtool",
+        "tag:10": {
+          "blockstate:10": {
+            "Name:8": "minecraft:air"
+          }
+        }
+      },
+      "name:8": "Building Gadgets",
+      "questlogic:8": "OR",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1134,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "buildinggadgets:buildingtool",
+          "tag:10": {
+            "blockstate:10": {
+              "Name:8": "minecraft:air"
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

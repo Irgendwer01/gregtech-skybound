@@ -1,0 +1,37 @@
+{
+  "preRequisites:11": [
+    1424,
+    1461,
+    1414
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "To get yourself Titanium, §aRutile§r must first be reduced to §aTitanium Tetrachloride§r in an §3HV Chemical Reactor§r, and then reduced again in the §3EBF§r with §dMagnesium§r to finally arrive at the Titanium§r metal.\n\nThe §dCarbon§r, §dChlorine§r, §dOxygen§r, and §dMagnesium§r used in the process can be §6perfectly recovered§r from the byproduct §dCarbon Monoxide§r and §dMagnesium Chloride§r with no loss. Setup a system to recover them and you can process an indefinite amount of Rutile in a closed loop!\n\n\n§aTitanium Tetrachloride§r also acts as a catalyst in Plastics production. A small amount of §aTiCl₄ §rin the polymerisation process increases the polymer yield to §6133%§r§r. This is totally and completely optional, though.\n",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "forge:bucketfilled",
+        "tag:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "titanium_tetrachloride"
+        }
+      },
+      "ismain:1": 1,
+      "name:8": "Almost Titanium²",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1596,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredFluids:9": {
+        "0:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "titanium_tetrachloride"
+        }
+      },
+      "taskID:8": "bq_standard:fluid"
+    }
+  }
+}

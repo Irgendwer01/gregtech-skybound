@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    1111
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oCreative Items in IV? What madness is this?!?§r\n\nLikely no one will ever make this item, but it gives you §6unlimited§r construction paste for Building Gadgets. It\u0027s useful for building... maybe.\n\nThis is really only here to tell you that this exists. Enjoy or something...",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "buildinggadgets:constructionpastecontainercreative"
+      },
+      "name:8": "Creative Paste Container",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1050,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "buildinggadgets:constructionpastecontainercreative"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

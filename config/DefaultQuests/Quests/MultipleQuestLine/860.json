@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    836
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oSuper Tanks are OP!! No but seriously.§r\n\nThis is the ultimate portable Fluid storage solution. §64,000 buckets storage§r in one single block!\nLike Drums, Super Tanks §6keep their fluids when broken§r, and can be cleared in the crafting grid.\n\nFor §9even more§r storage, use higher tier Super Tanks or AE2 Fluid Storage Cells.\n\n",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1575,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "Super Tank",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 860,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1575,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

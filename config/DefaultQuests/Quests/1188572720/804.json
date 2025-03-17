@@ -1,0 +1,33 @@
+{
+  "preRequisites:11": [
+    775
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oThis Mixer mixes... What did you expect at this point?§r\n\nPut this machine off until you actually require it for recipes in progression.\n\n\nSome hand alloys can also be made in the mixer, except at higher yield.",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 470,
+        "id:8": "gregtech:machine"
+      },
+      "ismain:1": 1,
+      "name:8": "Basic Mixer",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 804,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 470,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "preRequisites:11": [
+    1
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Breaking §2§2Leaves§f with an §2Crook §fwill increase the overall chance of their drops and allows to obtain an special item called §f§2Silkworm§f.\n\n§2§fRight-Clicking §f§2Leaves§f with an §1§2Silkworm§f will turn them into §2Infested Leaves§f, wait till their \"infestation\" is done and break them with an §2Crook§f to obtain lots of §2String§f!",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "exnihilocreatio:crook_wood"
+      },
+      "name:8": "Crook"
+    }
+  },
+  "questID:3": 5,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "exnihilocreatio:crook_wood"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "id:8": "exnihilocreatio:item_material"
+        },
+        "2:10": {
+          "Count:3": 64,
+          "id:8": "minecraft:string"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

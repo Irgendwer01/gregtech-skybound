@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    13
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "As mentioned in the earlier quest, you can make with§2 Witch Water§f an generator that generates endless §2Dirt§f. You can do that by making an simple Cobblestone generator but instead of §2Lava§f you use §2Witch water§f! §k§k§k",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:dirt"
+      },
+      "name:8": "Dirt generator"
+    }
+  },
+  "questID:3": 15,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 64,
+          "id:8": "minecraft:dirt"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

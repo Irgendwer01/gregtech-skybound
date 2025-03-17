@@ -1,0 +1,88 @@
+{
+  "preRequisites:11": [
+    79
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oIron, Copper and Tin will only get you so far.§r\n\n§dRedstone§r and §dDiamond§r will be required during the Steam Age.\n\n§\n§c§aNickel§r, §aLead§r and §aSilver§r are nice to have, and will be useful soon enough.\n\nCheck the §5Ore Tab§r for more information on the Veins containing these materials.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 69,
+        "id:8": "gregtech:meta_ingot"
+      },
+      "name:8": "Early Investments",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 498,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 128,
+          "id:8": "minecraft:clay_ball"
+        },
+        "1:10": {
+          "Count:3": 128,
+          "id:8": "minecraft:sand"
+        },
+        "2:10": {
+          "Count:3": 64,
+          "id:8": "minecraft:redstone"
+        },
+        "3:10": {
+          "Count:3": 24,
+          "Damage:2": 69,
+          "id:8": "gregtech:meta_ingot"
+        },
+        "4:10": {
+          "Count:3": 24,
+          "Damage:2": 55,
+          "id:8": "gregtech:meta_ingot"
+        },
+        "5:10": {
+          "Count:3": 24,
+          "Damage:2": 100,
+          "id:8": "gregtech:meta_ingot"
+        },
+        "6:10": {
+          "Count:3": 8,
+          "id:8": "minecraft:diamond"
+        }
+      },
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 64,
+          "id:8": "minecraft:redstone"
+        },
+        "1:10": {
+          "Count:3": 24,
+          "Damage:2": 69,
+          "id:8": "gregtech:meta_ingot"
+        },
+        "2:10": {
+          "Count:3": 24,
+          "Damage:2": 55,
+          "id:8": "gregtech:meta_ingot"
+        },
+        "3:10": {
+          "Count:3": 24,
+          "Damage:2": 100,
+          "id:8": "gregtech:meta_ingot"
+        },
+        "4:10": {
+          "Count:3": 8,
+          "id:8": "minecraft:diamond"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

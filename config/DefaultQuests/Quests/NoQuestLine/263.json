@@ -1,0 +1,50 @@
+{
+  "preRequisites:11": [
+    67
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Your only source of Diamond!\n\nDiamond has §6five times more durability§r than Iron for tools. However you may need Diamond Plates for some of them, which is locked behind the Cutting Machine.\n\nDiamond and Graphite both electrolyze to a lot of Carbon.\n\n§cNote:§r Avoid macerating Diamonds in the early game. Recovering gem dusts into the actual gem cannot be done for a while.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "gregtech:ore_graphite_0"
+      },
+      "name:8": "Graphite - Source of Diamond, Carbon",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 263,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 800,
+          "id:8": "gregtech:meta_item_1"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "gregtech:ore_graphite_0"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "gregtech:ore_diamond_0"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "gregtech:ore_coal_0"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

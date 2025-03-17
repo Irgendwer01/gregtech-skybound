@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    686
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oIncreased Storage Density!§r\n\nThis hatch allows you to store more §aData Storage Items§r than the basic one.\n\nDon\u0027t forget that this hatch requires a §9Data Orb§r for research.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1405,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "Advanced Data Access Hatch",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 691,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1405,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

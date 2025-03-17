@@ -1,0 +1,35 @@
+{
+  "preRequisites:11": [
+    1609,
+    1599,
+    1486
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oNot much of these CPUs is Quantum related... you know. The name is just fancy.§r\n\nI know, I gated this behind §dIndium§r§r, I\u0027m unfair... But it\u0027s the better recipe you know!\n\n§aQubit CPUs§r are used in the production of §1Quantum§r Processors.",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 595,
+        "id:8": "gregtech:meta_item_1"
+      },
+      "ismain:1": 1,
+      "name:8": "Qubit CPUs",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1622,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 595,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

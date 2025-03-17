@@ -1,0 +1,35 @@
+{
+  "preRequisites:11": [
+    846
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §aPortable Scanner§r, or §aTricorder§r, is GTCEu\u0027s debug tool.\nIt shows you a block\u0027s details, the details of the energy network, its current status and contents, and its impact on performance.\n\nUsing this anywhere will also display a percentage of fluid remaining in the fluid vein, for the §3Fluid Rigs§r.\n\n§oTo use if you are curious!§r\n\n\n§bLore:§r This little useful device comes from GregTech 5. It was extremely useful in the early days, because very little information was given by GUIs or Waila.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 469,
+        "id:8": "gregtech:meta_item_1",
+        "tag:10": {
+          "Charge:4": 100000
+        }
+      },
+      "name:8": "Tricorder",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1023,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 469,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

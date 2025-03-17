@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    289
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oA NOR gate takes two input signals, and outputs a high signal only if both input signals are low.§r\n\nThis doesn\u0027t matter for now though, and it\u0027s simply a more complex wafer.\nIt is used for the §aData Orb§r (a crafting component for the §3Processing Array§r), and in §5Nano§r Circuit production.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 576,
+        "id:8": "gregtech:meta_item_1"
+      },
+      "name:8": "NOR Gates",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 477,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 601,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

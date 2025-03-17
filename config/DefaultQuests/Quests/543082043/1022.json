@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    1020
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "A goal if you like memes.\nIt takes almost real 10 days in an UV machine.\nIf you overclock a Gregicality Multiblock to UEV (4A UHV hatch), it will still take 2.5 days!\n\n§bLore:§r The NAN Certificate comes from Crops++, a GT5u addon that adds a wide variety of IC2 crops.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1000,
+        "id:8": "gregtech:meta_item_1"
+      },
+      "name:8": "Certificate of Not Being a Noob Anymore",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1022,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1000,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

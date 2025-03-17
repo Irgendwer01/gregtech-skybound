@@ -1,0 +1,53 @@
+{
+  "preRequisites:11": [
+    808
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oMore upgrades...! §r\n\nThe §bMV§  §3Cutting Machine§r is required to cut §7Silicon Boules§r to prepare them for §aLaser Engraving§r.\n\nI recommend you run this machine with §dLubricant§r, to cut down on the processing time.\nLubricant can be §3brewed§r from an Oil and §aTalc§r, §2Soapstone§r or §cRedstone§r.",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 246,
+        "id:8": "gregtech:machine"
+      },
+      "ismain:1": 1,
+      "name:8": "Advanced Cutting Machine",
+      "tasklogic:8": "OR",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 842,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 79,
+          "id:8": "gregtech:meta_item_1",
+          "tag:10": {
+            "Fluid:10": {
+              "Amount:3": 1000,
+              "FluidName:8": "lubricant"
+            }
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 246,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

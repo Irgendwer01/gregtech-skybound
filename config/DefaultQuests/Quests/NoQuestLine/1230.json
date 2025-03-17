@@ -1,0 +1,112 @@
+{
+  "preRequisites:11": [
+    1227
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "More GregTech tools are required for progression, here are the most important of them all.\n\n§9§lWrench:§r A crafting tool. But also a mining tool for GregTech machines (perfect if you think using pickaxes is unethical). Is that it? Certainly not! It has right click functions to double as a Forge §6Wrench for other mods§r. Right Click also allows you to set the output side of GregTech machines. Shift right clicking allows you to rotate GregTech machines.\n\n§9§lFile:§r A crafting tool. And that\u0027s it. Yes.\n\n§9§lSaw:§r Another crafting tool. If we were evil, we would force it to obtain 4 Planks and 4 Sticks from their respective crafting recipes. That said you can still use it to get §a6 Planks per Log§r, if you wish.\n\n\n§eNote:§r Any Quest with GregTech tools can be completed with the tool crafted from any material, not just the one displayed.",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "gregtech:wrench",
+        "tag:10": {
+          "DisallowContainerItem:1": 0,
+          "GT.Behaviours:10": {},
+          "GT.Tool:10": {
+            "AttackDamage:5": 3.0,
+            "AttackSpeed:5": -2.8,
+            "Durability:3": 0,
+            "HarvestLevel:3": 2,
+            "Material:8": "iron",
+            "MaxDurability:3": 256,
+            "ToolSpeed:5": 6.0
+          },
+          "HideFlags:3": 2
+        }
+      },
+      "ismain:1": 1,
+      "name:8": "Important Tools",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1230,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 4,
+          "Damage:2": 51,
+          "id:8": "gregtech:meta_stick"
+        },
+        "1:10": {
+          "Count:3": 4,
+          "Damage:2": 51,
+          "id:8": "gregtech:meta_screw"
+        }
+      },
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "gregtech:wrench",
+          "tag:10": {
+            "DisallowContainerItem:1": 0,
+            "GT.Behaviours:10": {},
+            "GT.Tool:10": {
+              "AttackDamage:5": 3.0,
+              "AttackSpeed:5": -2.8,
+              "Durability:3": 0,
+              "HarvestLevel:3": 2,
+              "Material:8": "iron",
+              "MaxDurability:3": 256,
+              "ToolSpeed:5": 6.0
+            },
+            "HideFlags:3": 2
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "gregtech:file",
+          "tag:10": {
+            "DisallowContainerItem:1": 0,
+            "GT.Behaviours:10": {},
+            "GT.Tool:10": {
+              "AttackDamage:5": 0.0,
+              "AttackSpeed:5": -2.4,
+              "Durability:3": 0,
+              "Material:8": "iron",
+              "MaxDurability:3": 256
+            },
+            "HideFlags:3": 2
+          }
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "gregtech:saw",
+          "tag:10": {
+            "DisallowContainerItem:1": 0,
+            "GT.Behaviours:10": {
+              "HarvestIce:1": 1
+            },
+            "GT.Tool:10": {
+              "AttackDamage:5": 1.0,
+              "AttackSpeed:5": -2.6,
+              "Durability:3": 0,
+              "Material:8": "iron",
+              "MaxDurability:3": 256
+            },
+            "HideFlags:3": 2
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

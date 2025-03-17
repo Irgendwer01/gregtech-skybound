@@ -1,0 +1,38 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "This one\u0027s nothing but a meme. Seriously, check the vein name in JEI.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "gregtech:ore_soapstone_0"
+      },
+      "name:8": "Soapstone - Source of Lubricant",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 888,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "gregtech:ore_soapstone_0"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "gregtech:ore_talc_0"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "gregtech:ore_glauconite_sand_0"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "gregtech:ore_pentlandite_0"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

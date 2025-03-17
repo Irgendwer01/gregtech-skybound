@@ -1,0 +1,35 @@
+{
+  "preRequisites:11": [
+    845,
+    851,
+    956
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oAlright, technically HV Circuit and Stainless Steel means you can move to HV... but let\u0027s not rush things.§r\n\nThe first thing you should probably make with them is a §3MV Circuit Assembler§r, to unlock the new tier of Circuits right away; they are the §dreal payoff§r.",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 625,
+        "id:8": "gregtech:meta_item_1"
+      },
+      "ismain:1": 1,
+      "name:8": "First HV Circuits!",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 846,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 625,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

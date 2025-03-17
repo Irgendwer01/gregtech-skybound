@@ -1,0 +1,51 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oDon\u0027t worry it\u0027s simplified enough, you won\u0027t end up on a watch list or anything...§r\n\n§aUranium§r has very few uses in §2GTCEu§r right now, as we have §4not yet§r implemented the §3Nuclear Reactor§r (it is planned!).\n\nMake §dUranium Hexafluoride§r from §aUraninite§r, this will allow you to seperate the isotopes between U238 and U235.\n\n§9Fluorine§r is fully recycled in the reaction, but you will need around maybe 40 buckets to bootstrap.\n§9Hydrogen§r is consumed, you will need quite a lot of it. Either electrolyze a lot of water using several §3LV Electrolyzer§r for the best energy efficiency, or recycle your unused §dhydrocarbons§r such as Methane.\n\n§9Tip:§r You can make this setup compact by having one single §3Centrifuge§r and using a §6Fluid Regulator§r set to §dSupply Exact 1,000§r.",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 116,
+        "id:8": "gregtech:meta_dust"
+      },
+      "ismain:1": 1,
+      "name:8": "Uranium Refinement",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 379,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 3,
+          "Damage:2": 332,
+          "id:8": "gregtech:meta_dust"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredFluids:9": {
+        "0:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "uranium_hexafluoride"
+        }
+      },
+      "taskID:8": "bq_standard:fluid"
+    },
+    "2:10": {
+      "index:3": 2,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 116,
+          "id:8": "gregtech:meta_dust"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

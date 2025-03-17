@@ -1,0 +1,28 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oThe Ultimate Combustion fuel Generator!§r\n\nTo run the §3Extreme Combustion Engine§r, you will most likely want to boost it (§oelse why would you bother...§r).\nYou will want a §34A IV Dynamo Hatch§r as the output, and one §3Vacuum Freezer§r for §aLiquid Oxygen§r.\n\nYou can now harness the equivalent of 1 §dLuV§r Amp, while burning fuel at §6200% efficiency§r!\n\nDon\u0027t forget to keep it supplied with a small amount of §aLubricant§r.\n\nThe §3ECE§r is also void-free, unlike Large Turbines. Any energy that cannot be output will momentarily pause the multiblock.\n\n\n§bLore:§r The ECE comes from GT:NH. However... the story is not so great. The stats on the tooltip looked similar to this one, so far so good.\nHowever if you made calculations, you ended up realizing you needed to run around 16 whole HV Vacuum Freezers to keep up with Liquid Oxygen...\nThe one and only fuel it would accept is High Octane Gasoline, which was stated to be burned at 300% efficiency when boosted, but it was a lie! The efficiency remained 100%!\nThe GT:NH team recently decided to rework the ECE among other power options, phew!",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1008,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "Extreme Combustion Engine",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 343,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1008,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

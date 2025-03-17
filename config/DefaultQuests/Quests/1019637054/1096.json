@@ -1,0 +1,33 @@
+{
+  "preRequisites:11": [
+    973
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Multiply the energy density by 2§r and you have §aHigh Octane Gasoline§r.\n\n§9Note:§r Automating this requires a lot of §3Distillation Towers§r! A huge portion of your base would be dedicated to producing this constantly without anything bottlenecking.\nIf you have a base successfully running on §aHOG§r, feel free to brag and share some screenshots on our §8Discord§r.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "forge:bucketfilled",
+        "tag:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "gasoline_premium"
+        }
+      },
+      "name:8": "High Octane Gasoline",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1096,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredFluids:9": {
+        "0:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "gasoline_premium"
+        }
+      },
+      "taskID:8": "bq_standard:fluid"
+    }
+  }
+}

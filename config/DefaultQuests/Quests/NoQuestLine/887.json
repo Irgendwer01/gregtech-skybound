@@ -1,0 +1,38 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Did you know Lazurite and Sodalite can be used as Lapis in enchanting?\n\nSodalite is the most valuable Ore here, thanks to its electrolysis in the MV Age.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "gregtech:ore_lapis_0"
+      },
+      "name:8": "Lapis - Source of Lapis Lazuli, Aluminium, Sodium, Chlorine",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 887,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "gregtech:ore_lazurite_0"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "gregtech:ore_sodalite_0"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "gregtech:ore_lapis_0"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "gregtech:ore_calcite_0"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

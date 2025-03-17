@@ -1,0 +1,63 @@
+{
+  "preRequisites:11": [
+    1245
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oSteel, the Shrödinger alloy of all alloys. Made with a very small percentage of carbon in mass, it is significantly tougher than Iron or Wrought Iron.§r\n\nOne §3PBF§r will most not likely cut it and be too slow. Make another one!\n\nDid you know GregTech multiblocks can §dshare walls§r? This saves you a whole 12 Primitive Bricks for your second PBF.\n\nWhat you may also do is upgrade to four §3PBFs§r. It just depends on how much of an innate speedrunner you are.\n\n§9Note:§r The §3PBF§r cannot be reasonably automated, but putting blocks of Iron and Coke/Charcoal will guarantee it will run for a long time without any care.\n\n\n§bLore:§r In GregTech 5, one single Ingot of Steel takes 360 seconds in the PBF when using Coal or Charcoal!\nPollution was also a thing, and four of these bad boys would guarantee your character would periodically get negative effects such as slowness, mining fatigue, or even nausea and poison.",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 324,
+        "id:8": "gregtech:meta_ingot"
+      },
+      "ismain:1": 1,
+      "name:8": "We Need More Steel!",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1246,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 64,
+          "Damage:2": 319,
+          "id:8": "gregtech:meta_gem"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 2,
+          "Damage:2": 1000,
+          "id:8": "gregtech:machine"
+        },
+        "1:10": {
+          "Count:3": 52,
+          "Damage:2": 1,
+          "id:8": "gregtech:metal_casing"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 32,
+          "Damage:2": 324,
+          "OreDict:8": "ingotSteel",
+          "id:8": "gregtech:meta_ingot"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

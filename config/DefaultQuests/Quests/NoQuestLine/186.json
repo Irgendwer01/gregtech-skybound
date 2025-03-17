@@ -1,0 +1,35 @@
+{
+  "preRequisites:11": [
+    147
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The Prospector is an amazing tool to find veins.\n\nIts GUI is interactive, and automatically adds veins to the map with §dVisualOres§r.\n\n§6This thing is great.§r\n\n\n§bLore:§r §oBack in MY days, the portable Prospector was locked to §d§oLuV§r.§r",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 466,
+        "id:8": "gregtech:meta_item_1",
+        "tag:10": {
+          "Charge:4": 100000
+        }
+      },
+      "name:8": "This is Hacking",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 186,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 466,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oIndium has uses as a semiconductor.§r\n\nGetting §aIndium§r requires a lot of §dSulfuric Acid§r, and two different ores: Galena and Sphalerite.\n\n§dSulfuric Acid§r can be produced in large scale in the §3Large Chemical Reactor§r, or obtained as a waste from the §9Platinum Group Sludge§r process.\n\nIn §dLuV§r, the mandatory §9Naquadah chain§r will grant §aIndium§r too, which means this setup will have a limited life.\n\n\n§bLore:§r Another small chain inherited from GregTech 5. However this used to yield one tiny Dust instead, which was very painful.",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 48,
+        "id:8": "gregtech:meta_dust"
+      },
+      "ismain:1": 1,
+      "name:8": "Indium",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 390,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 279,
+          "id:8": "gregtech:meta_crushed_purified"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 322,
+          "id:8": "gregtech:meta_crushed_purified"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 48,
+          "id:8": "gregtech:meta_dust_small"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "2:10": {
+      "index:3": 2,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 354,
+          "id:8": "gregtech:meta_dust"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

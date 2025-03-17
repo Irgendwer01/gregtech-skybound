@@ -1,0 +1,70 @@
+{
+  "preRequisites:11": [
+    1252,
+    1260
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oA higher-tech backpack! Also seriously undervalued.§r\n\nThe §9Portable Cell§r can hold items for you! It holds up to §a27§r types of items.\n\nWhat\u0027s more, it acts just like a regular AE2 Storage Cell. Once you get an ME System running, you can simply drop it into an §aME Drive§r or §b§aME IO Port§r for convenience.\n\nThe Portable Cell\u0027s energy only drains when it\u0027s open. With §6167 minutes§r of juice stored in it thanks to changed config, you shouldn\u0027t worry about it running out of energy.\nRegardless, you will be able to §dcharge§r it in §7LV§r Age in §3machine Charger slots§r, §3Turbo Chargers§r or §3Battery Buffers§r.\n\n§\n§cWarning§r: Attempting to store items with very large NBT Tags may result in them getting §cstuck§r. So far it seems that the Building Gadgets, Terminal and Clipboards are §lsafe§r, but we never know what could happen.\nIf something gets stuck, build a simple AE2 Network with just an Energy Acceptor, an IO Port and a Storage Bus on a chest. Then place your Portable Cell inside the IO Port. This will spit out items into the chest.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "appliedenergistics2:portable_cell",
+        "tag:10": {
+          "internalCurrentPower:6": 200000.0,
+          "internalMaxPower:6": 200000.0
+        }
+      },
+      "name:8": "Portable Cell",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1032,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "gregtech:mining_hammer",
+          "tag:10": {
+            "DisallowContainerItem:1": 0,
+            "GT.Behaviours:10": {
+              "AoEColumn:3": 1,
+              "AoELayer:3": 0,
+              "AoERow:3": 1,
+              "MaxAoEColumn:3": 1,
+              "MaxAoELayer:3": 0,
+              "MaxAoERow:3": 1,
+              "TorchPlacing:1": 1
+            },
+            "GT.Tool:10": {
+              "AttackDamage:5": 8.5,
+              "AttackSpeed:5": -3.1000001,
+              "Durability:3": 0,
+              "HarvestLevel:3": 4,
+              "Material:8": "ultimet",
+              "MaxDurability:3": 2048,
+              "ToolSpeed:5": 8.0
+            },
+            "HideFlags:3": 2
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:portable_cell",
+          "tag:10": {}
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

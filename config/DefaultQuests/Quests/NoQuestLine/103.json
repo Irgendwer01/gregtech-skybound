@@ -1,0 +1,80 @@
+{
+  "preRequisites:11": [
+    88
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "To its simplest form, Ore Processing in GregTech boils down to §aconverting one ore into two ingots through two dusts§r, like several other tech mods.\n\nThe added spice is the amount of steps, either optional or required. This small guide is an §dintroduction to Ore Processing§r.\nThe main purpose of GregTech Ore Processing is to provide §abyproducts§r on top of the initial outcome. At Steam Age, none of the byproducts are obtainable.\n\n§9The steps available in Steam Age go as follows:§r\nOne Ore (block) §9-\u003e§r Two Crushed Ores (Macerator)\nOne Crushed Ore §9-\u003e§r One Impure Dust (Hammer)\nOne Impure Dust §9-\u003e§r One Dust (§oIn world crafting explained below§r)\nOne Dust §9-\u003e§r One Ingot (Furnace, you should know this one)\n\nA pickaxe or mining hammer enchanted with Hammering, or a GregTech Hammer directly gives Crushed Ores from breaking Ore blocks, but only at a 1:1 ratio. The Fortune enchantment can increase this ratio, to 2x with Fortune III, which matches the Macerator.\n\nThe rule bends for ores giving more than two dusts (such as redstone), and for dusts that cannot be smelted (redstone again!). Yet you can still do direct smelting to get half the amount you would from the full processing.\n\n§dJEI does not indicate Impure Dust to Clean Dust conversion§r, so keep that in mind that you should §athrow them into filled cauldrons§r (full stacks at once to use less water).\n\nOre Processing will be explained further once you get into LV Age.\n\n\nThere, take this nice reward for your efforts learning this beautiful mess.",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 41,
+        "id:8": "gregtech:meta_crushed"
+      },
+      "ismain:1": 1,
+      "name:8": "What is this Mess?",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 103,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 48,
+          "id:8": "gregtech:ore_chalcopyrite_0"
+        },
+        "1:10": {
+          "Count:3": 8,
+          "id:8": "gregtech:ore_cassiterite_0"
+        },
+        "2:10": {
+          "Count:3": 32,
+          "id:8": "gregtech:ore_banded_iron_0"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:cauldron"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "OreDict:8": "oreRedstone",
+          "id:8": "gregtech:ore_redstone_0"
+        },
+        "1:10": {
+          "Count:3": 10,
+          "Damage:2": 2064,
+          "OreDict:8": "crushedRedstone",
+          "id:8": "gregtech:meta_crushed"
+        },
+        "2:10": {
+          "Count:3": 10,
+          "Damage:2": 2064,
+          "OreDict:8": "dustImpureRedstone",
+          "id:8": "gregtech:meta_dust_impure"
+        },
+        "3:10": {
+          "Count:3": 10,
+          "OreDict:8": "dustRegularRedstone",
+          "id:8": "minecraft:redstone"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

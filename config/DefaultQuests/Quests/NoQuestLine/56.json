@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    57,
+    55
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "It\u0027s finally time to make an §2Basic Steam Turbine§f and getting into §eAge 1 - Low Voltage Age§f!\n\nThe §2Steam Turbine§f will begin to produce Energy§f as soon as you feed it with §2Steam§f, but be sure to make enough §2Boilers§f as you will need ALOT to keep up now.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 950,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "Steam Turbine"
+    }
+  },
+  "questID:3": 56,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 950,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

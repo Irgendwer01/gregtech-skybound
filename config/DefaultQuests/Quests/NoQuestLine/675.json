@@ -1,0 +1,39 @@
+{
+  "preRequisites:11": [
+    502
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§aAE2 Fluid Crafting§r allows you to autocraft with fluids directly!\n\nTo get started, you need a §aFluid Discretizer§r. Only one is required for the entire ME network. It will make all of your fluids accessible by your system into \"Drops.\" These do NOT take up space in your storage system, despite being items.\n\nOnce you have one in your network, you can use §aFluid Pattern Terminals§r to pattern recipes with fluids in them directly. This is very useful for circuits, for example.\n\nThe §eDual Interface§r can be used for autocrafting recipes containing fluids. It will supply both the items and fluids according to the requested craft.\n\nThe §9Fluid Packet Decoder§r can be used to turn the Drops back into normal fluid, if you get some. It\u0027s also useful for Ordered Fluids in the Assembly Line if you enable it in the config and want an additional challenge.\n\nThe §9Precision Burette§r can be used to fill fluid containers with precise amounts. You probably don\u0027t need this...\n\nThe §9Fluid Assembler§r allows you to autocraft recipes that use filled fluid containers, but instead draws the fluid from the ME system. An example of this would be recipes using water buckets in them. You also probably don\u0027t need this...\n",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "ae2fc:fluid_discretizer"
+      },
+      "name:8": "AE2 Fluid Crafting",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 675,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "ae2fc:fluid_discretizer"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "ae2fc:part_fluid_pattern_terminal"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

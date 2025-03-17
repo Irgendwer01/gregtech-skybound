@@ -1,0 +1,61 @@
+{
+  "preRequisites:11": [
+    1445,
+    1432
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oDoping is the process of intentionally introducing impurities into semiconductors to change their properties.§r\n\n§7Silicon§r can be doped with small amounts of §ePhosphorus§r to make a better §eSilicon Boule§r.\n\nPhosphorus-doped Silicon Boules typically yield §68 times§r more wafers than their non-doped counterparts. However, they are not strictly needed until the §5EV§r age, where they will be used in more complex wafers.\n\n§9Note§r: All processing of Phosphorus Boules and Wafers requires a §dCleanroom§r!",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 362,
+        "id:8": "gregtech:meta_item_1"
+      },
+      "ismain:1": 1,
+      "name:8": "Phosphorus Boules",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1417,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 737,
+          "id:8": "gregtech:meta_item_1",
+          "tag:10": {
+            "Charge:4": 1800000
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 362,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 562,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

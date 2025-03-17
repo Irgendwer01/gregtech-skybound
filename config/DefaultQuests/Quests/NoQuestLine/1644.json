@@ -1,0 +1,40 @@
+{
+  "preRequisiteTypes:7": [
+    0,
+    0,
+    0,
+    1
+  ],
+  "preRequisites:11": [
+    1524,
+    1557,
+    1665,
+    1699
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "This Maintenance Hatch is an upgrade to the Automatic Maintenance Hatch.\nIt allows your Multiblock to run regular §aCleanroom recipes§r, but not Sterilized.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1401,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "Filtration Maintenance Hatch",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1644,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1401,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

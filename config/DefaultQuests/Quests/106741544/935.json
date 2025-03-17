@@ -1,0 +1,43 @@
+{
+  "preRequisites:11": [
+    858
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "You now have access to two §3new Maintenance Hatches§r. Both start with §6no Maintenance required§r.\n\nThe §3Automatic Maintenance Hatch§r is pretty simple, it eliminates the need for Maintenance, §6forever§r.\n\nThe §3Configurable Maintenance Hatch§r is more interesting. You can configure it to cut off §a10% duration§r on recipes, at the cost of making Maintenance happen three times as fast. That is §d16 real hours§r of activity.\n§9Reminder:§r You can put Tape in the maintenance Hatch to automatically fix problems. §mBut do not do it, that\u0027s very ugly§r.\n\n\n§bLore:§r The Automatic Maintenance Hatch texture and mechanic comes from TecTech, an addon mod originally made for GregTech: New Horizons. I will be honest with you: that mod is excessively cool!\nMore TecTech references coming up, if you stick with us with the late game!",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1656,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "Advanced Maintenance",
+      "tasklogic:8": "OR",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 935,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1655,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1656,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

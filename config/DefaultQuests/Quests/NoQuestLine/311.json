@@ -1,0 +1,55 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oIf you\u0027re still running off Steam, here is a solution for you! But if I wanted to be honest... Steam as a power option really isn\u0027t worth it at this point anymore. Stay tuned for when/if we rework it.§r\n\nThe §3Large Steam Turbine§r is a multiblock Steam Turbine for §6HV§r power. It is a quite expensive multiblock to generate 1024 EU/t, but it also the ability to scale to §9higher Power Production and higher Effiency§r.\n\nThe Turbine will output §dDistilled Water§r given an §3Output Hatch§r, so you can loop it back to your §3Large Boilers§r.\nNot completely recommend, as your Boilers will end up exploding if the system fails...\n\nEach Large Turbine will require a §aTurbine Rotor§r and a §3Rotor Holder§r. More on the Turbine mechanics in the §lnext§r Quest.\n\n§9Note:§r This Quest §eonly§r requires the Controller, but you still need all the multiblock parts.\nTurbines §cvoid§r energy that they can not output. If you plan on using this with HV power, use a Rotor with close to 100% Power stat.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1010,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "Large Steam Turbine",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 311,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1010,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 4,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1228,
+          "id:8": "gregtech:machine"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 1640,
+          "id:8": "gregtech:machine"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 711,
+          "id:8": "gregtech:meta_item_1",
+          "tag:10": {
+            "GT.PartStats:10": {
+              "Material:8": "iron"
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

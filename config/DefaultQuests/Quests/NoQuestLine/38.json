@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    26
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The §2Steam Furnace§k§f§f allows you to cook Items with Steam instead of needing to feed it everytime with solid fuels. ",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 15,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "Steam Furnace"
+    }
+  },
+  "questID:3": 38,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 15,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}
