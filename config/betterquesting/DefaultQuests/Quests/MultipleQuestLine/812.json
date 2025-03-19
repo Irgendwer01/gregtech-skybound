@@ -16,6 +16,7 @@
         "id:8": "gregtech:machine"
       },
       "name:8": "Multiblock Input/Output",
+      "tasklogic:8": "OR",
       "visibility:8": "ALWAYS"
     }
   },
@@ -33,6 +34,16 @@
           "Count:3": 1,
           "Damage:2": 1166,
           "id:8": "gregtech:machine"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 1181,
+          "id:8": "gregtech:machine"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 1196,
+          "id:8": "gregtech:machine"
         }
       },
       "taskID:8": "bq_standard:retrieval"
@@ -42,12 +53,22 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 1181,
+          "Damage:2": 1150,
           "id:8": "gregtech:machine"
         },
         "1:10": {
           "Count:3": 1,
-          "Damage:2": 1196,
+          "Damage:2": 1165,
+          "id:8": "gregtech:machine"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 1180,
+          "id:8": "gregtech:machine"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 1195,
           "id:8": "gregtech:machine"
         }
       },

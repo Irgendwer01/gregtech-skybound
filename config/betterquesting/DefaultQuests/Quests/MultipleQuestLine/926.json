@@ -6,7 +6,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "You can travel to §9The End§r via an §aEnd Cake§f, you can safely ignore it till §5IV§f as it requires §2§aQuantum Stars§r to obtain.\n\nAutomating §aEnd Stone§f will be important as it\u0027s an important source of Ores like §aPlutonium-239§f or §aNaquadah§f.\n\n§aEyes of Ender§r are used in crafting important components like §5Quantum Eyes§r.",
+      "desc:8": "You can travel to §9The End§r by crafting §aEnd Portal frames§f, to actually form they need to face into the middle though!\nYou can safely ignore it till §5IV§f as it requires §2§aQuantum Stars§r to obtain, also be sure to be equipped properly as you need to fight the Dragon to get out.\n\nAutomating §aEnd Stone§f will be important as it\u0027s an important source of Ores like §aPlutonium-239§f or §aNaquadah§f.\n\n§aEyes of Ender§r are used in crafting important components like §5Quantum Eyes§r.",
       "frame:8": "GATE",
       "icon:10": {
         "Count:3": 1,
