@@ -63,6 +63,13 @@ mods.gregtech.extractor.recipeBuilder()
         .duration(50)
         .buildAndRegister()
 
+mods.gregtech.extractor.recipeBuilder()
+	.inputs(item('minecraft:chorus_fruit_popped'))
+        .outputs(item('integrateddynamics:crystalized_chorus_chunk')*3)
+        .EUt(32)
+        .duration(50)
+        .buildAndRegister()
+
 mods.gregtech.alloy_smelter.recipeBuilder()
 	.inputs(ore('blockGlass'), item('integrateddynamics:crystalized_menril_chunk')*4)
         .outputs(item('integratedterminals:menril_glass'))
