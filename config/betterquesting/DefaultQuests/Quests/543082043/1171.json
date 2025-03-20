@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§oIs this... the end?§r\n\nCrafting the §aUltimate Battery§r is the end of GTCEu and the GregTech Community Modpack. §6Congratulations!§r\n\nNow that you\u0027ve finished the mod, there\u0027s a few things you should do:\n\n- §9Join the GTCEu Discord§r and tell us about how your playthrough went! Also show off your battery :) \n   §9Link§r: https://discord.gg/bWSWuYvURP\n\n- §eGo outside§r (and start playing GregTech in real life, right?)\n\n- §cBlow up your world with TNT and GT Dynamite§r. §nMake a backup first!!!§r\n\n\n§6Thank you for playing the pack!§r\n- The GregTech Community Pack Dev Team",
+      "desc:8": "§oIs this... the end?§r\n\nCrafting the §2Ultimate Battery§r is the only end goal... §ofor now§r. \nThere\u0027s more content to come and this will not be the end, so stay tuned and thanks for playing this pack!\n\n- The GT: Skybound dev team",
       "frame:8": "GATE",
       "icon:10": {
         "Count:3": 1,
@@ -12,7 +12,7 @@
         "id:8": "gregtech:warning_sign_1"
       },
       "ismain:1": 1,
-      "name:8": "The Finale",
+      "name:8": "The Finale?",
       "visibility:8": "UNLOCKED"
     }
   },
