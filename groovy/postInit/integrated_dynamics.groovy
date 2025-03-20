@@ -21,6 +21,11 @@ crafting.addShapeless('id_crafting_terminal', item('integratedterminals:part_ter
 crafting.addShapeless('light_to_display_panel', item('integrateddynamics:part_display_panel_item'), [item('integrateddynamics:part_static_light_panel_item')])
 crafting.addShapeless('display_to_light_panel', item('integrateddynamics:part_static_light_panel_item'), [item('integrateddynamics:part_display_panel_item')])
 
+crafting.addShaped('id_facade', item('integrateddynamics:facade')*16,
+[[null , metaitem('rubber_drop'), null],
+ [metaitem('rubber_drop'), item('integrateddynamics:crystalized_menril_block'), metaitem('rubber_drop')],
+ [null, metaitem('rubber_drop'), null]])
+
 crafting.addShaped('id_crafting_interface', item('integratedcrafting:part_interface_crafting_item'),
 [[metaitem('plateTitanium'), item('integrateddynamics:variable_transformer'), metaitem('plateTitanium')],
  [ore('circuitEv'), item('minecraft:crafting_table'), ore('circuitEv')],
