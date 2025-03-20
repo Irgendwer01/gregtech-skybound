@@ -49,6 +49,7 @@ def plants = [
     'minecraft:beetroot_seeds' : item('minecraft:beetroot') * 16,
     'minecraft:wheat_seeds' : item('minecraft:wheat') * 16,
     'minecraft:melon_seeds' : item('minecraft:melon_block') * 6,
+    'minecraft:chorus_fruit' : item('minecraft:chorus_fruit') * 4,
     'minecraft:carrot' : item('minecraft:carrot') * 12,
     'minecraft:potato' : item('minecraft:potato') * 12,
     'minecraft:reeds' : item('minecraft:reeds') * 12,
