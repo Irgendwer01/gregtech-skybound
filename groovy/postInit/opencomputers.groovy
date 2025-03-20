@@ -8,6 +8,9 @@ furnace.removeByInput(item('opencomputers:material', 2))
 
 ore('oc:materialTransistor').add(metaitem('component.transistor'))
 ore('oc:materialCircuitBoardPrinted').add(metaitem('circuit_board.basic'))
+ore('oc:materialCircuitBoardPrinted').add(metaitem('circuit_board.good'))
+ore('oc:materialCircuitBoardPrinted').add(metaitem('circuit_board.plastic'))
+
 
 for (circuitLv : oreDict.getItems('circuitLv')) {
   ore('oc:circuitChip1').add(circuitLv)
