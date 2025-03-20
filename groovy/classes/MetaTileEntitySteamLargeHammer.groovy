@@ -19,7 +19,6 @@ import gregtech.common.blocks.BlockMetalCasing
 import gregtech.common.blocks.MetaBlocks
 
 import net.minecraft.block.state.IBlockState
-import net.minecraft.client.resources.I18n
 import net.minecraft.item.ItemStack
 import net.minecraft.util.EnumParticleTypes
 import net.minecraft.util.ResourceLocation
@@ -104,13 +103,14 @@ public class MetaTileEntitySteamLargeHammer extends RecipeMapSteamMultiblockCont
         return 1;
     }
 
+    @SideOnly(Side.CLIENT)
     @Override
     public void addInformation(ItemStack stack, @Nullable World player, @NotNull List<String> tooltip,
                                boolean advanced) {
         super.addInformation(stack, player, tooltip, advanced);
-        tooltip.add(I18n.format("gregtech.multiblock.steam_.duration_modifier"));
-        tooltip.add(I18n.format("gregtech.universal.tooltip.parallel", MAX_PARALLELS));
-        tooltip.add(I18n.format("gregtech.multiblock.require_steam_parts"));
+        tooltip.add(net.minecraft.client.resources.I18n.format("gregtech.multiblock.steam_.duration_modifier"));
+        tooltip.add(net.minecraft.client.resources.I18n.format("gregtech.universal.tooltip.parallel", MAX_PARALLELS));
+        tooltip.add(net.minecraft.client.resources.I18n.format("gregtech.multiblock.require_steam_parts"));
     }
 
     @SideOnly(Side.CLIENT)

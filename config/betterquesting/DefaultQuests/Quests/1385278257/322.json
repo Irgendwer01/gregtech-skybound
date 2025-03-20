@@ -1,4 +1,7 @@
 {
+  "preRequisites:11": [
+    8
+  ],
   "properties:10": {
     "betterquesting:10": {
       "desc:8": "§oSadly, offering a questbook refresh as quest reward crashes on dedicated servers... so read this through.§r\n\nWhenever you §dupdate the modpack§r, run the Command §9§l/bq_admin default load§r.\nThis quest §cdoes §cnot run it§r, you have to type it yourself.\n\nBe sure to §4not forget§r it, as there are frequent changes to the Questbook.\n\n§oYes, I repeated myself several times, I know. But that way you won\u0027t forget... right? *pleading_face*§r",

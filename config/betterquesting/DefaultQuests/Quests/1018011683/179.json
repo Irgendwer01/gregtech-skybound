@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Getting into Applied Energistics at this point is possible, but also a little bit involved...\nYou will need quite a few LV machines, and the LV-tier recipes for some AE2 are more expensive without more advanced technology.\n\nIn LV age you have access to:\n§6-§r Energy Acceptor\n§\n§6-§r ME Terminal\n§6-§r 1k ME Storage component\n§6-§r ME Chest\n§\n\n§9Note:§r This pack uses §5Fluix Crystals§r generated as a GT material rather than the default AE2 Fluix Crystals. To get them, put §dFluix Dust§r in the §aAutoclave§r, which is made from §7Certus Quartz Dust§r, §eNether Quartz Dust§o§r and §cRedstone§r in a §aMixer§r. No need to charge the Certus Quartz. It gets charged in the Mixer... or something.",
+      "desc:8": "§9Note:§r This pack uses §5Fluix Crystals§r generated as a GT material rather than the default AE2 Fluix Crystals. To get them, put §dFluix Dust§r in the §aAutoclave§r, which is made from §7Certus Quartz Dust§r, §eNether Quartz Dust§o§r and §cRedstone§r in a §aMixer§r. No need to charge the Certus Quartz. It gets charged in the Mixer... or something.",
       "icon:10": {
         "Count:3": 1,
         "id:8": "appliedenergistics2:energy_acceptor"

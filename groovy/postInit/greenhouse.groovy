@@ -22,6 +22,7 @@ def saplings = [
 
 for (int i = 0; i < logs.size; i++) {
   recipemap('greenhouse').recipeBuilder()
+    .circuitMeta(2)
     .notConsumable(saplings[i])
     .fluidInputs(liquid('water')*1000)
     .outputs(logs[i]*64)
@@ -48,6 +49,7 @@ def plants = [
     'minecraft:beetroot_seeds' : item('minecraft:beetroot') * 16,
     'minecraft:wheat_seeds' : item('minecraft:wheat') * 16,
     'minecraft:melon_seeds' : item('minecraft:melon_block') * 6,
+    'minecraft:chorus_fruit' : item('minecraft:chorus_fruit') * 4,
     'minecraft:carrot' : item('minecraft:carrot') * 12,
     'minecraft:potato' : item('minecraft:potato') * 12,
     'minecraft:reeds' : item('minecraft:reeds') * 12,
@@ -58,6 +60,7 @@ def plants = [
 ]
 for (entry : plants) {
   recipemap('greenhouse').recipeBuilder()
+    .circuitMeta(2)
     .notConsumable(item(entry.getKey()))
     .fluidInputs(liquid('water')*1000)
     .outputs(entry.getValue())
@@ -68,6 +71,7 @@ for (entry : plants) {
   def output = entry.getValue().copy()
   output.setCount(output.getCount()*2)
   recipemap('greenhouse').recipeBuilder()
+    .circuitMeta(1)
     .notConsumable(item(entry.getKey()))
     .inputs(metaitem('fertilizer')*8)
     .fluidInputs(liquid('water')*1000)

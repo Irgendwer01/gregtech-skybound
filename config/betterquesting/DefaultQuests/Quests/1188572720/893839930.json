@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    783
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§oMake Steam great again!§r\n\nThe §2Industrial Steam Engine§r is a multiblock added by §2Gregicality Multiblocks§f and has an it\u0027s structure gotten reworked a bit in this pack. It allows you to create ALOT of energý early from §2Steam§r with the corresponding dynamo hatch. Be sure to watch out for the Steam usage though! A §2LV 16A Dynamo hatch§r already needs 10KL Steam, which are 2 100% running Large Bronze Boilers.\n\n§9Note§r: In this pack, 4A and 16A LV/MV dynamo hatches were added specifically for this multiblock.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 2027,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "Industrial Steam Engine"
+    }
+  },
+  "questID:3": 893839930,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2027,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

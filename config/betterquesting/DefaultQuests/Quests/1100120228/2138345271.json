@@ -1,0 +1,36 @@
+{
+  "preRequisites:11": [
+    1246
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§2Integrated Dynamics§r is a very powerful Mod allowing you to do alot of various things! Notably transferring Items/Fluids and a small digital storage system using a §2Storage Terminal§r and §2Item Interfaces§r connected to Inventories. Definitely worth to check out all of it\u0027s features!\n\n§4Note§r: If you craft GT Tools you NEED to take them in your hand and interact (right click) them in the air before putting them into the Storage Terminal! Else you can\u0027t take them out and need to remove them from the connected storage manually!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "integratedterminals:part_terminal_storage_item"
+      },
+      "name:8": "Integrated Dynamics"
+    }
+  },
+  "questID:3": 2138345271,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "integratedterminals:part_terminal_storage_item"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "integrateddynamics:cable"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "integratedtunnels:part_interface_item_item"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}
