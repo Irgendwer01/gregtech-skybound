@@ -39,7 +39,7 @@ mods.gregtech.mixer.recipeBuilder()
   .fluidInputs(liquid('rocket_fuel')*1500)
   .outputs(metaitem('dustNetherStar')*2)
   .EUt(510)
-  .duration(3000)
+  .duration(1200)
   .buildAndRegister()
 
 mods.gregtech.mixer.recipeBuilder()
