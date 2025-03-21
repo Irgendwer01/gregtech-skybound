@@ -4,6 +4,7 @@
        	   "continueOnFailedDownload": false,
        	   "selectedByDefault": true,
            "name": "GSECore",
-       	   "description": "NEEDED, DONT UNCHECK"
+       	   "description": "(NEEDED!) Coremod for Gregtech: Skybound",
+	   "supersede": "GSECore-1.12.2-1.7.jar"
     }
 }
