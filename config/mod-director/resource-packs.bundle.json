@@ -10,7 +10,7 @@
        				  "optionalKey": "$",
        			          "selectedByDefault": false,
        			          "name": "Chisel Modern",
-       			          "description": "Modern textures for Chisel"
+       			          "description": "(Optional) Modern textures for Chisel"
     			},
     			"metadata": {
         			 "side": "CLIENT"
@@ -25,7 +25,7 @@
        				  "optionalKey": "$",
        			          "selectedByDefault": false,
        			          "name": "Modernity",
-       			          "description": "Backport of the modern textures from newer versions"
+       			          "description": "(Optional) Backport of the modern textures from newer versions"
     			},
     			"metadata": {
         			 "side": "CLIENT"
@@ -40,7 +40,7 @@
        				  "optionalKey": "$",
        			          "selectedByDefault": false,
        			          "name": "Modernity Adjunct",
-       			          "description": "Modern textures for all other mods"
+       			          "description": "(Optional) Modern textures for all other mods"
     			},
     			"metadata": {
         			 "side": "CLIENT"
@@ -55,7 +55,7 @@
        				  "optionalKey": "$",
        			          "selectedByDefault": true,
        			          "name": "Smooth Font",
-       			          "description": "Replaces the standard Minecraft Font with an smoother one"
+       			          "description": "(Optional) Replaces the standard Minecraft Font with an smoother one"
     			},
     			"metadata": {
         			 "side": "CLIENT"
@@ -72,7 +72,7 @@
        				  "optionalKey": "$",
        			          "selectedByDefault": false,
        			          "name": "Gregtech Refreshed",
-       			          "description": "What GTCEu uses in newer versions"
+       			          "description": "(Optional) What GTCEu uses in newer versions"
     			},
     			"metadata": {
         			 "side": "CLIENT"

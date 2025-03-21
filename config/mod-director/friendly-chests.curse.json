@@ -5,6 +5,6 @@
        	   "continueOnFailedDownload": false,
        	   "selectedByDefault": true,
            "name": "Friendly Chests",
-       	   "description": "NEEDED, DONT UNCHECK"
+       	   "description": "(NEEDED!) Backports how Chests work in Modern to 1.12"
     }
 }
