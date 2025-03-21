@@ -45,6 +45,21 @@
     			"metadata": {
         			 "side": "CLIENT"
     			}
+		},
+		{
+			"addonId": 616555,
+			"fileId": 3765851,
+    			"folder": "resourcepacks",
+    			"installationPolicy": {
+       				  "continueOnFailedDownload": false,
+       				  "optionalKey": "$",
+       			          "selectedByDefault": true,
+       			          "name": "Smooth Font",
+       			          "description": "Replaces the standard Minecraft Font with an smoother one"
+    			},
+    			"metadata": {
+        			 "side": "CLIENT"
+    			}
 		}
 	],
         "url":
