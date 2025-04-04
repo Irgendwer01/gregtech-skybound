@@ -18,8 +18,8 @@ crafting.removeByOutput(item('integratedterminals:part_terminal_crafting_job_ite
 crafting.addShapeless('id_storage_terminal', item('integratedterminals:part_terminal_storage_item'), [item('integrateddynamics:part_display_panel_item'), item('minecraft:crafting_table')])
 crafting.addShapeless('id_crafting_terminal', item('integratedterminals:part_terminal_crafting_job_item'), [item('integrateddynamics:part_display_panel_item'), item('integratedcrafting:part_interface_crafting_item')])
 
-crafting.addShapeless('light_to_display_panel', item('integrateddynamics:part_display_panel_item'), [item('integrateddynamics:part_static_light_panel_item')])
-crafting.addShapeless('display_to_light_panel', item('integrateddynamics:part_static_light_panel_item'), [item('integrateddynamics:part_display_panel_item')])
+crafting.addShapeless('light_to_display_panel', item('integrateddynamics:part_display_panel_item'), [item('integrateddynamics:part_static_light_panel_item'), ore('craftingToolScrewdriver')])
+crafting.addShapeless('display_to_light_panel', item('integrateddynamics:part_static_light_panel_item'), [item('integrateddynamics:part_display_panel_item'), ore('craftingToolScrewdriver')])
 
 crafting.addShaped('id_facade', item('integrateddynamics:facade')*16,
 [[null , metaitem('rubber_drop'), null],
