@@ -136,6 +136,18 @@
       "meshLevel": 1
     }
   ],
+  "ore:sand":  [
+    {
+      "drop": "minecraft:prismarine_shard:-1",
+      "chance": 0.02,
+      "meshLevel": 2
+    },
+    {
+      "drop": "minecraft:prismarine_crystals:-1",
+      "chance": 0.02,
+      "meshLevel": 2
+    }
+  ],
   "exnihilocreatio:block_endstone_crushed":  [
     {
       "drop": "minecraft:chorus_fruit:-1",
