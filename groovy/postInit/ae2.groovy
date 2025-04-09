@@ -1,3 +1,6 @@
+import gregtech.api.recipes.ingredients.nbtmatch.NBTCondition
+import gregtech.api.recipes.ingredients.nbtmatch.NBTMatcher
+
 mods.jei.ingredient.yeet(item('appliedenergistics2:fluix_block'))
 mods.jei.ingredient.yeet(item('appliedenergistics2:fluix_stairs'))
 mods.jei.ingredient.yeet(item('appliedenergistics2:fluix_slab'))
@@ -385,7 +388,9 @@ mods.gregtech.assembler.recipeBuilder()
 
 //Energy Cell
 mods.gregtech.assembler.recipeBuilder()
-  .inputs(metaitem('hull.mv'), metaitem('battery.re.mv.lithium')*2, item('appliedenergistics2:material', 22)*2, item('appliedenergistics2:material', 24)*4)
+  .inputs(metaitem('hull.mv'), item('appliedenergistics2:material', 22)*2, item('appliedenergistics2:material', 24)*4)
+  .inputNBT(metaitem('battery.re.mv.lithium'), NBTMatcher.ANY, NBTCondition.ANY)
+  .inputNBT(metaitem('battery.re.mv.lithium'), NBTMatcher.ANY, NBTCondition.ANY)
   .outputs(item('appliedenergistics2:energy_cell'))
   .EUt(30)
   .duration(300)
