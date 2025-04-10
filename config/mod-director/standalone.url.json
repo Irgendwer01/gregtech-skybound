@@ -1,9 +1,10 @@
 {
-    "url": "https://github.com/Irgendwer01/Standalone/releases/download/1.0/Standalone-1.12.2-1.0.0.jar",
+    "url": "https://github.com/Irgendwer01/Standalone/releases/download/1.1/Standalone-1.12.2-1.1.jar",
     "installationPolicy": {
        	   "continueOnFailedDownload": false,
        	   "selectedByDefault": true,
            "name": "Standalone",
-       	   "description": "(NEEDED!) Standalone version of the EnderIO Travel Anchor + Staff of Traveling"
+       	   "description": "(NEEDED!) Standalone version of the EnderIO Travel Anchor + Staff of Traveling",
+           "supersede": "Standalone-1.12.2-1.0.0.jar"
     }
 }
