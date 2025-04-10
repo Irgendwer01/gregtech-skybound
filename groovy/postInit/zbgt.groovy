@@ -1,0 +1,18 @@
+mods.gregtech.centrifuge.removeByInput(24, [metaitem('zbgt:dustImpureAdamantium')], null)
+mods.gregtech.centrifuge.removeByInput(24, [metaitem('zbgt:dustImpureQuantium')], null)
+
+mods.gregtech.centrifuge.recipeBuilder()
+  .inputs(metaitem('zbgt:dustImpureAdamantium'))
+  .outputs(metaitem('zbgt:dustAdamantium'))
+  .chancedOutput(metaitem('zbgt:dustAdamantium'), 11, 0)
+  .EUt(24)
+  .duration(1000)
+  .buildAndRegister()
+
+mods.gregtech.centrifuge.recipeBuilder()
+  .inputs(metaitem('zbgt:dustImpureQuantium'))
+  .outputs(metaitem('zbgt:dustQuantium'))
+  .chancedOutput(metaitem('zbgt:dustQuantium'), 11, 0)
+  .EUt(24)
+  .duration(1000)
+  .buildAndRegister()
