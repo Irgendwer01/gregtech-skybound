@@ -5,6 +5,7 @@ mods.gregtech.rock_breaker.removeByInput(240, [item('chisel:marble')], null)
 mods.gregtech.rock_breaker.removeByInput(60, [item('minecraft:stone', 3)], null)
 mods.gregtech.rock_breaker.removeByInput(60, [item('minecraft:stone', 5)], null)
 mods.gregtech.rock_breaker.removeByInput(60, [item('minecraft:stone', 1)], null)
+mods.gregtech.centrifuge.removeByInput(80, [item('minecraft:soul_sand')], null)
 
 mods.gregtech.rock_breaker.recipeBuilder()
   .notConsumable(ore('stoneBasalt'))
@@ -59,3 +60,12 @@ crafting.addShaped('ulv_pump', item('ulv_covers:ulv_cover_meta_item', 1), [
  [item('gregtech:fluid_pipe_normal', 25), item('gregtech:meta_rotor', 260), null],
  [item('ulv_covers:ulv_cover_meta_item', 2), item('gregtech:meta_item_1', 438), null],
  [null, null, null]])
+
+//Buff Soul Sand Oil output
+mods.gregtech.centrifuge.recipeBuilder()
+  .inputs(item('minecraft:soul_sand'))
+  .fluidOutputs(fluid('oil')*1500)
+  .chancedOutput(item('minecraft:nether_wart'), 150, 0)
+  .EUt(30)
+  .duration(450)
+  .buildAndRegister()
