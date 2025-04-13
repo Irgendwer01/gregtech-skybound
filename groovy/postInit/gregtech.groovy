@@ -1,3 +1,5 @@
+import gregtech.common.ConfigHolder
+
 mods.gregtech.rock_breaker.removeByInput(960, [item('gregtech:stone_smooth', 1)], null)
 mods.gregtech.rock_breaker.removeByInput(960, [item('gregtech:stone_smooth')], null)
 mods.gregtech.rock_breaker.removeByInput(240, [item('chisel:basalt')], null)
@@ -69,3 +71,9 @@ mods.gregtech.centrifuge.recipeBuilder()
   .EUt(30)
   .duration(450)
   .buildAndRegister()
+
+//ULV Input hatch and bus
+if (!ConfigHolder.recipes.hardMiscRecipes) {
+crafting.addShapeless('ulv_input_bus', metaitem('item_bus.import.ulv'), [metaitem('hull.ulv'), item('minecraft:chest')])
+crafting.addShapeless('ulv_input_hatch', metaitem('fluid_hatch.import.ulv'), [metaitem('hull.ulv'), item('minecraft:glass')])
+}
