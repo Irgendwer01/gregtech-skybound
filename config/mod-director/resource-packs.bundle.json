@@ -53,7 +53,7 @@
     			"installationPolicy": {
        				  "continueOnFailedDownload": false,
        				  "optionalKey": "$",
-       			          "selectedByDefault": true,
+       			          "selectedByDefault": false,
        			          "name": "Smooth Font",
        			          "description": "(Optional) Replaces the standard Minecraft Font with an smoother one"
     			},
