@@ -85,9 +85,3 @@ crafting.addShaped('end_portal_frame', item('minecraft:end_portal_frame'), [
  [item('minecraft:coal_block'), metaitem('quantumeye'), item('minecraft:coal_block')],
  [item('minecraft:obsidian'), item('minecraft:obsidian'), item('minecraft:obsidian')],
  [item('minecraft:end_stone'), item('minecraft:end_stone'), item('minecraft:end_stone')]])
-
-event_manager.listen { HarvestDropsEvent event ->
-    if (event.getState().getBlock().equals(block('minecraft:end_portal_frame'))) {
-	event.getDrops().add(item('minecraft:end_portal_frame'))
-    }
-}
