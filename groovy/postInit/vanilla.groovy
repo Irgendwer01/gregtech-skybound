@@ -6,6 +6,8 @@ mods.jei.ingredient.yeet(item('personalworlds:personal_portal'))
 crafting.removeByOutput(item('minecraft:ender_eye'))
 crafting.removeByOutput(item('minecraft:crafting_table'))
 
+furnace.removeByOutput(item('minecraft:coal', 1))
+
 ore('dirt').add(item('minecraft:dirt', 1))
 ore('dyeGreen').add(metaitem('dustMalachite'))
 ore('dye').add(metaitem('dustMalachite'))
